@@ -1,2 +1,3 @@
-# tech
-shared tech
+# TECH
+
+Sharing Tech.
