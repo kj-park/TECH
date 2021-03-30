@@ -1,6 +1,4 @@
 ---
-layout: default
-title: Exchange
 filename: README.md
 date: 2012.03.30
 ---

@@ -1,7 +1,6 @@
 ---
 title: Maintenance or Update Exchange DAG members
 filename: Maintenance-or-Update-DAG-Members.md
-permalink: /Exchange/Maintenance-or-Update-DAG-Members
 date: 2012.03.30
 ---
 

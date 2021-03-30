@@ -1,8 +1,5 @@
 ---
-layout: default
-title: Sharing the Technology to everyone who want to know.
 filename: README.md
-permalink: /README
 date: 2012.03.30
 ---
 
