@@ -1,6 +1,6 @@
 ---
-title: Configure the mail flow and client access for Exchange Server
-filename: Configure-the-mail-flow-and-client-access-for-Exchange-Server.md
+title: Configure mail flow and client access for Exchange Server
+filename: Configure-mail-flow-and-client-access-for-Exchange-Server.md
 edited: 2012.03.30
 ---
 

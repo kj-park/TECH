@@ -11,12 +11,12 @@
 
 ## Configure Exchange Server
 
-- [Configure the mail flow and client access for Exchange Server](Exchange/Configure-the-mail-flow-and-client-access-for-Exchange-Server)
+- [Configure mail flow and client access for Exchange Server](Configure-mail-flow-and-client-access-for-Exchange-Server)
 
-    - **SCRIPT**: [Configure-ExchangeMailFlowClientAccess.ps1](Exchange/Configure-ExchangeMailFlowClientAccess.ps1)
+    - **SCRIPT**: [Configure-ExchangeMailFlowClientAccess.ps1](Configure-ExchangeMailFlowClientAccess.ps1)
 
 
-## Exchange Common Tasks
+## Manage Exchange Server
 
-- [Maintenance or Update Exchange DAG members](Exchange/Maintenance-or-Update-DAG-Members)
+- [Maintenance or Update Exchange DAG members](Maintenance-or-Update-DAG-Members)
 
