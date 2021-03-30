@@ -2,4 +2,4 @@
 
 ## Table of Contents
 
-- [Maintenance or Update Exchange DAG members](Exchange/Maintenance-or-Update-DAG-Members)
+- [Maintenance or Update Exchange DAG members](EXCHANGE/Maintenance-or-Update-DAG-Members)
