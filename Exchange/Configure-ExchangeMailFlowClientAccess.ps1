@@ -1,7 +1,7 @@
 ﻿<#
 title: Configure mail flow and client access for Exchange Server
-filename: Configure-ExchangeMailFlowClientAccess.ps1
-permalink: /Exchange/Configure-ExchangeMailFlowClientAccess.ps1
+filename: Exchange\Configure-ExchangeMailFlowClientAccess.ps1
+permalink: /Tech/Exchange/Configure-ExchangeMailFlowClientAccess.ps1
 date: 2012.03.30
 #>
 
