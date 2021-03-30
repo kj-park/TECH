@@ -157,11 +157,22 @@ Maintenance가 완료된 후 DAG member를 다시 service할 수 있는 상태�
 ## Installing Updates on DAG members
 
 1. Backup web.config 및 EdgeTransport.exe.config 설정 파일
-1. 
+
+    ```powershell
+    Backup-ExchangeConfigFiles.ps1 -BackupFolder C:\Working\ConfigBackup
+    ```
+
+    > [!NOTE]
+    > Script: [Backup-ExchangeConfigFiles.ps1](https://kj-park.github.io/TECH/EXCHANGE/Backup-ExchangeConfigFiles.ps1)
+
 1. 서버를 유지보수모드(Maintenance mode)로 설정합니다.
+
 1. 서버를 재부팅 합니다.
+
 1. 업데이트 설치
+
 1. 유지보수모드(Maintenance mode)를 종료합니다.
+
 1. RedistributieActiveDatabases.ps1 script를 사용하여 Active Database를 재 분배합니다.
 
 1. Exchange 연관 서비스들을 확인
