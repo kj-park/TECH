@@ -6,7 +6,6 @@ edited: 2012.03.30
 
 # Configure the mail flow and client access for Exchange Server
 
-> 2012.03.23
 
 ## DNS Resource Record 구성
 
@@ -22,6 +21,8 @@ Exchange 서버를 처음 구성 시 두 가지 측면에 대한 DNS resource re
 - DNS resource records for client access
     - [ ] A or CNAME records for `autodiscover` service
     - [ ] A or CNAME records for the default name of client access
+
+:::code language="powershell" source="Configure-ExchangeMailFlowClientAccess.ps1" range="7-16":::
 
 ```powershell
 #region DNS Resource Records
