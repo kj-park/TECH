@@ -1,7 +1,7 @@
 ---
-title: Exchange ReadMe
+layout: default
+title: Exchange
 filename: README.md
-permalink: /Exchange/README
 date: 2012.03.30
 ---
 
