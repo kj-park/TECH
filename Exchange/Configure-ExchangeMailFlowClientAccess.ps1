@@ -4,12 +4,14 @@
 
 #endregion
 
-#region DNS Recource Records
+#region DNS Resource Records
 
-    Install-WindowsFeature RSAT-DNS-Server
+Install-WindowsFeature RSAT-DNS-Server
 
-    Add-DnsServerResourceRecordA -Name outlook -IPv4Address 10.2.13.100 -CreatePtr -ZoneName exchange.info -CimSession dc01.exchange.info -PassThru -Verbose
-    Add-DnsServerResourceRecordA -Name autodiscover -IPv4Address 10.2.13.100 -CreatePtr -ZoneName exchange.info -CimSession dc01.exchange.info -PassThru -Verbose
+Add-DnsServerResourceRecordA -Name outlook -IPv4Address 10.2.13.1 -CreatePtr -ZoneName exchange.info -CimSession dc01.exchange.info -PassThru -Verbose
+Add-DnsServerResourceRecordA -Name outlook -IPv4Address 10.2.13.2 -CreatePtr -ZoneName exchange.info -CimSession dc01.exchange.info -PassThru -Verbose
+Add-DnsServerResourceRecordA -Name autodiscover -IPv4Address 10.2.13.1 -CreatePtr -ZoneName exchange.info -CimSession dc01.exchange.info -PassThru -Verbose
+Add-DnsServerResourceRecordA -Name autodiscover -IPv4Address 10.2.13.2 -CreatePtr -ZoneName exchange.info -CimSession dc01.exchange.info -PassThru -Verbose
 
 #endregion
 
