@@ -1,9 +1,0 @@
-title: [Technical Readiness for everyone who want to know.]
-description: [Technical Readiness for everyone who want to know.]
-timezone: Asia/Seoul
-encoding: utf-8
-defaults:
-    - scope:
-      path: ""
-      values:
-      layout: "default"
