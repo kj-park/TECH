@@ -1,4 +1,5 @@
 ---
+title: Technical Readiness
 filename: README.md
 date: 2012.03.30
 ---
@@ -9,4 +10,4 @@ Sharing the Technology to everyone who want to know.
 
 ## Table of Contents
 
-- [Exchange](Exchange)
+- [Exchange](Exchange/README)
