@@ -18,7 +18,8 @@ Exchange 서버를 처음 구성 시 두 가지 측면에 대한 DNS resource re
     - [ ] MX record for mail flow
     - [ ] TXT record for Sender Policy Framework (SPF)
         > [!NOTE]
-        > 
+        > Sender Policy Framework에 대하여는 아래의 링크를 참조하세요.
+        > [How to use Sender Policy Framework (SPF) to prevent spoofing](/Tech/Exchange/Conceptual/Sender-Policy-Framework)
 
 - DNS resource records for client access
     - [ ] A or CNAME records for `autodiscover` service
