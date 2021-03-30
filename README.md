@@ -1,7 +1,8 @@
 ---
 title: Tech Readness
 filename: README.md
-edited: 2012.03.30
+permalink: /README
+date: 2012.03.30
 ---
 
 # TECH

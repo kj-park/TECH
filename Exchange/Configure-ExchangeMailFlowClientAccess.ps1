@@ -1,4 +1,11 @@
-﻿#region Connect Exchange Remote Management Shell
+﻿<#
+title: Configure mail flow and client access for Exchange Server
+filename: Configure-ExchangeMailFlowClientAccess.ps1
+permalink: /Exchange/Configure-ExchangeMailFlowClientAccess.ps1
+date: 2012.03.30
+#>
+
+#region Connect Exchange Remote Management Shell
 
     . 'C:\Program Files\Microsoft\Exchange Server\V15\bin\RemoteExchange.ps1'; Connect-ExchangeServer -auto -ClientApplication:ManagementShell
 

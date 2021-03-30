@@ -1,7 +1,8 @@
 ---
 title: Exchange ReadMe
 filename: README.md
-edited: 2012.03.30
+permalink: /Exchange/README
+date: 2012.03.30
 ---
 
 # Exchange

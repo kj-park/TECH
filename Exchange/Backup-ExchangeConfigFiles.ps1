@@ -1,8 +1,13 @@
+<#
+title: Backup Exchange Config Files of EdgeTransport and Frontend/Backend Web
+filename: Backup-ExchangeConfigFiles.ps1
+permalink: /Exchange/Backup-ExchangeConfigFiles.ps1
+date: 2012.03.30
+#>
 
 param (
     [String]$BackupFolder = 'C:\Working\ConfigBackup'
 )
-
 
 #region Connect Exchange Remote Management Shell
 

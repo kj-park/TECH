@@ -1,9 +1,11 @@
+---
+title: Maintenance or Update Exchange DAG members
+filename: Maintenance-or-Update-DAG-Members.md
+permalink: /Exchange/Maintenance-or-Update-DAG-Members
+date: 2012.03.30
+---
 
 # Maintenance or Update Exchange DAG members
-
-> 2021.03.24
-
-[[_TOC_]]
 
 ## Performing maintenance on DAG members
 

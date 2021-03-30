@@ -1,7 +1,8 @@
 ---
 title: Configure mail flow and client access for Exchange Server
 filename: Configure-mail-flow-and-client-access-for-Exchange-Server.md
-edited: 2012.03.30
+permalink: /Exchange/Configure-mail-flow-and-client-access-for-Exchange-Server
+date: 2012.03.30
 ---
 
 # Configure the mail flow and client access for Exchange Server
@@ -17,12 +18,13 @@ Exchange 서버를 처음 구성 시 두 가지 측면에 대한 DNS resource re
     - [ ] A records for Exchange Servers
     - [ ] MX record for mail flow
     - [ ] TXT record for Sender Policy Framework (SPF)
+        > [!NOTE]
+        > 
 
 - DNS resource records for client access
     - [ ] A or CNAME records for `autodiscover` service
     - [ ] A or CNAME records for the default name of client access
 
-:::code language="powershell" source="Configure-ExchangeMailFlowClientAccess.ps1" range="7-16":::
 
 ```powershell
 #region DNS Resource Records
