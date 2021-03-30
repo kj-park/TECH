@@ -1,3 +1,5 @@
 # TECH
 
-Sharing Tech.
+Sharing the Technology to everyone who want to know.
+
+
