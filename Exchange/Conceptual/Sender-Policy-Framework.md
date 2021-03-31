@@ -20,17 +20,14 @@ SPF 규칙에 대한 기본 구분은 아래와 같습니다:
 `v=` defines the version of SPF used
 '
 
-
 | Mechanism | Description |
 |--|--|
-
-
-ALL	Matches always; used for a default result like -all for all IPs not matched by prior mechanisms.
-A	If the domain name has an address record (A or AAAA) that can be resolved to the sender's address, it will match.
-IP4	If the sender is in a given IPv4 address range, match.
-IP6	If the sender is in a given IPv6 address range, match.
-MX	If the domain name has an MX record resolving to the sender's address, it will match (i.e. the mail comes from one of the domain's incoming mail servers).
-PTR	If the domain name (PTR record) for the client's address is in the given domain and that domain name resolves to the client's address (forward-confirmed reverse DNS), match. This mechanism is discouraged and should be avoided, if possible.[13]
-EXISTS	If the given domain name resolves to any address, match (no matter the address it resolves to). This is rarely used. Along with the SPF macro language it offers more complex matches like DNSBL-queries.
-INCLUDE	References the policy of another domain. If that domain's policy passes, this mechanism passes. However, if the included policy fails, processing continues. To fully delegate to another domain's policy, the redirect extension must be used.
+| ALL |	Matches always; used for a default result like -all for all IPs not matched by prior mechanisms. |
+| A | If the domain name has an address record (A or AAAA) that can be resolved to the sender's address, it will match. |
+| IP4 | If the sender is in a given IPv4 address range, match. |
+| IP6 | If the sender is in a given IPv6 address range, match. |
+| MX | If the domain name has an MX record resolving to the sender's address, it will match (i.e. the mail comes from one of the domain's incoming mail servers). |
+| PTR | If the domain name (PTR record) for the client's address is in the given domain and that domain name resolves to the client's address (forward-confirmed reverse DNS), match. This mechanism is discouraged and should be avoided, if possible.[13] |
+| EXISTS | If the given domain name resolves to any address, match (no matter the address it resolves to). This is rarely used. Along with the SPF macro language it offers more complex matches like DNSBL-queries. |
+| INCLUDE | References the policy of anot|her domain. If that domain's policy passes, this mechanism passes. However, if the included policy fails, processing continues. To fully delegate to another domain's policy, the redirect extension must be used. |
 

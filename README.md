@@ -11,3 +11,5 @@ Sharing the Technology to everyone who want to know.
 ## Table of Contents
 
 - [Exchange](Exchange/README)
+
+- [Microsoft 365](Microsoft365/README)
