@@ -22,7 +22,9 @@ Add-DnsServerResourceRecordA -Name autodiscover -IPv4Address 10.2.13.2 -CreatePt
 
 #endregion
 
-#region New CA Request
+#region Exchange Certificate Configuration
+
+    # New CA Request
 
     $sncn = "outlook.exchange.info"
     $san = @(
@@ -39,11 +41,9 @@ Add-DnsServerResourceRecordA -Name autodiscover -IPv4Address 10.2.13.2 -CreatePt
     New-Item -Name Working -Path 'C:\' -ItemType Directory
     Set-Content -Path 'C:\Working\exch-mail-ca.req' -Value $Req
 
-#endregion
+    # Submit CA Request and Download Certificate
 
-#region Exchange Certificate Configuration
-
-    # Request the Certificate Request and Complete/Download/Install the Certificate.
+    # Request and Complete/Download/Install the Certificate.
 
     Import-ExchangeCertificate -FileName '\\EX01\C$\Working\exch-mail.cer' -Password (ConvertTo-SecureString -String "!Qaz@Wsx" -AsPlainText -Force)
 
@@ -125,9 +125,7 @@ Add-DnsServerResourceRecordA -Name autodiscover -IPv4Address 10.2.13.2 -CreatePt
     }
     $GetExchangeURLs
 
-#endregion
-
-#region Config Autodiscover ServiceInternalURI
+    # Config Autodiscover ServiceInternalURI
 
     foreach ( $server in $servers ) {
         if ( (Get-ExchangeServer -Identity $server).AdminDisplayVersion.Major -gt 15 ) {
@@ -152,6 +150,7 @@ Add-DnsServerResourceRecordA -Name autodiscover -IPv4Address 10.2.13.2 -CreatePt
     }
 
 #endregion
+
 
 #region OPTION: Changing Queue Database path (execute the script per each exchange server)
 
@@ -223,6 +222,8 @@ Add-DnsServerResourceRecordA -Name autodiscover -IPv4Address 10.2.13.2 -CreatePt
         - InternalRelay
         - ExternalRelay
     #>
+
+    # Configure Email Address Policy
 
     $EmailAddressPolicyParameters = @{
         Name = 'Default EAP'
