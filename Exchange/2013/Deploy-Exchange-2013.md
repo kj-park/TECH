@@ -1,6 +1,10 @@
-# Deployment Exchange 2013
+---
+title: Deployment Exchange 2013
+filename: Exchange\2013\Deployment-Exchange-2013.md
+date: 2012.03.30
+---
 
-> 2021.03.22
+# Deployment Exchange 2013
 
 ## Exchange 2013 Prerequisites
 

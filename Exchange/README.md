@@ -6,9 +6,11 @@ date: 2012.03.30
 
 # Exchange
 
-## Install Exchange Server
+## Deploy Exchange Server
 
 ### Exchange 2013 Server
+
+- [Deploy Exchange 2013](2013/Deploy-Exchange-2013)
 
 ### Exchange 2016 Server
 
