@@ -22,5 +22,5 @@ Transport Pipeline은 아래의 서비스로 구성되어 있습니다.
 
 아래의 diagram은 Exchange Transport Pipeline의 구성요소간의 관계를 설명합니다.
 
-![Transport Pipeline Overview](./../.media/transport-pipeline-overview.png)
+![Transport Pipeline Overview](https://kj-park.github.io/Tech/Exchange/.media/transport-pipeline-overview.png)
 
