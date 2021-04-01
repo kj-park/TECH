@@ -271,6 +271,9 @@ Exchange Server 메일 흐름은 Transport Pipeline을 통해 발생합니다. T
 
 조직에서 메일 흐름을 구성하는 방법에 대한 자세한 내용은 [Configure mail flow and client access](https://docs.microsoft.com/en-us/Exchange/plan-and-deploy/post-installation-tasks/configure-mail-flow-and-client-access?view=exchserver-2019)를 참조하세요.
 
+> [!NOTE]
+> [Understanding the Transport Pipeline](Conceptual/Understanding-the-Transport-pipeline)
+
 ### Create an internet Send connector
 
 ```powershell
@@ -295,6 +298,10 @@ Exchange Server 메일 흐름은 Transport Pipeline을 통해 발생합니다. T
 ```
 
 ### Add additional accepted domains Configure the default email address policy
+
+> [!NOTE]
+> [Accepted domains and Email Address Policies in Exchange Server](Conceptual/Accepted-domains-and-Email-Address-Policies-in-Exchange-Server)
+
 
 ```powershell
 #region Accepted Domain and Email Address Policy Configuration

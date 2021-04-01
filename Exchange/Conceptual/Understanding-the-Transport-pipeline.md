@@ -38,5 +38,7 @@ Transport Pipeline은 아래의 서비스로 구성되어 있습니다.
 ![outbound mail flow with edge](https://github.com/kj-park/Tech/blob/main/Exchange/.media/outbound-mail-flow-with-edge.png?raw=true)
 
 
+## Understanding the Transport service on Mailbox servers
 
+## Understanding the Transport service on Edge Transport servers
 
