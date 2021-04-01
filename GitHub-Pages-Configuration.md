@@ -12,3 +12,13 @@ default layout is...:
 - post
 - page
 - default
+
+
+
+# Image randering in GitHub Pages
+
+
+![Transport Pipeline Overview](https://raw.githubusercontent.com/kj-park/Tech/main/Exchange/.media/transport-pipeline-overview.png)
+
+
+![Transport Pipeline Overview](https://github.com/kj-park/Tech/blob/main/Exchange/.media/transport-pipeline-overview.png?raw=true)
