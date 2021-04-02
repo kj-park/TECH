@@ -13,3 +13,6 @@ Sharing the Technology to everyone who want to know.
 - [Exchange](Exchange/README)
 
 - [Microsoft 365](Microsoft365/README)
+
+- PowerShell
+

@@ -1,7 +1,7 @@
 ---
 title: Exchange
 filename: Exchange/README.md
-date: 2012.03.30
+date: 2021.04.01
 ---
 
 # Exchange
@@ -23,8 +23,11 @@ Exchange 2013/2016/2019 서버를 구축하는 과정들에 대하여 기술합�
 
 ### Exchange 2016 Server
 
+- Deploy Exchange 2016
+
 ### Exchange 2019 Server
 
+- Deploy Exchange 2019
 
 ## Configure Exchange Server
 
@@ -38,6 +41,11 @@ Exchange 각 버전 별 설치 후 mail flow 및 client access, High Availabilit
 
     - **SCRIPT**: [Configure-Exchange-DAG.ps1](Configure-Exchange-DAG.ps1)
 
+- Configure High availability
+
+- Exchange Hybrid Configuration
+
+- Integration with SharePoint and Skype
 
 ## Manage Exchange Server
 
@@ -45,9 +53,19 @@ Exchange 인프라를 관리에 필요한 주제들에 대하여 기술합니다
 
 - [Maintenance or Update Exchange DAG members](Maintenance-or-Update-DAG-Members)
 
-## TODO List
+- Manage Mailbox Databases
 
-- Configure High availability
-- Exchange Hybrid Configuration
-- Integration with SharePoint and Skype
-- etc
+- Migration Exchange Infrastructure
+    - Between On-Premeise
+    - From On-Premeise To Exchange Online
+
+
+## Conceptual Documents
+
+- [How to use Sender Policy Framework (SPF) to prevent spoofing](Conceptual/Sender-Policy-Framework)
+
+- [Accepted domains and Email Address Policies in Exchange Server](Conceptual/Accepted-domains-and-Email-Address-Policies-in-Exchange-Server)
+
+- [Understanding the Transport Pipeline](Conceptual/Understanding-the-Transport-pipeline)
+
+- [Digital certificates and encryption in Exchange Server](Conceptual/Certificate-and-Encrpytion-in-Exchange-Server)
