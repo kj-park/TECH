@@ -53,11 +53,17 @@ Exchange 인프라를 관리에 필요한 주제들에 대하여 기술합니다
 
 - [Maintenance or Update Exchange DAG members](Maintenance-or-Update-DAG-Members)
 
-- Manage Mailbox Databases
+- Manage MailboxDatabases and Mailbox
 
 - Migration Exchange Infrastructure
     - Between On-Premeise
     - From On-Premeise To Exchange Online
+
+- Manage Address Boooks (OAB, Global Address List, Address List Address Book Policy)
+    - Split Address Book
+    - Hierarchical Address Books
+
+- Sharing and Organization Relationship
 
 
 ## Conceptual Documents
