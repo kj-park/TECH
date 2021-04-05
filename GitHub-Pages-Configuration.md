@@ -23,4 +23,8 @@ default layout is...:
 
 ![Transport Pipeline Overview](https://github.com/kj-park/Tech/blob/main/Exchange/.media/transport-pipeline-overview.png?raw=true)
 
-    > View: [Backup-ExchangeConfigFiles.ps1](https://github.com/kj-park/Tech/blob/main/Exchange/Backup-ExchangeConfigFiles.ps1)
+
+![Transport Pipeline Overview](https://github.com/kj-park/Tech/blob/main/Exchange/.media/transport-pipeline-overview.png?raw=true)
+
+
+> View: [Backup-ExchangeConfigFiles.ps1](https://github.com/kj-park/Tech/blob/main/Exchange/Backup-ExchangeConfigFiles.ps1)
