@@ -1,16 +1,18 @@
-# Domain 디자인
+---
+title: Create a Domain Design
+filename: ActiveDirectory\Designing-Active-Directory-Logical-Structure\Create-a-Domain-Design.md
+date: 2021.04.05
+---
 
-#45
-
-[[_TOC_]]
+# Create a Domain Design
 
 Domain 디자인 절차는 아래와 같습니다:
 
-![image.png](/ActiveDirectory/.media/image-791866f5-7ce6-4a1a-9eae-37060f3a8e2b.png)
+![image.png](https://github.com/kj-park/Tech/blob/main/ActiveDirectory/.media/image-791866f5-7ce6-4a1a-9eae-37060f3a8e2b.png?raw=true)
 
 Single Domain 와 Multiple Domain 간의 일반적으로 고려 사항들의 특징은 아래와 같습니다.
 
-![image.png](/ActiveDirectory/.media/image-74b2d98d-05b1-4c3c-a9e5-b4fbf93a3384.png)
+![image.png](https://github.com/kj-park/Tech/blob/main/ActiveDirectory/.media/image-74b2d98d-05b1-4c3c-a9e5-b4fbf93a3384.png?raw=true)
 
 [TOP](#Domain-디자인)
 
@@ -18,7 +20,7 @@ Single Domain 와 Multiple Domain 간의 일반적으로 고려 사항들의 특
 
 # Review the Domain Models
 
-![image.png](/ActiveDirectory/.media/image-d27e209e-4559-44fd-86d2-264504991732.png)
+![image.png](https://github.com/kj-park/Tech/blob/main/ActiveDirectory/.media/image-d27e209e-4559-44fd-86d2-264504991732.png?raw=true)
 
 ## Single Domain Model
 
@@ -33,7 +35,7 @@ Single Domain Model은 유지 관리하는데 있어 가장 쉬습니다. 이는
 
 한 Domain의 모든 개체 data는 그 Domain의 Domain Controllers 간에 복제가 발생합니다. 이러한 이유로 WAN 연결로 지역적으로 분산된 많은 수의 사용자들을 Forest에 포함하기 위해서는 Regional Domain을 배포하여 WAN 연결간의 Replication traffic을 줄일 수 있습니다.  Regional Domain Model은 하나의 Forest Root Domain과 하나 이상의 Regional Domain으로 구성됩니다.
 
-![image.png](/ActiveDirectory/.media/image-8b3827ba-07f2-466a-b8af-ee3cbc25cf56.png)
+![image.png](https://github.com/kj-park/Tech/blob/main/ActiveDirectory/.media/image-8b3827ba-07f2-466a-b8af-ee3cbc25cf56.png?raw=true)
 
 [TOP](#Domain-디자인)
 
@@ -41,7 +43,7 @@ Single Domain Model은 유지 관리하는데 있어 가장 쉬습니다. 이는
 
 # Determine the number of Domains
 
-![image.png](/ActiveDirectory/.media/image-eb8228a8-aec7-4c92-b302-13df5b5b5927.png)
+![image.png](https://github.com/kj-park/Tech/blob/main/ActiveDirectory/.media/image-eb8228a8-aec7-4c92-b302-13df5b5b5927.png?raw=true)
 
 모든 Forest는 Single Domain에서 시작합니다. 
 
@@ -69,7 +71,7 @@ Single Domain Model은 유지 관리하는데 있어 가장 쉬습니다. 이는
 
 ## Identifying Regions
 
-![image.png](/ActiveDirectory/.media/image-6d57782d-199d-4d40-9a56-43c89cb4ee68.png)
+![image.png](https://github.com/kj-park/Tech/blob/main/ActiveDirectory/.media/image-6d57782d-199d-4d40-9a56-43c89cb4ee68.png?raw=true)
 
 
 
@@ -79,7 +81,7 @@ Single Domain Model은 유지 관리하는데 있어 가장 쉬습니다. 이는
 
 # Determine Upgrade or New Deploy Domain
 
-![image.png](/ActiveDirectory/.media/image-a6ae86aa-904d-47f3-8e2f-675d512554bf.png)
+![image.png](https://github.com/kj-park/Tech/blob/main/ActiveDirectory/.media/image-a6ae86aa-904d-47f3-8e2f-675d512554bf.png?raw=true)
 
 [TOP](#Domain-디자인)
 
@@ -87,7 +89,7 @@ Single Domain Model은 유지 관리하는데 있어 가장 쉬습니다. 이는
 
 # Assign Domain Name & Select Forest Root Domain
 
-![image.png](/ActiveDirectory/.media/image-a7e8db21-7eb2-4f45-acd4-b6ec77f23bf7.png)
+![image.png](https://github.com/kj-park/Tech/blob/main/ActiveDirectory/.media/image-a7e8db21-7eb2-4f45-acd4-b6ec77f23bf7.png?raw=true)
 
 ## Assign Domain Name
 

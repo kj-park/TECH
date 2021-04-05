@@ -1,16 +1,18 @@
-# Forest 디자인
+---
+title: Create a Forest Design
+filename: ActiveDirectory\Designing-Active-Directory-Logical-Structure\Create-a-Forest-Design.md
+date: 2021.04.05
+---
 
-#44
-
-[[_TOC_]]
+# Create a Forest Design
 
 Forest 디자인 절차는 아래와 같습니다:
 
-![image.png](/ActiveDirectory/.media/image-5c28d801-ec04-485d-bda5-45576fc37eae.png)
+![image.png](https://github.com/kj-park/Tech/blob/main/ActiveDirectory/.media/image-5c28d801-ec04-485d-bda5-45576fc37eae.png?raw=true)
 
 Single Forest와 Multiple Forest 간의 일반적으로 고려 사항들의 특징은 아래와 같습니다.
 
-![image.png](/ActiveDirectory/.media/image-7ccc33f2-de43-4c19-8201-b23fd5d9cdae.png)
+![image.png](https://github.com/kj-park/Tech/blob/main/ActiveDirectory/.media/image-7ccc33f2-de43-4c19-8201-b23fd5d9cdae.png?raw=true)
 
 [TOP](#Forest-디자인)
 
@@ -18,7 +20,7 @@ Single Forest와 Multiple Forest 간의 일반적으로 고려 사항들의 특�
 
 # Forest Design Requirements
 
-![image.png](/ActiveDirectory/.media/image-1707f09b-db53-42ad-8abf-c4ff3c0bef59.png)
+![image.png](https://github.com/kj-park/Tech/blob/main/ActiveDirectory/.media/image-1707f09b-db53-42ad-8abf-c4ff3c0bef59.png?raw=true)
 
 네트워크 자원에 대하여 조직의 그룹들을 얼마나 자율성을 부여할 것인지, 격리할 것인지에 의하여 결정되어집니다. 조직 내 여러 그룹들이 동일하게 관리되어져야 하는 요구사항 및 구조상 또는 운영상의 독립성일 필요한 그룹의 요구사항을 만족하여야 합니다.
 
@@ -42,7 +44,7 @@ Autonomy 는 독립성을 의미하나 배타적인 자원에 대한 제어를 �
 
 ### Documenting the Forest Design Requirements
 
-![image.png](/ActiveDirectory/.media/image-4d51e671-c5e1-44ef-927e-757526c6959d.png)
+![image.png](https://github.com/kj-park/Tech/blob/main/ActiveDirectory/.media/image-4d51e671-c5e1-44ef-927e-757526c6959d.png?raw=true)
 
 [TOP](#Forest-디자인)
 
@@ -50,29 +52,29 @@ Autonomy 는 독립성을 의미하나 배타적인 자원에 대한 제어를 �
 
 # Determine the number of Forests
 
-![image.png](/ActiveDirectory/.media/image-c8224f3d-742d-43c4-86fb-a84c2808a7c9.png)
+![image.png](https://github.com/kj-park/Tech/blob/main/ActiveDirectory/.media/image-c8224f3d-742d-43c4-86fb-a84c2808a7c9.png?raw=true)
 
 ## Forest Design Models
 
 ### Resource Forest Model
 
-![image.png](/ActiveDirectory/.media/image-f1a80a8d-0f71-4f19-915b-ffaa65bd6343.png)
+![image.png](https://github.com/kj-park/Tech/blob/main/ActiveDirectory/.media/image-f1a80a8d-0f71-4f19-915b-ffaa65bd6343.png?raw=true)
 
 ### Organizational Forest Model
 
-![image.png](/ActiveDirectory/.media/image-f00a7a1b-760c-49e0-9581-d752d6c78aff.png)
+![image.png](https://github.com/kj-park/Tech/blob/main/ActiveDirectory/.media/image-f00a7a1b-760c-49e0-9581-d752d6c78aff.png?raw=true)
 
 ### Restricted Access Forest Model
 
-![image.png](/ActiveDirectory/.media/image-2cdd6f83-52de-47fb-beb8-7626d3e51a82.png)
+![image.png](https://github.com/kj-park/Tech/blob/main/ActiveDirectory/.media/image-2cdd6f83-52de-47fb-beb8-7626d3e51a82.png?raw=true)
 
 ### Organizational Domain Forest Model
 
-![image.png](/ActiveDirectory/.media/image-b121a411-9c08-4883-bc45-7a3a0043ace4.png)
+![image.png](https://github.com/kj-park/Tech/blob/main/ActiveDirectory/.media/image-b121a411-9c08-4883-bc45-7a3a0043ace4.png?raw=true)
 
 ## Mapping Design Requirements to Forest Design Models.
 
-![image.png](/ActiveDirectory/.media/image-6f7c39cd-d895-40ea-985d-9d51d5b3930e.png)
+![image.png](https://github.com/kj-park/Tech/blob/main/ActiveDirectory/.media/image-6f7c39cd-d895-40ea-985d-9d51d5b3930e.png?raw=true)
 
 [TOP](#Forest-디자인)
 
@@ -80,9 +82,9 @@ Autonomy 는 독립성을 의미하나 배타적인 자원에 대한 제어를 �
 
 # Document the Forest Design
 
-![image.png](/ActiveDirectory/.media/image-74b289f6-20e3-4a0b-87d3-e93c6194170e.png)
+![image.png](https://github.com/kj-park/Tech/blob/main/ActiveDirectory/.media/image-74b289f6-20e3-4a0b-87d3-e93c6194170e.png?raw=true)
 
-![image.png](/ActiveDirectory/.media/image-0616cf56-b956-49f4-a637-97d4de3e4779.png)
+![image.png](https://github.com/kj-park/Tech/blob/main/ActiveDirectory/.media/image-0616cf56-b956-49f4-a637-97d4de3e4779.png?raw=true)
 
 [TOP](#Forest-디자인)
 
