@@ -2,6 +2,16 @@
 title: Exchange
 filename: Exchange/README.md
 date: 2021.04.01
+keywords:
+    - Exchange Server 2013
+    - Exchange Server 2016
+    - Exchange Server 2019
+    - Exchange Online
+    - Exchange Hybrid
+    - Database Available Group
+    - Maintenance
+    - Deployment
+    - Configuration
 ---
 
 # Exchange
