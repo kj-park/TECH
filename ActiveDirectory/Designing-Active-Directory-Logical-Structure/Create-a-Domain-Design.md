@@ -14,7 +14,7 @@ Single Domain 와 Multiple Domain 간의 일반적으로 고려 사항들의 특
 
 ![image.png](https://github.com/kj-park/Tech/blob/main/ActiveDirectory/.media/image-74b2d98d-05b1-4c3c-a9e5-b4fbf93a3384.png?raw=true)
 
-[TOP](#Domain-디자인)
+[TOP](#Create-a-Domain-Design)
 
 ---
 
@@ -37,7 +37,7 @@ Single Domain Model은 유지 관리하는데 있어 가장 쉬습니다. 이는
 
 ![image.png](https://github.com/kj-park/Tech/blob/main/ActiveDirectory/.media/image-8b3827ba-07f2-466a-b8af-ee3cbc25cf56.png?raw=true)
 
-[TOP](#Domain-디자인)
+[TOP](#Create-a-Domain-Design)
 
 ---
 
@@ -75,7 +75,7 @@ Single Domain Model은 유지 관리하는데 있어 가장 쉬습니다. 이는
 
 
 
-[TOP](#Domain-디자인)
+[TOP](#Create-a-Domain-Design)
 
 ---
 
@@ -83,7 +83,7 @@ Single Domain Model은 유지 관리하는데 있어 가장 쉬습니다. 이는
 
 ![image.png](https://github.com/kj-park/Tech/blob/main/ActiveDirectory/.media/image-a6ae86aa-904d-47f3-8e2f-675d512554bf.png?raw=true)
 
-[TOP](#Domain-디자인)
+[TOP](#Create-a-Domain-Design)
 
 ---
 
@@ -95,6 +95,6 @@ Single Domain Model은 유지 관리하는데 있어 가장 쉬습니다. 이는
 
 ## Select Forest Root Domain
 
-[TOP](#Domain-디자인)
+[TOP](#Create-a-Domain-Design)
 
 ---
