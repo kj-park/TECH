@@ -57,7 +57,7 @@ Active Directory Deployment Project는 아래의 단계들을 포함할 수 있�
 
 1. [Planning Active Directory Project](Planning-Active-Directory-Project)
 
-1. [Designing Active Directory Logical Structure](Designing-Active-Directory-Logical-Structure)
+1. [Designing Active Directory Logical Structure](Designing-Active-Directory-Logical-Structure.md)
 
 1. Designing the Site Topology
 
