@@ -18,7 +18,7 @@ Single Forest와 Multiple Forest 간의 일반적으로 고려 사항들의 특�
 
 ---
 
-# Forest Design Requirements
+## Forest Design Requirements
 
 ![image.png](https://github.com/kj-park/Tech/blob/main/ActiveDirectory/.media/image-1707f09b-db53-42ad-8abf-c4ff3c0bef59.png?raw=true)
 
@@ -50,29 +50,29 @@ Autonomy 는 독립성을 의미하나 배타적인 자원에 대한 제어를 �
 
 ---
 
-# Determine the number of Forests
+## Determine the number of Forests
 
 ![image.png](https://github.com/kj-park/Tech/blob/main/ActiveDirectory/.media/image-c8224f3d-742d-43c4-86fb-a84c2808a7c9.png?raw=true)
 
-## Forest Design Models
+### Forest Design Models
 
-### Resource Forest Model
+#### Resource Forest Model
 
 ![image.png](https://github.com/kj-park/Tech/blob/main/ActiveDirectory/.media/image-f1a80a8d-0f71-4f19-915b-ffaa65bd6343.png?raw=true)
 
-### Organizational Forest Model
+#### Organizational Forest Model
 
 ![image.png](https://github.com/kj-park/Tech/blob/main/ActiveDirectory/.media/image-f00a7a1b-760c-49e0-9581-d752d6c78aff.png?raw=true)
 
-### Restricted Access Forest Model
+#### Restricted Access Forest Model
 
 ![image.png](https://github.com/kj-park/Tech/blob/main/ActiveDirectory/.media/image-2cdd6f83-52de-47fb-beb8-7626d3e51a82.png?raw=true)
 
-### Organizational Domain Forest Model
+#### Organizational Domain Forest Model
 
 ![image.png](https://github.com/kj-park/Tech/blob/main/ActiveDirectory/.media/image-b121a411-9c08-4883-bc45-7a3a0043ace4.png?raw=true)
 
-## Mapping Design Requirements to Forest Design Models.
+### Mapping Design Requirements to Forest Design Models.
 
 ![image.png](https://github.com/kj-park/Tech/blob/main/ActiveDirectory/.media/image-6f7c39cd-d895-40ea-985d-9d51d5b3930e.png?raw=true)
 
@@ -80,7 +80,7 @@ Autonomy 는 독립성을 의미하나 배타적인 자원에 대한 제어를 �
 
 ---
 
-# Document the Forest Design
+## Document the Forest Design
 
 ![image.png](https://github.com/kj-park/Tech/blob/main/ActiveDirectory/.media/image-74b289f6-20e3-4a0b-87d3-e93c6194170e.png?raw=true)
 
