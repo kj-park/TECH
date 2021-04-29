@@ -13,11 +13,6 @@ Install Type은 아래와 같습니다:
 
 ![AAD-Connector-Install-type](https://github.com/kj-park/Tech/blob/main/Microsoft365/Hybrid/.media/AAD-Connector-Install-type.png?raw=true)
 
----
-
-![AAD-Connector-Install-type](./.media/AAD-Connector-Install-type.png?raw=true)
-
-
 ## Installation Prerequisites
 
 ### Azure AD
@@ -100,6 +95,44 @@ Express Install은 아래의 옵션으로 구성:
 ## Custom Installation
 
 The customized path allows many more options than express.
+
+![AAD-Connector-custom-Install-001](https://github.com/kj-park/Tech/blob/main/Microsoft365/Hybrid/.media/AAD-Connector-custom-Install-001.png?raw=true)
+
+![AAD-Connector-custom-Install-002](https://github.com/kj-park/Tech/blob/main/Microsoft365/Hybrid/.media/AAD-Connector-custom-Install-002.png?raw=true)
+
+![AAD-Connector-custom-Install-003](https://github.com/kj-park/Tech/blob/main/Microsoft365/Hybrid/.media/AAD-Connector-custom-Install-003.png?raw=true)
+
+![AAD-Connector-custom-Install-004](https://github.com/kj-park/Tech/blob/main/Microsoft365/Hybrid/.media/AAD-Connector-custom-Install-004.png?raw=true)
+
+![AAD-Connector-custom-Install-005](https://github.com/kj-park/Tech/blob/main/Microsoft365/Hybrid/.media/AAD-Connector-custom-Install-005.png?raw=true)
+
+![AAD-Connector-custom-Install-006](https://github.com/kj-park/Tech/blob/main/Microsoft365/Hybrid/.media/AAD-Connector-custom-Install-006.png?raw=true)
+
+![AAD-Connector-custom-Install-007](https://github.com/kj-park/Tech/blob/main/Microsoft365/Hybrid/.media/AAD-Connector-custom-Install-007.png?raw=true)
+
+![AAD-Connector-custom-Install-008](https://github.com/kj-park/Tech/blob/main/Microsoft365/Hybrid/.media/AAD-Connector-custom-Install-008.png?raw=true)
+
+![AAD-Connector-custom-Install-009](https://github.com/kj-park/Tech/blob/main/Microsoft365/Hybrid/.media/AAD-Connector-custom-Install-009.png?raw=true)
+
+![AAD-Connector-custom-Install-010](https://github.com/kj-park/Tech/blob/main/Microsoft365/Hybrid/.media/AAD-Connector-custom-Install-010.png?raw=true)
+
+![AAD-Connector-custom-Install-011](https://github.com/kj-park/Tech/blob/main/Microsoft365/Hybrid/.media/AAD-Connector-custom-Install-011.png?raw=true)
+
+![AAD-Connector-custom-Install-012](https://github.com/kj-park/Tech/blob/main/Microsoft365/Hybrid/.media/AAD-Connector-custom-Install-012.png?raw=true)
+
+![AAD-Connector-custom-Install-013](https://github.com/kj-park/Tech/blob/main/Microsoft365/Hybrid/.media/AAD-Connector-custom-Install-013.png?raw=true)
+
+![AAD-Connector-custom-Install-014](https://github.com/kj-park/Tech/blob/main/Microsoft365/Hybrid/.media/AAD-Connector-custom-Install-014.png?raw=true)
+
+![AAD-Connector-custom-Install-015](https://github.com/kj-park/Tech/blob/main/Microsoft365/Hybrid/.media/AAD-Connector-custom-Install-015.png?raw=true)
+
+![AAD-Connector-custom-Install-016](https://github.com/kj-park/Tech/blob/main/Microsoft365/Hybrid/.media/AAD-Connector-custom-Install-016.png?raw=true)
+
+![AAD-Connector-custom-Install-017](https://github.com/kj-park/Tech/blob/main/Microsoft365/Hybrid/.media/AAD-Connector-custom-Install-017.png?raw=true)
+
+![AAD-Connector-custom-Install-018](https://github.com/kj-park/Tech/blob/main/Microsoft365/Hybrid/.media/AAD-Connector-custom-Install-018.png?raw=true)
+
+![AAD-Connector-custom-Install-019](https://github.com/kj-park/Tech/blob/main/Microsoft365/Hybrid/.media/AAD-Connector-custom-Install-019.png?raw=true)
 
 
 ## More about Install Azure AD Connect
