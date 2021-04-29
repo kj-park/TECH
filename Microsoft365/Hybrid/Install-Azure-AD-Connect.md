@@ -13,6 +13,9 @@ Install Type은 아래와 같습니다:
 
 ![AAD-Connector-Install-type](https://github.com/kj-park/Tech/blob/main/Microsoft365/Hybrid/.media/AAD-Connector-Install-type.png?raw=true)
 
+---
+
+![AAD-Connector-Install-type](./.media/AAD-Connector-Install-type.png?raw=true)
 
 
 ## Installation Prerequisites
