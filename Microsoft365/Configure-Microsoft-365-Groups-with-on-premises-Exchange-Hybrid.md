@@ -53,18 +53,28 @@ Microsoft 365 group의 primary SMTP domain을 group domain이라 합니다. 일�
 1. Hybrid Send Connector에 group domain을 추가합니다. Hybrid Configuration wizard 또는 아래 명령을 통해 추가할 수 있습니다.
 
 ```powershell
-Set-SendConnector -Identity "Outbound to Office 365" -AddressSpaces "exchangeinfo.mail.onmicrosoft.com","groups.exchange.info"
+Set-SendConnector -Identity "Outbound to Office 365" -AddressSpaces "exchange-info.mail.onmicrosoft.com","groups.exchange.info"
 ```
 
-## How do you know the worked?
+## Change Microsoft 365 Group's PrimarySmtpAddress
 
+아래의 EXO PowerShell script를 통해 Microsoft 365 Group들의 Email Address를 변경할 수 있습니다.
 
+```powershell
+Import-Module ExchangeOnlineManagement
+Connect-ExchangeOnline - UserPrincipalName admin@exchange-info.mail.onmicrosoft.com
 
+$groupDomain = "@groups.exchange.info"
+$M365Groups = Get-UnifiedGroup -ResultSize Unlimited
 
+foreach ( $M365Group in $M365Groups ) {
+        if ( $M365Group.EmailAddresses.Contains(("smtp:" + $M365Group.alias + "@exchange.info")) ) {
+        Set-UnifiedGroup -Identity $M365Group.Identity -EmailAddresses @{Remove="$("smtp:" + $M365Group.alias + "@exchange.info")"}
+    }
+    Set-UnifiedGroup -Identity $M365Group.Identity -PrimarySmtpAddress ($M365Group.alias + $groupDomain)
+}
+```
 
 ## Known issues
 
-
-
-> [!NOTE]
-> https://docs.microsoft.com/en-us/exchange/hybrid-deployment/set-up-microsoft-365-groups
+> [!NOTE] https://docs.microsoft.com/en-us/exchange/hybrid-deployment/set-up-microsoft-365-groups#known-issues
