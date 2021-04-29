@@ -77,4 +77,5 @@ foreach ( $M365Group in $M365Groups ) {
 
 ## Known issues
 
-> [!NOTE] https://docs.microsoft.com/en-us/exchange/hybrid-deployment/set-up-microsoft-365-groups#known-issues
+> [!NOTE]
+> [Configure Microsoft 365 Groups with on-premises Exchange hybrid](https://docs.microsoft.com/en-us/exchange/hybrid-deployment/set-up-microsoft-365-groups#known-issues)
