@@ -13,6 +13,8 @@ Install Type은 아래와 같습니다:
 
 ![AAD-Connector-Install-type](https://github.com/kj-park/Tech/blob/main/Microsoft365/Hybrid/.media/AAD-Connector-Install-type.png?raw=true)
 
+---
+
 ## Installation Prerequisites
 
 ### Azure AD
@@ -77,6 +79,8 @@ Azure AD Connect Server 서버는 critical identity data를 가지고 있어서 
     - authentication
     - connection idle timeout: 6분 이상 설정
 
+---
+
 ## Express Installation
 
 Express is the most common option and is used by about 90% of all new installations.
@@ -91,6 +95,7 @@ Express Install은 아래의 옵션으로 구성:
 - Synchronization for All users, groups, windows 10 computers in all domain
 - Automatic upgrade is enabled
 
+---
 
 ## Custom Installation
 
@@ -134,6 +139,7 @@ The customized path allows many more options than express.
 
 ![AAD-Connector-custom-Install-019](https://github.com/kj-park/Tech/blob/main/Microsoft365/Hybrid/.media/AAD-Connector-custom-Install-019.png?raw=true)
 
+---
 
 ## More about Install Azure AD Connect
 
