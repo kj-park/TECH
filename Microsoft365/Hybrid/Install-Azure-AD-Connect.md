@@ -139,6 +139,26 @@ The customized path allows many more options than express.
 
 ![AAD-Connector-custom-Install-019](https://github.com/kj-park/Tech/blob/main/Microsoft365/Hybrid/.media/AAD-Connector-custom-Install-019.png?raw=true)
 
+### Azure AD Connect Sync Permissions Assign
+
+```powershell
+Import-Module "C:\Program Files\Microsoft Azure Active Directory Connect\AdSyncConfig\AdSyncConfig.psm1"
+
+Set-ADSyncBasicReadPermissions -ADConnectorAccountName aadsync -ADConnectorAccountDomain exopoc.ml
+
+Set-ADSyncMsDsConsistencyGuidPermissions -ADConnectorAccountName aadsync -ADConnectorAccountDomain exopoc.ml
+
+Set-ADSyncPasswordHashSyncPermissions -ADConnectorAccountName aadsync -ADConnectorAccountDomain exopoc.ml
+
+Set-ADSyncPasswordWritebackPermissions -ADConnectorAccountName aadsync -ADConnectorAccountDomain exopoc.ml
+
+Set-ADSyncUnifiedGroupWritebackPermissions -ADConnectorAccountName aadsync -ADConnectorAccountDomain exopoc.ml
+
+Set-ADSyncExchangeHybridPermissions -ADConnectorAccountName aadsync -ADConnectorAccountDomain exopoc.ml
+
+Set-ADSyncExchangeMailPublicFolderPermissions -ADConnectorAccountName aadsync -ADConnectorAccountDomain exopoc.ml
+```
+
 ---
 
 ## More about Install Azure AD Connect
