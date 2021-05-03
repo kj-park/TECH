@@ -49,6 +49,8 @@ Hybrid Deployment는 아래의 기능들을 가능하게 합니다:
 
     [Certificate requirements for hybrid deployments](https://docs.microsoft.com/en-us/exchange/certificate-requirements)
 
+    ![Exchange-Hybrid-Configuration-with-Edge](https://github.com/kj-park/Tech/blob/main/Exchange/.media/Exchange-Hybrid-Configuration-with-Edge.png?raw=true)
+
 
 - Client Requirements
 
