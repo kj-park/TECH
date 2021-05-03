@@ -6,22 +6,28 @@ date: 2012.04.29
 
 # Configure Exchange Hybrid
 
-Hybrid Deploymentsms 아래의 기능들을 가능하게 합니다:
+Hybrid Deployment는 아래의 기능들을 가능하게 합니다:
 
 - On-Premises 와 Exchange Online 간의 Secure mail routing
 - 공유된 domain namespace로 mail routing, 예: @exchange.info
 - Unified Global Address List(GAL), Shared Address Book
 - On-Premises 와 Exchange Online 간의 Free/Busy 및 Calendar 공유
-- 옵션: 중앙화된 Inbound 및 Outbount mail flow 제어
+- 옵션: 중앙화된 Inbound 및 Outbound mail flow 제어
 - On-Premises 와 Exchange Online에서 하나의 Single Outlook on the Web URL **[How?]**
 - Exchange Online으로 On-Boarding 및 Off-Boarding Mailbox Move
 - On-Premises의 Exchange Admin Center(EAC)에서의 중앙화된 Mailbox 관리(Online 포함)
 - On-Premises 와 Exchange Online의 Message Tracking 및 MailTips, 검색
 - Cloud-based message Archiving
 
+일반적인 Hybrid Deployment 구조는 아래와 같습니다:
+
+![Hybrid-Deployment-Example](https://github.com/kj-park/Tech/blob/main/Exchange/.media/Hybrid-Deployment-Example.png?raw=true)
+
+---
+
 ## Exchange Hybrid Deployment Considerations
 
-1. Common Considerations
+- Common Considerations
 
     - [Hybrid Deployment Requirements](https://docs.microsoft.com/en-us/exchange/hybrid-deployment-prerequisites)
     - Exchange ActiveSync Clients: 대부분 ActiveSync Clients들은 자동으로 Exchange Online으로 설정 변경되어짐
@@ -33,19 +39,28 @@ Hybrid Deploymentsms 아래의 기능들을 가능하게 합니다:
             - ForwardingAddress
             - ForwardingSmtpAddress
 
-1. Directory Synchronization and Single Sign-On
+- Directory Synchronization and Single Sign-On
 
-1. Certificates
+    기본 설정으로 500,000 개체 제한(Azure Active Directory Free)
+    
+    > [!NOTE] [Azure Active Directory Pricing](https://azure.microsoft.com/pricing/details/active-directory/) 참조하세요.
 
-1. Unified Messaging
+- Certificates
 
-1. Client Requirements (Not Supported Outlook 2010)
+    [Certificate requirements for hybrid deployments](https://docs.microsoft.com/en-us/exchange/certificate-requirements)
 
-1. Information Rights Management
 
-TODO: https://docs.microsoft.com/en-us/exchange/exchange-hybrid
+- Client Requirements
 
-![Hybrid-Deployment-Example](https://github.com/kj-park/Tech/blob/main/Exchange/.media/Hybrid-Deployment-Example.png?raw=true)
+    Pre-Outlook 2010 clients aren't supported in hybrid deployments or with Microsoft 365 or Office 365.
+
+- Information Rights Management
+
+[IRM in Exchange hybrid deployments](https://docs.microsoft.com/en-us/exchange/irm)
+
+- [Exchange Online Limits](https://docs.microsoft.com/en-us/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits)
+
+---
 
 ## Install Microsoft Office 365 Hybrid Configuration Wizard
 
