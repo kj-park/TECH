@@ -51,14 +51,13 @@ Hybrid Deployment는 아래의 기능들을 가능하게 합니다:
 
     ![Exchange-Hybrid-Configuration-with-Edge](https://github.com/kj-park/Tech/blob/main/Exchange/.media/Exchange-Hybrid-Configuration-with-Edge.png?raw=true)
 
-
 - Client Requirements
 
     Pre-Outlook 2010 clients aren't supported in hybrid deployments or with Microsoft 365 or Office 365.
 
 - Information Rights Management
 
-[IRM in Exchange hybrid deployments](https://docs.microsoft.com/en-us/exchange/irm)
+    [IRM in Exchange hybrid deployments](https://docs.microsoft.com/en-us/exchange/irm)
 
 - [Exchange Online Limits](https://docs.microsoft.com/en-us/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits)
 
