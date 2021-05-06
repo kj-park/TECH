@@ -6,19 +6,14 @@ date: 2012.05.04
 
 # Azure AD Conditional Access Policy
 
-## Common Signals
+## Conditional Access Assignments
 
 ### Conditional Access: Users and Groups
 
 모든 사용자, 특정 사용자 그룹, 디렉터리 역할 또는 외부 게스트 사용자에 대한 사용자 및 그룹 할당을 기반으로 사용자 액세스를 제어
 
+![conditional-access-policy-assignments](https://github.com/kj-park/Tech/blob/main/Microsoft365/Security/.media/conditional-access-policy-assignments-users-and-groups.svg?raw=true)
 
-![conditional-access-policy-assignments](https://github.com/kj-park/Tech/blob/main/Microsoft365/Security/.media/conditional-access-policy-assignments.png?raw=true)
-
-![conditional-access-policy-assignments](https://github.com/kj-park/Tech/blob/main/Microsoft365/Security/.media/conditional-access-policy-assignments.svg?raw=true)
-
-
-![conditional-access-policy-assignments](./.media/conditional-access-policy-assignments.svg)
 
 #### Include
 
@@ -58,4 +53,26 @@ date: 2012.05.04
 - Application.
 - 계산된 실시간 위험 감지.
 - Microsoft Cloud App Security (MCAS). 사용자 애플리케이션 액세스 및 세션을 실시간으로 모니터링 및 제어하여 클라우드 환경 내에서 수행되는 작업에 대한 액세스를 제어하고 가시성을 높일 수 있음.
+
+### Conditional Access: Cloud apps or actions
+
+Cloud apps 또는 actions은 조건부 액세스 정책의 주요 신호에 속합니다
+
+- 관리자는 기본 제공되는 Microsoft 애플리케이션과 모든 [Azure AD integrated applications](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/what-is-application-management) (갤러리, 비갤러리 및 Application Proxy를 통해 게시된 Application 등)을 포함한 Application 목록에서 선택할 수 있습니다.
+관리자는 사용자 작업을 기반으로 하여 정책을 정의하도록 선택할 수 있습니다. 유일하게 지원되는 작업은 보안 정보 등록(미리 보기)입니다. 여기서는 조건부 액세스를 사용하여 결합된 보안 정보 등록 환경을 제어할 수 있습니다.
+
+![conditional-access-policy-assignments-cloud-apps-or-actions](https://github.com/kj-park/Tech/blob/main/Microsoft365/Security/.media/conditional-access-policy-assignments-cloud-apps-or-actions.svg?raw=true)
+
+
+
+### Cloud apps
+
+
+
+
+### User actions
+
+
+
+
 
