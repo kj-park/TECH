@@ -12,8 +12,10 @@ date: 2012.05.04
 
 모든 사용자, 특정 사용자 그룹, 디렉터리 역할 또는 외부 게스트 사용자에 대한 사용자 및 그룹 할당을 기반으로 사용자 액세스를 제어
 
-conditional-access-policy-assignments.png
+
 ![conditional-access-policy-assignments](https://github.com/kj-park/Tech/blob/main/Microsoft365/Security/.media/conditional-access-policy-assignments.png?raw=true)
+
+![conditional-access-policy-assignments](https://github.com/kj-park/Tech/blob/main/Microsoft365/Security/.media/conditional-access-policy-assignments.svg?raw=true)
 
 #### Include
 
