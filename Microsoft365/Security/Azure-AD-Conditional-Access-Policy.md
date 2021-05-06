@@ -17,6 +17,9 @@ date: 2012.05.04
 
 ![conditional-access-policy-assignments](https://github.com/kj-park/Tech/blob/main/Microsoft365/Security/.media/conditional-access-policy-assignments.svg?raw=true)
 
+
+![conditional-access-policy-assignments](./.media/conditional-access-policy-assignments.svg)
+
 #### Include
 
 - 없음
