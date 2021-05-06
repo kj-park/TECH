@@ -46,13 +46,7 @@ date: 2012.05.04
 
 >Don't lock yourself out! We recommend applying a policy to a small set of users first to verify it behaves as expected. We also recommend excluding at least one administrator from this policy. This ensures that you still have access and can update a policy if a change is required. Please review the affected users and apps.
 
-- IP Location 정보.
-    - Trusted IP address 범위
-    - Countries/Regions IP ranges
-- Device. 특정 platforms 또는 특정 상태.
-- Application.
-- 계산된 실시간 위험 감지.
-- Microsoft Cloud App Security (MCAS). 사용자 애플리케이션 액세스 및 세션을 실시간으로 모니터링 및 제어하여 클라우드 환경 내에서 수행되는 작업에 대한 액세스를 제어하고 가시성을 높일 수 있음.
+---
 
 ### Conditional Access: Cloud apps or actions
 
@@ -63,16 +57,138 @@ Cloud apps 또는 actions은 조건부 액세스 정책의 주요 신호에 속�
 
 ![conditional-access-policy-assignments-cloud-apps-or-actions](https://github.com/kj-park/Tech/blob/main/Microsoft365/Security/.media/conditional-access-policy-assignments-cloud-apps-or-actions.svg?raw=true)
 
+#### Cloud apps
+
+계속 해 서 더 많은 앱을 추가 하므로 다음 목록은 완전 하지 않으며 변경 될 수 있습니다.
+
+- Office 365
+    - Microsoft Flow
+    - Microsoft Forms
+    - Microsoft Stream
+    - Microsoft To-Do
+    - Microsoft Teams
+    - Exchange Online
+    - SharePoint Online
+    - Microsoft 365 Search Service
+    - Yammer
+    - Office Delve
+    - Office Online
+    - Office.com
+    - OneDrive
+    - PowerApps
+    - Skype for Business Online
+    - Sway
+- Azure Analysis Services
+- Azure DevOps
+- Azure SQL Database and Azure Synapse Analytics
+- Dynamics CRM Online
+- Microsoft Application Insights Analytics
+- Microsoft Azure Information Protection
+- Microsoft Azure Management
+    - Azure portal
+    - Azure Resource Manager provider
+    - Classic deployment model APIs
+    - Azure PowerShell
+    - Azure CLI
+    - Visual Studio subscriptions administrator portal
+    - Azure DevOps
+    - Azure Data Factory portal
+- Microsoft Azure Subscription Management
+- Microsoft Cloud App Security
+- Microsoft Commerce Tools Access Control Portal
+- Microsoft Commerce Tools Authentication Service
+- Microsoft Intune
+- Microsoft Intune Enrollment
+- Microsoft Planner
+- Microsoft Search in Bing
+- Microsoft StaffHub
+- Microsoft Teams
+- Office Sway
+- Outlook Groups
+- Power BI Service
+- Project Online
+- Skype for Business Online
+- Virtual Private Network (VPN)
+- Windows Defender ATP
+- Applications published through [Azure AD Application Proxy](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/what-is-application-proxy)
+- [Applications added from the gallery](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/add-application-portal)
+- [Custom applications not in the gallery](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/view-applications-portal)
+- [Legacy applications published through app delivery controllers and networks](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/secure-hybrid-access)
+- Applications that use [password based single sign-on](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-password-single-sign-on-non-gallery-applications)
+
+#### User actions
+
+- Register security information
+    - [Microsoft Authenticator](https://docs.microsoft.com/en-us/azure/active-directory/user-help/security-info-setup-auth-app)
+    - Phone
+        - [Text Messaging](https://docs.microsoft.com/en-us/azure/active-directory/user-help/security-info-setup-text-msg)
+        - [Phone Call](https://docs.microsoft.com/en-us/azure/active-directory/user-help/security-info-setup-phone-number)
+    - [Email](https://docs.microsoft.com/en-us/azure/active-directory/user-help/security-info-setup-email)
+    - [Pre-Defined Security Questions](https://docs.microsoft.com/en-us/azure/active-directory/user-help/security-info-setup-questions)
+
+- Register or join devices (preview)
+
+    Enforce Conditional Access policy when users register or join devices to Azure AD
+
+    이 actions은 아래 3 가지 핵심 고려사항이 있음:
+
+    - `Require Multi-Factor Authentication`이 유일한 Grant Access controls의 옵션
+    - `Client apps` and `Device state` conditions are not available
+    - **Must:** `Devices to be Azure AD joined or Azure AD registered require Multi-Factor Authentication` to No
 
 
-### Cloud apps
+
+##### Register security information ([Combined security information registration](https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-registration-mfa-sspr-combined))
+
+Combined Registration supports:
+
+| Method                                                            | Register           | Change | Delete |
+|-------------------------------------------------------------------|--------------------|--------|--------|
+| Microsoft Authenticator                                           | Yes (maximum of 5) | No     | Yes    |
+| Other authenticator app                                           | Yes (maximum of 5) | No     | Yes    |
+| Hardware token                                                    | No                 | No     | Yes    |
+| Phone                                                             | Yes                | Yes    | Yes    |
+| Alternate phone                                                   | Yes                | Yes    | Yes    |
+| Office phone                                                      | Yes                | Yes    | Yes    |
+| Email                                                             | Yes                | Yes    | Yes    |
+| Security questions                                                | Yes                | No     | Yes    |
+| App passwords                                                     | Yes                | No     | Yes    |
+| FIDO2 security keys Managed mode only from the Security info page | Yes                | Yes    | Yes    |
 
 
+Multi-Factor Authentication Options:
 
+- Microsoft Authenticator – notification.
+- Authenticator app or hardware token – code.
+- Phone call.
+- Text message.
 
-### User actions
+Combined registration modes
 
+- **Interrupt mode.** Wizard-like experience
 
+    - Multi-Factor Authentication registration enforced through Identity Protection
+    - Multi-Factor Authentication registration enforced through per-user Multi-Factor Authentication
+    - Multi-Factor Authentication registration enforced through Conditional Access or other policies
+    - SSPR registration enforced
+    - SSPR refresh enforced
+    
+    ![combined-security-info-flow-chart](https://github.com/kj-park/Tech/blob/main/Microsoft365/Security/.media/combined-security-info-flow-chart.png?raw=true)
 
+- **Manage mode.** part of the user profile
 
+    Users can access manage mode by going to https://aka.ms/mysecurityinfo
 
+    users can add methods, delete or change existing methods, change the default method, and more.
+
+---
+
+### Conditional Access: Conditions
+
+- IP Location 정보.
+    - Trusted IP address 범위
+    - Countries/Regions IP ranges
+- Device. 특정 platforms 또는 특정 상태.
+- Application.
+- 계산된 실시간 위험 감지.
+- Microsoft Cloud App Security (MCAS). 사용자 애플리케이션 액세스 및 세션을 실시간으로 모니터링 및 제어하여 클라우드 환경 내에서 수행되는 작업에 대한 액세스를 제어하고 가시성을 높일 수 있음.
