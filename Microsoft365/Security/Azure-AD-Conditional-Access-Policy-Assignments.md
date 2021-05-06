@@ -1,21 +1,19 @@
 ---
-title: Azure AD Conditional Access Policy
-filename: Microsoft365\Security\Azure-AD-Conditional-Access-Policy.md
-date: 2012.05.04
+title: Azure AD Conditional Access Policy Assignments
+filename: Microsoft365\Security\Azure-AD-Conditional-Access-Policy-Assignments.md
+date: 2012.05.06
 ---
 
-# Azure AD Conditional Access Policy
+# Azure AD Conditional Access Policy Assignments
 
-## Conditional Access Assignments
-
-### Conditional Access: Users and Groups
+## Assignments: Users and Groups
 
 모든 사용자, 특정 사용자 그룹, 디렉터리 역할 또는 외부 게스트 사용자에 대한 사용자 및 그룹 할당을 기반으로 사용자 액세스를 제어
 
 ![conditional-access-policy-assignments](https://github.com/kj-park/Tech/blob/main/Microsoft365/Security/.media/conditional-access-policy-assignments-users-and-groups.svg?raw=true)
 
 
-#### Include
+### Include
 
 - 없음
 - 모든 사용자
@@ -29,13 +27,13 @@ date: 2012.05.04
 >
 > Customer Azure AD directory roles은 지원하지 않음.
 
-#### Exclude
+### Exclude
 
 - 모든 게스트 및 외부 사용자
 - 디렉터리 역할
 - 사용자 및 그룹
 
-##### Preventing administrator lockout
+#### Preventing administrator lockout
 
 제외는 일반적으로 응급 액세스 계정에 사용.
 
@@ -48,7 +46,7 @@ date: 2012.05.04
 
 ---
 
-### Conditional Access: Cloud apps or actions
+## Assignments: Cloud apps or actions
 
 Cloud apps 또는 actions은 조건부 액세스 정책의 주요 신호에 속합니다
 
@@ -57,66 +55,13 @@ Cloud apps 또는 actions은 조건부 액세스 정책의 주요 신호에 속�
 
 ![conditional-access-policy-assignments-cloud-apps-or-actions](https://github.com/kj-park/Tech/blob/main/Microsoft365/Security/.media/conditional-access-policy-assignments-cloud-apps-or-actions.svg?raw=true)
 
-#### Cloud apps
+### Cloud apps
 
 계속 해 서 더 많은 앱을 추가 하므로 다음 목록은 완전 하지 않으며 변경 될 수 있습니다.
 
-- Office 365
-    - Microsoft Flow
-    - Microsoft Forms
-    - Microsoft Stream
-    - Microsoft To-Do
-    - Microsoft Teams
-    - Exchange Online
-    - SharePoint Online
-    - Microsoft 365 Search Service
-    - Yammer
-    - Office Delve
-    - Office Online
-    - Office.com
-    - OneDrive
-    - PowerApps
-    - Skype for Business Online
-    - Sway
-- Azure Analysis Services
-- Azure DevOps
-- Azure SQL Database and Azure Synapse Analytics
-- Dynamics CRM Online
-- Microsoft Application Insights Analytics
-- Microsoft Azure Information Protection
-- Microsoft Azure Management
-    - Azure portal
-    - Azure Resource Manager provider
-    - Classic deployment model APIs
-    - Azure PowerShell
-    - Azure CLI
-    - Visual Studio subscriptions administrator portal
-    - Azure DevOps
-    - Azure Data Factory portal
-- Microsoft Azure Subscription Management
-- Microsoft Cloud App Security
-- Microsoft Commerce Tools Access Control Portal
-- Microsoft Commerce Tools Authentication Service
-- Microsoft Intune
-- Microsoft Intune Enrollment
-- Microsoft Planner
-- Microsoft Search in Bing
-- Microsoft StaffHub
-- Microsoft Teams
-- Office Sway
-- Outlook Groups
-- Power BI Service
-- Project Online
-- Skype for Business Online
-- Virtual Private Network (VPN)
-- Windows Defender ATP
-- Applications published through [Azure AD Application Proxy](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/what-is-application-proxy)
-- [Applications added from the gallery](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/add-application-portal)
-- [Custom applications not in the gallery](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/view-applications-portal)
-- [Legacy applications published through app delivery controllers and networks](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/secure-hybrid-access)
-- Applications that use [password based single sign-on](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-password-single-sign-on-non-gallery-applications)
+https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps
 
-#### User actions
+### User actions
 
 - Register security information
     - [Microsoft Authenticator](https://docs.microsoft.com/en-us/azure/active-directory/user-help/security-info-setup-auth-app)
@@ -138,7 +83,7 @@ Cloud apps 또는 actions은 조건부 액세스 정책의 주요 신호에 속�
 
 
 
-##### Register security information ([Combined security information registration](https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-registration-mfa-sspr-combined))
+#### Register security information ([Combined security information registration](https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-registration-mfa-sspr-combined))
 
 Combined Registration supports:
 
@@ -183,7 +128,7 @@ Combined registration modes
 
 ---
 
-### Conditional Access: Conditions
+## Assignments: Conditions
 
 - IP Location 정보.
     - Trusted IP address 범위
