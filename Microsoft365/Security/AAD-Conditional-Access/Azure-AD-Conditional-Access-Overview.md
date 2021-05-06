@@ -73,4 +73,10 @@ Azure AD Premium P1 license.
 
 ### [Policy Access Controls](./Azure-AD-Conditional-Access-Policy-Access-Controls)
 
+### Common Conditional Access Policies
+
+
+
+
+
 ---

@@ -130,6 +130,26 @@ Combined registration modes
 
 ## Assignments: Conditions
 
+### User Risk
+
+
+
+### Sign-in Risk
+
+### Device Platforms
+
+### Locations
+
+### Client Apps
+
+### Device state (Preview)
+
+
+
+---
+
+
+
 - IP Location 정보.
     - Trusted IP address 범위
     - Countries/Regions IP ranges
