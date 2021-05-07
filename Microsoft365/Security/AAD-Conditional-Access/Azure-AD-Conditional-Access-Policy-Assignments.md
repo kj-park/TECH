@@ -176,17 +176,3 @@ https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/conce
 ![conditional-access-policy-assignments-conditions-device-state](https://github.com/kj-park/Tech/blob/main/Microsoft365/Security/.media/conditional-access-policy-assignments-conditions-device-state.svg?raw=true)
 
 ---
-
-
-
-
-
-
-
-- IP Location 정보.
-    - Trusted IP address 범위
-    - Countries/Regions IP ranges
-- Device. 특정 platforms 또는 특정 상태.
-- Application.
-- 계산된 실시간 위험 감지.
-- Microsoft Cloud App Security (MCAS). 사용자 애플리케이션 액세스 및 세션을 실시간으로 모니터링 및 제어하여 클라우드 환경 내에서 수행되는 작업에 대한 액세스를 제어하고 가시성을 높일 수 있음.
