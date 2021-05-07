@@ -67,7 +67,7 @@ Azure AD Premium P1 license.
 > [!NOTE]
 > [Comparing generally available features of the Free, Basic, and Premium editions](https://azure.microsoft.com/pricing/details/active-directory/)
 
-## Azure AD Conditional Access Policy
+## Building Azure AD Conditional Access Policy
 
 ### [Policy Assignments](./Azure-AD-Conditional-Access-Policy-Assignments)
 

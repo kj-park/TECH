@@ -85,7 +85,7 @@ https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/conce
 
 #### Register security information ([Combined security information registration](https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-registration-mfa-sspr-combined))
 
-Combined Registration supports:
+##### Combined Registration supports:
 
 | Method                                                            | Register           | Change | Delete |
 |-------------------------------------------------------------------|--------------------|--------|--------|
@@ -101,14 +101,14 @@ Combined Registration supports:
 | FIDO2 security keys Managed mode only from the Security info page | Yes                | Yes    | Yes    |
 
 
-Multi-Factor Authentication Options:
+##### Multi-Factor Authentication Options:
 
 - Microsoft Authenticator – notification.
 - Authenticator app or hardware token – code.
 - Phone call.
 - Text message.
 
-Combined registration modes
+##### Combined registration modes
 
 - **Interrupt mode.** Wizard-like experience
 
@@ -132,9 +132,21 @@ Combined registration modes
 
 ### User Risk
 
+[Identity Protection](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/overview-identity-protection)에 대 한 액세스 권한이 있는 고객의 경우 조건부 액세스 정책의 일부로 사용자 위험을 평가할 수 있음.  사용자 위험은 지정된 ID 또는 계정이 손상될 확률을 나타냄.
 
+![identity-protection-user-risk-policy](https://github.com/kj-park/Tech/blob/main/Microsoft365/Security/.media/identity-protection-user-risk-policy.svg?raw=true)
+
+> [!NOTE]
+> **참고:** [What is risk](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/concept-identity-protection-risks#user-risk) 및 [How To: Configure and enable risk policies](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/howto-identity-protection-configure-risk-policies).
 
 ### Sign-in Risk
+
+[Identity Protection](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/overview-identity-protection)에 대 한 액세스 권한이 있는 고객의 경우 조건부 액세스 정책의 일부로 로그인 위험을 평가할 수 있음.
+
+![identity-protection-sign-in-risk-policy](https://github.com/kj-park/Tech/blob/main/Microsoft365/Security/.media/identity-protection-sign-in-risk-policy.svg?raw=true)
+
+> [!NOTE]
+> **참고:** [What is risk](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/concept-identity-protection-risks#user-risk) 및 [How To: Configure and enable risk policies](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/howto-identity-protection-configure-risk-policies).
 
 ### Device Platforms
 
