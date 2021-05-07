@@ -159,6 +159,10 @@ https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/conce
 
 ![conditional-access-policy-assignments-conditions-locations](https://github.com/kj-park/Tech/blob/main/Microsoft365/Security/.media/conditional-access-policy-assignments-conditions-locations.svg?raw=true)
 
+#### Named Locations
+
+![conditional-access-policy-management-named-locations](https://github.com/kj-park/Tech/blob/main/Microsoft365/Security/.media/conditional-access-policy-management-named-locations.svg?raw=true)
+
 ### Client Apps
 
 ![conditional-access-policy-assignments-conditions-client-apps](https://github.com/kj-park/Tech/blob/main/Microsoft365/Security/.media/conditional-access-policy-assignments-conditions-client-apps.svg?raw=true)
@@ -168,6 +172,10 @@ https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/conce
 ![conditional-access-policy-assignments-conditions-device-state](https://github.com/kj-park/Tech/blob/main/Microsoft365/Security/.media/conditional-access-policy-assignments-conditions-device-state.svg?raw=true)
 
 ---
+
+
+
+
 
 
 
