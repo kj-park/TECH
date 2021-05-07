@@ -18,7 +18,7 @@ default layout is...:
 # Image randering in GitHub Pages
 
 
-![Transport Pipeline Overview](https://raw.githubusercontent.com/kj-park/Tech/main/Exchange/.media/transport-pipeline-overview.png =100)
+![Transport Pipeline Overview](https://raw.githubusercontent.com/kj-park/Tech/main/Exchange/.media/transport-pipeline-overview.png =100X300)
 
 
 ![Transport Pipeline Overview](https://github.com/kj-park/Tech/blob/main/Exchange/.media/transport-pipeline-overview.png?raw=true)
