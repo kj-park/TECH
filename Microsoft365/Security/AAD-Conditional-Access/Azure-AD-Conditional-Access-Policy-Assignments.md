@@ -130,6 +130,9 @@ https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/conce
 
 ## Assignments: Conditions
 
+![AAD-Conditional-Access-Configuration-Conditions](https://github.com/kj-park/Tech/blob/main/Microsoft365/Security/.media/AAD-Conditional-Access-Configuration-Conditions.png?raw=true)
+
+
 ### User Risk
 
 [Identity Protection](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/overview-identity-protection)에 대 한 액세스 권한이 있는 고객의 경우 조건부 액세스 정책의 일부로 사용자 위험을 평가할 수 있음.  사용자 위험은 지정된 ID 또는 계정이 손상될 확률을 나타냄.
