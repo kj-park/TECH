@@ -8,9 +8,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="124.61101mm"
-   height="92.573311mm"
-   viewBox="0 0 124.61101 92.573311"
+   width="113.61101mm"
+   height="83.573311mm"
+   viewBox="0 0 113.61101 83.573311"
    version="1.1"
    id="svg2797"
    inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)"
@@ -89,9 +89,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="81.199671"
-     inkscape:cy="137.79881"
+     inkscape:zoom="1.187659"
+     inkscape:cx="325.90126"
+     inkscape:cy="230.26471"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -100,11 +100,11 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1270"
-     inkscape:window-height="1040"
-     inkscape:window-x="26"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0" />
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata2794">
     <rdf:RDF>
@@ -124,7 +124,7 @@
      transform="translate(-84.349254,-111.7074)">
     <g
        id="g1034"
-       transform="translate(307.77879,-109.42898)">
+       transform="translate(301.31825,-116.33507)">
       <image
          width="78.316666"
          height="76.993752"
