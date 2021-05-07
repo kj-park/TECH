@@ -130,7 +130,7 @@ https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/conce
 
 ## Assignments: Conditions
 
-![AAD-Conditional-Access-Configuration-Conditions](https://github.com/kj-park/Tech/blob/main/Microsoft365/Security/.media/AAD-Conditional-Access-Configuration-Conditions.png?raw=true)
+![conditional-access-policy-assignments-conditions](https://github.com/kj-park/Tech/blob/main/Microsoft365/Security/.media/conditional-access-policy-assignments-conditions.svg?raw=true)
 
 
 ### User Risk
@@ -152,6 +152,8 @@ https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/conce
 > **참고:** [What is risk](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/concept-identity-protection-risks#user-risk) 및 [How To: Configure and enable risk policies](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/howto-identity-protection-configure-risk-policies).
 
 ### Device Platforms
+
+![conditional-access-policy-assignments-conditions-device-platforms](https://github.com/kj-park/Tech/blob/main/Microsoft365/Security/.media/conditional-access-policy-assignments-conditions-device-platforms.svg?raw=true)
 
 ### Locations
 
