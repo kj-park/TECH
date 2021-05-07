@@ -157,11 +157,15 @@ https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/conce
 
 ### Locations
 
+![conditional-access-policy-assignments-conditions-locations](https://github.com/kj-park/Tech/blob/main/Microsoft365/Security/.media/conditional-access-policy-assignments-conditions-locations.svg?raw=true)
+
 ### Client Apps
+
+![conditional-access-policy-assignments-conditions-client-apps](https://github.com/kj-park/Tech/blob/main/Microsoft365/Security/.media/conditional-access-policy-assignments-conditions-client-apps.svg?raw=true)
 
 ### Device state (Preview)
 
-
+![conditional-access-policy-assignments-conditions-device-state](https://github.com/kj-park/Tech/blob/main/Microsoft365/Security/.media/conditional-access-policy-assignments-conditions-device-state.svg?raw=true)
 
 ---
 
