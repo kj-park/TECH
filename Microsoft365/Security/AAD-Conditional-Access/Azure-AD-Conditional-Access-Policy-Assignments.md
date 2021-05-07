@@ -163,6 +163,10 @@ https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/conce
 
 ![conditional-access-policy-management-named-locations](https://github.com/kj-park/Tech/blob/main/Microsoft365/Security/.media/conditional-access-policy-management-named-locations.svg?raw=true)
 
+#### Multi-Factor Authentication (MFA trusted IPs)
+
+![conditional-access-policy-management-named-locations-mfa-trusted](https://github.com/kj-park/Tech/blob/main/Microsoft365/Security/.media/conditional-access-policy-management-named-locations-mfa-trusted.svg?raw=true)
+
 ### Client Apps
 
 ![conditional-access-policy-assignments-conditions-client-apps](https://github.com/kj-park/Tech/blob/main/Microsoft365/Security/.media/conditional-access-policy-assignments-conditions-client-apps.svg?raw=true)
