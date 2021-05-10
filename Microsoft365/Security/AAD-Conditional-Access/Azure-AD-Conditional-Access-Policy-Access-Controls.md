@@ -142,6 +142,13 @@ User risk를 감지 하면 관리자는 user risk policy coditions를 사용 하
 
 ### Use app enforced restrictions
 
+Azure AD에서 선택한 클라우드 앱에 장치 정보를 전달 하도록 요구할 수 있습니다. 클라우드 앱이 규정 준수 또는 도메인 조인 디바이스에서 연결이 초기화되는지 여부를 알 수 있습니다.
+
+ SharePoint Online 및 Exchange Online만 지원합니다.
+
+- [Enabling limited access with SharePoint Online](https://docs.microsoft.com/en-us/sharepoint/control-access-from-unmanaged-devices)
+- [Enabling limited access with Exchange Online](https://aka.ms/owalimitedaccess)
+
 
 ### use Conditional Access App Control
 
