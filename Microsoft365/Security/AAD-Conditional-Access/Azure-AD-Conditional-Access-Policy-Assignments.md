@@ -81,7 +81,8 @@ https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/conce
     - `Client apps` and `Device state` conditions are not available
     - **Must:** `Devices to be Azure AD joined or Azure AD registered require Multi-Factor Authentication` to No
 
-
+> [!WARNING]
+> Register or join devices (preview) 옵션을 선택한 경우 Conditions의 Client apps 및 Device state (Preview) 설정을 할 수 없음.
 
 #### Register security information ([Combined security information registration](https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-registration-mfa-sspr-combined))
 
@@ -125,6 +126,9 @@ https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/conce
     Users can access manage mode by going to https://aka.ms/mysecurityinfo
 
     users can add methods, delete or change existing methods, change the default method, and more.
+
+> [!WARNING]
+> Conditions that require device registration are not available with "Register or join devices" user action.
 
 ---
 
