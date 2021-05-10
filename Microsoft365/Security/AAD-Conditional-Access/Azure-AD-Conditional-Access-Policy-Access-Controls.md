@@ -138,7 +138,17 @@ User risk를 감지 하면 관리자는 user risk policy coditions를 사용 하
 ## Access Controls: Session
 
 
-![conditional-access-policy-access-controls-session](https://github.com/kj-park/Tech/blob/main/Microsoft365/Security/.media/conditional-access-policy-access-controls-session.svg)
+![conditional-access-policy-access-controls-session](https://github.com/kj-park/Tech/blob/main/Microsoft365/Security/.media/conditional-access-policy-access-controls-session.svg?raw=true)
+
+### Use app enforced restrictions
+
+
+### use Conditional Access App Control
+
+### Sign-In Frequency
+
+
+### Persistent browser session
 
 
 
