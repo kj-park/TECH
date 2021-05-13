@@ -10,7 +10,7 @@ date: 2012.03.31
 
 - [Configure Azure AD Connect Sync](Hybrid/Configure-Azure-AD-Connect-Sync)
 
-- [Configure Exchange Hybrid](/Exchange/Configure-Exchange-Hybrid)
+- [Configure Exchange Hybrid](https://kj-park.github.io/Tech/Exchange/Configure-Exchange-Hybrid)
 
 - [Configure Microsoft 365 Groups with on-premises Exchange Hybrid](Configure-Microsoft-365-Groups-with-on-premises-Exchange-Hybrid)
 
