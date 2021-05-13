@@ -16,4 +16,6 @@ Sharing the Technology to everyone who want to know.
 
 - [Microsoft 365](Microsoft365/README)
 
+- [Azure Active Directory](Azure-AD/README)
+
 - [PowerShell](PowerShell/README)

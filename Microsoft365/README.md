@@ -6,10 +6,14 @@ date: 2012.03.31
 
 # Microsoft 365
 
-## Exchange Hybrid Configuration
+## Hybrid Configuration
+
+- [Configure Azure AD Connect Sync](Hybrid/Configure-Azure-AD-Connect-Sync)
+
+- [Configure Exchange Hybrid](/Exchange/Configure-Exchange-Hybrid)
 
 - [Configure Microsoft 365 Groups with on-premises Exchange Hybrid](Configure-Microsoft-365-Groups-with-on-premises-Exchange-Hybrid)
 
-## Azure Active Directory
+## Azure Active Directory Conditional Access
 
-- [Azure AD Conditional Access Overview](Security/AAD-Conditional-Access/Azure-AD-Conditional-Access-Overview)
+- [Azure AD Conditional Access Overview](Security/Conditional-Access/Azure-AD-Conditional-Access-Overview)
