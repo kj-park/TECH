@@ -156,21 +156,72 @@ Conditional Access App Control은 Reverse Proxy architecture를 사용하며 Azu
 
 특정 조건(who and what, where) 기반의 조직의 apps에 대하여 정책이 적용되면 사용자들은 [Microsoft Cloud App Security](https://docs.microsoft.com/en-us/cloud-app-security/what-is-cloud-app-security)로 라우팅되어 session 기반의 데이터 보호를 함.
 
+
+- **Prevent data exfiltration(유출).** 중요한 문서의 다운로드, 잘라내기, 복사, 인쇄를 차단
+- **Protect on download.** 중요한 문서의 다운로드를 차단하는 대신 문서에 레이블을 지정하고 Azure Information Protection으로 문서를 보호하도록 요구
+- **Prevent upload of unlabeled files.**사용자가 콘텐츠를 분류할 때까지 중요한 콘텐츠가 포함되고 레이블이 지정되지 않은 파일이 업로드되지 않도록 할 수 있음
+- **Monitor user sessions for compliance.** 위험 사용자가 앱에 로그인하면 모니터링되고 해당 작업이 세션 내에서 로깅
+- **Block access.** 몇 가지 위험 요소에 따라 특정 앱과 사용자의 액세스를 세부적으로 차단
+- **Block custom activities.** 일부 앱에는 Microsoft Teams, Slack 등의 앱에서 중요한 콘텐츠가 포함된 메시지를 보내는 경우와 같이 위험을 수반하는 고유한 시나리오가 있습니다. 이 종류의 시나리오에서는 메시지에서 중요한 콘텐츠를 검사하고 실시간으로 메시지를 차단할 수 있음
+
 ### Sign-In Frequency
 
+로그인 빈도는 리소스에 액세스하려고 할 때 사용자에게 다시 로그인하라는 메시지가 표시되는 기간을 정의
+
+로그인 빈도 설정은 표준에 따라 OAUTH2 또는 OIDC 프로토콜을 구현한 앱에서 적용됩니다. 다음 웹 애플리케이션을 포함하여 Windows, Mac, 모바일용 Microsoft 네이티브 앱은 대부분 이 설정을 준수합니다.
+
+- Word, Excel, PowerPoint Online
+- OneNote Online
+- Office.com
+- Microsoft 365 Admin portal
+- Exchange Online
+- SharePoint and OneDrive
+- Teams web client
+- Dynamics CRM Online
+- Azure portal
 
 ### Persistent browser session
 
-
+영구 브라우저 세션을 사용하면 사용자가 브라우저 창을 닫았다가 다시 연 후 로그인 상태를 유지할 수 있습니다.
 
 ---
 
 ## Report-Only Mode
 
+조직의 조건부 액세스 정책 배포와 관련된 문제 중 하나는 최종 사용자에게 미치는 영향을 파악하는 것입니다. 보고 전용 모드는 관리자가 정책을 환경에 사용하도록 설정하기 전에 조건부 액세스 정책의 영향을 평가할 수 있도록 하는 새 조건부 액세스 정책 상태입니다.
+
+- 로그인하는 동안 보고 전용 모드의 정책은 평가되지만 적용되지 않음
+- 결과는 로그인 로그 세부 정보에 대한 조건부 액세스 및 보고 전용 탭에 기록
+- Azure Monitor 구독이 있는 고객은 조건부 액세스 인사이트 통합 문서를 사용하여 조건부 액세스 정책의 영향을 모니터링할 수 있음
+
+> [!WARNING]
+> 규정 준수 디바이스를 필요로 하는 보고 전용 모드의 정책은 디바이스 규정 준수가 적용되지 않는 경우에도 정책 평가 중에 사용자에게 Mac, iOS, Android에서 디바이스 인증서를 선택하라는 메시지를 표시할 수 있습니다.
+
+### Policy Results
+
+지정된 로그인에 대해 보고 전용 모드의 정책을 평가하는 경우 가능한 결과값은 다음 네 가지입니다.
+
+| Policy Results                        | Description                                                                                                                                                                     |
+|---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Report-only: Success**              | 구성된 모든 정책 조건, 필요한 비대화형 권한 부여 컨트롤 및 세션 컨트롤이 충족되었습니다. 예를 들어 토큰에 이미 있는 MFA 클레임이 다단계 인증 요구 사항을 충족하거나 규정 준수 디바이스에서 디바이스 검사를 수행한 결과 규정 준수 디바이스 정책을 충족합니다. |
+| **Report-only: Failure**              | 구성된 모든 정책 조건이 충족되었지만 모든 필수 비대화형 권한 부여 컨트롤 또는 세션 컨트롤이 충족되지는 않았습니다. 차단 컨트롤이 구성된 사용자에게 정책이 적용되거나 디바이스가 규정 준수 디바이스 정책을 충족하지 못하는 경우를 예로 들 수 있습니다. |
+| **Report-only: User action required** | 구성된 모든 정책 조건이 충족되었지만 필요한 권한 부여 컨트롤 또는 세션 컨트롤을 충족하려면 사용자 작업이 필요합니다. 보고 전용 모드를 사용하는 경우 사용자에게 필요한 컨트롤을 충족하라는 메시지가 표시되지 않습니다. 예를 들면 사용자에게 다단계 인증 문제나 사용 약관과 관련된 메시지가 표시되지 않는 경우입니다. |
+| **Report-only: Not applied**          | 구성된 일부 정책 조건이 충족되지 않았습니다. 예를 들어 사용자가 정책에서 제외되었거나 정책이 신뢰할 수 있는 특정 명명된 위치에만 적용되는 경우입니다. |
+
+### Conditional Access Insights workbook
+
+Conditional Access Insights workbook은 조건부 액세스 쿼리를 시각화하고 지정된 시간 범위, 애플리케이션 집합 및 사용자에 대한 정책의 영향을 모니터링할 수 있습니다.
 
 ---
 
 ## Service Dependencies
+
+
+
+![aad-conditional-access-service-dependencies](https://github.com/kj-park/tech/blob/main/Azure-AD/.media/aad-conditional-access-service-dependencies.png?raw=true)
+![aad-conditional-access-service-dependencies](https://raw.githubusercontent.com/kj-park/Tech/main/Azure-AD/.media/aad-conditional-access-service-dependencies.png)
+
+
 
 ---
 
