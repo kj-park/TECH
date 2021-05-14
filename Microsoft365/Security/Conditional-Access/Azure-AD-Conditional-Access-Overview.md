@@ -75,8 +75,27 @@ Azure AD Premium P1 license.
 
 ### Common Conditional Access Policies
 
+#### [Security Defaults](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)
 
+#### [Emergency access accounts](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-policy-common#emergency-access-accounts)
 
+- Manage emergency access accounts in Azure AD
+- Create a resilient access control management strategy with Azure Active Directory
 
+#### [Typical policies deployed by organizations](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-policy-common#typical-policies-deployed-by-organizations)
+
+- Block legacy authentication*
+- Require MFA for administrators*
+- Require MFA for Azure management*
+- Require MFA for all users*
+
+#### [Additional policies](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-policy-common#additional-policies)
+
+- Sign-in risk-based Conditional Access (Requires Azure AD Premium P2)
+- User risk-based Conditional Access (Requires Azure AD Premium P2)
+- Require trusted location for MFA registration
+- Block access by location
+- Require compliant device
+- Block access except specific apps
 
 ---

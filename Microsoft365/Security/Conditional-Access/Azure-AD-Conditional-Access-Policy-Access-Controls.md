@@ -216,17 +216,56 @@ Conditional Access Insights workbook은 조건부 액세스 쿼리를 시각화�
 
 ## Service Dependencies
 
+### Policy enforcement
 
+서비스 종속성이 구성 된 경우 초기 바인딩 또는 런타임에 바인딩된 적용을 사용 하 여 정책을 적용할 수 있습니다.
+
+- **Early-bound policy enforcement** 은 사용자가 호출 하는 앱에 액세스 하기 전에 종속 서비스 정책을 충족 해야 함을 의미 합니다. 예를 들어 MS 팀에 로그인 하기 전에 사용자가 SharePoint 정책을 충족 해야 합니다.
+- **Late-bound policy enforcement** 은 사용자가 호출 앱에 로그인 한 후에 발생 합니다. 적용은 다운스트림 서비스용 토큰 인 앱 요청을 호출할 때로 지연 됩니다. 예제에는 Planner에 액세스 하는 MS 팀과 SharePoint 액세스 Office.com 포함 됩니다.
+
+아래 다이어그램은 MS 팀 서비스 종속성을 보여 줍니다. 흰색 화살표는 초기 바인딩 적용(Early-bound policy enforcement)을 나타냅니다. Planner의 파선 화살표는 런타임에 바인딩된 적용(Late-bound policy enforcement)을 나타냅니다.
 
 ![aad-conditional-access-service-dependencies](https://github.com/kj-park/tech/blob/main/Azure-AD/.media/aad-conditional-access-service-dependencies.png?raw=true)
-![aad-conditional-access-service-dependencies](https://raw.githubusercontent.com/kj-park/Tech/main/Azure-AD/.media/aad-conditional-access-service-dependencies.png)
 
+가능한 경우 관련 앱과 서비스 간에 공통 정책을 설정 해야 합니다. 일관 된 보안 상태를 유지 하면 최상의 사용자 환경을 제공 합니다.
 
+아래 표에는 클라이언트 앱이 충족 해야 하는 추가 서비스 종속성이 나열 되어 있습니다.
+
+| 클라이언트 앱    	| 다운스트림 서비스                  	| 적용            	|
+|------------------	|------------------------------------	|-----------------	|
+| Azure Data Lake  	| Microsoft Azure 관리 (포털 및 API) 	| 초기 바인딩     	|
+| Microsoft 교실   	| Exchange                           	| 초기 바인딩     	|
+|                  	| SharePoint                         	| 초기 바인딩     	|
+| Microsoft Teams  	| Exchange                           	| 초기 바인딩     	|
+|                  	| MS Planner                         	| 런타임에 바인딩 	|
+|                  	| Microsoft Stream                   	| 런타임에 바인딩 	|
+|                  	| SharePoint                         	| 초기 바인딩     	|
+|                  	| 비즈니스 온라인용 Skype            	| 초기 바인딩     	|
+| Office 포털      	| Exchange                           	| 런타임에 바인딩 	|
+|                  	| SharePoint                         	| 런타임에 바인딩 	|
+| Outlook 그룹     	| Exchange                           	| 초기 바인딩     	|
+|                  	| SharePoint                         	| 초기 바인딩     	|
+| PowerApps        	| Microsoft Azure 관리 (포털 및 API) 	| 초기 바인딩     	|
+|                  	| Windows Azure Active Directory     	| 초기 바인딩     	|
+| Project          	| Dynamics CRM                       	| 초기 바인딩     	|
+| 비즈니스용 Skype 	| Exchange                           	| 초기 바인딩     	|
+| Visual Studio    	| Microsoft Azure 관리 (포털 및 API) 	| 초기 바인딩     	|
+| Microsoft Forms  	| Exchange                           	| 초기 바인딩     	|
+|                  	| SharePoint                         	| 초기 바인딩     	|
+| Microsoft To-Do  	| Exchange                           	| 초기 바인딩     	|
 
 ---
 
 ## What if Tool
 
+**Conditional Access What If policy tool** 를 사용 하 여 사용자 환경에 대 한 조건부 액세스 정책의 영향을 이해할 수 있습니다. 여러 번의 로그인을 수동으로 수행하여 정책을 시험 사용해보는 대신, 이 도구를 사용하여 사용자의 시뮬레이트된 로그인을 평가할 수 있습니다.
+
+![aad-conditional-access-what-If-Tool](https://github.com/kj-park/tech/blob/main/Azure-AD/.media/aad-conditional-access-what-If-Tool.svg?raw=true)
+
 ---
 
-## VPN Connectivity
+## Continuous access evaluation
+
+![AAD-Continuous-access-evaluation](https://github.com/kj-park/tech/blob/main/Azure-AD/.media/AAD-Continuous-access-evaluation.png?raw=true)
+
+---
