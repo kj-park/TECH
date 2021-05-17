@@ -13,7 +13,7 @@ date: 2012.05.17
 
 - Policy Name: Block legacy authentication
 - State: Report-only
-- 
+
 ### Assignments
 
 - **Users and Groups**
