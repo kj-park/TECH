@@ -84,10 +84,10 @@ Azure AD Premium P1 license.
 
 #### [Typical policies deployed by organizations](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-policy-common#typical-policies-deployed-by-organizations)
 
-- Block legacy authentication*
-- Require MFA for administrators*
-- Require MFA for Azure management*
-- Require MFA for all users*
+- [Block legacy authentication](Common-Policies/Block-Legacy-Authentication.md)
+- [Require MFA for administrators](Common-Policies/Require-MFA-for-Administrators.md)
+- [Require MFA for Azure management](Common-Policies/Require-MFA-for-Azure-Management.md)
+- [Require MFA for all users](Common-Policies/Require-MFA-for-All-Users.md)
 
 #### [Additional policies](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-policy-common#additional-policies)
 

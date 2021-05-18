@@ -60,23 +60,23 @@ date: 2012.05.17
             - [ ] Device Hybrid Azure AD joined
             - [ ] Device marked as compliant
 
-- **Access controls**
-    - Grant
-        - [X] Black access
-        - [ ] Grant access
-            - [ ] Require multi-factor authentication
-            - [ ] Require device to be marked as compliant
-            - [ ] Require Hybrid Azure AD joined device
-            - [ ] Require approved client app
-            - [ ] Require app protection policy
-            - [ ] Require password change
+### Access controls
+- **Grant**
+    - [X] Black access
+    - [ ] Grant access
+        - [ ] Require multi-factor authentication
+        - [ ] Require device to be marked as compliant
+        - [ ] Require Hybrid Azure AD joined device
+        - [ ] Require approved client app
+        - [ ] Require app protection policy
+        - [ ] Require password change
 
-            For Multi controls
+        For Multi controls
 
-            - [ ] Require all the selected controls
-            - [ ] Require one of the selected controls
-    - Session: 0 Controls selected
-        - [ ] Use app enforced restrictions
-        - [ ] Use Conditional Access App Control
-        - [ ] Sign-in frequency
-        - [ ] Persistent browser session
+        - [ ] Require all the selected controls
+        - [ ] Require one of the selected controls
+- **Session**: 0 Controls selected
+    - [ ] Use app enforced restrictions
+    - [ ] Use Conditional Access App Control
+    - [ ] Sign-in frequency
+    - [ ] Persistent browser session
