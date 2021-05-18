@@ -1,0 +1,10 @@
+Block-Legacy-Authentication
+Require-MFA-for-Administrators
+Require-MFA-for-Azure-Management
+Require-MFA-for-All-Users
+Sign-in-risk-based-Conditional-Access
+User-risk-based-Conditional-Access
+Securing-security-info-registration
+Block-access-by-location
+Require-compliant-device
+Block-access-except-specific-apps

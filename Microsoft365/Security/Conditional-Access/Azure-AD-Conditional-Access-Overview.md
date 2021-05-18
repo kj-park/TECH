@@ -91,11 +91,11 @@ Azure AD Premium P1 license.
 
 #### [Additional policies](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-policy-common#additional-policies)
 
-- Sign-in risk-based Conditional Access (Requires Azure AD Premium P2)
-- User risk-based Conditional Access (Requires Azure AD Premium P2)
-- Require trusted location for MFA registration
-- Block access by location
-- Require compliant device
-- Block access except specific apps
+- [Sign-in risk-based Conditional Access (Requires Azure AD Premium P2)](Common-Policies/Sign-in-risk-based-Conditional-Access)
+- [User risk-based Conditional Access (Requires Azure AD Premium P2)](Common-Policies/User-risk-based-Conditional-Access)
+- [Securing security info registration (Require trusted location for MFA registration)](Common-Policies/Securing-security-info-registration)
+- [Block access by location](Common-Policies/Block-access-by-location)
+- [Require compliant device](Common-Policies/Require-compliant-device)
+- [Block access except specific apps](Common-Policies/Block-access-except-specific-apps)
 
 ---
