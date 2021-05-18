@@ -61,6 +61,7 @@ date: 2012.05.17
             - [ ] Device marked as compliant
 
 ### Access controls
+
 - **Grant**
     - [X] Black access
     - [ ] Grant access
