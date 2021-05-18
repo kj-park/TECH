@@ -17,12 +17,29 @@ date: 2012.05.17
 ### Assignments
 
 - **Users and Groups**
-    - Include: All users
+    - Include
+        - [ ] None
+        - [X] All users
+        - [ ] Select users and groups
+            - [ ] All guest and external users
+            - [ ] Directory roles
+            - [ ] Users and groups
     - Exclude: Global Administrators Role user
+        - [ ] All guest and external users
+        - [X] Directory roles: Global administrator
+        - [ ] Users and groups
 
 - **Cloud apps or actions**
-    - Include: All cloud apps
-    - Exclude: None
+    - [X] Cloud apps
+        - Include
+            - [ ] None
+            - [X] All cloud apps
+            - [ ] Select apps
+        - Exclude:
+            - [ ] Select excluded cloud apps
+    - [ ] User actions
+        - [ ] Register security information
+        - [ ] Register or join devices
 
 - **Conditions**
     - User risk: Not configured
@@ -37,8 +54,29 @@ date: 2012.05.17
             - [X] Exchange ActiveSync clients
             - [X] Other clients
     - Device state (Preview): Not configured
+        - Include
+            - [ ] All device state
+        - Exclude
+            - [ ] Device Hybrid Azure AD joined
+            - [ ] Device marked as compliant
 
 - **Access controls**
     - Grant
         - [X] Black access
+        - [ ] Grant access
+            - [ ] Require multi-factor authentication
+            - [ ] Require device to be marked as compliant
+            - [ ] Require Hybrid Azure AD joined device
+            - [ ] Require approved client app
+            - [ ] Require app protection policy
+            - [ ] Require password change
+
+            For Multi controls
+
+            - [ ] Require all the selected controls
+            - [ ] Require one of the selected controls
     - Session: 0 Controls selected
+        - [ ] Use app enforced restrictions
+        - [ ] Use Conditional Access App Control
+        - [ ] Sign-in frequency
+        - [ ] Persistent browser session
