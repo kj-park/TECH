@@ -64,7 +64,30 @@ Search usage reports enable you to gain more understanding of how search is func
 
 ### Answers
 
+#### Acronyms
 
+- Admin-Curated Acronyms
+
+    ![microsoft-search-admin-curated-acronyms](https://github.com/kj-park/tech/blob/main/Microsoft365/Search/.media/microsoft-search-admin-curated-acronyms.png?raw=true)
+
+
+- System-curated acronyms
+
+    - Users' emails
+    - Documents in SharePoint, Microsoft OneDrive, and Microsoft OneNote
+    - Public documents within the organization that users have access to in SharePoint, OneDrive, or OneNote
+
+#### Bookmarks
+
+Bookmarks help people quickly find important sites and tools with just a search. Each bookmark includes a title, URL, a set of user-friendly keywords to trigger the bookmark, and a category.
+
+[Manage bookmarks](https://docs.microsoft.com/en-us/microsoftsearch/manage-bookmarks)
+
+
+
+#### Locations
+
+![microsoft-search-answers-locations](https://github.com/kj-park/tech/blob/main/Microsoft365/Search/.media/microsoft-search-answers-locations.png?raw=true)
 
 
 ### Data Sources
