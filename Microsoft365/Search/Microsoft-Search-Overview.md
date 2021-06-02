@@ -83,6 +83,8 @@ Bookmarks help people quickly find important sites and tools with just a search.
 
 [Manage bookmarks](https://docs.microsoft.com/en-us/microsoftsearch/manage-bookmarks)
 
+#### Floor plans
+
 
 
 #### Locations
