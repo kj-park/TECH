@@ -16,7 +16,7 @@ function Make-Contents {
         if ( Test-Path -LiteralPath $Path ) {
             $contentItems = Get-ChildItem -Path $Path -Recurse:$false | Where-Object -FilterScript { $PSItem.Extension -in $contentExts }
             if ( $contentItems.Count -ne 0 ) {
-                $mdFile = New-Item -Path $Path -Name $Output -ItemType File -Value $MarkdownString -Force
+                $mdFile = New-Item -Path $Path.Replace('\.media','') -Name $Output -ItemType File -Value $MarkdownString -Force
                 foreach ( $item in $contentItems ) {
                     $Url = $baseUrl.Replace('<RelativeUrl>',($item.FullName.Replace($RootPath,'').Replace('\','/')))
                     Add-Content -LiteralPath ($mdFile.FullName) -Value "- $($item.BaseName)`n`n`t![$($item.BaseName)]($Url)`n`n[Top](#)`n`n---`n"
@@ -27,4 +27,7 @@ function Make-Contents {
     end {}
 }
 
-Make-Contents -Path 'C:\REPOSITORY\GITHUB\Tech\Microsoft365\Security\.media'
+$imageFolders = Get-ChildItem -Path 'C:\REPOSITORY\GITHUB\Tech' -Recurse -Filter ".media"
+foreach ( $item in $imageFolders ) { 
+    Make-Contents -Path ($item.FullName)
+}
