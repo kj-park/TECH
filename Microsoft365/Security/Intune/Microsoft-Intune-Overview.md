@@ -6,7 +6,62 @@ date: 2012.05.28
 
 # Microsoft Intune Overview
 
-Microsoft Intune은 Mobile Device Management (MDM) 과 Mobile Application Management(MAM)에 초점을 둔 cloud 기반 서비스.
+Microsoft Intune은 Mobile Device Management (MDM) 과 Mobile Application Management(MAM)에 초점을 둔 cloud 기반 서비스입니다. 휴대폰, 태블릿, 랩톱 등 조직의 디바이스를 사용하는 방법을 제어할 수 있습니다. 애플리케이션을 제어하는 특정 정책을 구성할 수도 있습니다. 
+
+![intune-architecture](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/intune-architecture.svg?raw=true)
+
+Intune을 사용하면 다음과 같은 작업을 수행할 수 있습니다:
+
+- Intune을 사용하는 100% 클라우드를 선택하거나 Configuration Manager 및 Intune을 사용하는 공동 관리를 선택합니다.
+- 개인 또는 조직이 소유한 디바이스에서 데이터 및 네트워크에 액세스할 수 있도록 규칙을 설정하고 설정을 구성합니다.
+- 디바이스(온-프레미스 및 모바일)에 앱을 배포하고 인증합니다.
+- 사용자가 정보에 액세스하고 공유하는 방법을 제어하여 회사 정보를 보호합니다.
+- 디바이스와 앱이 보안 요구 사항을 준수하는지 확인합니다.
+
+## Manage devices
+
+Intune에서 디바이스를 등록하고 관리하는 경우 관리자는 다음과 같은 작업을 수행할 수 있습니다.
+
+- 등록된 디바이스를 확인하고 조직 리소스에 액세스하는 디바이스의 인벤토리를 가져옵니다.
+- 보안 및 상태 표준을 충족하도록 디바이스를 구성합니다. 예를 들어 탈옥 디바이스를 차단하려는 경우가 있습니다.
+- 사용자가 Wi-Fi 네트워크에 쉽게 액세스하거나 VPN을 사용하여 네트워크에 연결할 수 있도록 디바이스에 인증서를 푸시합니다.
+- 사용자 및 디바이스에 대한 규정 준수 보고서를 확인합니다.
+- 디바이스를 분실했거나, 도난당했거나, 더 이상 사용하지 않는 경우 조직 데이터를 제거합니다.
+
+---
+
+### Manage apps
+
+앱이 Intune에서 관리되는 경우 관리자는 다음과 같은 작업을 수행할 수 있습니다.
+
+- 특정 그룹의 사용자, 특정 그룹의 디바이스 등을 포함하여 사용자 그룹 및 디바이스에 모바일 앱을 추가하고 할당합니다.
+- 특정 설정을 사용하여 시작 또는 실행하도록 앱을 구성하고 디바이스에 이미 있는 기존 앱을 업데이트합니다.
+- 사용되는 앱에 대한 보고서를 확인하고 사용 현황을 추적합니다.
+- 앱에서 조직 데이터만 제거하여 선택적 초기화를 수행합니다.
+
+Intune이 모바일 앱 보안을 제공하는 한 가지 방법은 앱 보호 정책 을 통해서입니다.
+
+- Azure AD ID를 사용하여 조직 데이터와 개인 데이터를 격리합니다. 따라서 개인 정보는 조직의 IT 인식에서 격리됩니다. 조직 자격 증명을 사용하여 액세스하는 데이터에는 추가 보안 보호가 제공됩니다.
+- 복사 및 붙여넣기, 저장, 보기와 같이 사용자가 수행할 수 있는 작업을 제한하여 개인 디바이스에 대한 액세스를 보호합니다.
+- Intune에 등록되었거나, 다른 MDM 서비스에 등록되어 있거나, MDM 서비스에 등록되지 않은 디바이스에서 만들고 배포할 수 있습니다. 등록된 디바이스에서 앱 보호 정책은 보호 계층을 추가할 수 있습니다.
+
+---
+
+## Compliance and conditional access
+
+Intune은 Azure AD와 통합되어 광범위한 액세스 제어 시나리오를 사용합니다. 예를 들어 전자 메일 또는 SharePoint와 같은 네트워크 리소스에 액세스하려면 모바일 디바이스가 Intune에 정의된 조직 표준을 준수해야 합니다. 마찬가지로 특정 모바일 앱 집합에만 사용할 수 있도록 서비스를 잠글 수 있습니다. 예를 들어 Exchange Online은 Outlook 또는 Outlook Mobile에서만 액세스할 수 있도록 제한할 수 있습니다.
+
+Intune에서 조건부 액세스를 사용하는 일반적인 방법
+
+- Device-based Conditional Access
+- Applications available in Conditional Access for controlling Microsoft Intune
+- Conditional access based on network access control
+- Conditional access based on device risk
+- Conditional access for Windows PCs
+- App-based conditional access
+- Intune Conditional access for Exchange on-premises
+
+---
 
 ## What is a device Identities?
 
@@ -95,6 +150,7 @@ Windows 10에서는 Azure Active Directory(Azure AD) 사용자가 사용자 설�
 
 ## Device Type and Features on Azure AD registered or joined
 
+![decision-tree-for-devices-integration](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/decision-tree-for-devices-integration.png?raw=true)
 
 | 구분 | AAD Registered | AAD Joined | Hybrid AAD Joined |
 |--|--|--|--|
@@ -106,6 +162,7 @@ Windows 10에서는 Azure Active Directory(Azure AD) 사용자가 사용자 설�
 | 디바이스 관리 | <ul><li>모바일 디바이스 관리(예: Microsoft Intune)</li><li>모바일 애플리케이션 관리</li></ul> | <ul><li>모바일 디바이스 관리(예: Microsoft Intune)</li><li>Microsoft Intune 및 Microsoft Endpoint Configuration Manager를 사용하여 공동 관리</li></ul> | <ul><li>그룹 정책</li><li>Microsoft Intune을 사용하여 Configuration Manager 독립 실행 또는 공동 관리</li></ul> |
 | 주요 기능 | <ul><li>클라우드 리소스에 대한 SSO</li><li>Intune에 등록된 경우 조건부 액세스</li><li>앱 보호 정책을 통한 조건부 액세스</li><li>Microsoft Authenticator 앱으로 휴대폰 로그인을 사용하도록 설정</li></ul> | <ul><li>클라우드 및 온-프레미스 리소스 모두에 대한 SSO</li><li>MDM 등록 및 MDM 규정 준수 평가를 통한 조건부 액세스</li><li>잠금 화면에서 셀프 서비스 암호 재설정 및 Windows Hello PIN 재설정</li><li>여러 디바이스에서 Enterprise State Roaming</li></ul> | <ul><li>클라우드 및 온-프레미스 리소스 모두에 대한 SSO</li><li>공동 관리되는 경우 도메인 조인 또는 Intune을 통한 조건부 액세스</li><li>잠금 화면에서 셀프 서비스 암호 재설정 및 Windows Hello PIN 재설정</li><li>여러 디바이스에서 Enterprise State Roaming</li></ul> |
 | Device Architecture | ![azure-ad-registered-device](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/azure-ad-registered-device.png?raw=true) | ![azure-ad-joined-device](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/azure-ad-joined-device.png?raw=true) | ![azure-ad-hybrid-joined-device](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/azure-ad-hybrid-joined-device.png?raw=true) |
+
 
 ### Scenario for AAD Registered
 
@@ -146,3 +203,5 @@ Azure AD 가입 디바이스의 목표는 단순화하는 것입니다.
 - Windows 10 외에 하위 수준 Windows 7과 8.1 디바이스를 지원해야 합니다.
 
 ---
+
+
