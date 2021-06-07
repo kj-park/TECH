@@ -91,7 +91,7 @@ Windows 10에서는 Azure Active Directory(Azure AD) 사용자가 사용자 설�
 >
 > **[Azure Services by Regions](https://azure.microsoft.com/regions/#services)** 페이지에서 확인
 
-
+---
 
 ## Device Type and Features on Azure AD registered or joined
 
