@@ -29,6 +29,8 @@ Azure AD Multi-Factor Authentication 인증을 필요로 함. ([Windows Hello fo
 Microsoft Intune의 Compliance requirements 를 만족해야 함. Device는 Azure AD에 registered되어야 함.
 
 > [!NOTE]
+
+>
 > ##### Device Options in Azure AD
 >
 > - Azure AD Registered
@@ -135,8 +137,8 @@ User risk를 감지 하면 관리자는 user risk policy conditions를 사용 �
 - 이 정책은 user and group assignment 과 cloud app assignment ( to all), user risk 조건(conditions)에만 설정할 수 있습니다.
 
 ---
-## Access Controls: Session
 
+## Access Controls: Session
 
 ![conditional-access-policy-access-controls-session](https://github.com/kj-park/Tech/blob/main/Microsoft365/Security/.media/conditional-access-policy-access-controls-session.svg?raw=true)
 
@@ -149,13 +151,11 @@ Azure AD에서 선택한 클라우드 앱에 장치 정보를 전달 하도록 �
 - [Enabling limited access with SharePoint Online](https://docs.microsoft.com/en-us/sharepoint/control-access-from-unmanaged-devices)
 - [Enabling limited access with Exchange Online](https://aka.ms/owalimitedaccess)
 
-
 ### use Conditional Access App Control
 
 Conditional Access App Control은 Reverse Proxy architecture를 사용하며 Azure AD Conditional Access와 통합되어 있음.
 
 특정 조건(who and what, where) 기반의 조직의 apps에 대하여 정책이 적용되면 사용자들은 [Microsoft Cloud App Security](https://docs.microsoft.com/en-us/cloud-app-security/what-is-cloud-app-security)로 라우팅되어 session 기반의 데이터 보호를 함.
-
 
 - **Prevent data exfiltration(유출).** 중요한 문서의 다운로드, 잘라내기, 복사, 인쇄를 차단
 - **Protect on download.** 중요한 문서의 다운로드를 차단하는 대신 문서에 레이블을 지정하고 Azure Information Protection으로 문서를 보호하도록 요구
