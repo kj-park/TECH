@@ -1,5 +1,5 @@
 
-function Make-Contents {
+function Make-ImageContents {
     param (
         [String]$Path,
         [String]$Output = 'images.md'
@@ -29,5 +29,7 @@ function Make-Contents {
 
 $imageFolders = Get-ChildItem -Path 'C:\REPOSITORY\GITHUB\Tech' -Recurse -Filter ".media"
 foreach ( $item in $imageFolders ) { 
-    Make-Contents -Path ($item.FullName)
+    Make-ImageContents -Path ($item.FullName)
 }
+
+Make-ImageContents -Path 'C:\REPOSITORY\GITHUB\Tech\Microsoft365\Security\.media'

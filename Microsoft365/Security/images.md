@@ -105,6 +105,30 @@
 
 ---
 
+- azure-ad-hybrid-joined-device
+
+	![azure-ad-hybrid-joined-device](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/azure-ad-hybrid-joined-device.png?raw=true)
+
+[Top](#)
+
+---
+
+- azure-ad-joined-device
+
+	![azure-ad-joined-device](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/azure-ad-joined-device.png?raw=true)
+
+[Top](#)
+
+---
+
+- azure-ad-registered-device
+
+	![azure-ad-registered-device](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/azure-ad-registered-device.png?raw=true)
+
+[Top](#)
+
+---
+
 - combined-security-info-flow-chart
 
 	![combined-security-info-flow-chart](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/combined-security-info-flow-chart.png?raw=true)
@@ -217,6 +241,14 @@
 
 ---
 
+- decision-tree-for-devices-integration
+
+	![decision-tree-for-devices-integration](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/decision-tree-for-devices-integration.png?raw=true)
+
+[Top](#)
+
+---
+
 - dynamic-membership-rules-match
 
 	![dynamic-membership-rules-match](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/dynamic-membership-rules-match.png?raw=true)
@@ -236,6 +268,102 @@
 - identity-protection-user-risk-policy
 
 	![identity-protection-user-risk-policy](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/identity-protection-user-risk-policy.svg?raw=true)
+
+[Top](#)
+
+---
+
+- intune-architecture
+
+	![intune-architecture](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/intune-architecture.svg?raw=true)
+
+[Top](#)
+
+---
+
+- intune-enrollment-for-android-001
+
+	![intune-enrollment-for-android-001](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/intune-enrollment-for-android-001.png?raw=true)
+
+[Top](#)
+
+---
+
+- intune-enrollment-for-android-002
+
+	![intune-enrollment-for-android-002](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/intune-enrollment-for-android-002.png?raw=true)
+
+[Top](#)
+
+---
+
+- intune-enrollment-for-android-003
+
+	![intune-enrollment-for-android-003](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/intune-enrollment-for-android-003.png?raw=true)
+
+[Top](#)
+
+---
+
+- intune-enrollment-for-android-004
+
+	![intune-enrollment-for-android-004](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/intune-enrollment-for-android-004.png?raw=true)
+
+[Top](#)
+
+---
+
+- intune-enrollment-for-android-005
+
+	![intune-enrollment-for-android-005](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/intune-enrollment-for-android-005.png?raw=true)
+
+[Top](#)
+
+---
+
+- intune-enrollment-for-android-006
+
+	![intune-enrollment-for-android-006](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/intune-enrollment-for-android-006.png?raw=true)
+
+[Top](#)
+
+---
+
+- intune-enrollment-for-android-007
+
+	![intune-enrollment-for-android-007](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/intune-enrollment-for-android-007.png?raw=true)
+
+[Top](#)
+
+---
+
+- intune-enrollment-for-android-008
+
+	![intune-enrollment-for-android-008](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/intune-enrollment-for-android-008.png?raw=true)
+
+[Top](#)
+
+---
+
+- intune-enrollment-for-ios-001
+
+	![intune-enrollment-for-ios-001](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/intune-enrollment-for-ios-001.png?raw=true)
+
+[Top](#)
+
+---
+
+- intune-enrollment-for-ios-002
+
+	![intune-enrollment-for-ios-002](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/intune-enrollment-for-ios-002.png?raw=true)
+
+[Top](#)
+
+---
+
+- intune-enrollment-for-ios-003
+
+	![intune-enrollment-for-ios-003](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/intune-enrollment-for-ios-003.png?raw=true)
 
 [Top](#)
 
