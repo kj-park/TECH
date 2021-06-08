@@ -1,7 +1,7 @@
 ---
 title: Create a Domain Design
 filename: ActiveDirectory\Designing-Active-Directory-Logical-Structure\Create-a-Domain-Design.md
-date: 2021.04.05
+ms.date: 2021.04.05
 ---
 
 # Create a Domain Design

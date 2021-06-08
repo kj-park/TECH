@@ -1,7 +1,7 @@
 ---
 title: Accepted domains and Email Address Policies in Exchange Server
 filename: Exchange\Conceptual\Accepted-domains-and-Email-Address-Policies-in-Exchange-Server.md
-date: 2012.03.30
+ms.date: 2012.03.30
 ---
 
 # Accepted domains and Email Address Policies in Exchange Server

@@ -1,7 +1,7 @@
 ---
 title: Conditional Access: Block access by location
 filename: Microsoft365\Security\Conditional-Access\Common-Policies\Block-access-by-location.md
-date: 2012.05.18
+ms.date: 2012.05.18
 ---
 
 #

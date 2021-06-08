@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365
 filename: Microsoft365\README.md
-date: 2012.03.31
+ms.date: 2012.03.31
 ---
 
 # Microsoft 365

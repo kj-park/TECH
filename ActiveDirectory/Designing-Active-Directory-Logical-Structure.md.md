@@ -1,7 +1,7 @@
 ---
 title: Designing Active Directory Logical Structure
 filename: ActiveDirectory\Designing-Active-Directory-Logical-Structure.md
-date: 2021.04.05
+ms.date: 2021.04.05
 ---
 
 # Designing Active Directory Logical Structure

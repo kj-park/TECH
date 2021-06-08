@@ -1,7 +1,7 @@
 ---
 title: Understanding the Transport Pipeline
 filename: Exchange\Conceptual\Understanding-the-Transport-pipeline.md
-date: 2012.04.01
+ms.date: 2012.04.01
 ---
 
 # Understanding the Transport Pipeline

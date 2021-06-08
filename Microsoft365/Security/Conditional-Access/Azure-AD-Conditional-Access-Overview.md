@@ -1,7 +1,7 @@
 ---
 title: Azure AD Conditional Access Overview
 filename: Microsoft365\Security\Azure-AD-Conditional-Access-Overview.md
-date: 2012.05.04
+ms.date: 2012.05.04
 ---
 
 # Azure AD Conditional Access Overview

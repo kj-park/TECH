@@ -1,7 +1,7 @@
 ---
 title: Conditional Access: Require MFA for Azure management
 filename: Microsoft365\Security\Conditional-Access\Common-Policies\Require-MFA-for-Azure-Management.md
-date: 2012.05.18
+ms.date: 2012.05.18
 ---
 
 # Conditional Access: Require MFA for Azure management

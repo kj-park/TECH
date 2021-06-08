@@ -1,7 +1,7 @@
 ---
 title: How to use Sender Policy Framework (SPF) to prevent spoofing
 filename: Exchange\Conceptual\Sender-Policy-Framework.md
-date: 2012.03.30
+ms.date: 2012.03.30
 ---
 
 # How to use Sender Policy Framework (SPF) to prevent spoofing

@@ -1,7 +1,7 @@
 ---
 title: Azure AD Conditional Access Policy Access Controls
 filename: Microsoft365\Security\Azure-AD-Conditional-Access-Policy-Access-Controls.md
-date: 2012.05.10
+ms.date: 2012.05.10
 ---
 
 # Azure AD Conditional Access Policy Access Controls

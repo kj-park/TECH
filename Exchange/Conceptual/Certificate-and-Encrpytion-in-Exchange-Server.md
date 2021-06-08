@@ -1,7 +1,7 @@
 ---
 title: Digital certificates and encryption in Exchange Server
 filename: Exchange\Conceptual\Certificate-and-Encrpytion-in-Exchange-Server.md
-date: 2012.03.30
+ms.date: 2012.03.30
 ---
 
 # Digital certificates and encryption in Exchange Server

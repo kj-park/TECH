@@ -1,7 +1,7 @@
 ---
 title: Azure AD Conditional Access Policy Assignments
 filename: Microsoft365\Security\Azure-AD-Conditional-Access-Policy-Assignments.md
-date: 2012.05.06
+ms.date: 2012.05.06
 ---
 
 # Azure AD Conditional Access Policy Assignments

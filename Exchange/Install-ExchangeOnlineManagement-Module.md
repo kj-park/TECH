@@ -1,7 +1,7 @@
 ---
 title: Install ExchangeOnlineManagement Module
 filename: Exchange\Install-ExchangeOnlineManagement-Module.md
-date: 2012.04.29
+ms.date: 2012.04.29
 ---
 
 # Install ExchangeOnlineManagement Module

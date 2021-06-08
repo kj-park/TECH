@@ -1,7 +1,7 @@
 ---
 title: Conditional Access: Require compliant device
 filename: Microsoft365\Security\Conditional-Access\Common-Policies\Require-compliant-device.md
-date: 2012.05.18
+ms.date: 2012.05.18
 ---
 
 # 

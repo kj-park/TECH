@@ -1,7 +1,7 @@
 ---
 title: Maintenance or Update Exchange DAG members
 filename: Exchange\Maintenance-or-Update-DAG-Members.md
-date: 2012.03.30
+ms.date: 2012.03.30
 ---
 
 # Maintenance or Update Exchange DAG members

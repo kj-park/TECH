@@ -1,7 +1,7 @@
 ---
 title: Conditional Access: Block access except specific apps
 filename: Microsoft365\Security\Conditional-Access\Common-Policies\Block-access-except-specific-apps.md
-date: 2012.05.18
+ms.date: 2012.05.18
 ---
 
 #

@@ -1,7 +1,7 @@
 ---
 title: Azure Active Directory Connect Sync Accounts
 filename: Microsoft365\Hybrid\AAD-Connect-Sync-Accounts.md
-date: 2012.04.29
+ms.date: 2012.04.29
 ---
 
 # Azure Active Directory Connect Accounts

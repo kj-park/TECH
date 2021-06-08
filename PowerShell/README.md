@@ -1,7 +1,7 @@
 ---
 title: PowerShell Scripting
 filename: PowerShell\README.md
-date: 2021.04.05
+ms.date: 2021.04.05
 keywords:
     - PowerShell
     - PowerShell Script

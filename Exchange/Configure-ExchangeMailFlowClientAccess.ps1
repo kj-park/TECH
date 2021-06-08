@@ -2,7 +2,7 @@
 title: Configure mail flow and client access for Exchange Server
 filename: Exchange\Configure-ExchangeMailFlowClientAccess.ps1
 permalink: /Tech/Exchange/Configure-ExchangeMailFlowClientAccess.ps1
-date: 2012.03.30
+ms.date: 2012.03.30
 #>
 
 #region Connect Exchange Remote Management Shell

@@ -1,7 +1,7 @@
 ---
 title: Technical Readiness
 filename: README.md
-date: 2021.03.30
+ms.date: 2021.03.30
 ---
 
 # TECH

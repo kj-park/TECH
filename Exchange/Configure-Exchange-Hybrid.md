@@ -1,7 +1,7 @@
 ---
 title: Configure Exchange Hybrid
 filename: Exchange\Configure-Exchange-Hybrid.md
-date: 2012.04.29
+ms.date: 2012.04.29
 ---
 
 # Configure Exchange Hybrid

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Intune Overview
 filename: Microsoft365\Security\Intune\Microsoft-Intune-Overview.md
-date: 2012.05.28
+ms.date: 2012.05.28
 ---
 
 # Microsoft Intune Overview

@@ -1,7 +1,7 @@
 ---
 title: Conditional Access: User risk-based Conditional Access (Requires Azure AD Premium P2)
 filename: Microsoft365\Security\Conditional-Access\Common-Policies\User-risk-based-Conditional-Access.md
-date: 2012.05.18
+ms.date: 2012.05.18
 ---
 
 #

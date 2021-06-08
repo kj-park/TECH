@@ -1,7 +1,7 @@
 ---
 title: Deployment Exchange 2013
 filename: Exchange\2013\Deployment-Exchange-2013.md
-date: 2012.03.30
+ms.date: 2012.03.30
 ---
 
 # Deployment Exchange 2013

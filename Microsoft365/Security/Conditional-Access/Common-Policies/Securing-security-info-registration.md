@@ -1,7 +1,7 @@
 ---
 title: Conditional Access: Securing security info registration (Require trusted location for MFA registration)
 filename: Microsoft365\Security\Conditional-Access\Common-Policies\Securing-security-info-registration.md
-date: 2012.05.18
+ms.date: 2012.05.18
 ---
 
 #

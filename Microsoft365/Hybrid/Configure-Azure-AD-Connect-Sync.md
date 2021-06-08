@@ -1,7 +1,7 @@
 ---
 title: Configure Azure AD Connect Sync
 filename: Microsoft365\Hybrid\Configure-Azure-AD-Connect-Sync.md
-date: 2012.04.29
+ms.date: 2012.04.29
 ---
 
 # Configure Azure AD Connect Sync

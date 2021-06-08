@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Configure the jekyll layout
-date: 2021.03.31
+ms.date: 2021.03.31
 ---
 
 # Configure the jekyll layout

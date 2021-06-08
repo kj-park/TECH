@@ -1,7 +1,7 @@
 ---
 title: Conditional Access: Block legacy authentication
 filename: Microsoft365\Security\Conditional-Access\Common-Policies\Block-Legacy-Authentication.md
-date: 2012.05.17
+ms.date: 2012.05.17
 ---
 
 # Conditional Access: Block legacy authentication
