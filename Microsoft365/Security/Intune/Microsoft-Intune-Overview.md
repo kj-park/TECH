@@ -6,7 +6,7 @@ ms.date: 2012.05.28
 
 # Microsoft Intune Overview
 
-Microsoft Intune은 Mobile Device Management (MDM) 과 Mobile Application Management(MAM)에 초점을 둔 cloud 기반 서비스입니다. 휴대폰, 태블릿, 랩톱 등 조직의 디바이스를 사용하는 방법을 제어할 수 있습니다. 애플리케이션을 제어하는 특정 정책을 구성할 수도 있습니다. 
+Microsoft Intune은 Mobile Device Management (MDM) 과 Mobile Application Management(MAM)에 초점을 둔 cloud 기반 서비스입니다. 휴대폰, 태블릿, 랩톱 등 조직의 디바이스를 사용하는 방법을 제어할 수 있습니다. 애플리케이션을 제어하는 특정 정책을 구성할 수도 있습니다.
 
 ![intune-architecture](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/intune-architecture.svg?raw=true)
 
@@ -70,7 +70,6 @@ Intune에서 조건부 액세스를 사용하는 일반적인 방법
 - 최종 사용자가 언제 어디서나 생산성을 높일 수 있도록 허용
 - 조직의 자산 보호
 
-
 이와 같은 자산을 보호하려면 IT 직원이 먼저 디바이스 ID를 관리해야 합니다. IT 직원은 Microsoft Intune 같은 도구를 통해 디바이스 ID를 기반으로 빌드하여 보안 및 규정 준수의 표준을 충족하는지 확인할 수 있습니다. Azure AD(Azure Active Directory)에서는 이 디바이스를 통해 어디에서든지 디바이스, 앱 및 서비스에 대해 Single Sign-On을 수행할 수 있습니다.
 
 - 사용자가 필요한 조직 자산에 액세스할 수 있습니다.
@@ -115,7 +114,6 @@ Azure AD에서 디바이스를 가져올 수 있는 여러 가지 옵션이 있�
 
 Azure AD의 디바이스는 Microsoft Intune, Microsoft Endpoint Configuration Manager, 그룹 정책(하이브리드 Azure AD 조인), MAM(모바일 애플리케이션 관리) 도구 또는 기타 타사 도구와 같은 MDM(모바일 디바이스 관리) 도구를 사용하여 관리할 수 있습니다.
 
-
 Azure AD 조인 디바이스 또는 하이브리드 Azure AD 조인 디바이스는 클라우드 리소스뿐 아니라 조직의 온-프레미스 리소스에 SSO를 이용할 수 있습니다. 자세한 내용은 온-프레미스 리소스에 대한 SSO가 Azure AD 조인 디바이스에서 작동하는 방식 문서를 참조하세요.
 
 ### Provisioning
@@ -124,7 +122,7 @@ Azure AD 조인 디바이스 또는 하이브리드 Azure AD 조인 디바이스
 
 ### License requirements
 
-이 기능을 사용하려면 Azure AD Premium P1 라이선스가 필요합니다. 
+이 기능을 사용하려면 Azure AD Premium P1 라이선스가 필요합니다.
 
 ---
 
@@ -135,7 +133,6 @@ Windows 10에서는 Azure Active Directory(Azure AD) 사용자가 사용자 설�
 - **기업 데이터와 소비자 데이터 분리** - 조직에서 데이터를 제어할 수 있으며, 소비자 클라우드 계정에 회사 데이터가 섞이거나 엔터프라이즈 클라우드 계정에 기업 데이터가 섞이지 않습니다.
 
 - **보안 강화** - 데이터가 사용자의 Windows 10 디바이스에서 나가기 전에 Azure RMS(Azure Rights Management)를 사용하여 자동으로 암호화되고, 암호화된 상태로 클라우드에 보존됩니다. 설정 이름 및 Windows 앱 이름 같은 네임 스페이스를 제외한 모든 콘텐츠가 암호화된 상태로 클라우드에 보존됩니다.
-
 
 - **더 나은 관리 및 모니터링** - Azure AD 포털 통합을 통해 조직에서 누가, 어떤 디바이스에서 설정을 동기화할 수 있는지를 제어하고 확인할 수 있습니다.
 
@@ -162,7 +159,6 @@ Windows 10에서는 Azure Active Directory(Azure AD) 사용자가 사용자 설�
 | 디바이스 관리 | <ul><li>모바일 디바이스 관리(예: Microsoft Intune)</li><li>모바일 애플리케이션 관리</li></ul> | <ul><li>모바일 디바이스 관리(예: Microsoft Intune)</li><li>Microsoft Intune 및 Microsoft Endpoint Configuration Manager를 사용하여 공동 관리</li></ul> | <ul><li>그룹 정책</li><li>Microsoft Intune을 사용하여 Configuration Manager 독립 실행 또는 공동 관리</li></ul> |
 | 주요 기능 | <ul><li>클라우드 리소스에 대한 SSO</li><li>Intune에 등록된 경우 조건부 액세스</li><li>앱 보호 정책을 통한 조건부 액세스</li><li>Microsoft Authenticator 앱으로 휴대폰 로그인을 사용하도록 설정</li></ul> | <ul><li>클라우드 및 온-프레미스 리소스 모두에 대한 SSO</li><li>MDM 등록 및 MDM 규정 준수 평가를 통한 조건부 액세스</li><li>잠금 화면에서 셀프 서비스 암호 재설정 및 Windows Hello PIN 재설정</li><li>여러 디바이스에서 Enterprise State Roaming</li></ul> | <ul><li>클라우드 및 온-프레미스 리소스 모두에 대한 SSO</li><li>공동 관리되는 경우 도메인 조인 또는 Intune을 통한 조건부 액세스</li><li>잠금 화면에서 셀프 서비스 암호 재설정 및 Windows Hello PIN 재설정</li><li>여러 디바이스에서 Enterprise State Roaming</li></ul> |
 | Device Architecture | ![azure-ad-registered-device](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/azure-ad-registered-device.png?raw=true) | ![azure-ad-joined-device](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/azure-ad-joined-device.png?raw=true) | ![azure-ad-hybrid-joined-device](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/azure-ad-hybrid-joined-device.png?raw=true) |
-
 
 ### Scenario for AAD Registered
 
@@ -203,5 +199,3 @@ Azure AD 가입 디바이스의 목표는 단순화하는 것입니다.
 - Windows 10 외에 하위 수준 Windows 7과 8.1 디바이스를 지원해야 합니다.
 
 ---
-
-
