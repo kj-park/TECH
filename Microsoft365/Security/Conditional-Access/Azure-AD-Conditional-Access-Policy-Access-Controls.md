@@ -121,7 +121,7 @@ Intune SDK의 Policy Assurance를 만족하게 개발된 apps 아래 client apps
 
 #### Require password change
 
-User risk를 감지 하면 관리자는 user risk policy coditions를 사용 하여 사용자가 Azure AD self-service password reset을 사용 하여 암호를 안전하게 변경 하도록 선택할 수 있습니다. User risk가 감지되면 사용자는 self-service password reset을 수행하여 자동으로 수정할 수 있습니다.
+User risk를 감지 하면 관리자는 user risk policy conditions를 사용 하여 사용자가 Azure AD self-service password reset을 사용 하여 암호를 안전하게 변경 하도록 선택할 수 있습니다. User risk가 감지되면 사용자는 self-service password reset을 수행하여 자동으로 수정할 수 있습니다.
 
 사용자에게 암호를 변경하라는 메시지가 표시되면 먼저 multi-factor authentication을 완료 해야 합니다.
 
@@ -231,28 +231,28 @@ Conditional Access Insights workbook은 조건부 액세스 쿼리를 시각화�
 
 아래 표에는 클라이언트 앱이 충족 해야 하는 추가 서비스 종속성이 나열 되어 있습니다.
 
-| 클라이언트 앱    	| 다운스트림 서비스                  	| 적용            	|
-|------------------	|------------------------------------	|-----------------	|
-| Azure Data Lake  	| Microsoft Azure 관리 (포털 및 API) 	| 초기 바인딩     	|
-| Microsoft 교실   	| Exchange                           	| 초기 바인딩     	|
-|                  	| SharePoint                         	| 초기 바인딩     	|
-| Microsoft Teams  	| Exchange                           	| 초기 바인딩     	|
-|                  	| MS Planner                         	| 런타임에 바인딩 	|
-|                  	| Microsoft Stream                   	| 런타임에 바인딩 	|
-|                  	| SharePoint                         	| 초기 바인딩     	|
-|                  	| 비즈니스 온라인용 Skype            	| 초기 바인딩     	|
-| Office 포털      	| Exchange                           	| 런타임에 바인딩 	|
-|                  	| SharePoint                         	| 런타임에 바인딩 	|
-| Outlook 그룹     	| Exchange                           	| 초기 바인딩     	|
-|                  	| SharePoint                         	| 초기 바인딩     	|
-| PowerApps        	| Microsoft Azure 관리 (포털 및 API) 	| 초기 바인딩     	|
-|                  	| Windows Azure Active Directory     	| 초기 바인딩     	|
-| Project          	| Dynamics CRM                       	| 초기 바인딩     	|
-| 비즈니스용 Skype 	| Exchange                           	| 초기 바인딩     	|
-| Visual Studio    	| Microsoft Azure 관리 (포털 및 API) 	| 초기 바인딩     	|
-| Microsoft Forms  	| Exchange                           	| 초기 바인딩     	|
-|                  	| SharePoint                         	| 초기 바인딩     	|
-| Microsoft To-Do  	| Exchange                           	| 초기 바인딩     	|
+| 클라이언트 앱     | 다운스트림 서비스                   | 적용             |
+|------------------ |------------------------------------ |----------------- |
+| Azure Data Lake   | Microsoft Azure 관리 (포털 및 API)  | 초기 바인딩      |
+| Microsoft 교실    | Exchange                            | 초기 바인딩      |
+|                   | SharePoint                          | 초기 바인딩      |
+| Microsoft Teams   | Exchange                            | 초기 바인딩      |
+|                   | MS Planner                          | 런타임에 바인딩  |
+|                   | Microsoft Stream                    | 런타임에 바인딩  |
+|                   | SharePoint                          | 초기 바인딩      |
+|                   | 비즈니스 온라인용 Skype             | 초기 바인딩      |
+| Office 포털       | Exchange                            | 런타임에 바인딩  |
+|                   | SharePoint                          | 런타임에 바인딩  |
+| Outlook 그룹      | Exchange                            | 초기 바인딩      |
+|                   | SharePoint                          | 초기 바인딩      |
+| PowerApps         | Microsoft Azure 관리 (포털 및 API)  | 초기 바인딩      |
+|                   | Windows Azure Active Directory      | 초기 바인딩      |
+| Project           | Dynamics CRM                        | 초기 바인딩      |
+| 비즈니스용 Skype  | Exchange                            | 초기 바인딩      |
+| Visual Studio     | Microsoft Azure 관리 (포털 및 API)  | 초기 바인딩      |
+| Microsoft Forms   | Exchange                            | 초기 바인딩      |
+|                   | SharePoint                          | 초기 바인딩      |
+| Microsoft To-Do   | Exchange                            | 초기 바인딩      |
 
 ---
 

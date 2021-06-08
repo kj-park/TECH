@@ -27,7 +27,7 @@ ms.date: 2021.04.05
 - Scalability
 - Security
 
-## Designing Active Directory Logical Structure
+## STEP: Designing Active Directory Logical Structure
 
 Active Directory의 Logical Structure 디자인을 절차는 아래와 같습니다:
 
@@ -40,8 +40,3 @@ Active Directory의 Logical Structure 디자인을 절차는 아래와 같습니
 1. [Design a DNS Infrastructure](Designing-Active-Directory-Logical-Structure/Design-a-DNS-Infrastructure)
 
 1. [Design a Organizational Unit](Designing-Active-Directory-Logical-Structure/Design-a-Organizational-Unit)
-
-
-
-
-

@@ -24,13 +24,11 @@ Microsoft Search는 조직의 Microsoft 365에 저장된 contents 및 connector�
 - **관련된 내용에 대한 검색 결과**
 - **모든 app에 대한 관리**
 
-
 ## 조직을 위한 Microsoft Search 적용(Tailoring)
 
 - **Show useful content** - 빠르고 인증된 결과를 keyword 기반으로 검색할 수 있습니다.
 - **Add external content** - Connector를 구성하여 Microsoft 365 외부의 content를 찾을 수 있습니다.
 - **Customize the user experience**
-
 
 ## Set up Microsoft Search
 
@@ -55,7 +53,6 @@ In Microsoft Search, administrators have three different search contents that th
 - Location
 - Q&A
 
-
 ## Microsoft Search 구성요소
 
 ### Insights
@@ -69,7 +66,6 @@ Search usage reports enable you to gain more understanding of how search is func
 - Admin-Curated Acronyms
 
     ![microsoft-search-admin-curated-acronyms](https://github.com/kj-park/tech/blob/main/Microsoft365/Search/.media/microsoft-search-admin-curated-acronyms.png?raw=true)
-
 
 - System-curated acronyms
 
@@ -85,23 +81,12 @@ Bookmarks help people quickly find important sites and tools with just a search.
 
 #### Floor plans
 
-
-
 #### Locations
 
 ![microsoft-search-answers-locations](https://github.com/kj-park/tech/blob/main/Microsoft365/Search/.media/microsoft-search-answers-locations.png?raw=true)
 
-
 ### Data Sources
-
-
 
 ### Customizations
 
-
 ### Configurations
-
-
-
-
-

@@ -38,7 +38,7 @@ Autonomy 는 독립성을 의미하나 배타적인 자원에 대한 제어를 �
 
 - **Data Isolation.**  Data를 소유한 그룹이나 조직에 의하여 배타적인 제어를 하는 것을 의미합니다. Data는 Active Directory 또는 join된 computers에 저장되기에 Forest의 service administrators로부터 격리할 수 없습니다. 격리할 수 있는 유일한 방법은 Forest를 분리하는 것입니다.
 - **Data Autonomy.**  그룹이나 조직이 자신의 소유한 Data를 관리할 수 있는 능력을 의미합니다. 이에는 다른 누구의 검증 없이 Data에 대한 관리적 결정을 하거나 필요한 관리 업무를 수행할 수 있음을 포함합니다.
-- **Service Isolation.**  Active Directory infrastructure에 대한 배타적인 제어를 의미하며 그룹은 directory service를 운영하는데 있어 간섭할 수 있는 그룹 외부의 administrator를 필요치 않습니다. 예를 들어 제조회사의 공장의 장비를 제어하는 application이나 hosting 업체가 각 클라이언트에게 서비스에 대한 간섭을 해서는 안 되는 경우가 될 수 있습니다. 
+- **Service Isolation.**  Active Directory infrastructure에 대한 배타적인 제어를 의미하며 그룹은 directory service를 운영하는데 있어 간섭할 수 있는 그룹 외부의 administrator를 필요치 않습니다. 예를 들어 제조회사의 공장의 장비를 제어하는 application이나 hosting 업체가 각 클라이언트에게 서비스에 대한 간섭을 해서는 안 되는 경우가 될 수 있습니다.
 - **Service Autonomy.**  배타적인 제어 없이 infrastructure를 관리할 수 있는 능력을 의미합니다. 이는 그룹이 Domain을 추가 또는 제거, DNS namespace를 수정, schema의 변경을 forest owner의 검증 없이 할 수 있음을 의미합니다.
 - **Limited Connectivity.**  자체의 장비 또는 제한을 설정한 network을 가진 그룹이 있는지 여부.
 
@@ -72,7 +72,7 @@ Autonomy 는 독립성을 의미하나 배타적인 자원에 대한 제어를 �
 
 ![image.png](https://github.com/kj-park/Tech/blob/main/ActiveDirectory/.media/image-b121a411-9c08-4883-bc45-7a3a0043ace4.png?raw=true)
 
-### Mapping Design Requirements to Forest Design Models.
+### Mapping Design Requirements to Forest Design Models
 
 ![image.png](https://github.com/kj-park/Tech/blob/main/ActiveDirectory/.media/image-6f7c39cd-d895-40ea-985d-9d51d5b3930e.png?raw=true)
 
