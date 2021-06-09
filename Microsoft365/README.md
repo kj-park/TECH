@@ -17,3 +17,9 @@ ms.date: 2012.03.31
 ## Azure Active Directory Conditional Access
 
 - [Azure AD Conditional Access Overview](Security/Conditional-Access/Azure-AD-Conditional-Access-Overview)
+
+## Microsoft Intune
+
+- [Microsoft Intune Overview](Security/Intune/Microsoft-Intune-Overview)
+
+- [Set up Microsoft Intune](Security/Intune/Set-up-Microsoft-Intune)
