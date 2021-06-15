@@ -8,6 +8,8 @@ ms.date: 2012.06.15
 
 
 
+![exchange-online-migration-types](https://github.com/kj-park/tech/blob/main/Exchange/.media/exchange-online-migration-types.png?raw=true)
+
 
 - exchange-off-boarding-migration-001
 

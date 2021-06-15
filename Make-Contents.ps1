@@ -32,4 +32,4 @@ foreach ( $item in $imageFolders ) {
     Make-ImageContents -Path ($item.FullName)
 }
 
-Make-ImageContents -Path 'C:\REPOSITORY\GITHUB\Tech\Microsoft365\Security\.media'
+Make-ImageContents -Path 'C:\REPOSITORY\GITHUB\Tech\Exchange\.media'
