@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   width="16px"
+   height="16px"
+   viewBox="0 0 16 16"
+   enable-background="new 0 0 16 16"
+   xml:space="preserve"
+   sodipodi:docname="success.svg"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)"><metadata
+   id="metadata11"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs9" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1167"
+   inkscape:window-height="866"
+   id="namedview7"
+   showgrid="false"
+   inkscape:zoom="18.41056"
+   inkscape:cx="6.868246"
+   inkscape:cy="5.1182583"
+   inkscape:window-x="2156"
+   inkscape:window-y="80"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="Layer_1" />
+<circle
+   fill="#7FBA00"
+   cx="8"
+   cy="8"
+   r="8"
+   id="circle2" />
+<path
+   fill="#ffffff"
+   d="M 2.8634209,8.3605002 2.493316,7.95966 C 2.3972681,7.8533669 2.3972681,7.6856031 2.5086837,7.5844326 l 1.069334,-0.9886537 c 0.051226,-0.046103 0.1114157,-0.070435 0.1780089,-0.070435 0.075558,0 0.142151,0.030735 0.1920959,0.085803 L 6.8884709,9.7640815 11.948278,3.284045 c 0.05123,-0.065313 0.126784,-0.1011705 0.207464,-0.1011705 0.06147,0 0.116538,0.02049 0.162641,0.056348 l 1.156418,0.8926058 c 0.05635,0.04098 0.09093,0.1011705 0.10117,0.1728863 0.0051,0.070435 -0.01024,0.142151 -0.05635,0.192096 L 7.0203768,12.817126 Z"
+   id="path4"
+   style="stroke-width:1.28064" />
+</svg>

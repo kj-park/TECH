@@ -13,18 +13,36 @@ default layout is...:
 - page
 - default
 
-
-
-# Image randering in GitHub Pages
-
+# Image rendering in GitHub Pages
 
 ![Transport Pipeline Overview](https://raw.githubusercontent.com/kj-park/Tech/main/Exchange/.media/transport-pipeline-overview.png)
 
-
 ![Transport Pipeline Overview](https://github.com/kj-park/Tech/blob/main/Exchange/.media/transport-pipeline-overview.png?raw=true)
 
-
-![Transport Pipeline Overview](https://github.com/kj-park/Tech/blob/main/Exchange/.media/transport-pipeline-overview.png?raw=true)
-
+---
 
 > View: [Backup-ExchangeConfigFiles.ps1](https://github.com/kj-park/Tech/blob/main/Exchange/Backup-ExchangeConfigFiles.ps1)
+
+---
+
+![check]  
+![critical]  
+![failed]  
+![failure]  
+![Info]  
+![search]  
+![success]  
+![tag]  
+![warning]  
+
+<!--- Reference Link --->
+
+[check]: https://github.com/kj-park/tech/blob/main/.icons/check.svg?raw=true "check"
+[critical]: https://github.com/kj-park/tech/blob/main/.icons/critical.svg?raw=true "critical"
+[failed]: https://github.com/kj-park/tech/blob/main/.icons/failed.svg?raw=true "failed"
+[failure]: https://github.com/kj-park/tech/blob/main/.icons/failure.svg?raw=true "failure"
+[Info]: https://github.com/kj-park/tech/blob/main/.icons/Info.svg?raw=true "Info"
+[search]: https://github.com/kj-park/tech/blob/main/.icons/search.svg?raw=true "search"
+[success]: https://github.com/kj-park/tech/blob/main/.icons/success.svg?raw=true "success"
+[tag]: https://github.com/kj-park/tech/blob/main/.icons/tag.svg?raw=true "tag"
+[warning]: https://github.com/kj-park/tech/blob/main/.icons/warning.svg?raw=true "warning"
