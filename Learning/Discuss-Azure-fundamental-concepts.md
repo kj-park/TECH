@@ -172,4 +172,44 @@ SaaS는 IaaS와 이점이 동일하지만 몇 가지 추가 이점도 알고 있
 
 **소프트웨어 제한 사항.** 소프트웨어 애플리케이션의 몇 가지 제한 사항이 사용자의 작업 방식에 영향을 줄 수 있습니다. 소프트웨어를 있는 그대로 사용하므로 기능을 직접 제어할 수 없습니다. 어느 SaaS 플랫폼이 워크로드에 가장 적합한지 평가하는 경우 비즈니스 요구 사항과 소프트웨어 제한 사항을 고려해야 합니다.
 
+### Cloud service model comparison
+
+| IaaS | PaaS | SaaS |
+|--|--|--|
+| 가장 유연한 클라우드 서비스입니다. | 애플리케이션 개발에 집중할 수 있습니다. | 종량제 가격 책정 모델 |
+| 사용자가 애플리케이션을 위한 하드웨어를 구성 및 관리합니다. | 클라우드 공급자가 플랫폼 관리를 담당합니다. | 사용자는 구독 모델로 사용하는 소프트웨어에 대해 비용을 지불합니다. |
+
+다음 차트에서는 클라우드 공급자와 클라우드 테넌트 간의 다양한 책임 수준을 보여 줍니다.
+
+![cloud-model-shared-responsibility](https://github.com/kj-park/tech/blob/main/Learning/.media/cloud-model-shared-responsibility.png?raw=true)
+
+## What is serverless computing?
+
+PaaS와 마찬가지로 서버리스 컴퓨팅을 사용하면 개발자가 인프라를 관리할 필요 없이 빠르게 애플리케이션을 빌드할 수 있습니다. 서버리스 애플리케이션에서는 클라우드 서비스 공급자가 코드 실행에 필요한 인프라를 자동으로 프로비저닝, 스케일링 및 관리합니다. 서버리스 아키텍처는 스케일링 성능이 뛰어나고 이벤트 기반이므로 특정 기능 또는 트리거가 발생할 때만 리소스를 사용합니다.
+
+하지만 코드는 여전히 서버에서 실행된다는 것을 알고 있어야 합니다. "서버리스" 라는 이름은 인프라 프로비저닝 및 관리와 관련된 작업이 개발자에게 표시되지 않는다는 점에서 유래합니다. 이 방식을 통해 개발자는 비즈니스 논리에 더욱 집중하고 비즈니스 핵심에 더 많은 가치를 제공할 수 있습니다. 서버리스 컴퓨팅을 통해 팀은 생산성을 향상하고 제품 출시를 단축할 수 있으며 조직은 리소스를 최적화하고 계속해서 혁신에 집중할 수 있습니다.
+
+![No infrastructure management](https://github.com/kj-park/tech/blob/main/Learning/.media/blue-arrows-circles-squares.svg?raw=true)
+
+### No infrastructure management
+
+개발자는 완전 관리형 서비스를 사용하여 관리 작업을 없애고 핵심 비즈니스 논리에 집중할 수 있습니다. 서버리스 플랫폼에서는 코드를 배포하기만 하면 고가용성으로 실행됩니다.
+
+![Dynamic scalability](https://github.com/kj-park/tech/blob/main/Learning/.media/scale-graph.svg?raw=true)
+
+### Dynamic scalability
+
+서버리스 컴퓨팅을 통해 모든 워크로드의 수요에 맞게 몇 초 이내에 인프라가 동적으로 규모 확장/축소됩니다.
+
+![Faster time to market](https://github.com/kj-park/tech/blob/main/Learning/.media/circle-lightning.svg?raw=true)
+
+### Faster time to market
+
+서버리스 애플리케이션은 각 개발 주기에서 작업 종속성을 줄여 개발 팀의 민첩성을 향상함으로써 더 적은 시간에 더 많은 기능을 제공할 수 있게 해줍니다.
+
+![More efficient use of resources](https://github.com/kj-park/tech/blob/main/Learning/.media/custom-bar-graph.svg?raw=true)
+### More efficient use of resources
+
+서버리스 기술로 전환하면 조직에서 TCO를 줄이고 리소스를 재할당하여 혁신 속도를 높일 수 있습니다.
+
 ---
