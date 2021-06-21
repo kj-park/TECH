@@ -189,27 +189,52 @@ PaaS와 마찬가지로 서버리스 컴퓨팅을 사용하면 개발자가 인�
 
 하지만 코드는 여전히 서버에서 실행된다는 것을 알고 있어야 합니다. "서버리스" 라는 이름은 인프라 프로비저닝 및 관리와 관련된 작업이 개발자에게 표시되지 않는다는 점에서 유래합니다. 이 방식을 통해 개발자는 비즈니스 논리에 더욱 집중하고 비즈니스 핵심에 더 많은 가치를 제공할 수 있습니다. 서버리스 컴퓨팅을 통해 팀은 생산성을 향상하고 제품 출시를 단축할 수 있으며 조직은 리소스를 최적화하고 계속해서 혁신에 집중할 수 있습니다.
 
+### Top benefits of serverless computing
+
 ![No infrastructure management](https://github.com/kj-park/tech/blob/main/Learning/.media/blue-arrows-circles-squares.svg?raw=true)
 
-### No infrastructure management
+#### No infrastructure management
 
 개발자는 완전 관리형 서비스를 사용하여 관리 작업을 없애고 핵심 비즈니스 논리에 집중할 수 있습니다. 서버리스 플랫폼에서는 코드를 배포하기만 하면 고가용성으로 실행됩니다.
 
 ![Dynamic scalability](https://github.com/kj-park/tech/blob/main/Learning/.media/scale-graph.svg?raw=true)
 
-### Dynamic scalability
+#### Dynamic scalability
 
 서버리스 컴퓨팅을 통해 모든 워크로드의 수요에 맞게 몇 초 이내에 인프라가 동적으로 규모 확장/축소됩니다.
 
 ![Faster time to market](https://github.com/kj-park/tech/blob/main/Learning/.media/circle-lightning.svg?raw=true)
 
-### Faster time to market
+#### Faster time to market
 
 서버리스 애플리케이션은 각 개발 주기에서 작업 종속성을 줄여 개발 팀의 민첩성을 향상함으로써 더 적은 시간에 더 많은 기능을 제공할 수 있게 해줍니다.
 
 ![More efficient use of resources](https://github.com/kj-park/tech/blob/main/Learning/.media/custom-bar-graph.svg?raw=true)
-### More efficient use of resources
+#### More efficient use of resources
 
 서버리스 기술로 전환하면 조직에서 TCO를 줄이고 리소스를 재할당하여 혁신 속도를 높일 수 있습니다.
+
+### Serverless application patterns
+
+
+#### Serverless functions
+
+서버리스 함수는 추가 서비스를 원활하게 통합하기 위한 바인딩 및 이벤트에 응답하기 위해 코드를 자동으로 실행하는 트리거가 포함된 이벤트 구동 모델을 사용하여 개발을 가속화합니다. 실행하는 만큼 지불하는 모델(1초 미만 단위로 청구)에서는 코드를 실행하는 데 소요하는 시간과 리소스에 대한 요금만 청구됩니다.
+
+#### Serverless Kubernetes
+
+개발자는 변동하는 워크로드에서 갑작스러운 트래픽 변화가 있을 때 자동으로 규모 확장/축소할 수 있는, Kubernetes에서 오케스트레이션된 완전 관리형 클러스터로 자체 컨테이너를 가져옵니다.
+
+#### Serverless workflows
+
+서버리스 워크플로는 로우 코드/코드 없는 방식을 통해 결합된 작업의 오케스트레이션을 간소화합니다. 개발자는 다양한 서비스(클라우드 또는 온-프레미스) 간 상호 작용을 코딩하거나, 붙이기 코드를 유지 관리하거나, 새로운 API 또는 사양을 배울 필요 없이 해당 서비스를 통합할 수 있습니다.
+
+#### Serverless application environments
+
+서버리스 애플리케이션 환경에서는 백 엔드와 프런트 엔드 모두 크기 조정, 보안 및 규정 준수 요구 사항을 처리하는 완전 관리형 서비스에서 호스트됩니다.
+
+#### Serverless API gateway
+
+서버리스 API 게이트웨이는 서버리스 백 엔드 서비스의 중앙 집중식 완전 관리형 진입점입니다. 개발자는 서버리스 API 게이트웨이를 통해 글로벌 규모로 API를 게시, 관리, 보호 및 분석할 수 있습니다.
 
 ---
