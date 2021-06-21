@@ -191,26 +191,24 @@ PaaS와 마찬가지로 서버리스 컴퓨팅을 사용하면 개발자가 인�
 
 ### Top benefits of serverless computing
 
-![No infrastructure management](https://github.com/kj-park/tech/blob/main/Learning/.media/blue-arrows-circles-squares.svg?raw=true)
-
-#### No infrastructure management
+#### ![No infrastructure management](https://github.com/kj-park/tech/blob/main/Learning/.media/blue-arrows-circles-squares.svg?raw=true) No infrastructure management
 
 개발자는 완전 관리형 서비스를 사용하여 관리 작업을 없애고 핵심 비즈니스 논리에 집중할 수 있습니다. 서버리스 플랫폼에서는 코드를 배포하기만 하면 고가용성으로 실행됩니다.
 
-![Dynamic scalability](https://github.com/kj-park/tech/blob/main/Learning/.media/scale-graph.svg?raw=true)
 
-#### Dynamic scalability
+
+#### ![Dynamic scalability](https://github.com/kj-park/tech/blob/main/Learning/.media/scale-graph.svg?raw=true) Dynamic scalability
 
 서버리스 컴퓨팅을 통해 모든 워크로드의 수요에 맞게 몇 초 이내에 인프라가 동적으로 규모 확장/축소됩니다.
 
-![Faster time to market](https://github.com/kj-park/tech/blob/main/Learning/.media/circle-lightning.svg?raw=true)
 
-#### Faster time to market
+
+#### ![Faster time to market](https://github.com/kj-park/tech/blob/main/Learning/.media/circle-lightning.svg?raw=true) Faster time to market
 
 서버리스 애플리케이션은 각 개발 주기에서 작업 종속성을 줄여 개발 팀의 민첩성을 향상함으로써 더 적은 시간에 더 많은 기능을 제공할 수 있게 해줍니다.
 
-![More efficient use of resources](https://github.com/kj-park/tech/blob/main/Learning/.media/custom-bar-graph.svg?raw=true)
-#### More efficient use of resources
+
+#### ![More efficient use of resources](https://github.com/kj-park/tech/blob/main/Learning/.media/custom-bar-graph.svg?raw=true) More efficient use of resources
 
 서버리스 기술로 전환하면 조직에서 TCO를 줄이고 리소스를 재할당하여 혁신 속도를 높일 수 있습니다.
 
