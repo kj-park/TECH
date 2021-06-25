@@ -23,6 +23,8 @@ default layout is...:
 
 > View: [Backup-ExchangeConfigFiles.ps1](https://github.com/kj-park/Tech/blob/main/Exchange/Backup-ExchangeConfigFiles.ps1)
 
+> View: [windows-virtual-desktop-handbook-security-basic.pdf](https://github.com/kj-park/Tech/blob/main/ebooks/windows-virtual-desktop-handbook-security-basic.pdf)
+
 ---
 
 ![check]  
