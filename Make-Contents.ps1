@@ -1,4 +1,4 @@
-
+﻿
 function Make-ImageContents {
     param (
         [String]$Path,
