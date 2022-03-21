@@ -21,3 +21,9 @@ PowerShell Script의 재 사용을 위한 script를 공유합니다.
 PowerShell Script Module을 생성 및 업데이트 합니다.
 
 ## Learning PowerShell
+
+- Installing PowerShell
+- Learning PowerShell
+- Windows PowerShell
+- Desired State Configuration (DSC)
+- Scripting and Development
