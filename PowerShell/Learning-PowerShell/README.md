@@ -84,5 +84,7 @@ PowerShell Desired State Configuration (DSC)는 Enterprise Infrastructure 환경
 - Enforce configuration settings and report on configuration drift
 - Deploy configuration using [push or pull models](https://docs.microsoft.com/en-us/powershell/scripting/dsc/pull-server/enactingconfigurations)
 
+---
+
 > [!div class="nextstepaction"]  
 > [Installing PowerShell](Installing-PowerShell.md)
