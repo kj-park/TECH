@@ -5,11 +5,19 @@
 
 Contents:
 
-- What is a PowerShell command (cmdlet)
+- [What is a PowerShell command (cmdlet)](#what-is-a-powershell-command-cmdlet)
+- [Want to know about arrays](#want-to-know-about-arrays)
+
+- Want to know about HashTables
+- Want to know about PSCustomObject
+- Want to know about if/then/else
+- Want to know about switch
+- Want to know about Exceptions
+
 
 Source:
 
-- [Learning-PowerShell-Basic.md-script.ps1](Learning-PowerShell-Basic.md-script.ps1)
+- [Learning-PowerShell-Basic.md-script.ps1](https://github.com/kj-park/Tech/blob/main/PowerShell/Learning-PowerShell/Learning-PowerShell-Basic.md-script.ps1)
 
 ---
 
@@ -126,10 +134,204 @@ PowerShell에는 수백에의 미리 설치되어 있는 commands들이 있으�
 
 ## Want to know about arrays
 
+[Arrays](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_arrays)는 대부분 programming 언어에서 기본 기능입니다.
+
+Values 또는 Objects의 collection입니다.
+
+Arrays은 여러 항목의 모음으로 하는 데이터 구조입니다. Arrays을 반복하거나 인덱스를 사용하여 개별 항목에 액세스할 수 있습니다.
+
+### Basic Usage
+
+#### Create an Array
+
+```powershell
+
+$data = @()
+$data.count
+
+<#OUTPUT
+0
+#>
+
+$data = @('Zero','One','Two','Three')
+$data.count
+
+<#OUTPUT
+4
+#>
+
+$data
+
+<#OUTPUT
+Zero
+One
+Two
+Three
+#>
+
+$data = 'Zero','One','Two','Three'
+```
+
+#### Accessing items
+
+```powershell
+
+# offset value starting at 0
+
+$data = 'Zero','One','Two','Three'
+$data[0]
+
+<#OUTPUT
+Zero
+#>
+
+$data[1]
+
+<#OUTPUT
+One
+#>
+
+$data[0..3]
+
+$data[3..1]
+
+$data[-1]
+
+$data[3,3,2,2,1,1]
+
+$data | Get-Member
+
+[Array] | Get-Member
+
+$data.Count
+
+$data[3] = 'four'
+```
+
+#### Interaction
+
+```powershell
+# Pipeline
+
+$data = 'Zero','One','Two','Three'
+$data | ForEach-Object {"Item: [$PSItem]"}
+
+<#OUTPUT
+Item: [Zero]
+Item: [One]
+Item: [Two]
+Item: [Three]
+#>
+
+# ForEach loop
+
+foreach ( $node in $data )
+{
+    "Item: [$node]"
+}
+
+# ForEach method
+
+$data.foreach({"Item [$PSItem]"})
+
+# For loop
+
+for ( $index = 0; $index -lt $data.count; $index++)
+{
+    "Item: [{0}]" -f $data[$index]
+}
+
+# Switch loop
+
+$data = 'Zero','One','Two','Three'
+switch( $data )
+{
+    'One'
+    {
+        'Tock'
+    }
+    'Three'
+    {
+        'Tock'
+    }
+    Default
+    {
+        'Tick'
+    }
+}
+
+```
+
+### Arrays of Objects
+
+```powershell
+$processList = Get-Process
+
+$data = @(
+    [PSCustomObject]@{FirstName='Kevin';LastName='Marquette'}
+    [PSCustomObject]@{FirstName='John'; LastName='Doe'}
+)
+
+$data[0]
+
+$data[0].FirstName
+
+$data | ForEach-Object {$_.LastName}
+
+$data | Select-Object -ExpandProperty LastName
+
+$data.LastName
+
+# Where-Object filtering
+
+$data | Where-Object {$_.FirstName -eq 'Kevin'}
+
+# Where method
+
+$data.Where({$_.FirstName -eq 'Kevin'})
+
+# Updating objects in loops
+
+foreach($person in $data)
+{
+    $person.FirstName = 'Kevin'
+}
+
+foreach($person in $data)
+{
+    $person = [PSCustomObject]@{
+        FirstName='Kevin'
+        LastName='Marquette'
+    }
+}
+```
+
+### Arrays of Objects
+
+
+
+
+
 
 
 
 ---
+
+## Want to know about HashTables
+---
+
+## Want to know about PSCustomObject
+---
+
+## Want to know about if/then/else
+---
+
+## Want to know about switch
+---
+
+## Want to know about Exceptions
+
+
 ---
 
 > [!div class="nextstepaction"]  

@@ -6,10 +6,11 @@
 Contents:
 
 - [Windows PowerShell](#windows-powershell)
-- [Installing PowerShell on Windows](#Installing-PowerShell-on-Windows)
+- [Installing PowerShell on Windows](#installing-powershell-on-windows)
 - [~~Installing PowerShell on Linux~~](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-linux)
 - [~~Installing PowerShell on macOS~~](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-macos)
 - [~~Using PowerShell in Docker~~](https://docs.microsoft.com/en-us/powershell/scripting/install/powershell-in-docker)
+- [Useful Tools for Scripting and Shell](#useful-tools-for-scripting-and-shell)
 
 ---
 
@@ -66,6 +67,14 @@ WMF installation adds and/or updates the following features:
 
 - [PowerShell-7.2.1-win-x64.msi](https://github.com/PowerShell/PowerShell/releases/download/v7.2.1/PowerShell-7.2.1-win-x64.msi)
 - [PowerShell-7.2.1-win-x86.msi](https://github.com/PowerShell/PowerShell/releases/download/v7.2.1/PowerShell-7.2.1-win-x86.msi)
+
+## Useful Tools for Scripting and Shell
+
+- [Windows Terminal](https://docs.microsoft.com/en-us/windows/terminal/)
+
+- [Visual Studio Code](https://code.visualstudio.com/)
+
+    - [PowerShell Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell)
 
 ---
 
