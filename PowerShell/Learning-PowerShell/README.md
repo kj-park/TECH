@@ -14,7 +14,7 @@ keywords:
 
 Contents:
 
-- [Overview](#Overview)
+- [Overview](#overview)
 - [Installing PowerShell](Installing-PowerShell.md)
 - [Learning PowerShell](Learning-PowerShell.md)
 - [Desired State Configuration (DSC)](Desired-State-Configuration.md)
