@@ -16,7 +16,7 @@ Contents:
 
 - [Overview](#overview)
 - [Installing PowerShell](Installing-PowerShell.md)
-- [Learning PowerShell](Learning-PowerShell.md)
+- [Learning PowerShell Basic](Learning-PowerShell-Basic.md)
 - [Desired State Configuration (DSC)](Desired-State-Configuration.md)
 - [Scripting and Development](Scripting-and-Development.md)
 

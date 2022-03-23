@@ -1,5 +1,5 @@
 ﻿
-# Learning PowerShell
+# Learning PowerShell Basic
 
 ---
 
@@ -7,6 +7,9 @@ Contents:
 
 - What is a PowerShell command (cmdlet)
 
+Source:
+
+- [Learning-PowerShell-Basic.md-script.ps1](Learning-PowerShell-Basic.md-script.ps1)
 
 ---
 
@@ -123,6 +126,10 @@ PowerShell에는 수백에의 미리 설치되어 있는 commands들이 있으�
 
 ## Want to know about arrays
 
+
+
+
+---
 ---
 
 > [!div class="nextstepaction"]  
