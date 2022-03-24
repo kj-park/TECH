@@ -159,9 +159,16 @@ Exchange 서버의 Transport High Availability을 제공하는 핵심 기능은 
 
 ![Exchange Transport High Availability](https://github.com/kj-park/Tech/blob/main/Exchange/.media/Exchange-Transport-High-Availability.png?raw=true)
 
-##### [Queues and messages in queues in Exchange Server | Microsoft Docs]
+##### [Queues and messages in queues in Exchange Server | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow/queues/queues)
 
-#### Message Size and Recipient Limits
+#### [Message Size and Recipient Limits](https://docs.microsoft.com/en-us/exchange/mail-flow/message-size-limits)
+
+**Scope of Limits:**
+
+1. Organizational Limits
+1. Connector Limits
+1. Server Limits
+1. Recipient Limits
 
 ---
 
