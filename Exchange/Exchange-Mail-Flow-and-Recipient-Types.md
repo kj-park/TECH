@@ -107,7 +107,7 @@ Sender domain 공인된 DNS의 다음 record들 Query하여 Sender ID를 확인:
 - **Receive Connectors.** 수신 커넥터는 들어오는 SMTP 메일 흐름을 제어합니다. 커넥터의 구성과 일치하는 들어오는 연결을 수신합니다.
     - [Receive connectors | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow/connectors/receive-connectors)
     - Customer Receive Connectors:
-        ![SMTP (RFC5321)](https://github.com/kj-park/Tech/blob/main/Exchange/.media/Exchange-Mail-Flow-and-Recipient-Types-006.png?raw=true)
+        ![Customer Receive Connectors](https://github.com/kj-park/Tech/blob/main/Exchange/.media/Exchange-Mail-Flow-and-Recipient-Types-006.png?raw=true)
 
 - **Send Connectors.** 송신 커넥터는 보내는 SMTP 메일 흐름을 제어합니다. 메시지 받는 사람 및 커넥터의 구성에 따라 송신 커넥터가 선택됩니다.
     - [Send connectors in Exchange Server | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow/connectors/send-connectors)
@@ -127,9 +127,39 @@ Accepted Domains은 Exchange Organization의 메일을 수신하게 구성된 SM
 
 #### Transport Agents
 
+Transport Agent는 Microsoft 또는 3rd-Party vendor에 제공하는 소프트웨어를 설치할 수 있으며, transport pipeline을 통해 들어온 email messages들에 대한 추가적인 process 또는 action 처리를 할 수 있게 합니다.
+
+##### Transport Agent 분류
+
+- SmtpReceiveAgent
+- RoutingAgent
+- DeliveryAgent
+
+> [!INFO]  
+> [Built-in Transport Agent | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow/transport-agents/transport-agents?#built-in-transport-agents)
+
+##### [Mail Flow & Transport Pipeline | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow/mail-flow)
+
+![Transport Pipeline Overview](https://github.com/kj-park/Tech/blob/main/Exchange/.media/transport-pipeline-overview.png?raw=true)
 
 #### Transport High Availability & Queues
 
+##### Transport High Availability
+
+Exchange 서버는 message가 성공적으로 배달되기 전/후로 redundant copies를 유지하여 Transport에 대한 High Availability를 확보합니다.
+
+Exchange 서버의 Transport High Availability을 제공하는 핵심 기능은 아래와 같습니다:
+
+- [Shadow Redundancy](https://docs.microsoft.com/en-us/exchange/mail-flow/transport-high-availability/shadow-redundancy)
+    ![Exchange Shadow Redundancy](https://github.com/kj-park/Tech/blob/main/Exchange/.media/Exchange-Shadow-Redundancy.png?raw=true)
+
+- [Safety Net](https://docs.microsoft.com/en-us/exchange/mail-flow/transport-high-availability/safety-net)
+
+**Transport High Availablity with Shadow Redundancy and Safety Net**
+
+![Exchange Transport High Availability](https://github.com/kj-park/Tech/blob/main/Exchange/.media/Exchange-Transport-High-Availability.png?raw=true)
+
+##### [Queues and messages in queues in Exchange Server | Microsoft Docs]
 
 #### Message Size and Recipient Limits
 
