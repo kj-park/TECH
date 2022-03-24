@@ -106,7 +106,7 @@ Sender domain 공인된 DNS의 다음 record들 Query하여 Sender ID를 확인:
 
 #### Connectors & Accepted Domains
 
-##### Exchange Connects
+##### Exchange Connectors
 
 - **Receive Connectors.** 수신 커넥터는 들어오는 SMTP 메일 흐름을 제어합니다. 커넥터의 구성과 일치하는 들어오는 연결을 수신합니다.
 
