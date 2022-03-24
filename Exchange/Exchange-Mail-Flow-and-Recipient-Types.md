@@ -1,0 +1,195 @@
+﻿
+# Exchange Mail Flow and Recipient Types
+
+---
+
+Contents:
+
+- [Exchange Mail Flow Design and Configuration](#exchange-mail-flow-design-and-configuration)
+- [Exchange Recipient Types and Explanation](#Exchange-Recipient-Types-and-Explanation)
+- [Exchange Clients Services](#Exchange-Clients-Services)
+
+---
+
+## Exchange Mail Flow Design and Configuration
+
+### SMTP & DNS protocol in Mail Flow Conceptual Aspect
+
+#### Simple Mail Transfer Protocol (RFC5321)
+
+![SMTP (RFC5321)](https://github.com/kj-park/Tech/blob/main/Exchange/.media/Exchange-Mail-Flow-and-Recipient-Types-001.png?raw=true)
+
+> [!INFO]  
+> SMTP Service Extension for Secure SMTP over Transport Layer Security (RFC3207) ~ STARTTLS command for secure SMTP
+
+```dos
+EHLO movetocloud.online
+MAIL FROM: mimi@movetocloud.online
+RCPT TO: kjpark@tdgl.co.kr
+DATA
+Subject: Test mail flow to tdgl.co.kr
+
+This is a test message...
+.
+```
+
+![SMTP (RFC5321)](https://github.com/kj-park/Tech/blob/main/Exchange/.media/Exchange-Mail-Flow-and-Recipient-Types-002.png?raw=true)
+
+> [!INFO]  
+> [Use Telnet to test SMTP communication on Exchange servers](https://docs.microsoft.com/en-us/exchange/mail-flow/test-smtp-with-telnet)
+
+#### Domain Names
+
+- Concepts and Facilities (RFC1034)
+- Implementation and Specification (RFC1035)
+
+![SMTP (RFC5321)](https://github.com/kj-park/Tech/blob/main/Exchange/.media/Exchange-Mail-Flow-and-Recipient-Types-003.png?raw=true)
+
+![SMTP (RFC5321)](https://github.com/kj-park/Tech/blob/main/Exchange/.media/Exchange-Mail-Flow-and-Recipient-Types-004.png?raw=true)
+
+#### Exchange Mail Flow & Client Access for DNS Resource Records
+
+##### MX Record
+
+Recipient Domain의 Mail Exchanger의 정보를 나타냄.
+
+![SMTP (RFC5321)](https://github.com/kj-park/Tech/blob/main/Exchange/.media/Exchange-Mail-Flow-and-Recipient-Types-005.png?raw=true)
+
+##### Sender Policy Framework (SPF: RFC4408)
+
+Mail의 Sender(Mail Exchanger)를 확인하는 과정을 통해 phishing 이나 spam을 줄이기 위하여 사용되어지는 기술.
+
+Sender domain 공인된 DNS의 다음 record들 Query하여 Sender ID를 확인:
+- MX 및 A(CNAME) Record
+- TXT 중 SPF 정보 (예: v=spf1 include:spf.protection.outlook.com –all)
+
+> [!INFO]  
+> [SPF Record Syntax (open-spf.org)](http://www.open-spf.org/SPF_Record_Syntax/)
+
+##### DKIM (RFC5585) & DMARC (RFC7489)
+
+- DomainKeys Identified Mail (DKIM)
+    - [How to use DKIM for email in your custom domain - Office 365 | Microsoft Docs](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/use-dkim-to-validate-outbound-email)
+- Domain-based Message Authentication, Reporting & Conformance (DMARC)
+    - [Use DMARC to validate email, setup steps - Office 365 | Microsoft Docs](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/use-dmarc-to-validate-email)
+
+##### AUTODISCOVER.TDGL.CO.KR (A | CNAME | SRV Record)
+
+- Microsoft Exchange Server의 Autodiscover 서비스에서 사용하는 DNS Record
+- AUTODISCOVER  A 또는 CNAME, SRV  DNS record로 구성할 수 있음
+
+### Inbound & Outbound Mail Flow
+
+#### Inbound Mail Flow
+
+##### Inbound Mail Flow without Edge
+
+![SMTP (RFC5321)](https://github.com/kj-park/Tech/blob/main/Exchange/.media/inbound-mail-flow-without-edge.png?raw=true)
+
+##### Inbound Mail Flow with Edge
+
+![SMTP (RFC5321)](https://github.com/kj-park/Tech/blob/main/Exchange/.media/inbound-mail-flow-with-edge.png?raw=true)
+
+#### Outbound Mail Flow
+
+##### Outbound Mail Flow without Edge
+
+![SMTP (RFC5321)](https://github.com/kj-park/Tech/blob/main/Exchange/.media/outbound-mail-flow-without-edge.png?raw=true)
+
+##### Outbound Mail Flow with Edge
+
+![SMTP (RFC5321)](https://github.com/kj-park/Tech/blob/main/Exchange/.media/outbound-mail-flow-with-edge.png?raw=true)
+
+#### Connectors & Accepted Domains
+
+##### Exchange Connects
+
+- **Receive Connectors.** 수신 커넥터는 들어오는 SMTP 메일 흐름을 제어합니다. 커넥터의 구성과 일치하는 들어오는 연결을 수신합니다.
+    - [Receive connectors | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow/connectors/receive-connectors)
+    - Customer Receive Connectors:
+        ![SMTP (RFC5321)](https://github.com/kj-park/Tech/blob/main/Exchange/.media/Exchange-Mail-Flow-and-Recipient-Types-006.png?raw=true)
+
+- **Send Connectors.** 송신 커넥터는 보내는 SMTP 메일 흐름을 제어합니다. 메시지 받는 사람 및 커넥터의 구성에 따라 송신 커넥터가 선택됩니다.
+    - [Send connectors in Exchange Server | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow/connectors/send-connectors)
+    - Internet Mail Send Connectors
+    - Outbound Smart Host Routing
+
+- [**Protocol Logging | Microsoft Docs**](https://docs.microsoft.com/en-us/exchange/mail-flow/connectors/protocol-logging)
+
+##### Accepted Domain
+
+Accepted Domains은 Exchange Organization의 메일을 수신하게 구성된 SMTP address namespace.  Email Address Policies에서 사용.
+
+- Authoritative Domains
+- Relay Domains (Internal Relay | External Relay)
+
+### Transport Availability and Features
+
+#### Transport Agents
+
+
+#### Transport High Availability & Queues
+
+
+#### Message Size and Recipient Limits
+
+---
+
+## Exchange Recipient Types and Explanation
+
+
+#### Exchange Recipient Types
+
+
+#### Mailbox
+
+
+#### Distribution Groups
+
+#### Mail Users & Mail Contacts
+
+
+### Recipient Features
+
+
+#### Email Address & Forwarding
+
+
+#### Mailbox Permissions & Search, Move
+
+---
+
+## Exchange Clients Services
+
+### Clients Type & Services
+
+
+#### Autodiscover Service
+
+
+#### MAPI over HTTP & POP3, IMAP
+
+
+#### Mobile Outlook App & ActiveSync
+
+
+#### Outlook on the Web
+
+
+
+### Mailbox Access & Policies
+
+
+#### Mailbox Access
+
+
+#### Mobile Device Mailbox Policy
+
+
+#### OWA Mailbox Policy
+
+
+
+
+
+---

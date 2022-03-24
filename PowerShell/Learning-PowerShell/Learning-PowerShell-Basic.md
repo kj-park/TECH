@@ -306,27 +306,37 @@ foreach($person in $data)
 }
 ```
 
-### Arrays of Objects
+### Operators
 
 
 
+### Adding to arrays
 
 
+### Array Types
 
 
 
 ---
 
 ## Want to know about HashTables
+
+
 ---
 
 ## Want to know about PSCustomObject
+
+
 ---
 
 ## Want to know about if/then/else
+
+
 ---
 
 ## Want to know about switch
+
+
 ---
 
 ## Want to know about Exceptions

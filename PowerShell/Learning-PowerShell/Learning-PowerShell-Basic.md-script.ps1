@@ -232,10 +232,37 @@ foreach($person in $data)
     }
 }
 
+#endregion
 
 
-
-
-
+#region About Arrays: ### Operators
 
 #endregion
+
+
+#region About Arrays: ### Adding to arrays
+
+#endregion
+
+
+#region About Arrays: ### Array Types
+
+#endregion
+
+
+
+#region  About HashTables:
+#endregion
+
+#region  About PSCustomObject:
+#endregion
+
+#region  About if/then/else:
+#endregion
+
+#region  About switch:
+#endregion
+
+#region  About Exceptions:
+#endregion
+
