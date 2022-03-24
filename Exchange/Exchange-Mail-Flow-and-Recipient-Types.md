@@ -6,8 +6,8 @@
 Contents:
 
 - [Exchange Mail Flow Design and Configuration](#exchange-mail-flow-design-and-configuration)
-- [Exchange Recipient Types and Explanation](#Exchange-Recipient-Types-and-Explanation)
-- [Exchange Clients Services](#Exchange-Clients-Services)
+- [Exchange Recipient Types and Explanation](#exchange-recipient-types-and-explanation)
+- [Exchange Clients Services](#exchange-clients-services)
 
 ---
 
