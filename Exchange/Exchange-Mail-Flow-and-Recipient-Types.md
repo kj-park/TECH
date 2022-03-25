@@ -172,12 +172,19 @@ Exchange 서버의 Transport High Availability을 제공하는 핵심 기능은 
 
 #### [Message Size and Recipient Limits](https://docs.microsoft.com/en-us/exchange/mail-flow/message-size-limits)
 
-**Scope of Limits:**
+**Scope of Limits**
 
 1. Organizational Limits
 1. Connector Limits
 1. Server Limits
 1. Recipient Limits
+
+**Types of message size limits**
+
+- Whole message size limits
+- Attachment size limits
+- Recipient limits
+- Message header size limits
 
 ---
 
@@ -186,6 +193,15 @@ Exchange 서버의 Transport High Availability을 제공하는 핵심 기능은 
 ### Exchange Recipient Types
 
 #### Mailbox
+
+- User Mailbox
+- Linked Mailbox
+- Microsoft 365 Mailbox
+- Shared Mailbox (Full Access {|} Send As {|} Send on Behalf)
+- Resource Mailbox (Room {|} Equipment)
+
+
+
 
 #### Distribution Groups
 

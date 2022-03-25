@@ -1,0 +1,22 @@
+﻿{
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+    "elmType": "div",
+    "txtContent": "@currentField",
+    "style": {
+        "min-height": "4em",
+        "height": "4em",
+        "display": "inline",
+        "overflow": "hidden",
+        "align-items": "stretch",
+        "width": "auto"
+    },
+    "style": {
+        "height": "4em",
+        "overflow": "hidden",
+        "display": "inline-block",
+        "position": "relative",
+        "vertical-align": "top",
+        "white-space": "nowrap",
+        "text-overflow": "ellipsis"
+    }
+}
