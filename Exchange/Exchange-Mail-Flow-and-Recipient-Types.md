@@ -194,29 +194,73 @@ Exchange 서버의 Transport High Availability을 제공하는 핵심 기능은 
 
 #### Mailbox
 
-- Mailbox
+- **User Mailbox**
 
     ![recipients conceptual mailbox parts](https://github.com/kj-park/Tech/blob/main/Exchange/.media/recipientsconceptual-mailboxparts.gif?raw=true)
 
     > [!IMPORTANT]  
     > Mailbox를 생성하면 Exchange에서 사용하는 mailbox에서 필요로 하는 attributes들이 Active Directory의 사용자 개체에 추가됩니다.
 
-- Linked Mailbox
+- **Linked Mailbox**
 
+    ![recipients conceptual linked mailbox parts](https://github.com/kj-park/Tech/blob/main/Exchange/.media/recipientsconceptual-linked-mailboxparts.gif?raw=true)
 
-- Microsoft 365 Mailbox
+- **Microsoft 365 Mailbox.** Exchange Online에 생성되는 사서함. 사용자는 AADC 환경에서 동기화된 사용자이거나 pure cloud 사용자일 수 있습니다.
 
+- **Shared Mailbox.** 한 명의 사용자에게 할당되지 않고 여러 사용자들이 액세스할 수 있게 설정된 사서함.
 
-- Shared Mailbox (Full Access &#124; Send As &#124; Send on Behalf)
+    일반적인 Mailbox Permission:
 
+    - Full Access
+    - Send As
+    - Send on Behalf
 
-- Resource Mailbox (Room &#124; Equipment)
+- Resource Mailbox
 
+    - Room Mailbox (Exchange Online: `Set-Place` cmdlet)
+    - Equipment Mailbox
+
+- System Mailboxes
+
+    | Mailbox | Name |
+    |---|---|
+    | Organization | SystemMailbox {bb558c35-97f1-4cb9-8ff7-d53741dc928c} |
+    | Message approval | SystemMailbox {1f05a927-xxxx-xxxx-xxxx-xxxxxxxxxxxx_}<br>where xxxx-xxxx-xxxx-xxxxxxxxxxxx is a randomly assigned and unique GUID for each Exchange forest |
+    | UM data storage | SystemMailbox {e0dc1c29-89c3-4034-b678-e6c29d823ed9}<br>This mailbox exists in Exchange 2016, not in Exchange 2019 |
+    | Discovery | DiscoverySearchMailbox {D919BA05-46A6-415f-80AD-7E09334BB852} |
+    | Federated email | FederatedEmail.4c1f4d8b-8179-4148-93bf-00a95fa1e042 |
+    | Migration | Migration.8f3e7716-2011-43e4-96b1-aba62d229136 |
 
 
 #### Distribution Groups
 
+Exchange에서 사용하는 대표적인 group objects들은 아래와 같습니다:
+
+- **Distribution groups.** Active Directory universal distribution group objects that are mail-enabled.
+
+- **Mail-enabled security groups.** Active Directory universal security group objects that are mail-enabled. They can be used to assign access permissions to resources
+
+- **Dynamic distribution groups.** Distribution groups whose membership is based on specific recipient filters
+
+    사용 가능한 Filters들은 아래와 같습니다:
+
+    - Custom attributes 1-15
+    - State or province
+    - Company
+    - Department
+    - Recipient container
+
+    > [!INFO]  
+    > [Manage dynamic distribution groups &#124; Microsoft Docs](https://docs.microsoft.com/en-us/exchange/recipients/dynamic-distribution-groups/dynamic-distribution-groups)
 #### Mail Users & Mail Contacts
+
+Exchange Organization의 외부에 존재하는 사용들에 대한 정보를 포함.
+
+- **Mail contacts.** These are mail-enabled Active Directory contacts that exist outside your Exchange organization.
+
+- **Mail forest contacts.** These represent recipient objects from another forest. These contacts are typically created by directory synchronization.
+
+- **Mail users.** Mail users are similar to mail contacts. mail users have Active Directory logon credentials and can access resources
 
 ### Recipient Features
 
