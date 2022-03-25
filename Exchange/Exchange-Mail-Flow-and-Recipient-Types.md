@@ -194,10 +194,22 @@ Exchange 서버의 Transport High Availability을 제공하는 핵심 기능은 
 
 #### Mailbox
 
-- User Mailbox
+- Mailbox
+
+    ![recipients conceptual mailbox parts](https://github.com/kj-park/Tech/blob/main/Exchange/.media/recipientsconceptual-mailboxparts.gif?raw=true)
+
+    > [!IMPORTANT]  
+    > Mailbox를 생성하면 Exchange에서 사용하는 mailbox에서 필요로 하는 attributes들이 Active Directory의 사용자 개체에 추가됩니다.
+
 - Linked Mailbox
+
+
 - Microsoft 365 Mailbox
+
+
 - Shared Mailbox (Full Access &#124; Send As &#124; Send on Behalf)
+
+
 - Resource Mailbox (Room &#124; Equipment)
 
 
