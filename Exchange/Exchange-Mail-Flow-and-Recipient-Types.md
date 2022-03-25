@@ -197,8 +197,8 @@ Exchange 서버의 Transport High Availability을 제공하는 핵심 기능은 
 - User Mailbox
 - Linked Mailbox
 - Microsoft 365 Mailbox
-- Shared Mailbox (Full Access &vert; Send As &vert; Send on Behalf)
-- Resource Mailbox (Room &vert; Equipment)
+- Shared Mailbox (Full Access &#124; Send As &#124; Send on Behalf)
+- Resource Mailbox (Room &#124; Equipment)
 
 
 
