@@ -71,13 +71,13 @@ Sender domain 공인된 DNS의 다음 record들 Query하여 Sender ID를 확인:
 
 - DomainKeys Identified Mail (DKIM)
 
-    [How to use DKIM for email in your custom domain - Office 365 - Microsoft Docs](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/use-dkim-to-validate-outbound-email)
+    [How to use DKIM for email in your custom domain - Office 365 &vert; Microsoft Docs](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/use-dkim-to-validate-outbound-email)
 
 - Domain-based Message Authentication, Reporting & Conformance (DMARC)
 
-    [Use DMARC to validate email, setup steps - Office 365 - Microsoft Docs](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/use-dmarc-to-validate-email)
+    [Use DMARC to validate email, setup steps - Office 365 &vert; Microsoft Docs](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/use-dmarc-to-validate-email)
 
-##### AUTODISCOVER.TDGL.CO.KR (A & CNAME & SRV Record)
+##### AUTODISCOVER.TDGL.CO.KR (A &vert; CNAME &vert; SRV Record)
 
 - Microsoft Exchange Server의 Autodiscover 서비스에서 사용하는 DNS Record
 - AUTODISCOVER  A 또는 CNAME, SRV  DNS record로 구성할 수 있음
@@ -110,7 +110,7 @@ Sender domain 공인된 DNS의 다음 record들 Query하여 Sender ID를 확인:
 
 - **Receive Connectors.** 수신 커넥터는 들어오는 SMTP 메일 흐름을 제어합니다. 커넥터의 구성과 일치하는 들어오는 연결을 수신합니다.
 
-    [Receive connectors - Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow/connectors/receive-connectors)
+    [Receive connectors &vert; Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow/connectors/receive-connectors)
 
     Customer Receive Connectors:
 
@@ -118,12 +118,12 @@ Sender domain 공인된 DNS의 다음 record들 Query하여 Sender ID를 확인:
 
 - **Send Connectors.** 송신 커넥터는 보내는 SMTP 메일 흐름을 제어합니다. 메시지 받는 사람 및 커넥터의 구성에 따라 송신 커넥터가 선택됩니다.
 
-    [Send connectors in Exchange Server - Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow/connectors/send-connectors)
+    [Send connectors in Exchange Server &vert; Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow/connectors/send-connectors)
 
     - Internet Mail Send Connectors
     - Outbound Smart Host Routing
 
-- **[Protocol Logging - Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow/connectors/protocol-logging)**
+- **[Protocol Logging &vert; Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow/connectors/protocol-logging)**
 
 ##### Accepted Domain
 
@@ -145,9 +145,9 @@ Transport Agent는 Microsoft 또는 3rd-Party vendor에 제공하는 소프트�
 - DeliveryAgent
 
 > [!INFO]  
-> [Built-in Transport Agent - Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow/transport-agents/transport-agents?#built-in-transport-agents)
+> [Built-in Transport Agent &vert; Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow/transport-agents/transport-agents?#built-in-transport-agents)
 
-##### [Mail Flow & Transport Pipeline - Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow/mail-flow)
+##### [Mail Flow & Transport Pipeline &vert; Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow/mail-flow)
 
 ![Transport Pipeline Overview](https://github.com/kj-park/Tech/blob/main/Exchange/.media/transport-pipeline-overview.png?raw=true)
 
@@ -168,7 +168,7 @@ Exchange 서버의 Transport High Availability을 제공하는 핵심 기능은 
 
 ![Exchange Transport High Availability](https://github.com/kj-park/Tech/blob/main/Exchange/.media/Exchange-Transport-High-Availability.png?raw=true)
 
-##### [Queues and messages in queues in Exchange Server - Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow/queues/queues)
+##### [Queues and messages in queues in Exchange Server &vert; Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow/queues/queues)
 
 #### [Message Size and Recipient Limits](https://docs.microsoft.com/en-us/exchange/mail-flow/message-size-limits)
 
