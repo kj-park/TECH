@@ -104,6 +104,8 @@ Sender domain 공인된 DNS의 다음 record들 Query하여 Sender ID를 확인:
 
 ![Outbound Mail Flow with Edge](https://github.com/kj-park/Tech/blob/main/Exchange/.media/outbound-mail-flow-with-edge.png?raw=true)
 
+##### [Non-delivery Reports](https://docs.microsoft.com/en-us/exchange/mail-flow/non-delivery-reports-and-bounce-messages/non-delivery-reports-and-bounce-messages)
+
 #### Connectors & Accepted Domains
 
 ##### Exchange Connectors
@@ -264,7 +266,28 @@ Exchange Organization의 외부에 존재하는 사용들에 대한 정보를 �
 
 ### Recipient Features
 
-#### Email Address & Forwarding
+- Email Addresses and Forwarding
+- Message delivery restrictions
+- Mailbox message size limits
+- Storage quotas
+- Deleted Item retention and Recoverable Items
+- Mail Tip
+- Moderation
+- Antispam and Antimalware
+
+#### Messaging policy and compliance
+
+https://docs.microsoft.com/en-us/exchange/policy-and-compliance/policy-and-compliance
+
+| Feature | Description |
+|---|---|
+| In-Place Archiving | In-Place Archiving helps you regain control of your organization's messaging data by eliminating the need for personal store (.pst) files and allowing users to store messages in an archive mailbox accessible in Outlook 2010 and later and Outlook on the web. |
+| In-Place Hold and Litigation Hold | When a reasonable expectation of litigation exists, organizations are required to preserve electronically stored information, including email that's relevant to the case. In-Place Hold allows you to search and preserve messages matching query parameters. Litigation Hold only allows you to place all items in a mailbox on hold. For both types of holds, messages are protected from permanent deletion, modification, and tampering and can be preserved indefinitely or for a specified period. |
+| In-Place eDiscovery | In-Place eDiscovery allows you to search mailbox data across your Exchange organization, preview search results, copy search results to a Discovery mailbox, or export the results to a PST file |
+| Administrator audit logging | Administrator audit logs enable you to keep a log of changes made by administrators to Exchange server and organization configuration and to Exchange recipients. You might use administrator audit logging as part of your change control process or to track changes and access to configuration and recipients for compliance purposes. |
+| Mailbox audit logging | Because mailboxes can potentially contain sensitive, high business impact information and personally identifiable information, it's important that you track who logs on to the mailboxes in your organization and what actions are taken. It's especially important to track access to mailboxes by users other than the mailbox owner (known as delegate users). Using mailbox audit logging, you can log mailbox access by administrators, delegates (including administrators with full access permissions), and mailbox owners. |
+| Data loss prevention | Data loss prevention (DLP) in Exchange Server includes 80 sensitive information types that are ready for you to use in your DLP policies. |
+| Mail flow rules (also known as transport rules) | Use mail flow rules to look for specific conditions in messages that pass through your organization and take action on them. You can use conditions and exceptions to define when a mail flow rule is applied, and then apply an action on messages when the conditions are met. |
 
 #### Mailbox Permissions & Search, Move
 
