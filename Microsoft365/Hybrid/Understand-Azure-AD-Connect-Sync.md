@@ -64,7 +64,7 @@ Identity Management는 아래의 3 가지 processes에서 발생합니다:
 
 - **Export.** 동기화 엔진은 staging 개체에서 준비된 변경 내용을 푸시합니다.
 
-!aadc-sync-process](https://github.com/kj-park/Tech/blob/main/Microsoft365/Hybrid/.media/aadc-sync-process.png?raw=true)
+![aadc-sync-process](https://github.com/kj-park/Tech/blob/main/Microsoft365/Hybrid/.media/aadc-sync-process.png?raw=true)
 
 
 
