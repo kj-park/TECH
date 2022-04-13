@@ -10,11 +10,11 @@ ms.date: 2012.03.31
 
 - [Configure Azure AD Connect Sync](Hybrid/Configure-Azure-AD-Connect-Sync)
 
+- [Understand Azure AD Connect Sync](Hybrid/Understand-Azure-AD-Connect-Sync)
+
 - [Configure Exchange Hybrid](/Tech/Exchange/Configure-Exchange-Hybrid)
 
 - [Configure Microsoft 365 Groups with on-premises Exchange Hybrid](Configure-Microsoft-365-Groups-with-on-premises-Exchange-Hybrid)
-
-- [Understand Azure AD Connect Sync](Hybrid/Understand-Azure-AD-Connect-Sync)
 
 ## Azure Active Directory Conditional Access
 
