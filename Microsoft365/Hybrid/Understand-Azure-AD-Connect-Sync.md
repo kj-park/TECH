@@ -66,17 +66,27 @@ Identity Management는 아래의 3 가지 processes에서 발생합니다:
 
 ![aadc-sync-process](https://github.com/kj-park/Tech/blob/main/Microsoft365/Hybrid/.media/aadc-sync-process.png?raw=true)
 
-
-
-
 ---
 
+## Understanding Declarative Provisioning
+
+Declarative Provisioning은 연결된 원본 디렉터리에서 들어오는 개체를 처리하고 개체 및 특성이 원본에서 대상으로 변환되는 방법을 결정합니다. 개체는 동기화 파이프라인에서 처리되고 파이프라인은 **inbound rules** 및 **outbound rules**에 동일합니다.
 
 ![aadc-sync-provisioning-001](https://github.com/kj-park/Tech/blob/main/Microsoft365/Hybrid/.media/aadc-sync-provisioning-001.png?raw=true)
 
+파이프라인에는 여러 다른 모듈이 있습니다. 각 모듈은 동기화 개체에서 한 가지 개념을 담당합니다.
+
 ![aadc-sync-provisioning-002](https://github.com/kj-park/Tech/blob/main/Microsoft365/Hybrid/.media/aadc-sync-provisioning-002.png?raw=true)
 
----
+- **Source.** The source object
+- **Scope.** Finds all sync rules that are in scope
+- **Join.** Determines relationship between connector space and metaverse
+- **Transform.** Calculates how attributes should be transformed and flow
+- **Precedence.** Resolves conflicting attribute contributions
+- **Target.** The target object
+
+### Inbound Synchronization rule
+
 
 ![aadc-sync-rule-001](https://github.com/kj-park/Tech/blob/main/Microsoft365/Hybrid/.media/aadc-sync-rule-001.png?raw=true)
 
