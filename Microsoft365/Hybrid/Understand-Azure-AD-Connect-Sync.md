@@ -68,9 +68,9 @@ Identity Management는 아래의 3 가지 processes에서 발생합니다:
 
 ---
 
-## Understanding Declarative Provisioning
+## Declarative Provisioning
 
-Declarative Provisioning은 연결된 원본 디렉터리에서 들어오는 개체를 처리하고 개체 및 특성이 원본에서 대상으로 변환되는 방법을 결정합니다. 개체는 동기화 파이프라인에서 처리되고 파이프라인은 **inbound rules** 및 **outbound rules**에 동일합니다.
+Declarative Provisioning은 연결된 원본 디렉터리에서 들어오는 개체를 처리하고 개체 및 특성이 원본에서 대상으로 변환되는 방법을 결정합니다. 개체는 동기화 파이프라인에서 처리되고 파이프라인은 <kbd>**inbound rules**</kbd> 및 <kbd>**outbound rules**</kbd>에 동일합니다.
 
 ![aadc-sync-provisioning-001](https://github.com/kj-park/Tech/blob/main/Microsoft365/Hybrid/.media/aadc-sync-provisioning-001.png?raw=true)
 
@@ -85,7 +85,7 @@ Declarative Provisioning은 연결된 원본 디렉터리에서 들어오는 개
 - **Precedence.** Resolves conflicting attribute contributions
 - **Target.** The target object
 
-### Inbound Synchronization rule
+### Synchronization rule
 
 
 ![aadc-sync-rule-001](https://github.com/kj-park/Tech/blob/main/Microsoft365/Hybrid/.media/aadc-sync-rule-001.png?raw=true)
@@ -95,5 +95,18 @@ Declarative Provisioning은 연결된 원본 디렉터리에서 들어오는 개
 ![aadc-sync-rule-003](https://github.com/kj-park/Tech/blob/main/Microsoft365/Hybrid/.media/aadc-sync-rule-003.png?raw=true)
 
 ![aadc-sync-rule-004](https://github.com/kj-park/Tech/blob/main/Microsoft365/Hybrid/.media/aadc-sync-rule-004.png?raw=true)
+
+---
+
+## Declarative Provisioning Expressions
+
+Azure AD Connect 동기화는 Forefront Identity Manager 2010에 처음 도입된 선언적 프로비전을 기반으로 합니다. 컴파일된 코드를 작성할 필요 없이 전체 ID 통합 비즈니스 논리를 구현할 수 있습니다.
+
+선언적 프로비전의 핵심적인 부분은 특성 흐름에 사용되는 표현 언어입니다. 사용 되는 언어는 VBA(Microsoft® Visual Basic® for Applications)의 하위 집합입니다. 이 언어는 Microsoft Office에서 사용되며, VBScript 경험이 있는 사용자 또한 이 언어를 인식합니다. 선언적 프로비전 표현 언어는 함수만 사용하며 구조적 언어는 아닙니다. 메서드 또는 문이 없습니다. 대신, 빠른 프로그램 흐름에 함수가 중첩됩니다.
+
+> [!INFO]  
+> [Welcome to the Visual Basic for Applications language reference for Office 2013](https://docs.microsoft.com/en-us/office/vba/api/overview/language-reference)
+
+
 
 ---
