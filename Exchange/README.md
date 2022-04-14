@@ -75,7 +75,7 @@ Exchange 인프라를 관리에 필요한 주제들에 대하여 기술합니다
 
 - Sharing and Organization Relationship
 
-- [Importing PST file to Exchange Online](online/Importing-PST-file-to-Exchange-Online)
+- [Importing PST file to Microsoft 365](Online/Importing-PST-file-to-Microsoft-365)
 
 ## Conceptual Documents
 
