@@ -194,3 +194,23 @@ Azure AD Connect 동기화는 Forefront Identity Manager 2010에 처음 도입�
 - [Attributes synchronized to Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)
 
 ---
+
+## Export Connectors and Synchronization Rules as Json File
+
+```powershell
+
+$BackupPath = 'C:\AADC-SYNC-RULES'
+New-Item -Path 'C:\AADC-SYNC-RULES' -ItemType Directory -Force
+
+$ADSyncRules = Get-ADSyncRule
+
+foreach ( $Item in $ADSyncRules ) {
+    $FileName = "[$($Item.Direction.ToString())-$($Item.Precedence.ToString('D3'))] - $($Item.Name).json"
+    ConvertTo-Json -InputObject $Item | Out-File -LiteralPath "$BackupPath\$FileName"
+}
+
+Get-ADSyncConnector | Select-Object -Property Identifier,Type,Version,Name,ObjectInclusionList,AttributeInclusionList | ConvertTo-Json | Out-File -LiteralPath "$BackupPath\ADSyncConnectors.json"
+
+```
+
+---
