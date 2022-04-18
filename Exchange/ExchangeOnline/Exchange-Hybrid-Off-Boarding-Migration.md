@@ -1,6 +1,6 @@
 ---
 title: Exchange Hybrid Off-Boarding Migration
-filename: Exchange\Online\Exchange-Hybrid-Off-Boarding-Migration.md
+filename: Exchange\ExchangeOnline\Exchange-Hybrid-Off-Boarding-Migration.md
 ms.date: 2012.06.15
 ---
 

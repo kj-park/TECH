@@ -1,6 +1,6 @@
 ﻿---
 title: Migrating your IMAP mailboxes to Microsoft 365
-filename: Exchange\Online\Migrating-your-IMAP-mailboxes-to-Microsoft-365.md
+filename: Exchange\ExchangeOnline\Migrating-your-IMAP-mailboxes-to-Microsoft-365.md
 ms.date: 2022.04.14
 ---
 

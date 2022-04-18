@@ -1,6 +1,6 @@
 ﻿---
 title: Importing PST file to Microsoft 365
-filename: Exchange\Online\Importing-PST-file-to-Microsoft-365.md
+filename: Exchange\ExchangeOnline\Importing-PST-file-to-Microsoft-365.md
 ms.date: 2022.04.13
 ---
 
