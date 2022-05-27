@@ -80,6 +80,16 @@ Exchange 인프라를 관리에 필요한 주제들에 대하여 기술합니다
     - [Importing PST file to Microsoft 365](ExchangeOnline/Importing-PST-file-to-Microsoft-365)
     - [Migrating your IMAP mailboxes to Microsoft 365](ExchangeOnline/Migrating-your-IMAP-mailboxes-to-Microsoft-365)
 
+## Exchange Online
+
+- [Exchange Hybrid Off-Boarding Migration](ExchangeOnline/Exchange-Hybrid-Off-Boarding-Migration)
+
+- [Exchange Online Quarantine](ExchangeOnline/Exchange-Online-Quarantine)
+
+- [Importing PST file to Microsoft 365](Importing-PST-file-to-Microsoft-365)
+
+- [Migrating your IMAP mailboxes to Microsoft 365](Migrating-your-IMAP-mailboxes-to-Microsoft-365)
+
 ## Conceptual Documents
 
 - [How to use Sender Policy Framework (SPF) to prevent spoofing](Conceptual/Sender-Policy-Framework)
