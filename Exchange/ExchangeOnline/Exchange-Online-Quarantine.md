@@ -41,6 +41,8 @@ Applies to
     - [Investigate alerts in Microsoft 365 Defender](https://docs.microsoft.com/en-us/microsoft-365/security/defender/investigate-alerts?view=o365-worldwide)
 
 
+## Overview
+
 Exchange Online에서 Quarantine의 Microsoft 365 Defender의 기능 중 일부입니다.
 
 조직에서는 잠재적으로 위험하거나 원치 않는 메시지를 보유할 수 있습니다. Anti-mailware 및 anti-spam 정책을 통하여 격리를 할 수 있습니다.
@@ -51,5 +53,15 @@ Exchange Online에서 Quarantine의 Microsoft 365 Defender의 기능 중 일부�
 
 관리자는 사용자 지정 스팸 방지 정책을 만들어 스팸 및 높은 confidence 스팸과 bulk email 메시지를 격리할 수 있습니다.
 
+![how-eop-works](https://github.com/kj-park/tech/blob/main/Exchange/.media/how-eop-works.png?raw=true)
 
 
+Quarantine and release message
+
+
+
+
+
+
+
+## Quarantine notification settings
