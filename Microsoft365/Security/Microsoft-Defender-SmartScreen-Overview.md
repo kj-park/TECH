@@ -27,3 +27,5 @@ Blocking URLs associated with potentially unwanted applications
 ![mem-win-config-device-restrict-defender-smartscreen-Profile](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/mem-win-config-device-restrict-defender-smartscreen-Profile.png?raw=true)
 ![mem-win-config-device-restrict-defender-smartscreen-windowssecurity](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/mem-win-config-device-restrict-defender-smartscreen-windowssecurity.png?raw=true)
 ![mem-win-endpointsecurity-ASR-webprotection-defender-smartscreen-profile](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/mem-win-endpointsecurity-ASR-webprotection-defender-smartscreen-profile.png?raw=true)
+![Edge-Policies](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/Edge-Policies.png?raw=true)
+
