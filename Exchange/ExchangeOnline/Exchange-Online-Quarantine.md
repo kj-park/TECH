@@ -12,6 +12,7 @@ Applies to
 - Microsoft Defender for Office 365 plan 1 and plan 2
 - Microsoft 365 Defender
 
+
 ![compare-defender-for-o365-plan1-and-plan2](https://github.com/kj-park/tech/blob/main/Exchange/.media/compare-defender-for-o365-plan1-and-plan2.png?raw=true)
 
 ![compare-defender-for-o365-included-canbeadded-subscriptions](https://github.com/kj-park/tech/blob/main/Exchange/.media/compare-defender-for-o365-included-canbeadded-subscriptions.png?raw=true)
