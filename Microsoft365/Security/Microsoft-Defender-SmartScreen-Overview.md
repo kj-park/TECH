@@ -1,20 +1,21 @@
 ﻿
-
 # Microsoft Defender SmartScreen Overview
 
+Microsoft Defender SmartScreen은 phishing 또는 malware websites/application과 악의적인 파일 다운로드로 부터 보호합니다.
 
-Anti-phishing and anti-malware support
+## Benefits of Microsoft Defender SmartScreen
 
-Reputation-based URL and app protection.
+- Anti-phishing and anti-malware support
 
-Operating system integration
+- Reputation-based URL and app protection
 
-Improved heuristics and diagnostic data
+- Operating system integration
 
-Management through Group Policy and Microsoft Intune
+- Improved heuristics and diagnostic data
 
-Blocking URLs associated with potentially unwanted applications
+- Management through Group Policy and Microsoft Intune
 
+- Blocking URLs associated with potentially unwanted applications
 
 ## Windows Defender SmartScreen Profiles in Intune
 
@@ -43,10 +44,9 @@ Intune에 등록된 Windows들에 대하여 Microsoft Edge에 대한 Defender Sm
 
 ![mem-win-config-admx-computer-defender-smartscreen-detailsettings](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/mem-win-config-admx-computer-defender-smartscreen-detailsettings.png?raw=true)
 
-
 ---
 
-## Verify the Defender SmartScreen policies in Windows Microsoft Edge
+## Verify the Defender SmartScreen policies in Microsoft Microsoft Edge
 
 **Microsoft Edge Legacy**에서 Defender SmartScreen 설정은 **Windows Security** 설정 창의 **앱 및 브라우저 컨트롤**의 **평판 기반 보호** 항목에서 확인할 수 있습니다:
 
@@ -63,8 +63,32 @@ Intune에 등록된 Windows들에 대하여 Microsoft Edge에 대한 Defender Sm
 
 ![mem-win-config-device-restrict-defender-smartscreen-edge](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/mem-win-config-device-restrict-defender-smartscreen-edge.png?raw=true)
 
-
 Microsoft Edge에서 적용된 세부 정책의 확인은 **[정책](edge://policy/)**에서 확인할 수 있습니다:
 
 ![Edge-Policies](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/Edge-Policies.png?raw=true)
 
+### SmartScreen이 어떻게 보호하나요?
+
+아래의 Demo page에서 SmartScreen에서 어떻게 보호를 하는지 확인할 수 있습니다.
+
+- https://demo.wd.microsoft.com/
+- https://demo.smartscreen.msft.net/
+- https://nav.smartscreen.msft.net/
+
+> [!INFO] 
+> 위 demo 사이트는 조만간 서비스가 되지 않을 수 있습니다.
+
+| 분류 | Edge Action | Description |
+|--|--|--|
+| Suspicious Phishing Site | [smartscreen-on-edge-phishing-suspicious](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/smartscreen-on-edge-phishing-suspicious.png?raw=true) |  |
+| Known Phishing Site  | [smartscreen-on-edge-phishing](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/smartscreen-on-edge-phishing.png?raw=true) |  |
+| Malware Site | [smartscreen-on-edge-malware-site](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/smartscreen-on-edge-malware-site.png?raw=true) |  |
+| Blocked Download | [smartscreen-on-edge-blocked-download](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/smartscreen-on-edge-blocked-download.png?raw=true) |  |
+| Contain malicious frame site | [smartscreen-on-edge-malicious-frame](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/smartscreen-on-edge-malicious-frame.png?raw=true) |  |
+| Unknown Download | [smartscreen-on-edge-unknown-download](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/smartscreen-on-edge-unknown-download.png?raw=true) |  |
+| Known Malware Download | [smartscreen-on-edge-known-malware-download](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/smartscreen-on-edge-known-malware-download.png?raw=true) |  |
+
+| 분류 | Edge Action | Description |
+|--|--|--|
+| Block URL by Web Content Filtering | [smartscreen-on-edge-web-content-filtering-01](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/smartscreen-on-edge-web-content-filtering-01.png?raw=true) |  |
+| Block URL by Web Content Filtering detail | [smartscreen-on-edge-web-content-filtering-02](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/smartscreen-on-edge-web-content-filtering-02.png?raw=true) |  |
