@@ -80,15 +80,15 @@ Microsoft Edge에서 적용된 세부 정책의 확인은 **[정책](edge://poli
 
 | 분류 | Edge Action | Description |
 |--|--|--|
-| Suspicious Phishing Site | [smartscreen-on-edge-phishing-suspicious](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/smartscreen-on-edge-phishing-suspicious.png?raw=true) |  |
-| Known Phishing Site  | [smartscreen-on-edge-phishing](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/smartscreen-on-edge-phishing.png?raw=true) |  |
-| Malware Site | [smartscreen-on-edge-malware-site](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/smartscreen-on-edge-malware-site.png?raw=true) |  |
-| Blocked Download | [smartscreen-on-edge-blocked-download](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/smartscreen-on-edge-blocked-download.png?raw=true) |  |
-| Contain malicious frame site | [smartscreen-on-edge-malicious-frame](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/smartscreen-on-edge-malicious-frame.png?raw=true) |  |
-| Unknown Download | [smartscreen-on-edge-unknown-download](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/smartscreen-on-edge-unknown-download.png?raw=true) |  |
-| Known Malware Download | [smartscreen-on-edge-known-malware-download](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/smartscreen-on-edge-known-malware-download.png?raw=true) |  |
+| Suspicious Phishing Site | ![smartscreen-on-edge-phishing-suspicious](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/smartscreen-on-edge-phishing-suspicious.png?raw=true) |  |
+| Known Phishing Site  | ![smartscreen-on-edge-phishing](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/smartscreen-on-edge-phishing.png?raw=true) |  |
+| Malware Site | ![smartscreen-on-edge-malware-site](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/smartscreen-on-edge-malware-site.png?raw=true) |  |
+| Blocked Download | ![smartscreen-on-edge-blocked-download](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/smartscreen-on-edge-blocked-download.png?raw=true) |  |
+| Contain malicious frame site | ![smartscreen-on-edge-malicious-frame](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/smartscreen-on-edge-malicious-frame.png?raw=true) |  |
+| Unknown Download | ![smartscreen-on-edge-unknown-download](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/smartscreen-on-edge-unknown-download.png?raw=true) |  |
+| Known Malware Download | ![smartscreen-on-edge-known-malware-download](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/smartscreen-on-edge-known-malware-download.png?raw=true) |  |
 
 | 분류 | Edge Action | Description |
 |--|--|--|
-| Block URL by Web Content Filtering | [smartscreen-on-edge-web-content-filtering-01](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/smartscreen-on-edge-web-content-filtering-01.png?raw=true) |  |
-| Block URL by Web Content Filtering detail | [smartscreen-on-edge-web-content-filtering-02](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/smartscreen-on-edge-web-content-filtering-02.png?raw=true) |  |
+| Block URL by Web Content Filtering | ![smartscreen-on-edge-web-content-filtering-01](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/smartscreen-on-edge-web-content-filtering-01.png?raw=true) |  |
+| Block URL by Web Content Filtering detail | ![smartscreen-on-edge-web-content-filtering-02](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/smartscreen-on-edge-web-content-filtering-02.png?raw=true) |  |
