@@ -71,9 +71,9 @@ Microsoft Edge에서 적용된 세부 정책의 확인은 **[정책](edge://poli
 
 아래의 Demo page에서 SmartScreen에서 어떻게 보호를 하는지 확인할 수 있습니다.
 
-- https://demo.wd.microsoft.com/
-- https://demo.smartscreen.msft.net/
-- https://nav.smartscreen.msft.net/
+- [https://demo.wd.microsoft.com/](https://demo.wd.microsoft.com/)
+- [https://demo.smartscreen.msft.net/](https://demo.smartscreen.msft.net/)
+- [https://nav.smartscreen.msft.net/](https://nav.smartscreen.msft.net/)
 
 > [!INFO] 
 > 위 demo 사이트는 조만간 서비스가 되지 않을 수 있습니다.
