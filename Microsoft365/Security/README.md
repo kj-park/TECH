@@ -12,3 +12,6 @@ ms.date: 2012.05.28
 
 ## Microsoft Intune
 
+## Microsoft Defender for EndPoint
+
+- [Microsoft Defender SmartScreen Overview](./defender-for-endpoint/Microsoft-Defender-SmartScreen-Overview)
