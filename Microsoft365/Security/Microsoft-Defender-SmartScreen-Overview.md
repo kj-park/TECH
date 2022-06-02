@@ -48,23 +48,23 @@ Intune에 등록된 Windows들에 대하여 Microsoft Edge에 대한 Defender Sm
 
 ## Verify the Defender SmartScreen policies in Windows Microsoft Edge
 
-**Microsoft Edge Legacy**에서 Defender SmartScreen 설정은 Windows Security 설정 창의 앱 및 브라우저 컨트롤의 평판 기반 보호 항목에서 확인할 수 있습니다:
+**Microsoft Edge Legacy**에서 Defender SmartScreen 설정은 **Windows Security** 설정 창의 **앱 및 브라우저 컨트롤**의 **평판 기반 보호** 항목에서 확인할 수 있습니다:
 
 ![mem-win-config-device-restrict-defender-smartscreen-windowssecurity](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/mem-win-config-device-restrict-defender-smartscreen-windowssecurity.png?raw=true)
 
-또한, Microsoft Edge Legacy에서는 설정의 업데이트 및 보안 항목에서 확인할 수 있습니다:
+또한, Microsoft Edge Legacy에서는 **설정**의 **업데이트 및 보안** 항목에서 확인할 수 있습니다:
 ![mem-win-config-device-restrict-defender-smartscreen-edgelegacy](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/mem-win-config-device-restrict-defender-smartscreen-edgelegacy.png?raw=true)
 
-**Microsoft Edge** current version에서 Defender SmartScreen 설정은 [개인 정보, 검색 및 서비스](edge://settings/privacy)의 보안 항목에서 확인할 수 있습니다:
+**Microsoft Edge** current version에서 Defender SmartScreen 설정은 **[개인 정보, 검색 및 서비스](edge://settings/privacy)**의 **보안** 항목에서 확인할 수 있습니다:
 
 ![Edge-Defender-SmartScreen-enable](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/Edge-Defender-SmartScreen-enable.png?raw=true)
 
-정책이 적용된 경우 아래 그림과 같이 Microsoft Defender SmartScreen 설정 항목이 켜진 상태로 변경하지 못하게 비활성화되어 있습니다:
+정책이 적용된 경우 아래 그림과 같이 **Microsoft Defender SmartScreen** 설정 항목이 켜진 상태로 변경하지 못하게 비활성화되어 있습니다:
 
 ![mem-win-config-device-restrict-defender-smartscreen-edge](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/mem-win-config-device-restrict-defender-smartscreen-edge.png?raw=true)
 
 
-Microsoft Edge에서 적용된 세부 정책의 확인은 [정책](edge://policy/)에서 확인할 수 있습니다:
+Microsoft Edge에서 적용된 세부 정책의 확인은 **[정책](edge://policy/)**에서 확인할 수 있습니다:
 
 ![Edge-Policies](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/Edge-Policies.png?raw=true)
 
