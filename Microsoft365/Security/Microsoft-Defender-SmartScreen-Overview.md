@@ -92,3 +92,12 @@ Microsoft Edge에서 적용된 세부 정책의 확인은 **[정책](edge://poli
 |--|--|--|
 | Block URL by Web Content Filtering | ![smartscreen-on-edge-web-content-filtering-01](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/smartscreen-on-edge-web-content-filtering-01.png?raw=true) |  |
 | Block URL by Web Content Filtering detail | ![smartscreen-on-edge-web-content-filtering-02](https://github.com/kj-park/tech/blob/main/Microsoft365/Security/.media/smartscreen-on-edge-web-content-filtering-02.png?raw=true) |  |
+
+#### Web Content Filtering in Defender for Endpoint
+
+Web content filtering 기능은 Microsoft Edge의 경우 Windows Defender SmartScreen 기능에 위해 동작되며, 그 외 Chrome 또는 Firefox 등의 브라우저의 경우 Network Protection 기능에 위해 동작합니다. ([Web content filtering | Microsoft Docs](https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/web-content-filtering?view=o365-worldwide#what-is-web-content-filtering))
+
+Web Content Filtering의 Category 분류는 Cyren과 Partner 협약을 통하여 Defender for Endpoint를 통해 추가적은 비용 없이 Web Content Filtering기능을 사용할 수 있습니다. 
+
+- [참고:Microsoft Defender ATP: Web Content Filtering - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/microsoft-defender-atp-web-content-filtering/ba-p/1550096)
+- [참고: Website URL Category Check - Cyren](https://www.cyren.com/security-center/url-category-check-gate)
