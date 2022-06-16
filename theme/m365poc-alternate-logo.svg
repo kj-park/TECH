@@ -8,7 +8,7 @@
    version="1.1"
    id="svg5"
    inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
-   sodipodi:docname="m365poc-default-logo.svg"
+   sodipodi:docname="m365poc-alternate-logo.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -25,8 +25,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="2.9540685"
-     inkscape:cx="69.734335"
-     inkscape:cy="18.279874"
+     inkscape:cx="68.380269"
+     inkscape:cy="18.61839"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="1912"
@@ -41,20 +41,14 @@
      id="layer1">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#f9f9f9;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       style="font-style:normal;font-weight:normal;font-size:9.87778px;line-height:1.25;font-family:sans-serif;fill:#f9f9f9;fill-opacity:1;stroke:none;stroke-width:0.264583;letter-spacing:-0.26458333px"
        x="0.6269601"
        y="10.210495"
        id="text63"><tspan
          sodipodi:role="line"
          id="tspan61"
-         style="stroke-width:0.264583;fill:#f9f9f9"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#f9f9f9;stroke-width:0.264583"
          x="0.6269601"
-         y="10.210495"><tspan
-           style="fill:#f9f9f9"
-           id="tspan273">M</tspan><tspan
-           style="fill:#f9f9f9"
-           id="tspan275">365</tspan><tspan
-           style="fill:#f9f9f9"
-           id="tspan277">POC</tspan></tspan></text>
+         y="10.210495">M365POC</tspan></text>
   </g>
 </svg>
