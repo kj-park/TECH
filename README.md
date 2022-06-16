@@ -19,3 +19,8 @@ Sharing the Technology to everyone who want to know.
 - [Azure Active Directory](Azure-AD/README)
 
 - [PowerShell](PowerShell/README)
+
+---
+
+https://github.com/kj-park/tech/blob/main/theme/m365poc-default-logo.svg?raw=true
+https://github.com/kj-park/tech/blob/main/theme/m365poc-alternate-logo.svg?raw=true
