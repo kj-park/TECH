@@ -32,7 +32,7 @@ Off-Boarding 마이그레이션을 위하여 고려되어야 할 설정은 아�
 - **Archive Mailbox 마이그레이션 옵션.** 사용자 메일 사서함의 archive mailbox가 활성화된 경우 archive mailbox에 대한 마이그레이션 옵션을 선택해야 합니다.
 - **On-Premises Exchange Target Mailbox database.** Off-Boarding 마이그레이션의 경우 On-Premises Exchange의 Target Mailbox database를 지정해야 합니다.
 - **마이그레이션 시작 및 완료 옵션.** 마이그레이션의 시작 및 완료에 대한 시간 및 시기를 결정해야 합니다.
-- **대상 사서함에 대한 MoveRequest.** 대상 사용자의 사서함에 대한  MoveRequest (Get-MoveRequest cmdlets으로 확인 가능) 가 있으면 마이그레이션이 실패합니다. 마이그레이션을 시작하기 전에 이러한 MoveRequest를 제거하여야 합니다.
+- **대상 사서함에 대한 MoveRequest.** 대상 사용자의 사서함에 대한  MoveRequest (`Get-MoveRequest` cmdlets으로 확인 가능) 가 있으면 마이그레이션이 실패합니다. 마이그레이션을 시작하기 전에 이러한 MoveRequest를 제거하여야 합니다.
 
 ## Exchange Hybrid Off-Boarding Migration Step
 
