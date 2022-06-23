@@ -27,3 +27,7 @@ Sharing the Technology to everyone who want to know.
 ![](https://github.com/kj-park/tech/blob/main/theme/m365poc-alternate-logo.svg?raw=true)
 
 ---
+
+### GitHub Pages Configuration
+
+[!INCLUDE[GitHub Pages Configuration](/.includes/GitHub-Pages-Configuration.md)]
