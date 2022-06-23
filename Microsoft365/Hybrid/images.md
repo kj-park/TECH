@@ -185,3 +185,75 @@
 
 ---
 
+- aadc-sync-arch
+
+	![aadc-sync-arch](https://github.com/kj-park/tech/blob/main/Microsoft365/Hybrid/.media/aadc-sync-arch.png?raw=true)
+
+[Top](#)
+
+---
+
+- aadc-sync-process
+
+	![aadc-sync-process](https://github.com/kj-park/tech/blob/main/Microsoft365/Hybrid/.media/aadc-sync-process.png?raw=true)
+
+[Top](#)
+
+---
+
+- aadc-sync-provisioning-001
+
+	![aadc-sync-provisioning-001](https://github.com/kj-park/tech/blob/main/Microsoft365/Hybrid/.media/aadc-sync-provisioning-001.png?raw=true)
+
+[Top](#)
+
+---
+
+- aadc-sync-provisioning-002
+
+	![aadc-sync-provisioning-002](https://github.com/kj-park/tech/blob/main/Microsoft365/Hybrid/.media/aadc-sync-provisioning-002.png?raw=true)
+
+[Top](#)
+
+---
+
+- aadc-sync-rule-001
+
+	![aadc-sync-rule-001](https://github.com/kj-park/tech/blob/main/Microsoft365/Hybrid/.media/aadc-sync-rule-001.png?raw=true)
+
+[Top](#)
+
+---
+
+- aadc-sync-rule-002
+
+	![aadc-sync-rule-002](https://github.com/kj-park/tech/blob/main/Microsoft365/Hybrid/.media/aadc-sync-rule-002.png?raw=true)
+
+[Top](#)
+
+---
+
+- aadc-sync-rule-003
+
+	![aadc-sync-rule-003](https://github.com/kj-park/tech/blob/main/Microsoft365/Hybrid/.media/aadc-sync-rule-003.png?raw=true)
+
+[Top](#)
+
+---
+
+- aadc-sync-rule-004
+
+	![aadc-sync-rule-004](https://github.com/kj-park/tech/blob/main/Microsoft365/Hybrid/.media/aadc-sync-rule-004.png?raw=true)
+
+[Top](#)
+
+---
+
+- aadc-sync-rule-005
+
+	![aadc-sync-rule-005](https://github.com/kj-park/tech/blob/main/Microsoft365/Hybrid/.media/aadc-sync-rule-005.png?raw=true)
+
+[Top](#)
+
+---
+
