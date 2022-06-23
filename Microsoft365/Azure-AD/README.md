@@ -1,6 +1,6 @@
 ---
 title: Azure Active Directory
-filename: Microsoft365\Azure-AD\README.md
+filename: Microsoft365\Azure-AD\readme.md
 ms.date: 2012.05.13
 ---
 

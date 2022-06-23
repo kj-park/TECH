@@ -1,6 +1,6 @@
 ---
 title: Microsoft 365
-filename: Microsoft365\README.md
+filename: Microsoft365\readme.md
 ms.date: 2012.03.31
 ---
 
@@ -27,6 +27,6 @@ ms.date: 2012.03.31
 - [Set up Microsoft Intune](Security/Intune/Set-up-Microsoft-Intune)
 
 
-## [Security](Security/README)
+## [Security](Security/readme)
 
 

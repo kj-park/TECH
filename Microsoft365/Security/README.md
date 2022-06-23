@@ -1,6 +1,6 @@
 ---
 title: Microsoft 365 Security
-filename: Microsoft365\Security\README.md
+filename: Microsoft365\Security\readme.md
 ms.date: 2012.05.28
 ---
 
