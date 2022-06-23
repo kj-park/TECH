@@ -10,13 +10,13 @@ Sharing the Technology to everyone who want to know.
 
 ## Table of Contents
 
-- [ActiveDirectory](ActiveDirectory/readme)
+- [ActiveDirectory](ActiveDirectory)
 
-- [Exchange](Exchange/readme)
+- [Exchange](Exchange)
 
-- [Microsoft 365](Microsoft365/readme)
+- [Microsoft 365](Microsoft365)
 
-- [PowerShell](PowerShell/readme)
+- [PowerShell](PowerShell)
 
 ---
 
