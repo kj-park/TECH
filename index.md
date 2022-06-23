@@ -1,28 +1,3 @@
 
 # Contents Index
 
-
-## [ActiveDirectory](ActiveDirectory)
-
----
-
-## [Exchange](Exchange)
-
----
-
-## [Microsoft365](Microsoft365)
-
----
-
-## [PowerShell](PowerShell)
-
----
-
-## [Learning](Learning)
-
----
-
-## [includes](includes)
-
----
-

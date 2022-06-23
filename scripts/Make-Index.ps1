@@ -2,28 +2,53 @@
 function Make-Index {
     param (
         [String]$Path = 'C:\REPOSITORY\GITHUB\Tech\',
-        [String]$Output = 'index.md'
+        [String]$IndexFile = 'C:\REPOSITORY\GITHUB\Tech\index.md'
     )
     begin {
         $contentExts = @('.md')
-        $baseUrl = 'https://kj-park.github.io/Tech/<RelativeUrl>'
         $RootPath = $Path
-        $contentItems = $null
         $MarkdownString = "`n# Contents Index`n"
         $ContentFolders = @('ActiveDirectory','Exchange','Microsoft365','PowerShell','Learning','includes')
-        $OutputPath = "$RootPath$Output"
+        function MakeIndex {
+            param ( $TargetFolder, $RootPath, $Output, $Indent = 0 )
+            process {
+                #$TargetFolder = Get-Item -Path "$($RootPath)Microsoft365"
+                #$RootPath = $TargetFolder.FullName.Replace($RootPath,"")
+                $Indent = ([regex]::Matches($TargetFolder.FullName.Replace($RootPath,""), "\\")).Count
+                $Contents = Get-ChildItem -Path $TargetFolder.FullName -Recurse:$false | Where-Object -FilterScript { $PSItem.Extension -in $contentExts } | Sort-Object -Property FullName
+                foreach ( $Content in $Contents ) {
+                    $textLabel = $Content.BaseName.Replace("-"," ")
+                    $textUrl = $Content.FullName.Replace($RootPath,'').Replace('\','/').Replace(".md","")
+                    $listPrefix = ""; for ($i = $Indent; $i -gt 0; $i--) { $listPrefix += "`t" }; $listPrefix += "-"
+                    Add-Content -LiteralPath $Output -Value "$listPrefix [$textLabel]($textUrl)`n"
+                }
+                $Folders = Get-ChildItem -Path $TargetFolder.FullName -Directory -Recurse | Where-Object -FilterScript { $PSItem.Name -notcontains @('.media') } | Sort-Object -Property FullName
+                foreach ( $Folder in $Folders ) {
+                    $textLabel = $Content.BaseName.Replace("-"," ")
+                    $textUrl = $Content.FullName.Replace($RootPath,'').Replace('\','/').Replace(".md","")
+                    $listPrefix = ""; for ($i = $Indent; $i -gt 0; $i--) { $listPrefix += "`t" }; $listPrefix += "-"
+                    Add-Content -LiteralPath $Output -Value "$listPrefix [$textLabel]($textUrl)`n"
+                }
+
+            }
+        }
     }
     process {
         if ( Test-Path -LiteralPath $RootPath ) {
-            Set-Content -LiteralPath $OutputPath -Value $MarkdownString -Force
-            
-            foreach ( $itemFolder in $ContentFolders ) {
-                Add-Content -LiteralPath $OutputPath -Value "## [$itemFolder]($itemFolder)`n"
-
-                $Folders = Get-ChildItem -Path "$RootPath$itemFolder" -Directory -Recurse | Where-Object -FilterScript { $PSItem.Name -notcontains @('.media') }
-
-
-
+            Set-Content -LiteralPath $Output -Value $MarkdownString -Force            
+            foreach ( $TopFolder in $ContentFolders ) {
+                Add-Content -LiteralPath $Output -Value "## [$TopFolder]($TopFolder)`n"
+                if ( Test-Path -LiteralPath "$RootPath$TopFolder") {
+                    $Folder = Get-Item -Path "$RootPath$TopFolder" -ErrorAction SilentlyContinue
+                    MakeIndexFolder -TargetFolder $Folder -RootPath $RootPath -Indent 0 -Output $Output
+                }
+                $IsExistFolders = $true; $Indent = 0
+                $Folder | Get-ChildItem | Where-Object -FilterScript { $PSItem.}
+                $Folders = Get-ChildItem -Path "$RootPath$TopFolder" -Directory -Recurse: $false | Where-Object -FilterScript { $PSItem.Name -notcontains @('.media') }
+                foreach ( $subFolder in $Folders ) {
+                    $Indent += 1
+                    MakeIndexFolder -TargetFolder $Folder -RootPath $RootPath -Indent $Indent -Output $Output
+                }
                 Add-Content -LiteralPath $OutputPath -Value "---`n"                
             }
             
