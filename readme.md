@@ -30,4 +30,4 @@ Sharing the Technology to everyone who want to know.
 
 ### GitHub Pages Configuration
 
-[!INCLUDE[GitHub Pages Configuration](.includes/GitHub-Pages-Configuration.md)]
+[!INCLUDE[GitHub Pages Configuration](.includes/GitHub-Pages-Configuration)]
