@@ -225,7 +225,7 @@ Conditional Access Insights workbook은 조건부 액세스 쿼리를 시각화�
 
 아래 다이어그램은 MS 팀 서비스 종속성을 보여 줍니다. 흰색 화살표는 초기 바인딩 적용(Early-bound policy enforcement)을 나타냅니다. Planner의 파선 화살표는 런타임에 바인딩된 적용(Late-bound policy enforcement)을 나타냅니다.
 
-![aad-conditional-access-service-dependencies](https://github.com/kj-park/tech/blob/main/Azure-AD/.media/aad-conditional-access-service-dependencies.png?raw=true)
+![aad-conditional-access-service-dependencies](https://github.com/kj-park/tech/blob/main/Microsoft365/Azure-AD/.media/aad-conditional-access-service-dependencies.png?raw=true)
 
 가능한 경우 관련 앱과 서비스 간에 공통 정책을 설정 해야 합니다. 일관 된 보안 상태를 유지 하면 최상의 사용자 환경을 제공 합니다.
 
@@ -260,12 +260,12 @@ Conditional Access Insights workbook은 조건부 액세스 쿼리를 시각화�
 
 **Conditional Access What If policy tool** 를 사용 하 여 사용자 환경에 대 한 조건부 액세스 정책의 영향을 이해할 수 있습니다. 여러 번의 로그인을 수동으로 수행하여 정책을 시험 사용해보는 대신, 이 도구를 사용하여 사용자의 시뮬레이트된 로그인을 평가할 수 있습니다.
 
-![aad-conditional-access-what-If-Tool](https://github.com/kj-park/tech/blob/main/Azure-AD/.media/aad-conditional-access-what-If-Tool.svg?raw=true)
+![aad-conditional-access-what-If-Tool](https://github.com/kj-park/tech/blob/main/Microsoft365/Azure-AD/.media/aad-conditional-access-what-If-Tool.svg?raw=true)
 
 ---
 
 ## Continuous access evaluation
 
-![AAD-Continuous-access-evaluation](https://github.com/kj-park/tech/blob/main/Azure-AD/.media/AAD-Continuous-access-evaluation.png?raw=true)
+![AAD-Continuous-access-evaluation](https://github.com/kj-park/tech/blob/main/Microsoft365/Azure-AD/.media/AAD-Continuous-access-evaluation.png?raw=true)
 
 ---
