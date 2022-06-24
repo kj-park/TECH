@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WNSPublicIpAddresses xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This file contains the FQDNs, VIPs, and IP address ranges used by the Windows Notification Service. If possible, we strongly suggest allow listing by FQDN as these will not change. If you whitelist by FQDN, you do not need to also whitelist the IP address ranges.
+  
+  A new text file will be uploaded every time a new VIP or IP range is released in production. New VIPs or IP ranges will be effective one week after it is uploaded. Please download the file and perform the necessary changes on your site. Endpoints in CloudService nodes are used for cloud services to send notifications to WNS. Endpoints in Client nodes are used by devices to receive notifications from WNS. For mobile devices see also Microsoft Push Notifications Service (MPNS) Public IP ranges in the Related Resources section. -->
+  <CloudServiceDNS>
+    <DNS FQDN="*.notify.windows.com" />
+  </CloudServiceDNS>
+  <ClientDNS>
+    <DNS FQDN="*.wns.windows.com" />
+    <DNS FQDN="*.notify.live.net" />
+  </ClientDNS>
+  <CloudServiceIPs>
+    <IpRange Subnet="52.226.139.187/32" />
+	<IpRange Subnet="40.83.240.250/32" />
+    <IpRange Subnet="20.54.37.184/32" />
+    <IpRange Subnet="20.199.121.23/32" />
+    <IpRange Subnet="20.198.162.84/32" />
+	<IpRange Subnet="52.230.81.0/32" />
+  </CloudServiceIPs>
+  <ClientIPsIPv4>
+	<IpRange Subnet="52.226.139.121/32" />
+    <IpRange Subnet="52.226.139.180/32" />
+    <IpRange Subnet="52.226.139.185/32" />
+	<IpRange Subnet="13.64.180.106/32" />
+    <IpRange Subnet="40.83.247.108/32" />
+    <IpRange Subnet="40.83.240.146/32" />
+    <IpRange Subnet="20.54.36.229/32" />
+    <IpRange Subnet="20.54.37.64/32" />
+    <IpRange Subnet="20.54.37.73/32" />
+	<IpRange Subnet="20.199.120.85/32" />
+	<IpRange Subnet="20.199.120.151/32" />
+	<IpRange Subnet="20.199.120.182/32" />
+    <IpRange Subnet="20.198.162.78/32" />
+    <IpRange Subnet="20.198.162.76/32" />
+    <IpRange Subnet="20.197.71.89/32" />    
+	<IpRange Subnet="52.139.250.253/32" />
+    <IpRange Subnet="40.90.189.152/32" />
+    <IpRange Subnet="40.119.211.203/32" />
+  </ClientIPsIPv4>
+  <IdentityServiceDNS>
+	<DNS FQDN="login.microsoftonline.com"/>
+	<DNS FQDN="login.live.com"/>
+  </IdentityServiceDNS>
+</WNSPublicIpAddresses>

@@ -8,7 +8,7 @@ ms.date: 2012.05.10
 
 ## Access Controls: Grant
 
-![conditional-access-policy-access-controls-grant](https://github.com/kj-park/Tech/blob/main/Microsoft365/Security/.media/conditional-access-policy-access-controls-grant.svg?raw=true)
+![conditional-access-policy-access-controls-grant](https://github.com/kj-park/Tech/blob/main/Microsoft365/media/conditional-access-policy-access-controls-grant.svg?raw=true)
 
 ### Block Access
 
@@ -140,7 +140,7 @@ User risk를 감지 하면 관리자는 user risk policy conditions를 사용 �
 
 ## Access Controls: Session
 
-![conditional-access-policy-access-controls-session](https://github.com/kj-park/Tech/blob/main/Microsoft365/Security/.media/conditional-access-policy-access-controls-session.svg?raw=true)
+![conditional-access-policy-access-controls-session](https://github.com/kj-park/Tech/blob/main/Microsoft365/media/conditional-access-policy-access-controls-session.svg?raw=true)
 
 ### Use app enforced restrictions
 
