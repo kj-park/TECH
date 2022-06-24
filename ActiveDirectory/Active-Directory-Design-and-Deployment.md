@@ -15,7 +15,7 @@ Active Directory Deployment Project는 세가지 과정, Design / Deployments / 
 - **Deploy.** Lab 환경에 design을 적용하고 test한 후, 실제 product 환경에 구현합니다.
 - **Operations.** Deployment가 완료된 후 operations team이 directory service 관리에 대한 책임을 가져갑니다.
 
-![image.png](https://github.com/kj-park/Tech/blob/main/ActiveDirectory/.media/image-e902b215-fc55-4dc1-8587-ba9b00f63502.png?raw=true)
+![image.png](https://github.com/kj-park/Tech/blob/main/ActiveDirectory/media/image-e902b215-fc55-4dc1-8587-ba9b00f63502.png?raw=true)
 
 ---
 
@@ -58,7 +58,7 @@ Active Directory Deployment Project는 세가지 과정, Design / Deployments / 
 
 Active Directory Deployment Project는 아래의 단계들을 포함할 수 있습니다:
 
-![image.png](https://github.com/kj-park/Tech/blob/main/ActiveDirectory/.media/image-bd19ebb7-49ca-464c-9660-5f6a44025f32.png?raw=true)
+![image.png](https://github.com/kj-park/Tech/blob/main/ActiveDirectory/media/image-bd19ebb7-49ca-464c-9660-5f6a44025f32.png?raw=true)
 
 1. [Planning Active Directory Project](Active-Directory-Design-and-Deployment/Planning-Active-Directory-Project)
 1. [Designing Active Directory Logical Structure](Active-Directory-Design-and-Deployment/Designing-Active-Directory-Logical-Structure)
