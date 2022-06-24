@@ -86,4 +86,4 @@ PowerShell Desired State Configuration (DSC)는 Enterprise Infrastructure 환경
 ---
 
 > [!div class="nextstepaction"]  
-> [Installing PowerShell](Installing-PowerShell.md)
+> [Installing PowerShell](Learning-PowerShell/Installing-PowerShell.md)
