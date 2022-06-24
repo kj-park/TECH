@@ -17,7 +17,7 @@ Contents:
 
 #### Simple Mail Transfer Protocol (RFC5321)
 
-![SMTP (RFC5321) Explanation](https://github.com/kj-park/Tech/blob/main/Exchange/.media/Exchange-Mail-Flow-and-Recipient-Types-001.png?raw=true)
+![SMTP (RFC5321) Explanation](https://github.com/kj-park/Tech/blob/main/Exchange/media/Exchange-Mail-Flow-and-Recipient-Types-001.png?raw=true)
 
 > [!INFO]  
 > SMTP Service Extension for Secure SMTP over Transport Layer Security (RFC3207) ~ STARTTLS command for secure SMTP
@@ -33,7 +33,7 @@ This is a test message...
 .
 ```
 
-![SMTP Command](https://github.com/kj-park/Tech/blob/main/Exchange/.media/Exchange-Mail-Flow-and-Recipient-Types-002.png?raw=true)
+![SMTP Command](https://github.com/kj-park/Tech/blob/main/Exchange/media/Exchange-Mail-Flow-and-Recipient-Types-002.png?raw=true)
 
 > [!INFO]  
 > [Use Telnet to test SMTP communication on Exchange servers](https://docs.microsoft.com/en-us/exchange/mail-flow/test-smtp-with-telnet)
@@ -43,9 +43,9 @@ This is a test message...
 - Concepts and Facilities (RFC1034)
 - Implementation and Specification (RFC1035)
 
-![DNS Structure](https://github.com/kj-park/Tech/blob/main/Exchange/.media/Exchange-Mail-Flow-and-Recipient-Types-003.png?raw=true)
+![DNS Structure](https://github.com/kj-park/Tech/blob/main/Exchange/media/Exchange-Mail-Flow-and-Recipient-Types-003.png?raw=true)
 
-![DNS Query](https://github.com/kj-park/Tech/blob/main/Exchange/.media/Exchange-Mail-Flow-and-Recipient-Types-004.png?raw=true)
+![DNS Query](https://github.com/kj-park/Tech/blob/main/Exchange/media/Exchange-Mail-Flow-and-Recipient-Types-004.png?raw=true)
 
 #### Exchange Mail Flow & Client Access for DNS Resource Records
 
@@ -53,7 +53,7 @@ This is a test message...
 
 Recipient Domain의 Mail Exchanger의 정보를 나타냄.
 
-![MX Record Explanation](https://github.com/kj-park/Tech/blob/main/Exchange/.media/Exchange-Mail-Flow-and-Recipient-Types-005.png?raw=true)
+![MX Record Explanation](https://github.com/kj-park/Tech/blob/main/Exchange/media/Exchange-Mail-Flow-and-Recipient-Types-005.png?raw=true)
 
 ##### Sender Policy Framework (SPF: RFC4408)
 
@@ -88,21 +88,21 @@ Sender domain 공인된 DNS의 다음 record들 Query하여 Sender ID를 확인:
 
 ##### Inbound Mail Flow without Edge
 
-![Inbound Mail Flow without Edge](https://github.com/kj-park/Tech/blob/main/Exchange/.media/inbound-mail-flow-without-edge.png?raw=true)
+![Inbound Mail Flow without Edge](https://github.com/kj-park/Tech/blob/main/Exchange/media/inbound-mail-flow-without-edge.png?raw=true)
 
 ##### Inbound Mail Flow with Edge
 
-![Inbound Mail Flow with Edge](https://github.com/kj-park/Tech/blob/main/Exchange/.media/inbound-mail-flow-with-edge.png?raw=true)
+![Inbound Mail Flow with Edge](https://github.com/kj-park/Tech/blob/main/Exchange/media/inbound-mail-flow-with-edge.png?raw=true)
 
 #### Outbound Mail Flow
 
 ##### Outbound Mail Flow without Edge
 
-![Outbound Mail Flow without Edge](https://github.com/kj-park/Tech/blob/main/Exchange/.media/outbound-mail-flow-without-edge.png?raw=true)
+![Outbound Mail Flow without Edge](https://github.com/kj-park/Tech/blob/main/Exchange/media/outbound-mail-flow-without-edge.png?raw=true)
 
 ##### Outbound Mail Flow with Edge
 
-![Outbound Mail Flow with Edge](https://github.com/kj-park/Tech/blob/main/Exchange/.media/outbound-mail-flow-with-edge.png?raw=true)
+![Outbound Mail Flow with Edge](https://github.com/kj-park/Tech/blob/main/Exchange/media/outbound-mail-flow-with-edge.png?raw=true)
 
 ##### [Non-delivery Reports](https://docs.microsoft.com/en-us/exchange/mail-flow/non-delivery-reports-and-bounce-messages/non-delivery-reports-and-bounce-messages)
 
@@ -116,7 +116,7 @@ Sender domain 공인된 DNS의 다음 record들 Query하여 Sender ID를 확인:
 
     Customer Receive Connectors:
 
-    ![Customer Receive Connectors](https://github.com/kj-park/Tech/blob/main/Exchange/.media/Exchange-Mail-Flow-and-Recipient-Types-006.png?raw=true)
+    ![Customer Receive Connectors](https://github.com/kj-park/Tech/blob/main/Exchange/media/Exchange-Mail-Flow-and-Recipient-Types-006.png?raw=true)
 
 - **Send Connectors.** 송신 커넥터는 보내는 SMTP 메일 흐름을 제어합니다. 메시지 받는 사람 및 커넥터의 구성에 따라 송신 커넥터가 선택됩니다.
 
@@ -151,7 +151,7 @@ Transport Agent는 Microsoft 또는 3rd-Party vendor에 제공하는 소프트�
 
 ##### [Mail Flow & Transport Pipeline &#124; Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow/mail-flow)
 
-![Transport Pipeline Overview](https://github.com/kj-park/Tech/blob/main/Exchange/.media/transport-pipeline-overview.png?raw=true)
+![Transport Pipeline Overview](https://github.com/kj-park/Tech/blob/main/Exchange/media/transport-pipeline-overview.png?raw=true)
 
 #### Transport High Availability & Queues
 
@@ -162,13 +162,13 @@ Exchange 서버는 message가 성공적으로 배달되기 전/후로 redundant 
 Exchange 서버의 Transport High Availability을 제공하는 핵심 기능은 아래와 같습니다:
 
 - [Shadow Redundancy](https://docs.microsoft.com/en-us/exchange/mail-flow/transport-high-availability/shadow-redundancy)
-    ![Exchange Shadow Redundancy](https://github.com/kj-park/Tech/blob/main/Exchange/.media/Exchange-Shadow-Redundancy.png?raw=true)
+    ![Exchange Shadow Redundancy](https://github.com/kj-park/Tech/blob/main/Exchange/media/Exchange-Shadow-Redundancy.png?raw=true)
 
 - [Safety Net](https://docs.microsoft.com/en-us/exchange/mail-flow/transport-high-availability/safety-net)
 
 **Transport High Availablity with Shadow Redundancy and Safety Net**
 
-![Exchange Transport High Availability](https://github.com/kj-park/Tech/blob/main/Exchange/.media/Exchange-Transport-High-Availability.png?raw=true)
+![Exchange Transport High Availability](https://github.com/kj-park/Tech/blob/main/Exchange/media/Exchange-Transport-High-Availability.png?raw=true)
 
 ##### [Queues and messages in queues in Exchange Server &#124; Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow/queues/queues)
 
@@ -198,14 +198,14 @@ Exchange 서버의 Transport High Availability을 제공하는 핵심 기능은 
 
 - **User Mailbox**
 
-    ![recipients conceptual mailbox parts](https://github.com/kj-park/Tech/blob/main/Exchange/.media/recipientsconceptual-mailboxparts.gif?raw=true)
+    ![recipients conceptual mailbox parts](https://github.com/kj-park/Tech/blob/main/Exchange/media/recipientsconceptual-mailboxparts.gif?raw=true)
 
     > [!IMPORTANT]  
     > Mailbox를 생성하면 Exchange에서 사용하는 mailbox에서 필요로 하는 attributes들이 Active Directory의 사용자 개체에 추가됩니다.
 
 - **Linked Mailbox**
 
-    ![recipients conceptual linked mailbox parts](https://github.com/kj-park/Tech/blob/main/Exchange/.media/recipientsconceptual-linked-mailboxparts.gif?raw=true)
+    ![recipients conceptual linked mailbox parts](https://github.com/kj-park/Tech/blob/main/Exchange/media/recipientsconceptual-linked-mailboxparts.gif?raw=true)
 
 - **Microsoft 365 Mailbox.** Exchange Online에 생성되는 사서함. 사용자는 AADC 환경에서 동기화된 사용자이거나 pure cloud 사용자일 수 있습니다.
 
