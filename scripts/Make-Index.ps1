@@ -22,7 +22,7 @@ function Make-IndexFolder {
     param ( 
         $Folder, 
         $Root = 'C:\REPOSITORY\GITHUB\Tech', 
-        $OutFile = 'C:\REPOSITORY\GITHUB\Tech\index-out.md'
+        $OutFile = 'C:\REPOSITORY\GITHUB\Tech\Contents-Index.md'
     )
     begin {
         <#
@@ -59,7 +59,7 @@ function Make-IndexFolder {
 function Make-Index {
     param (
         [String]$Path = 'C:\REPOSITORY\GITHUB\Tech',
-        [String]$IndexFile = 'C:\REPOSITORY\GITHUB\Tech\index-out.md'
+        [String]$IndexFile = 'C:\REPOSITORY\GITHUB\Tech\Contents-Index.md'
     )
     begin {
         $Root = $Path
