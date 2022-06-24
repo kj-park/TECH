@@ -1,7 +1,7 @@
 <#
 title: Backup Exchange Config Files of EdgeTransport and Frontend/Backend Web
-filename: Exchange\Backup-ExchangeConfigFiles.ps1
-permalink: /Tech/Exchange/Backup-ExchangeConfigFiles.ps1
+filename: Exchange\source\Backup-ExchangeConfigFiles.ps1
+permalink: /Tech/Exchange/source/Backup-ExchangeConfigFiles.ps1
 ms.date: 2012.03.30
 #>
 

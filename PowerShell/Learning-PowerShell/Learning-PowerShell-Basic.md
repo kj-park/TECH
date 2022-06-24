@@ -17,7 +17,7 @@ Contents:
 
 Source:
 
-- [Learning-PowerShell-Basic.md-script.ps1](https://github.com/kj-park/Tech/blob/main/PowerShell/Learning-PowerShell/Learning-PowerShell-Basic.md-script.ps1)
+- [Learning-PowerShell-Basic.md-script.ps1](https://github.com/kj-park/Tech/blob/main/PowerShell/source/Learning-PowerShell-Basic.md-script.ps1)
 
 ---
 
