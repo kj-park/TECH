@@ -36,7 +36,7 @@
 
 	- [adfs Requirements](/ActiveDirectory/ADFS/adfs-Requirements)
 
-- media
+	- .media
 
 
 ## Exchange
@@ -63,9 +63,6 @@
 
 	- [Make Public Certificate](/Exchange/Certificate/Make-Public-Certificate)
 
-	- media
-
-
 - Conceptual
 
 	- [Accepted domains and Email Address Policies in Exchange Server](/Exchange/Conceptual/Accepted-domains-and-Email-Address-Policies-in-Exchange-Server)
@@ -81,9 +78,6 @@
 	- [Exchange Online Quarantine](/Exchange/ExchangeOnline/Exchange-Online-Quarantine)
 	- [Importing PST file to Microsoft 365](/Exchange/ExchangeOnline/Importing-PST-file-to-Microsoft-365)
 	- [Migrating your IMAP mailboxes to Microsoft 365](/Exchange/ExchangeOnline/Migrating-your-IMAP-mailboxes-to-Microsoft-365)
-
-- media
-
 
 - source
 
@@ -122,11 +116,10 @@
 			- [Sign in risk based Conditional Access](/Microsoft365/AzureAD/Conditional-Access/Common-Policies/Sign-in-risk-based-Conditional-Access)
 			- [User risk based Conditional Access](/Microsoft365/AzureAD/Conditional-Access/Common-Policies/User-risk-based-Conditional-Access)
 
-- Compliance
-
-
 - Defender
 
+	- [Microsoft Defender for Office365 Overview](/Microsoft365/Defender/Microsoft-Defender-for-Office365-Overview)
+	- [Microsoft Defender SmartScreen Overview](/Microsoft365/Defender/Microsoft-Defender-SmartScreen-Overview)
 
 - EMS
 
@@ -140,10 +133,6 @@
 	- [Configure Azure AD Connect Sync](/Microsoft365/Hybrid/Configure-Azure-AD-Connect-Sync)
 	- [images](/Microsoft365/Hybrid/images)
 	- [Understand Azure AD Connect Sync](/Microsoft365/Hybrid/Understand-Azure-AD-Connect-Sync)
-
-- media
-
-	- [images](/Microsoft365/media/images)
 
 - Planner
 
@@ -178,9 +167,6 @@
 	- [Learning PowerShell Basic](/PowerShell/Learning-PowerShell/Learning-PowerShell-Basic)
 	- [Scripting and Development](/PowerShell/Learning-PowerShell/Scripting-and-Development)
 
-- media
-
-
 - source
 
 
@@ -200,9 +186,6 @@
 - [images](/Learning/images)
 
 - ebooks
-
-
-- media
 
 
 ## includes

@@ -72,7 +72,7 @@ function Make-Index {
         foreach ( $Folder in $ContentFolders ) {
             $TopFolder = Get-Item -Path "$Root\$Folder"
             Make-IndexFolder -Folder $TopFolder -Root $Root
-            $Folders = Get-ChildItem -Path $TopFolder.FullName -Directory -Recurse | Where-Object -Property Name -NE -Value ".media" | Sort-Object -Property FullName
+            $Folders = Get-ChildItem -Path $TopFolder.FullName -Directory -Recurse | Where-Object -Property Name -NE -Value "media" | Sort-Object -Property FullName
             foreach ( $Folder in $Folders ) { Make-IndexFolder -Folder $Folder -Root $Root }
         }
     }
