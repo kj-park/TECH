@@ -36,6 +36,9 @@
 
 	- [adfs Requirements](/ActiveDirectory/ADFS/adfs-Requirements)
 
+- media
+
+
 ## Exchange
 
 - [Configure Exchange Hybrid](/Exchange/Configure-Exchange-Hybrid)
@@ -60,6 +63,9 @@
 
 	- [Make Public Certificate](/Exchange/Certificate/Make-Public-Certificate)
 
+	- media
+
+
 - Conceptual
 
 	- [Accepted domains and Email Address Policies in Exchange Server](/Exchange/Conceptual/Accepted-domains-and-Email-Address-Policies-in-Exchange-Server)
@@ -70,25 +76,51 @@
 
 - ExchangeOnline
 
+	- [Configure Microsoft 365 Groups with on premises Exchange Hybrid](/Exchange/ExchangeOnline/Configure-Microsoft-365-Groups-with-on-premises-Exchange-Hybrid)
 	- [Exchange Hybrid Off Boarding Migration](/Exchange/ExchangeOnline/Exchange-Hybrid-Off-Boarding-Migration)
 	- [Exchange Online Quarantine](/Exchange/ExchangeOnline/Exchange-Online-Quarantine)
 	- [Importing PST file to Microsoft 365](/Exchange/ExchangeOnline/Importing-PST-file-to-Microsoft-365)
 	- [Migrating your IMAP mailboxes to Microsoft 365](/Exchange/ExchangeOnline/Migrating-your-IMAP-mailboxes-to-Microsoft-365)
 
+- media
+
+
+- source
+
+
 ## Microsoft365
 
-- [Configure Microsoft 365 Groups with on premises Exchange Hybrid](/Microsoft365/Configure-Microsoft-365-Groups-with-on-premises-Exchange-Hybrid)
 - [Microsoft 365 apps for enterpise](/Microsoft365/Microsoft-365-apps-for-enterpise)
 - [Microsoft 365 E3 Overview en](/Microsoft365/Microsoft-365-E3-Overview-en)
 - [Microsoft 365 E3 Overview ko](/Microsoft365/Microsoft-365-E3-Overview-ko)
 - [readme](/Microsoft365/readme)
 
-- Azure-AD
+- AzureAD
 
-	- [Authentication](/Microsoft365/Azure-AD/Authentication)
-	- [Azure Active Directory Overview](/Microsoft365/Azure-AD/Azure-Active-Directory-Overview)
-	- [images](/Microsoft365/Azure-AD/images)
-	- [readme](/Microsoft365/Azure-AD/readme)
+	- [Authentication](/Microsoft365/AzureAD/Authentication)
+	- [Azure Active Directory Overview](/Microsoft365/AzureAD/Azure-Active-Directory-Overview)
+	- [images](/Microsoft365/AzureAD/images)
+	- [readme](/Microsoft365/AzureAD/readme)
+
+	- Conditional-Access
+
+		- [Azure AD Conditional Access Overview](/Microsoft365/AzureAD/Conditional-Access/Azure-AD-Conditional-Access-Overview)
+		- [Azure AD Conditional Access Policy Access Controls](/Microsoft365/AzureAD/Conditional-Access/Azure-AD-Conditional-Access-Policy-Access-Controls)
+		- [Azure AD Conditional Access Policy Assignments](/Microsoft365/AzureAD/Conditional-Access/Azure-AD-Conditional-Access-Policy-Assignments)
+		- [Multi factor Authentication Users and Service Settings](/Microsoft365/AzureAD/Conditional-Access/Multi-factor-Authentication-Users-and-Service-Settings)
+
+		- Common-Policies
+
+			- [Block access by location](/Microsoft365/AzureAD/Conditional-Access/Common-Policies/Block-access-by-location)
+			- [Block access except specific apps](/Microsoft365/AzureAD/Conditional-Access/Common-Policies/Block-access-except-specific-apps)
+			- [Block Legacy Authentication](/Microsoft365/AzureAD/Conditional-Access/Common-Policies/Block-Legacy-Authentication)
+			- [Require compliant device](/Microsoft365/AzureAD/Conditional-Access/Common-Policies/Require-compliant-device)
+			- [Require MFA for Administrators](/Microsoft365/AzureAD/Conditional-Access/Common-Policies/Require-MFA-for-Administrators)
+			- [Require MFA for All Users](/Microsoft365/AzureAD/Conditional-Access/Common-Policies/Require-MFA-for-All-Users)
+			- [Require MFA for Azure Management](/Microsoft365/AzureAD/Conditional-Access/Common-Policies/Require-MFA-for-Azure-Management)
+			- [Securing security info registration](/Microsoft365/AzureAD/Conditional-Access/Common-Policies/Securing-security-info-registration)
+			- [Sign in risk based Conditional Access](/Microsoft365/AzureAD/Conditional-Access/Common-Policies/Sign-in-risk-based-Conditional-Access)
+			- [User risk based Conditional Access](/Microsoft365/AzureAD/Conditional-Access/Common-Policies/User-risk-based-Conditional-Access)
 
 - Compliance
 
@@ -96,12 +128,22 @@
 - Defender
 
 
+- EMS
+
+	- [Microsoft Intune Overview](/Microsoft365/EMS/Microsoft-Intune-Overview)
+	- [Network Endpoints for Microsoft Intune](/Microsoft365/EMS/Network-Endpoints-for-Microsoft-Intune)
+	- [Set up Microsoft Intune](/Microsoft365/EMS/Set-up-Microsoft-Intune)
+
 - Hybrid
 
 	- [AAD Connect Sync Accounts](/Microsoft365/Hybrid/AAD-Connect-Sync-Accounts)
 	- [Configure Azure AD Connect Sync](/Microsoft365/Hybrid/Configure-Azure-AD-Connect-Sync)
 	- [images](/Microsoft365/Hybrid/images)
 	- [Understand Azure AD Connect Sync](/Microsoft365/Hybrid/Understand-Azure-AD-Connect-Sync)
+
+- media
+
+	- [images](/Microsoft365/media/images)
 
 - Planner
 
@@ -115,42 +157,6 @@
 	- [images](/Microsoft365/Search/images)
 	- [Microsoft Search Overview](/Microsoft365/Search/Microsoft-Search-Overview)
 
-- Security
-
-	- [images](/Microsoft365/Security/images)
-	- [readme](/Microsoft365/Security/readme)
-
-	- Conditional-Access
-
-		- [Azure AD Conditional Access Overview](/Microsoft365/Security/Conditional-Access/Azure-AD-Conditional-Access-Overview)
-		- [Azure AD Conditional Access Policy Access Controls](/Microsoft365/Security/Conditional-Access/Azure-AD-Conditional-Access-Policy-Access-Controls)
-		- [Azure AD Conditional Access Policy Assignments](/Microsoft365/Security/Conditional-Access/Azure-AD-Conditional-Access-Policy-Assignments)
-		- [Multi factor Authentication Users and Service Settings](/Microsoft365/Security/Conditional-Access/Multi-factor-Authentication-Users-and-Service-Settings)
-
-		- Common-Policies
-
-			- [Block access by location](/Microsoft365/Security/Conditional-Access/Common-Policies/Block-access-by-location)
-			- [Block access except specific apps](/Microsoft365/Security/Conditional-Access/Common-Policies/Block-access-except-specific-apps)
-			- [Block Legacy Authentication](/Microsoft365/Security/Conditional-Access/Common-Policies/Block-Legacy-Authentication)
-			- [Require compliant device](/Microsoft365/Security/Conditional-Access/Common-Policies/Require-compliant-device)
-			- [Require MFA for Administrators](/Microsoft365/Security/Conditional-Access/Common-Policies/Require-MFA-for-Administrators)
-			- [Require MFA for All Users](/Microsoft365/Security/Conditional-Access/Common-Policies/Require-MFA-for-All-Users)
-			- [Require MFA for Azure Management](/Microsoft365/Security/Conditional-Access/Common-Policies/Require-MFA-for-Azure-Management)
-			- [Securing security info registration](/Microsoft365/Security/Conditional-Access/Common-Policies/Securing-security-info-registration)
-			- [Sign in risk based Conditional Access](/Microsoft365/Security/Conditional-Access/Common-Policies/Sign-in-risk-based-Conditional-Access)
-			- [User risk based Conditional Access](/Microsoft365/Security/Conditional-Access/Common-Policies/User-risk-based-Conditional-Access)
-
-	- defender
-
-		- [Microsoft Defender for Office365 Overview](/Microsoft365/Security/defender/Microsoft-Defender-for-Office365-Overview)
-		- [Microsoft Defender SmartScreen Overview](/Microsoft365/Security/defender/Microsoft-Defender-SmartScreen-Overview)
-
-	- Intune
-
-		- [Microsoft Intune Overview](/Microsoft365/Security/Intune/Microsoft-Intune-Overview)
-		- [Network Endpoints for Microsoft Intune](/Microsoft365/Security/Intune/Network-Endpoints-for-Microsoft-Intune)
-		- [Set up Microsoft Intune](/Microsoft365/Security/Intune/Set-up-Microsoft-Intune)
-
 - SharePointOnline
 
 
@@ -162,6 +168,7 @@
 ## PowerShell
 
 - [images](/PowerShell/images)
+- [Learning PowerShell](/PowerShell/Learning-PowerShell)
 - [readme](/PowerShell/readme)
 
 - Learning-PowerShell
@@ -169,13 +176,18 @@
 	- [Desired State Configuration](/PowerShell/Learning-PowerShell/Desired-State-Configuration)
 	- [Installing PowerShell](/PowerShell/Learning-PowerShell/Installing-PowerShell)
 	- [Learning PowerShell Basic](/PowerShell/Learning-PowerShell/Learning-PowerShell-Basic)
-	- [readme](/PowerShell/Learning-PowerShell/readme)
 	- [Scripting and Development](/PowerShell/Learning-PowerShell/Scripting-and-Development)
 
-- Modules
+- media
 
 
-- Scripts
+- source
+
+
+	- Modules
+
+
+	- Scripts
 
 
 - Tasks
@@ -190,15 +202,8 @@
 - ebooks
 
 
-- MCP
+- media
 
-	- [images](/Learning/MCP/images)
-	- [MS 100](/Learning/MCP/MS-100)
-	- [working](/Learning/MCP/working)
-
-	- MS-100
-
-		- [Design your Microsoft 365 tenant](/Learning/MCP/MS-100/Design-your-Microsoft-365-tenant)
 
 ## includes
 
