@@ -27,7 +27,7 @@ function Make-ImageContents {
     end {}
 }
 
-$imageFolders = Get-ChildItem -Path 'C:\REPOSITORY\GITHUB\Tech' -Recurse -Filter ".media"
+$imageFolders = Get-ChildItem -Path 'C:\REPOSITORY\GITHUB\Tech' -Recurse -Filter "media"
 foreach ( $item in $imageFolders ) { 
     Make-ImageContents -Path ($item.FullName)
 }
