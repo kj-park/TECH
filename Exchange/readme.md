@@ -2,16 +2,6 @@
 title: Exchange
 filename: Exchange/readme.md
 ms.date: 2021.04.01
-keywords:
-    - Exchange Server 2013
-    - Exchange Server 2016
-    - Exchange Server 2019
-    - Exchange Online
-    - Exchange Hybrid
-    - Database Available Group
-    - Maintenance
-    - Deployment
-    - Configuration
 ---
 
 # Exchange
@@ -83,6 +73,8 @@ Exchange 인프라를 관리에 필요한 주제들에 대하여 기술합니다
     - [Migrating your IMAP mailboxes to Microsoft 365](ExchangeOnline/Migrating-your-IMAP-mailboxes-to-Microsoft-365)
 
 - [Exchange Online Quarantine](ExchangeOnline/Exchange-Online-Quarantine)
+
+- [Configure Microsoft 365 Groups with on-premises Exchange Hybrid](ExchangeOnline/Configure-Microsoft-365-Groups-with-on-premises-Exchange-Hybrid)
 
 ## Conceptual Documents
 
