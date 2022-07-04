@@ -1,6 +1,6 @@
-﻿
+﻿# draft
 
-# Azure Information Protection Client
+## Azure Information Protection Client
 
 Azure Information Protection Unified Labeling Client 는 2022년 1월 1일에 maintenance mode로 변경되어 더 이상 새로운 기능은 추가되지 않을 것입니다.
 
@@ -22,10 +22,24 @@ AIP unified labeling client에서만 제공하는 추가 기능들은 다음과 
 
 ---
 
-# Teams 및 그룹, 사이트에 Sensitivity Labels 사용
+## Teams 및 그룹, 사이트에 Sensitivity Labels 사용
 
 1. Security & Compliance PowerShell (`Connect-IPPSSession`) 에 연결하여 아래 명령 실행
     ```powershell
+    Connect-IPPSSession -Credential $LabEnv.OnlineCredential
     Execute-AzureAdLabelSync
     ```
     **참고:** 위 명령으로 Microsoft 365 Groups에 Senitivity Labels을 사용할 수 있게 합니다.
+
+1. SharePoint 및 OneDrive에 대하여 Sensitivity Labels 활성화 
+    > [!TODO]: 위 단계로 활성화 되는지 확인 필요
+
+    ```powershell
+    Connect-SPOService -Url $LabEnv.SPOAdminUrl -Credential $LabEnv.OnlineCredential
+    Set-SPOTenant -EnableAIPIntegration $true
+    ```
+
+1.  Sensitivity Labels에서 SharePoint 또는 OneDrive, Teams를 포함하게 변경 및 게시
+
+
+
