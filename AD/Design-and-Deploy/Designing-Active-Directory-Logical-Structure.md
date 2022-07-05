@@ -35,7 +35,7 @@ ms.date: 2021.04.05
 
 Active Directory의 Logical Structure 디자인을 절차는 아래와 같습니다:
 
-![image.png](https://github.com/kj-park/Tech/blob/main/ActiveDirectory/media/image-13d88668-7ba7-4fff-ae24-9dc9720167b8.png?raw=true)
+![image.png](https://github.com/kj-park/Tech/blob/main/AD/media/image-13d88668-7ba7-4fff-ae24-9dc9720167b8.png?raw=true)
 
 1. [Create a Forest Design](Designing-Active-Directory-Logical-Structure/Create-a-Forest-Design)
 

@@ -5,37 +5,37 @@
 ## ActiveDirectory
 
 
-- [Active Directory Design and Deployment](/ActiveDirectory/Active-Directory-Design-and-Deployment)
+- [Active Directory Design and Deployment](/AD/Active-Directory-Design-and-Deployment)
 
-	- [Deploying Active Directory Domains](/ActiveDirectory/Active-Directory-Design-and-Deployment/Deploying-Active-Directory-Domains)
-	- [Deploying a Managed Software Environment](/ActiveDirectory/Active-Directory-Design-and-Deployment/Deploying-a-Managed-Software-Environment)
-	- [Deploying Security Policy](/ActiveDirectory/Active-Directory-Design-and-Deployment/Deploying-Security-Policy)
-	- [Designing Active Directory Logical Structure](/ActiveDirectory/Active-Directory-Design-and-Deployment/Designing-Active-Directory-Logical-Structure)
-		- [Create a Domain Design](/ActiveDirectory/Active-Directory-Design-and-Deployment/Designing-Active-Directory-Logical-Structure/Create-a-Domain-Design)
-		- [Create a Forest Design](/ActiveDirectory/Active-Directory-Design-and-Deployment/Designing-Active-Directory-Logical-Structure/Create-a-Forest-Design)
-		- [Design a DNS Infrastructure](/ActiveDirectory/Active-Directory-Design-and-Deployment/Designing-Active-Directory-Logical-Structure/Design-a-DNS-Infrastructure)
-		- [Design a Organizational Unit](/ActiveDirectory/Active-Directory-Design-and-Deployment/Designing-Active-Directory-Logical-Structure/Design-a-Organizational-Unit)
-	- [Designing a File and Print Service](/ActiveDirectory/Active-Directory-Design-and-Deployment/Designing-a-File-and-Print-Service)
-	- [Designing a Group Policy Infrastructure](/ActiveDirectory/Active-Directory-Design-and-Deployment/Designing-a-Group-Policy-Infrastructure)
-	- [Designing an Authentication Strategy](/ActiveDirectory/Active-Directory-Design-and-Deployment/Designing-an-Authentication-Strategy)
-	- [Designing a Resource Authorization Strategy](/ActiveDirectory/Active-Directory-Design-and-Deployment/Designing-a-Resource-Authorization-Strategy)
-	- [Designing Managed Updates Management Environment with WSUS](/ActiveDirectory/Active-Directory-Design-and-Deployment/Designing-Managed-Updates-Management-Environment-with-WSUS)
-	- [Designing the Site Topology](/ActiveDirectory/Active-Directory-Design-and-Deployment/Designing-the-Site-Topology)
-	- [Enable Advanced Active Directory Features](/ActiveDirectory/Active-Directory-Design-and-Deployment/Enable-Advanced-Active-Directory-Features)
-	- [Migration of User State](/ActiveDirectory/Active-Directory-Design-and-Deployment/Migration-of-User-State)
-	- [Planning Active Directory Project](/ActiveDirectory/Active-Directory-Design-and-Deployment/Planning-Active-Directory-Project)
-	- [Planning a Secure Environment](/ActiveDirectory/Active-Directory-Design-and-Deployment/Planning-a-Secure-Environment)
-	- [Planning Domain Controller Capacity](/ActiveDirectory/Active-Directory-Design-and-Deployment/Planning-Domain-Controller-Capacity)
+	- [Deploying Active Directory Domains](/AD/Active-Directory-Design-and-Deployment/Deploying-Active-Directory-Domains)
+	- [Deploying a Managed Software Environment](/AD/Active-Directory-Design-and-Deployment/Deploying-a-Managed-Software-Environment)
+	- [Deploying Security Policy](/AD/Active-Directory-Design-and-Deployment/Deploying-Security-Policy)
+	- [Designing Active Directory Logical Structure](/AD/Active-Directory-Design-and-Deployment/Designing-Active-Directory-Logical-Structure)
+		- [Create a Domain Design](/AD/Active-Directory-Design-and-Deployment/Designing-Active-Directory-Logical-Structure/Create-a-Domain-Design)
+		- [Create a Forest Design](/AD/Active-Directory-Design-and-Deployment/Designing-Active-Directory-Logical-Structure/Create-a-Forest-Design)
+		- [Design a DNS Infrastructure](/AD/Active-Directory-Design-and-Deployment/Designing-Active-Directory-Logical-Structure/Design-a-DNS-Infrastructure)
+		- [Design a Organizational Unit](/AD/Active-Directory-Design-and-Deployment/Designing-Active-Directory-Logical-Structure/Design-a-Organizational-Unit)
+	- [Designing a File and Print Service](/AD/Active-Directory-Design-and-Deployment/Designing-a-File-and-Print-Service)
+	- [Designing a Group Policy Infrastructure](/AD/Active-Directory-Design-and-Deployment/Designing-a-Group-Policy-Infrastructure)
+	- [Designing an Authentication Strategy](/AD/Active-Directory-Design-and-Deployment/Designing-an-Authentication-Strategy)
+	- [Designing a Resource Authorization Strategy](/AD/Active-Directory-Design-and-Deployment/Designing-a-Resource-Authorization-Strategy)
+	- [Designing Managed Updates Management Environment with WSUS](/AD/Active-Directory-Design-and-Deployment/Designing-Managed-Updates-Management-Environment-with-WSUS)
+	- [Designing the Site Topology](/AD/Active-Directory-Design-and-Deployment/Designing-the-Site-Topology)
+	- [Enable Advanced Active Directory Features](/AD/Active-Directory-Design-and-Deployment/Enable-Advanced-Active-Directory-Features)
+	- [Migration of User State](/AD/Active-Directory-Design-and-Deployment/Migration-of-User-State)
+	- [Planning Active Directory Project](/AD/Active-Directory-Design-and-Deployment/Planning-Active-Directory-Project)
+	- [Planning a Secure Environment](/AD/Active-Directory-Design-and-Deployment/Planning-a-Secure-Environment)
+	- [Planning Domain Controller Capacity](/AD/Active-Directory-Design-and-Deployment/Planning-Domain-Controller-Capacity)
 
 - ADFS
 
 	- .media
-	- [adfs Requirements](/ActiveDirectory/ADFS/adfs-Requirements)
+	- [adfs Requirements](/AD/ADFS/adfs-Requirements)
 
-- [default](/ActiveDirectory/default)
+- [default](/AD/default)
 
 
-- [images](/ActiveDirectory/images)
+- [images](/AD/images)
 
 
 ## Exchange

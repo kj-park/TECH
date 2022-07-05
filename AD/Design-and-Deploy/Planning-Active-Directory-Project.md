@@ -48,4 +48,4 @@ Project manager는 기업의 구성원과 기술 관리 그룹과의 협력을 �
 
 ## Building Project Team
 
-![image.png](https://github.com/kj-park/Tech/blob/main/ActiveDirectory/media/image-0d14d865-ebac-4320-a668-5ef0a5cfc80b.png?raw=true)
+![image.png](https://github.com/kj-park/Tech/blob/main/AD/media/image-0d14d865-ebac-4320-a668-5ef0a5cfc80b.png?raw=true)
