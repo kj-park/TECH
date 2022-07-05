@@ -35,12 +35,11 @@ Exchange 각 버전 별 설치 후 mail flow 및 client access, High Availabilit
 
 - [Configure mail flow and client access for Exchange Server](Configure-mail-flow-and-client-access-for-Exchange-Server)
 
-    - **SCRIPT**: [Configure-ExchangeMailFlowClientAccess.ps1](source/Configure-ExchangeMailFlowClientAccess.ps1)
-    - https://github.com/kj-park/tech/blob/main/Exchange/source/Configure-ExchangeMailFlowClientAccess.ps1
+    - **SCRIPT**: [Configure-ExchangeMailFlowClientAccess.ps1](https://github.com/kj-park/tech/blob/main/Exchange/source/Configure-ExchangeMailFlowClientAccess.ps1)
 
 - [Configure High availability](Configure-High-availability)
 
-    - **SCRIPT**: [Configure-Exchange-DAG.ps1](source/Configure-Exchange-DAG.ps1)
+    - **SCRIPT**: [Configure-Exchange-DAG.ps1](https://github.com/kj-park/tech/blob/main/Exchange/source/Configure-Exchange-DAG.ps1)
 
 - Configure High availability
 
@@ -69,13 +68,13 @@ Exchange 인프라를 관리에 필요한 주제들에 대하여 기술합니다
 ## Exchange Online
 
 - Migrating Mailbox to Microsoft 365
-    - [Exchange Hybrid Off-Boarding Migration](ExchangeOnline/Exchange-Hybrid-Off-Boarding-Migration)
-    - [Importing PST file to Microsoft 365](ExchangeOnline/Importing-PST-file-to-Microsoft-365)
-    - [Migrating your IMAP mailboxes to Microsoft 365](ExchangeOnline/Migrating-your-IMAP-mailboxes-to-Microsoft-365)
+    - [Exchange Hybrid Off-Boarding Migration](Online/Exchange-Hybrid-Off-Boarding-Migration)
+    - [Importing PST file to Microsoft 365](Online/Importing-PST-file-to-Microsoft-365)
+    - [Migrating your IMAP mailboxes to Microsoft 365](Online/Migrating-your-IMAP-mailboxes-to-Microsoft-365)
 
-- [Exchange Online Quarantine](ExchangeOnline/Exchange-Online-Quarantine)
+- [Exchange Online Quarantine](Online/Exchange-Online-Quarantine)
 
-- [Configure Microsoft 365 Groups with on-premises Exchange Hybrid](ExchangeOnline/Configure-Microsoft-365-Groups-with-on-premises-Exchange-Hybrid)
+- [Configure Microsoft 365 Groups with on-premises Exchange Hybrid](Online/Configure-Microsoft-365-Groups-with-on-premises-Exchange-Hybrid)
 
 ## Conceptual Documents
 
