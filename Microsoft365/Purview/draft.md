@@ -24,14 +24,13 @@ AIP unified labeling client에서만 제공하는 추가 기능들은 다음과 
 
 ## Teams 및 그룹, 사이트에 Sensitivity Labels 사용
 
-1. Security & Compliance PowerShell (`Connect-IPPSSession`) 에 연결하여 아래 명령 실행
+1. Security & Compliance PowerShell (`Connect-IPPSSession`) 에 연결하여 아래 명령 실행 (Not Work)
     ```powershell
     Connect-IPPSSession -Credential $LabEnv.OnlineCredential
     Execute-AzureAdLabelSync
     ```
-    **참고:** 위 명령으로 Microsoft 365 Groups에 Senitivity Labels을 사용할 수 있게 합니다.
 
-1. SharePoint 및 OneDrive에 대하여 Sensitivity Labels 활성화 
+1. SharePoint 및 OneDrive에 대하여 Sensitivity Labels 활성화 (Not Work)
     > [!TODO]: 위 단계로 활성화 되는지 확인 필요
 
     ```powershell
@@ -39,7 +38,33 @@ AIP unified labeling client에서만 제공하는 추가 기능들은 다음과 
     Set-SPOTenant -EnableAIPIntegration $true
     ```
 
-1.  Sensitivity Labels에서 SharePoint 또는 OneDrive, Teams를 포함하게 변경 및 게시
+1. `Group.Unified` AzureADDirectorySetting의 `EnableMIPLabels` 속성을 "True"로 변경 (Work)
 
+    ```powershell
+    Import-Module AzureADPreview
+    Connect-AzureAD -Credential $LabEnv.OnlineCredential
+    	 
+    #Check if settings object exists or needs to be created first (that's missing in Microsoft Docs)
+    $settingsObjectID = (Get-AzureADDirectorySetting | Where-Object -Property Displayname -Value "Group.Unified" -EQ).Id
+    if( !$settingsObjectID ) {
+        $template = Get-AzureADDirectorySettingTemplate | Where-object {$_.Displayname -eq "group.unified"}
+        $settingsCopy = $template.CreateDirectorySetting()
+        New-AzureADDirectorySetting -DirectorySetting $settingsCopy
+        $settingsObjectID = (Get-AzureADDirectorySetting | Where-object -Property Displayname -Value "Group.Unified" -EQ).id
+    }
+    #Enable Microsoft Information Protection (MIP) labels
+    $Setting = Get-AzureADDirectorySetting -Id (Get-AzureADDirectorySetting | Where-Object -Property DisplayName -Value "Group.Unified" -EQ).id
+    $Setting.Values
+    $Setting["EnableMIPLabels"] = "True"
+    Set-AzureADDirectorySetting -Id $Setting.Id -DirectorySetting $Setting
+    
+    Disconnect-AzureAD
+    ```
 
+1. Sensitivity Labels에서 SharePoint 또는 OneDrive, Teams를 포함하게 변경 및 게시
 
+    아래 그림은 Labels을 만들거나 수정 시 Groups & Sites 가 Enable되어 선택할 수 있음을 보여주고 있습니다:
+
+    ![aip label scope groups and sites](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Purview/aip-label-scope-groups-and-sites.png?raw=true)
+
+---
