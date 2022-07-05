@@ -35,11 +35,12 @@ Exchange 각 버전 별 설치 후 mail flow 및 client access, High Availabilit
 
 - [Configure mail flow and client access for Exchange Server](Configure-mail-flow-and-client-access-for-Exchange-Server)
 
-    - **SCRIPT**: [Configure-ExchangeMailFlowClientAccess.ps1](Configure-ExchangeMailFlowClientAccess.ps1)
+    - **SCRIPT**: [Configure-ExchangeMailFlowClientAccess.ps1](source/Configure-ExchangeMailFlowClientAccess.ps1)
+    - https://github.com/kj-park/tech/blob/main/Exchange/source/Configure-ExchangeMailFlowClientAccess.ps1
 
 - [Configure High availability](Configure-High-availability)
 
-    - **SCRIPT**: [Configure-Exchange-DAG.ps1](Configure-Exchange-DAG.ps1)
+    - **SCRIPT**: [Configure-Exchange-DAG.ps1](source/Configure-Exchange-DAG.ps1)
 
 - Configure High availability
 
