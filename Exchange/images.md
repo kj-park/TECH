@@ -153,6 +153,14 @@
 
 ---
 
+- Exchange-Hybrid-Configuration-without-edge-005
+
+	![Exchange-Hybrid-Configuration-without-edge-005](https://github.com/kj-park/tech/blob/main/Exchange/media/Exchange-Hybrid-Configuration-without-edge-005.png?raw=true)
+
+[Top](#)
+
+---
+
 - Exchange-Hybrid-Configuration-without-Edge-006
 
 	![Exchange-Hybrid-Configuration-without-Edge-006](https://github.com/kj-park/tech/blob/main/Exchange/media/Exchange-Hybrid-Configuration-without-Edge-006.png?raw=true)

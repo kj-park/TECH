@@ -14,9 +14,9 @@ function Make-ImageContents {
     }
     process {
         if ( Test-Path -LiteralPath $Path ) {
-            $contentItems = Get-ChildItem -Path $Path -Recurse:$false | Where-Object -FilterScript { $PSItem.Extension -in $contentExts }
+            $contentItems = Get-ChildItem -Path $Path -Recurse:$true | Where-Object -FilterScript { $PSItem.Extension -in $contentExts }
             if ( $contentItems.Count -ne 0 ) {
-                $mdFile = New-Item -Path $Path.Replace('\.media','') -Name $Output -ItemType File -Value $MarkdownString -Force
+                $mdFile = New-Item -Path $Path.Replace('\media','') -Name $Output -ItemType File -Value $MarkdownString -Force
                 foreach ( $item in $contentItems ) {
                     $Url = $baseUrl.Replace('<RelativeUrl>',($item.FullName.Replace($RootPath,'').Replace('\','/')))
                     Add-Content -LiteralPath ($mdFile.FullName) -Value "- $($item.BaseName)`n`n`t![$($item.BaseName)]($Url)`n`n[Top](#)`n`n---`n"
