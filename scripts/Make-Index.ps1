@@ -126,7 +126,7 @@ function Make-Index {
     param (
         [String]$RootPath = 'C:\REPOSITORY\GITHUB\Tech',
         [String]$IndexFile = 'C:\REPOSITORY\GITHUB\Tech\toc.md',
-        $ContentFolders = @('ActiveDirectory','Exchange','Microsoft365','PowerShell','Learning','includes')
+        $ContentFolders = @('AD','Exchange','Microsoft365','PowerShell','Learning','includes')
     )
     begin {
         $MarkdownString = "`n# Contents Index`n"

@@ -16,7 +16,7 @@ Microsoft Purview는 이전 [Azure Purview](https://docs.microsoft.com/en-us/azu
 - 종단 간 데이터 위험 및 규정 준수 관리
 - 조직에서 새롭고 포괄적인 방식으로 데이터를 통제, 보호 및 관리할 수 있도록 지원
 
-![purview-solution-areas](https://github.com/kj-park/tech/blob/main/Microsoft365/media/purview-solution-areas.png?raw=true)
+![purview-solution-areas](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Purview/purview-solution-areas.png?raw=true)
 
 ### Microsoft Purview risk and compliance solutions
 

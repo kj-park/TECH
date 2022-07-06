@@ -1105,6 +1105,14 @@
 
 ---
 
+- purview-solution-areas
+
+	![purview-solution-areas](https://github.com/kj-park/tech/blob/main/Microsoft365/media/purview-solution-areas.png?raw=true)
+
+[Top](#)
+
+---
+
 - smartscreen-on-edge-blocked-download
 
 	![smartscreen-on-edge-blocked-download](https://github.com/kj-park/tech/blob/main/Microsoft365/media/smartscreen-on-edge-blocked-download.png?raw=true)

@@ -2,40 +2,43 @@
 # Contents Index
 
 
-## ActiveDirectory
+## AD
 
 
 - [Active Directory Design and Deployment](/AD/Active-Directory-Design-and-Deployment)
 
-	- [Deploying Active Directory Domains](/AD/Active-Directory-Design-and-Deployment/Deploying-Active-Directory-Domains)
-	- [Deploying a Managed Software Environment](/AD/Active-Directory-Design-and-Deployment/Deploying-a-Managed-Software-Environment)
-	- [Deploying Security Policy](/AD/Active-Directory-Design-and-Deployment/Deploying-Security-Policy)
-	- [Designing Active Directory Logical Structure](/AD/Active-Directory-Design-and-Deployment/Designing-Active-Directory-Logical-Structure)
-		- [Create a Domain Design](/AD/Active-Directory-Design-and-Deployment/Designing-Active-Directory-Logical-Structure/Create-a-Domain-Design)
-		- [Create a Forest Design](/AD/Active-Directory-Design-and-Deployment/Designing-Active-Directory-Logical-Structure/Create-a-Forest-Design)
-		- [Design a DNS Infrastructure](/AD/Active-Directory-Design-and-Deployment/Designing-Active-Directory-Logical-Structure/Design-a-DNS-Infrastructure)
-		- [Design a Organizational Unit](/AD/Active-Directory-Design-and-Deployment/Designing-Active-Directory-Logical-Structure/Design-a-Organizational-Unit)
-	- [Designing a File and Print Service](/AD/Active-Directory-Design-and-Deployment/Designing-a-File-and-Print-Service)
-	- [Designing a Group Policy Infrastructure](/AD/Active-Directory-Design-and-Deployment/Designing-a-Group-Policy-Infrastructure)
-	- [Designing an Authentication Strategy](/AD/Active-Directory-Design-and-Deployment/Designing-an-Authentication-Strategy)
-	- [Designing a Resource Authorization Strategy](/AD/Active-Directory-Design-and-Deployment/Designing-a-Resource-Authorization-Strategy)
-	- [Designing Managed Updates Management Environment with WSUS](/AD/Active-Directory-Design-and-Deployment/Designing-Managed-Updates-Management-Environment-with-WSUS)
-	- [Designing the Site Topology](/AD/Active-Directory-Design-and-Deployment/Designing-the-Site-Topology)
-	- [Enable Advanced Active Directory Features](/AD/Active-Directory-Design-and-Deployment/Enable-Advanced-Active-Directory-Features)
-	- [Migration of User State](/AD/Active-Directory-Design-and-Deployment/Migration-of-User-State)
-	- [Planning Active Directory Project](/AD/Active-Directory-Design-and-Deployment/Planning-Active-Directory-Project)
-	- [Planning a Secure Environment](/AD/Active-Directory-Design-and-Deployment/Planning-a-Secure-Environment)
-	- [Planning Domain Controller Capacity](/AD/Active-Directory-Design-and-Deployment/Planning-Domain-Controller-Capacity)
 
 - ADFS
 
 	- .media
 	- [adfs Requirements](/AD/ADFS/adfs-Requirements)
 
-- [default](/AD/default)
+- Design and Deploy
 
+	- [Deploying Active Directory Domains](/AD/Design-and-Deploy/Deploying-Active-Directory-Domains)
+	- [Deploying a Managed Software Environment](/AD/Design-and-Deploy/Deploying-a-Managed-Software-Environment)
+	- [Deploying Security Policy](/AD/Design-and-Deploy/Deploying-Security-Policy)
+	- [Designing Active Directory Logical Structure](/AD/Design-and-Deploy/Designing-Active-Directory-Logical-Structure)
+		- [Create a Domain Design](/AD/Design-and-Deploy/Designing-Active-Directory-Logical-Structure/Create-a-Domain-Design)
+		- [Create a Forest Design](/AD/Design-and-Deploy/Designing-Active-Directory-Logical-Structure/Create-a-Forest-Design)
+		- [Design a DNS Infrastructure](/AD/Design-and-Deploy/Designing-Active-Directory-Logical-Structure/Design-a-DNS-Infrastructure)
+		- [Design a Organizational Unit](/AD/Design-and-Deploy/Designing-Active-Directory-Logical-Structure/Design-a-Organizational-Unit)
+	- [Designing a File and Print Service](/AD/Design-and-Deploy/Designing-a-File-and-Print-Service)
+	- [Designing a Group Policy Infrastructure](/AD/Design-and-Deploy/Designing-a-Group-Policy-Infrastructure)
+	- [Designing an Authentication Strategy](/AD/Design-and-Deploy/Designing-an-Authentication-Strategy)
+	- [Designing a Resource Authorization Strategy](/AD/Design-and-Deploy/Designing-a-Resource-Authorization-Strategy)
+	- [Designing Managed Updates Management Environment with WSUS](/AD/Design-and-Deploy/Designing-Managed-Updates-Management-Environment-with-WSUS)
+	- [Designing the Site Topology](/AD/Design-and-Deploy/Designing-the-Site-Topology)
+	- [Enable Advanced Active Directory Features](/AD/Design-and-Deploy/Enable-Advanced-Active-Directory-Features)
+	- [Migration of User State](/AD/Design-and-Deploy/Migration-of-User-State)
+	- [Planning Active Directory Project](/AD/Design-and-Deploy/Planning-Active-Directory-Project)
+	- [Planning a Secure Environment](/AD/Design-and-Deploy/Planning-a-Secure-Environment)
+	- [Planning Domain Controller Capacity](/AD/Design-and-Deploy/Planning-Domain-Controller-Capacity)
 
 - [images](/AD/images)
+
+
+- [readme](/AD/readme)
 
 
 ## Exchange
@@ -72,14 +75,6 @@
 - [Configure mail flow and client access for Exchange Server](/Exchange/Configure-mail-flow-and-client-access-for-Exchange-Server)
 
 
-- ExchangeOnline
-
-	- [Configure Microsoft 365 Groups with on premises Exchange Hybrid](/Exchange/ExchangeOnline/Configure-Microsoft-365-Groups-with-on-premises-Exchange-Hybrid)
-	- [Exchange Hybrid Off Boarding Migration](/Exchange/ExchangeOnline/Exchange-Hybrid-Off-Boarding-Migration)
-	- [Exchange Online Quarantine](/Exchange/ExchangeOnline/Exchange-Online-Quarantine)
-	- [Importing PST file to Microsoft 365](/Exchange/ExchangeOnline/Importing-PST-file-to-Microsoft-365)
-	- [Migrating your IMAP mailboxes to Microsoft 365](/Exchange/ExchangeOnline/Migrating-your-IMAP-mailboxes-to-Microsoft-365)
-
 - [images](/Exchange/images)
 
 
@@ -88,6 +83,14 @@
 
 - [Maintenance or Update DAG Members](/Exchange/Maintenance-or-Update-DAG-Members)
 
+
+- Online
+
+	- [Configure Microsoft 365 Groups with on premises Exchange Hybrid](/Exchange/Online/Configure-Microsoft-365-Groups-with-on-premises-Exchange-Hybrid)
+	- [Exchange Hybrid Off Boarding Migration](/Exchange/Online/Exchange-Hybrid-Off-Boarding-Migration)
+	- [Exchange Online Quarantine](/Exchange/Online/Exchange-Online-Quarantine)
+	- [Importing PST file to Microsoft 365](/Exchange/Online/Importing-PST-file-to-Microsoft-365)
+	- [Migrating your IMAP mailboxes to Microsoft 365](/Exchange/Online/Migrating-your-IMAP-mailboxes-to-Microsoft-365)
 
 - [readme](/Exchange/readme)
 
@@ -154,6 +157,8 @@
 
 - Purview
 
+	- [draft](/Microsoft365/Purview/draft)
+	- [readme](/Microsoft365/Purview/readme)
 
 - [readme](/Microsoft365/readme)
 

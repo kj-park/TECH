@@ -27,7 +27,7 @@
 
 - authentication-methods
 
-	![authentication-methods](https://github.com/kj-park/tech/blob/main/Microsoft365/media/authentication-methods.png?raw=true)
+	![authentication-methods](https://github.com/kj-park/tech/blob/main/Microsoft365/media/AzureAD/authentication-methods.png?raw=true)
 
 [Top](#)
 
