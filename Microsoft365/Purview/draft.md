@@ -68,3 +68,14 @@ AIP unified labeling client에서만 제공하는 추가 기능들은 다음과 
     ![aip label scope groups and sites](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Purview/aip-label-scope-groups-and-sites.png?raw=true)
 
 ---
+
+
+## Manage Information Protection
+
+### Know Your Data
+
+| Capability | What Problems does it Solve? | Get Started |
+|--|--|--|
+| Sensitive Information Types | 기본 제공 또는 사용자 지정 정규식이나 함수를 사용하여 민감한 데이터를 식별합니다. 확증적 증거에는 키워드, 신뢰 수준 및 근접성이 포함됩니다. | [Customize a built-in sensitive information type](https://docs.microsoft.com/en-us/microsoft-365/compliance/customize-a-built-in-sensitive-information-type?view=o365-worldwide) |
+| Trainable classifiers | 항목의 요소를 식별하는 대신 관심 있는 데이터의 예를 사용하여 민감한 데이터를 식별합니다(패턴 일치). 내장 분류기를 사용하거나 자신의 콘텐츠로 분류기를 훈련할 수 있습니다. | [Get started with trainable classifiers](https://docs.microsoft.com/en-us/microsoft-365/compliance/classifier-get-started-with?view=o365-worldwide) |
+| Data classification | 민감도 레이블, 보존 레이블이 있거나 분류된 조직의 항목을 그래픽으로 식별합니다. 또한 이 정보를 사용하여 사용자가 이러한 항목에 대해 수행하는 작업에 대한 통찰력을 얻을 수 있습니다. | [Get started with content explorer](https://docs.microsoft.com/en-us/microsoft-365/compliance/data-classification-content-explorer?view=o365-worldwide) <br /> [Get started with activity explorer](https://docs.microsoft.com/en-us/microsoft-365/compliance/data-classification-activity-explorer?view=o365-worldwide) |
