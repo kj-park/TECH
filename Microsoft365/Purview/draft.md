@@ -1,4 +1,4 @@
-﻿# draft
+# draft
 
 ## Azure Information Protection Client
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Microsoft Purview
 filename: Microsoft365\Purview\readme.md
 ms.date: 2022.06.30
