@@ -121,7 +121,6 @@
 			- [Sign in risk based Conditional Access](/Microsoft365/AzureAD/Conditional-Access/Common-Policies/Sign-in-risk-based-Conditional-Access)
 			- [User risk based Conditional Access](/Microsoft365/AzureAD/Conditional-Access/Common-Policies/User-risk-based-Conditional-Access)
 		- [Multi factor Authentication Users and Service Settings](/Microsoft365/AzureAD/Conditional-Access/Multi-factor-Authentication-Users-and-Service-Settings)
-	- [images](/Microsoft365/AzureAD/images)
 	- [readme](/Microsoft365/AzureAD/readme)
 
 - Defender
@@ -139,8 +138,10 @@
 
 	- [AAD Connect Sync Accounts](/Microsoft365/Hybrid/AAD-Connect-Sync-Accounts)
 	- [Configure Azure AD Connect Sync](/Microsoft365/Hybrid/Configure-Azure-AD-Connect-Sync)
-	- [images](/Microsoft365/Hybrid/images)
 	- [Understand Azure AD Connect Sync](/Microsoft365/Hybrid/Understand-Azure-AD-Connect-Sync)
+
+- [images](/Microsoft365/images)
+
 
 - [Microsoft 365 apps for enterpise](/Microsoft365/Microsoft-365-apps-for-enterpise)
 
@@ -165,15 +166,16 @@
 
 - Search
 
-	- [images](/Microsoft365/Search/images)
 	- [Microsoft Search Overview](/Microsoft365/Search/Microsoft-Search-Overview)
 
 - SharePointOnline
 
 
+- source
+
+
 - Teams
 
-	- [images](/Microsoft365/Teams/images)
 	- [Upgrade from Skype for Business](/Microsoft365/Teams/Upgrade-from-Skype-for-Business)
 
 ## PowerShell

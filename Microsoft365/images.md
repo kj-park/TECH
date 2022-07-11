@@ -1,174 +1,6 @@
 
 # Image Contents
 
-- AAD-connector-adsync-account-password-001
-
-	![AAD-connector-adsync-account-password-001](https://github.com/kj-park/tech/blob/main/Microsoft365/media/AAD-connector-adsync-account-password-001.png?raw=true)
-
-[Top](#)
-
----
-
-- AAD-join-device
-
-	![AAD-join-device](https://github.com/kj-park/tech/blob/main/Microsoft365/media/AAD-join-device.png?raw=true)
-
-[Top](#)
-
----
-
-- aad-new-dynamic-group-001
-
-	![aad-new-dynamic-group-001](https://github.com/kj-park/tech/blob/main/Microsoft365/media/aad-new-dynamic-group-001.png?raw=true)
-
-[Top](#)
-
----
-
-- aad-new-dynamic-group-002
-
-	![aad-new-dynamic-group-002](https://github.com/kj-park/tech/blob/main/Microsoft365/media/aad-new-dynamic-group-002.png?raw=true)
-
-[Top](#)
-
----
-
-- aad-new-dynamic-group-003
-
-	![aad-new-dynamic-group-003](https://github.com/kj-park/tech/blob/main/Microsoft365/media/aad-new-dynamic-group-003.png?raw=true)
-
-[Top](#)
-
----
-
-- aad-new-dynamic-group-004
-
-	![aad-new-dynamic-group-004](https://github.com/kj-park/tech/blob/main/Microsoft365/media/aad-new-dynamic-group-004.png?raw=true)
-
-[Top](#)
-
----
-
-- co-management-overview
-
-	![co-management-overview](https://github.com/kj-park/tech/blob/main/Microsoft365/media/co-management-overview.svg?raw=true)
-
-[Top](#)
-
----
-
-- combined-security-information-registration
-
-	![combined-security-information-registration](https://github.com/kj-park/tech/blob/main/Microsoft365/media/combined-security-information-registration.svg?raw=true)
-
-[Top](#)
-
----
-
-- dynamic-membership-rules-match
-
-	![dynamic-membership-rules-match](https://github.com/kj-park/tech/blob/main/Microsoft365/media/dynamic-membership-rules-match.png?raw=true)
-
-[Top](#)
-
----
-
-- mfa-conditional-access-policy
-
-	![mfa-conditional-access-policy](https://github.com/kj-park/tech/blob/main/Microsoft365/media/mfa-conditional-access-policy.png?raw=true)
-
-[Top](#)
-
----
-
-- mfa-users
-
-	![mfa-users](https://github.com/kj-park/tech/blob/main/Microsoft365/media/mfa-users.png?raw=true)
-
-[Top](#)
-
----
-
-- microsoft-intune-mdm-user-scope
-
-	![microsoft-intune-mdm-user-scope](https://github.com/kj-park/tech/blob/main/Microsoft365/media/microsoft-intune-mdm-user-scope.png?raw=true)
-
-[Top](#)
-
----
-
-- team-invite-guest-001
-
-	![team-invite-guest-001](https://github.com/kj-park/tech/blob/main/Microsoft365/media/team-invite-guest-001.png?raw=true)
-
-[Top](#)
-
----
-
-- team-invite-guest-002
-
-	![team-invite-guest-002](https://github.com/kj-park/tech/blob/main/Microsoft365/media/team-invite-guest-002.png?raw=true)
-
-[Top](#)
-
----
-
-- team-invite-guest-003
-
-	![team-invite-guest-003](https://github.com/kj-park/tech/blob/main/Microsoft365/media/team-invite-guest-003.png?raw=true)
-
-[Top](#)
-
----
-
-- team-invite-guest-004
-
-	![team-invite-guest-004](https://github.com/kj-park/tech/blob/main/Microsoft365/media/team-invite-guest-004.png?raw=true)
-
-[Top](#)
-
----
-
-- team-invite-guest-005
-
-	![team-invite-guest-005](https://github.com/kj-park/tech/blob/main/Microsoft365/media/team-invite-guest-005.png?raw=true)
-
-[Top](#)
-
----
-
-- team-invite-guest-006
-
-	![team-invite-guest-006](https://github.com/kj-park/tech/blob/main/Microsoft365/media/team-invite-guest-006.png?raw=true)
-
-[Top](#)
-
----
-
-- teams-extend-planner-todo-01
-
-	![teams-extend-planner-todo-01](https://github.com/kj-park/tech/blob/main/Microsoft365/media/teams-extend-planner-todo-01.png?raw=true)
-
-[Top](#)
-
----
-
-- teams-extend-planner-todo-02
-
-	![teams-extend-planner-todo-02](https://github.com/kj-park/tech/blob/main/Microsoft365/media/teams-extend-planner-todo-02.png?raw=true)
-
-[Top](#)
-
----
-
-- teams-extend-planner-todo
-
-	![teams-extend-planner-todo](https://github.com/kj-park/tech/blob/main/Microsoft365/media/teams-extend-planner-todo.png?raw=true)
-
-[Top](#)
-
----
-
 - AAD-Conditional-Access-Configuration-Conditions
 
 	![AAD-Conditional-Access-Configuration-Conditions](https://github.com/kj-park/tech/blob/main/Microsoft365/media/AzureAD/AAD-Conditional-Access-Configuration-Conditions.png?raw=true)
@@ -257,6 +89,38 @@
 
 ---
 
+- aad-new-dynamic-group-001
+
+	![aad-new-dynamic-group-001](https://github.com/kj-park/tech/blob/main/Microsoft365/media/AzureAD/aad-new-dynamic-group-001.png?raw=true)
+
+[Top](#)
+
+---
+
+- aad-new-dynamic-group-002
+
+	![aad-new-dynamic-group-002](https://github.com/kj-park/tech/blob/main/Microsoft365/media/AzureAD/aad-new-dynamic-group-002.png?raw=true)
+
+[Top](#)
+
+---
+
+- aad-new-dynamic-group-003
+
+	![aad-new-dynamic-group-003](https://github.com/kj-park/tech/blob/main/Microsoft365/media/AzureAD/aad-new-dynamic-group-003.png?raw=true)
+
+[Top](#)
+
+---
+
+- aad-new-dynamic-group-004
+
+	![aad-new-dynamic-group-004](https://github.com/kj-park/tech/blob/main/Microsoft365/media/AzureAD/aad-new-dynamic-group-004.png?raw=true)
+
+[Top](#)
+
+---
+
 - authentication-methods
 
 	![authentication-methods](https://github.com/kj-park/tech/blob/main/Microsoft365/media/AzureAD/authentication-methods.png?raw=true)
@@ -276,6 +140,14 @@
 - combined-security-information-registration-experience
 
 	![combined-security-information-registration-experience](https://github.com/kj-park/tech/blob/main/Microsoft365/media/AzureAD/combined-security-information-registration-experience.svg?raw=true)
+
+[Top](#)
+
+---
+
+- combined-security-information-registration
+
+	![combined-security-information-registration](https://github.com/kj-park/tech/blob/main/Microsoft365/media/AzureAD/combined-security-information-registration.svg?raw=true)
 
 [Top](#)
 
@@ -385,6 +257,14 @@
 
 ---
 
+- dynamic-membership-rules-match
+
+	![dynamic-membership-rules-match](https://github.com/kj-park/tech/blob/main/Microsoft365/media/AzureAD/dynamic-membership-rules-match.png?raw=true)
+
+[Top](#)
+
+---
+
 - identity-protection-sign-in-risk-policy
 
 	![identity-protection-sign-in-risk-policy](https://github.com/kj-park/tech/blob/main/Microsoft365/media/AzureAD/identity-protection-sign-in-risk-policy.svg?raw=true)
@@ -396,6 +276,22 @@
 - identity-protection-user-risk-policy
 
 	![identity-protection-user-risk-policy](https://github.com/kj-park/tech/blob/main/Microsoft365/media/AzureAD/identity-protection-user-risk-policy.svg?raw=true)
+
+[Top](#)
+
+---
+
+- mfa-conditional-access-policy
+
+	![mfa-conditional-access-policy](https://github.com/kj-park/tech/blob/main/Microsoft365/media/AzureAD/mfa-conditional-access-policy.png?raw=true)
+
+[Top](#)
+
+---
+
+- mfa-users
+
+	![mfa-users](https://github.com/kj-park/tech/blob/main/Microsoft365/media/AzureAD/mfa-users.png?raw=true)
 
 [Top](#)
 
@@ -545,6 +441,14 @@
 
 ---
 
+- AAD-join-device
+
+	![AAD-join-device](https://github.com/kj-park/tech/blob/main/Microsoft365/media/EMS/AAD-join-device.png?raw=true)
+
+[Top](#)
+
+---
+
 - azure-ad-hybrid-joined-device
 
 	![azure-ad-hybrid-joined-device](https://github.com/kj-park/tech/blob/main/Microsoft365/media/EMS/azure-ad-hybrid-joined-device.png?raw=true)
@@ -564,6 +468,14 @@
 - azure-ad-registered-device
 
 	![azure-ad-registered-device](https://github.com/kj-park/tech/blob/main/Microsoft365/media/EMS/azure-ad-registered-device.png?raw=true)
+
+[Top](#)
+
+---
+
+- co-management-overview
+
+	![co-management-overview](https://github.com/kj-park/tech/blob/main/Microsoft365/media/EMS/co-management-overview.svg?raw=true)
 
 [Top](#)
 
@@ -969,6 +881,14 @@
 
 ---
 
+- microsoft-intune-mdm-user-scope
+
+	![microsoft-intune-mdm-user-scope](https://github.com/kj-park/tech/blob/main/Microsoft365/media/EMS/microsoft-intune-mdm-user-scope.png?raw=true)
+
+[Top](#)
+
+---
+
 - AAD-Connect-Accounts
 
 	![AAD-Connect-Accounts](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Hybrid/AAD-Connect-Accounts.png?raw=true)
@@ -980,6 +900,14 @@
 - AAD-connector-adds-account-password
 
 	![AAD-connector-adds-account-password](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Hybrid/AAD-connector-adds-account-password.png?raw=true)
+
+[Top](#)
+
+---
+
+- AAD-connector-adsync-account-password-001
+
+	![AAD-connector-adsync-account-password-001](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Hybrid/AAD-connector-adsync-account-password-001.png?raw=true)
 
 [Top](#)
 
@@ -1225,6 +1153,14 @@
 
 ---
 
+- purview-compliance-overview
+
+	![purview-compliance-overview](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Purview/purview-compliance-overview.svg?raw=true)
+
+[Top](#)
+
+---
+
 - purview-solution-areas
 
 	![purview-solution-areas](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Purview/purview-solution-areas.png?raw=true)
@@ -1260,6 +1196,78 @@
 - microsoft-search-box
 
 	![microsoft-search-box](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Search/microsoft-search-box.png?raw=true)
+
+[Top](#)
+
+---
+
+- team-invite-guest-001
+
+	![team-invite-guest-001](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Teams/team-invite-guest-001.png?raw=true)
+
+[Top](#)
+
+---
+
+- team-invite-guest-002
+
+	![team-invite-guest-002](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Teams/team-invite-guest-002.png?raw=true)
+
+[Top](#)
+
+---
+
+- team-invite-guest-003
+
+	![team-invite-guest-003](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Teams/team-invite-guest-003.png?raw=true)
+
+[Top](#)
+
+---
+
+- team-invite-guest-004
+
+	![team-invite-guest-004](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Teams/team-invite-guest-004.png?raw=true)
+
+[Top](#)
+
+---
+
+- team-invite-guest-005
+
+	![team-invite-guest-005](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Teams/team-invite-guest-005.png?raw=true)
+
+[Top](#)
+
+---
+
+- team-invite-guest-006
+
+	![team-invite-guest-006](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Teams/team-invite-guest-006.png?raw=true)
+
+[Top](#)
+
+---
+
+- teams-extend-planner-todo-01
+
+	![teams-extend-planner-todo-01](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Teams/teams-extend-planner-todo-01.png?raw=true)
+
+[Top](#)
+
+---
+
+- teams-extend-planner-todo-02
+
+	![teams-extend-planner-todo-02](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Teams/teams-extend-planner-todo-02.png?raw=true)
+
+[Top](#)
+
+---
+
+- teams-extend-planner-todo
+
+	![teams-extend-planner-todo](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Teams/teams-extend-planner-todo.png?raw=true)
 
 [Top](#)
 
