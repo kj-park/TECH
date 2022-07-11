@@ -50,7 +50,7 @@ function Get-Content {
     begin { $Content = "" }
     process {
         if ( $Link ) {
-            $Content = "[$($Target.BaseName.Replace("-"," "))]($($Target.FullName.Replace($Root.FullName,'').Replace('\','/').Replace(".md",'')))"
+            $Content = "[$($Target.BaseName.Replace("-"," "))]($($Target.FullName.Replace($Root.FullName,'/Tech').Replace('\','/').Replace(".md",'')))"
         }
         else {
             $Content = "$($Target.BaseName.Replace("-"," "))"

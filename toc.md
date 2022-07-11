@@ -5,40 +5,40 @@
 ## AD
 
 
-- [Active Directory Design and Deployment](/AD/Active-Directory-Design-and-Deployment)
+- [Active Directory Design and Deployment](/Tech/AD/Active-Directory-Design-and-Deployment)
 
 
 - ADFS
 
 	- .media
-	- [adfs Requirements](/AD/ADFS/adfs-Requirements)
+	- [adfs Requirements](/Tech/AD/ADFS/adfs-Requirements)
 
 - Design and Deploy
 
-	- [Deploying Active Directory Domains](/AD/Design-and-Deploy/Deploying-Active-Directory-Domains)
-	- [Deploying a Managed Software Environment](/AD/Design-and-Deploy/Deploying-a-Managed-Software-Environment)
-	- [Deploying Security Policy](/AD/Design-and-Deploy/Deploying-Security-Policy)
-	- [Designing Active Directory Logical Structure](/AD/Design-and-Deploy/Designing-Active-Directory-Logical-Structure)
-		- [Create a Domain Design](/AD/Design-and-Deploy/Designing-Active-Directory-Logical-Structure/Create-a-Domain-Design)
-		- [Create a Forest Design](/AD/Design-and-Deploy/Designing-Active-Directory-Logical-Structure/Create-a-Forest-Design)
-		- [Design a DNS Infrastructure](/AD/Design-and-Deploy/Designing-Active-Directory-Logical-Structure/Design-a-DNS-Infrastructure)
-		- [Design a Organizational Unit](/AD/Design-and-Deploy/Designing-Active-Directory-Logical-Structure/Design-a-Organizational-Unit)
-	- [Designing a File and Print Service](/AD/Design-and-Deploy/Designing-a-File-and-Print-Service)
-	- [Designing a Group Policy Infrastructure](/AD/Design-and-Deploy/Designing-a-Group-Policy-Infrastructure)
-	- [Designing an Authentication Strategy](/AD/Design-and-Deploy/Designing-an-Authentication-Strategy)
-	- [Designing a Resource Authorization Strategy](/AD/Design-and-Deploy/Designing-a-Resource-Authorization-Strategy)
-	- [Designing Managed Updates Management Environment with WSUS](/AD/Design-and-Deploy/Designing-Managed-Updates-Management-Environment-with-WSUS)
-	- [Designing the Site Topology](/AD/Design-and-Deploy/Designing-the-Site-Topology)
-	- [Enable Advanced Active Directory Features](/AD/Design-and-Deploy/Enable-Advanced-Active-Directory-Features)
-	- [Migration of User State](/AD/Design-and-Deploy/Migration-of-User-State)
-	- [Planning Active Directory Project](/AD/Design-and-Deploy/Planning-Active-Directory-Project)
-	- [Planning a Secure Environment](/AD/Design-and-Deploy/Planning-a-Secure-Environment)
-	- [Planning Domain Controller Capacity](/AD/Design-and-Deploy/Planning-Domain-Controller-Capacity)
+	- [Deploying Active Directory Domains](/Tech/AD/Design-and-Deploy/Deploying-Active-Directory-Domains)
+	- [Deploying a Managed Software Environment](/Tech/AD/Design-and-Deploy/Deploying-a-Managed-Software-Environment)
+	- [Deploying Security Policy](/Tech/AD/Design-and-Deploy/Deploying-Security-Policy)
+	- [Designing Active Directory Logical Structure](/Tech/AD/Design-and-Deploy/Designing-Active-Directory-Logical-Structure)
+		- [Create a Domain Design](/Tech/AD/Design-and-Deploy/Designing-Active-Directory-Logical-Structure/Create-a-Domain-Design)
+		- [Create a Forest Design](/Tech/AD/Design-and-Deploy/Designing-Active-Directory-Logical-Structure/Create-a-Forest-Design)
+		- [Design a DNS Infrastructure](/Tech/AD/Design-and-Deploy/Designing-Active-Directory-Logical-Structure/Design-a-DNS-Infrastructure)
+		- [Design a Organizational Unit](/Tech/AD/Design-and-Deploy/Designing-Active-Directory-Logical-Structure/Design-a-Organizational-Unit)
+	- [Designing a File and Print Service](/Tech/AD/Design-and-Deploy/Designing-a-File-and-Print-Service)
+	- [Designing a Group Policy Infrastructure](/Tech/AD/Design-and-Deploy/Designing-a-Group-Policy-Infrastructure)
+	- [Designing an Authentication Strategy](/Tech/AD/Design-and-Deploy/Designing-an-Authentication-Strategy)
+	- [Designing a Resource Authorization Strategy](/Tech/AD/Design-and-Deploy/Designing-a-Resource-Authorization-Strategy)
+	- [Designing Managed Updates Management Environment with WSUS](/Tech/AD/Design-and-Deploy/Designing-Managed-Updates-Management-Environment-with-WSUS)
+	- [Designing the Site Topology](/Tech/AD/Design-and-Deploy/Designing-the-Site-Topology)
+	- [Enable Advanced Active Directory Features](/Tech/AD/Design-and-Deploy/Enable-Advanced-Active-Directory-Features)
+	- [Migration of User State](/Tech/AD/Design-and-Deploy/Migration-of-User-State)
+	- [Planning Active Directory Project](/Tech/AD/Design-and-Deploy/Planning-Active-Directory-Project)
+	- [Planning a Secure Environment](/Tech/AD/Design-and-Deploy/Planning-a-Secure-Environment)
+	- [Planning Domain Controller Capacity](/Tech/AD/Design-and-Deploy/Planning-Domain-Controller-Capacity)
 
-- [images](/AD/images)
+- [images](/Tech/AD/images)
 
 
-- [readme](/AD/readme)
+- [readme](/Tech/AD/readme)
 
 
 ## Exchange
@@ -46,7 +46,7 @@
 
 - 2013
 
-	- [Deploy Exchange 2013](/Exchange/2013/Deploy-Exchange-2013)
+	- [Deploy Exchange 2013](/Tech/Exchange/2013/Deploy-Exchange-2013)
 
 - 2016
 
@@ -56,43 +56,43 @@
 
 - Certificate
 
-	- [Make Public Certificate](/Exchange/Certificate/Make-Public-Certificate)
+	- [Make Public Certificate](/Tech/Exchange/Certificate/Make-Public-Certificate)
 
 - Conceptual
 
-	- [Accepted domains and Email Address Policies in Exchange Server](/Exchange/Conceptual/Accepted-domains-and-Email-Address-Policies-in-Exchange-Server)
-	- [Certificate and Encrpytion in Exchange Server](/Exchange/Conceptual/Certificate-and-Encrpytion-in-Exchange-Server)
-	- [Exchange Mail Flow and Recipient Types](/Exchange/Conceptual/Exchange-Mail-Flow-and-Recipient-Types)
-	- [Sender Policy Framework](/Exchange/Conceptual/Sender-Policy-Framework)
-	- [Understanding the Transport pipeline](/Exchange/Conceptual/Understanding-the-Transport-pipeline)
+	- [Accepted domains and Email Address Policies in Exchange Server](/Tech/Exchange/Conceptual/Accepted-domains-and-Email-Address-Policies-in-Exchange-Server)
+	- [Certificate and Encrpytion in Exchange Server](/Tech/Exchange/Conceptual/Certificate-and-Encrpytion-in-Exchange-Server)
+	- [Exchange Mail Flow and Recipient Types](/Tech/Exchange/Conceptual/Exchange-Mail-Flow-and-Recipient-Types)
+	- [Sender Policy Framework](/Tech/Exchange/Conceptual/Sender-Policy-Framework)
+	- [Understanding the Transport pipeline](/Tech/Exchange/Conceptual/Understanding-the-Transport-pipeline)
 
-- [Configure Exchange Hybrid](/Exchange/Configure-Exchange-Hybrid)
-
-
-- [Configure High availability](/Exchange/Configure-High-availability)
+- [Configure Exchange Hybrid](/Tech/Exchange/Configure-Exchange-Hybrid)
 
 
-- [Configure mail flow and client access for Exchange Server](/Exchange/Configure-mail-flow-and-client-access-for-Exchange-Server)
+- [Configure High availability](/Tech/Exchange/Configure-High-availability)
 
 
-- [images](/Exchange/images)
+- [Configure mail flow and client access for Exchange Server](/Tech/Exchange/Configure-mail-flow-and-client-access-for-Exchange-Server)
 
 
-- [Install ExchangeOnlineManagement Module](/Exchange/Install-ExchangeOnlineManagement-Module)
+- [images](/Tech/Exchange/images)
 
 
-- [Maintenance or Update DAG Members](/Exchange/Maintenance-or-Update-DAG-Members)
+- [Install ExchangeOnlineManagement Module](/Tech/Exchange/Install-ExchangeOnlineManagement-Module)
+
+
+- [Maintenance or Update DAG Members](/Tech/Exchange/Maintenance-or-Update-DAG-Members)
 
 
 - Online
 
-	- [Configure Microsoft 365 Groups with on premises Exchange Hybrid](/Exchange/Online/Configure-Microsoft-365-Groups-with-on-premises-Exchange-Hybrid)
-	- [Exchange Hybrid Off Boarding Migration](/Exchange/Online/Exchange-Hybrid-Off-Boarding-Migration)
-	- [Exchange Online Quarantine](/Exchange/Online/Exchange-Online-Quarantine)
-	- [Importing PST file to Microsoft 365](/Exchange/Online/Importing-PST-file-to-Microsoft-365)
-	- [Migrating your IMAP mailboxes to Microsoft 365](/Exchange/Online/Migrating-your-IMAP-mailboxes-to-Microsoft-365)
+	- [Configure Microsoft 365 Groups with on premises Exchange Hybrid](/Tech/Exchange/Online/Configure-Microsoft-365-Groups-with-on-premises-Exchange-Hybrid)
+	- [Exchange Hybrid Off Boarding Migration](/Tech/Exchange/Online/Exchange-Hybrid-Off-Boarding-Migration)
+	- [Exchange Online Quarantine](/Tech/Exchange/Online/Exchange-Online-Quarantine)
+	- [Importing PST file to Microsoft 365](/Tech/Exchange/Online/Importing-PST-file-to-Microsoft-365)
+	- [Migrating your IMAP mailboxes to Microsoft 365](/Tech/Exchange/Online/Migrating-your-IMAP-mailboxes-to-Microsoft-365)
 
-- [readme](/Exchange/readme)
+- [readme](/Tech/Exchange/readme)
 
 
 - source
@@ -103,70 +103,70 @@
 
 - AzureAD
 
-	- [Authentication](/Microsoft365/AzureAD/Authentication)
-	- [Azure Active Directory Overview](/Microsoft365/AzureAD/Azure-Active-Directory-Overview)
+	- [Authentication](/Tech/Microsoft365/AzureAD/Authentication)
+	- [Azure Active Directory Overview](/Tech/Microsoft365/AzureAD/Azure-Active-Directory-Overview)
 	- Conditional Access
-		- [Azure AD Conditional Access Overview](/Microsoft365/AzureAD/Conditional-Access/Azure-AD-Conditional-Access-Overview)
-		- [Azure AD Conditional Access Policy Access Controls](/Microsoft365/AzureAD/Conditional-Access/Azure-AD-Conditional-Access-Policy-Access-Controls)
-		- [Azure AD Conditional Access Policy Assignments](/Microsoft365/AzureAD/Conditional-Access/Azure-AD-Conditional-Access-Policy-Assignments)
+		- [Azure AD Conditional Access Overview](/Tech/Microsoft365/AzureAD/Conditional-Access/Azure-AD-Conditional-Access-Overview)
+		- [Azure AD Conditional Access Policy Access Controls](/Tech/Microsoft365/AzureAD/Conditional-Access/Azure-AD-Conditional-Access-Policy-Access-Controls)
+		- [Azure AD Conditional Access Policy Assignments](/Tech/Microsoft365/AzureAD/Conditional-Access/Azure-AD-Conditional-Access-Policy-Assignments)
 		- Common Policies
-			- [Block access by location](/Microsoft365/AzureAD/Conditional-Access/Common-Policies/Block-access-by-location)
-			- [Block access except specific apps](/Microsoft365/AzureAD/Conditional-Access/Common-Policies/Block-access-except-specific-apps)
-			- [Block Legacy Authentication](/Microsoft365/AzureAD/Conditional-Access/Common-Policies/Block-Legacy-Authentication)
-			- [Require compliant device](/Microsoft365/AzureAD/Conditional-Access/Common-Policies/Require-compliant-device)
-			- [Require MFA for Administrators](/Microsoft365/AzureAD/Conditional-Access/Common-Policies/Require-MFA-for-Administrators)
-			- [Require MFA for All Users](/Microsoft365/AzureAD/Conditional-Access/Common-Policies/Require-MFA-for-All-Users)
-			- [Require MFA for Azure Management](/Microsoft365/AzureAD/Conditional-Access/Common-Policies/Require-MFA-for-Azure-Management)
-			- [Securing security info registration](/Microsoft365/AzureAD/Conditional-Access/Common-Policies/Securing-security-info-registration)
-			- [Sign in risk based Conditional Access](/Microsoft365/AzureAD/Conditional-Access/Common-Policies/Sign-in-risk-based-Conditional-Access)
-			- [User risk based Conditional Access](/Microsoft365/AzureAD/Conditional-Access/Common-Policies/User-risk-based-Conditional-Access)
-		- [Multi factor Authentication Users and Service Settings](/Microsoft365/AzureAD/Conditional-Access/Multi-factor-Authentication-Users-and-Service-Settings)
-	- [readme](/Microsoft365/AzureAD/readme)
+			- [Block access by location](/Tech/Microsoft365/AzureAD/Conditional-Access/Common-Policies/Block-access-by-location)
+			- [Block access except specific apps](/Tech/Microsoft365/AzureAD/Conditional-Access/Common-Policies/Block-access-except-specific-apps)
+			- [Block Legacy Authentication](/Tech/Microsoft365/AzureAD/Conditional-Access/Common-Policies/Block-Legacy-Authentication)
+			- [Require compliant device](/Tech/Microsoft365/AzureAD/Conditional-Access/Common-Policies/Require-compliant-device)
+			- [Require MFA for Administrators](/Tech/Microsoft365/AzureAD/Conditional-Access/Common-Policies/Require-MFA-for-Administrators)
+			- [Require MFA for All Users](/Tech/Microsoft365/AzureAD/Conditional-Access/Common-Policies/Require-MFA-for-All-Users)
+			- [Require MFA for Azure Management](/Tech/Microsoft365/AzureAD/Conditional-Access/Common-Policies/Require-MFA-for-Azure-Management)
+			- [Securing security info registration](/Tech/Microsoft365/AzureAD/Conditional-Access/Common-Policies/Securing-security-info-registration)
+			- [Sign in risk based Conditional Access](/Tech/Microsoft365/AzureAD/Conditional-Access/Common-Policies/Sign-in-risk-based-Conditional-Access)
+			- [User risk based Conditional Access](/Tech/Microsoft365/AzureAD/Conditional-Access/Common-Policies/User-risk-based-Conditional-Access)
+		- [Multi factor Authentication Users and Service Settings](/Tech/Microsoft365/AzureAD/Conditional-Access/Multi-factor-Authentication-Users-and-Service-Settings)
+	- [readme](/Tech/Microsoft365/AzureAD/readme)
 
 - Defender
 
-	- [Microsoft Defender for Office365 Overview](/Microsoft365/Defender/Microsoft-Defender-for-Office365-Overview)
-	- [Microsoft Defender SmartScreen Overview](/Microsoft365/Defender/Microsoft-Defender-SmartScreen-Overview)
+	- [Microsoft Defender for Office365 Overview](/Tech/Microsoft365/Defender/Microsoft-Defender-for-Office365-Overview)
+	- [Microsoft Defender SmartScreen Overview](/Tech/Microsoft365/Defender/Microsoft-Defender-SmartScreen-Overview)
 
 - EMS
 
-	- [Microsoft Intune Overview](/Microsoft365/EMS/Microsoft-Intune-Overview)
-	- [Network Endpoints for Microsoft Intune](/Microsoft365/EMS/Network-Endpoints-for-Microsoft-Intune)
-	- [Set up Microsoft Intune](/Microsoft365/EMS/Set-up-Microsoft-Intune)
+	- [Microsoft Intune Overview](/Tech/Microsoft365/EMS/Microsoft-Intune-Overview)
+	- [Network Endpoints for Microsoft Intune](/Tech/Microsoft365/EMS/Network-Endpoints-for-Microsoft-Intune)
+	- [Set up Microsoft Intune](/Tech/Microsoft365/EMS/Set-up-Microsoft-Intune)
 
 - Hybrid
 
-	- [AAD Connect Sync Accounts](/Microsoft365/Hybrid/AAD-Connect-Sync-Accounts)
-	- [Configure Azure AD Connect Sync](/Microsoft365/Hybrid/Configure-Azure-AD-Connect-Sync)
-	- [Understand Azure AD Connect Sync](/Microsoft365/Hybrid/Understand-Azure-AD-Connect-Sync)
+	- [AAD Connect Sync Accounts](/Tech/Microsoft365/Hybrid/AAD-Connect-Sync-Accounts)
+	- [Configure Azure AD Connect Sync](/Tech/Microsoft365/Hybrid/Configure-Azure-AD-Connect-Sync)
+	- [Understand Azure AD Connect Sync](/Tech/Microsoft365/Hybrid/Understand-Azure-AD-Connect-Sync)
 
-- [images](/Microsoft365/images)
-
-
-- [Microsoft 365 apps for enterpise](/Microsoft365/Microsoft-365-apps-for-enterpise)
+- [images](/Tech/Microsoft365/images)
 
 
-- [Microsoft 365 E3 Overview en](/Microsoft365/Microsoft-365-E3-Overview-en)
+- [Microsoft 365 apps for enterpise](/Tech/Microsoft365/Microsoft-365-apps-for-enterpise)
 
 
-- [Microsoft 365 E3 Overview ko](/Microsoft365/Microsoft-365-E3-Overview-ko)
+- [Microsoft 365 E3 Overview en](/Tech/Microsoft365/Microsoft-365-E3-Overview-en)
+
+
+- [Microsoft 365 E3 Overview ko](/Tech/Microsoft365/Microsoft-365-E3-Overview-ko)
 
 
 - Planner
 
-	- [readme](/Microsoft365/Planner/readme)
+	- [readme](/Tech/Microsoft365/Planner/readme)
 
 - Purview
 
-	- [draft](/Microsoft365/Purview/draft)
-	- [readme](/Microsoft365/Purview/readme)
+	- [draft](/Tech/Microsoft365/Purview/draft)
+	- [readme](/Tech/Microsoft365/Purview/readme)
 
-- [readme](/Microsoft365/readme)
+- [readme](/Tech/Microsoft365/readme)
 
 
 - Search
 
-	- [Microsoft Search Overview](/Microsoft365/Search/Microsoft-Search-Overview)
+	- [Microsoft Search Overview](/Tech/Microsoft365/Search/Microsoft-Search-Overview)
 
 - SharePointOnline
 
@@ -176,22 +176,22 @@
 
 - Teams
 
-	- [Upgrade from Skype for Business](/Microsoft365/Teams/Upgrade-from-Skype-for-Business)
+	- [Upgrade from Skype for Business](/Tech/Microsoft365/Teams/Upgrade-from-Skype-for-Business)
 
 ## PowerShell
 
 
-- [images](/PowerShell/images)
+- [images](/Tech/PowerShell/images)
 
 
-- [Learning PowerShell](/PowerShell/Learning-PowerShell)
+- [Learning PowerShell](/Tech/PowerShell/Learning-PowerShell)
 
-	- [Desired State Configuration](/PowerShell/Learning-PowerShell/Desired-State-Configuration)
-	- [Installing PowerShell](/PowerShell/Learning-PowerShell/Installing-PowerShell)
-	- [Learning PowerShell Basic](/PowerShell/Learning-PowerShell/Learning-PowerShell-Basic)
-	- [Scripting and Development](/PowerShell/Learning-PowerShell/Scripting-and-Development)
+	- [Desired State Configuration](/Tech/PowerShell/Learning-PowerShell/Desired-State-Configuration)
+	- [Installing PowerShell](/Tech/PowerShell/Learning-PowerShell/Installing-PowerShell)
+	- [Learning PowerShell Basic](/Tech/PowerShell/Learning-PowerShell/Learning-PowerShell-Basic)
+	- [Scripting and Development](/Tech/PowerShell/Learning-PowerShell/Scripting-and-Development)
 
-- [readme](/PowerShell/readme)
+- [readme](/Tech/PowerShell/readme)
 
 
 - source
@@ -205,20 +205,20 @@
 ## Learning
 
 
-- [Demonstrate fundamental knowledge of Microsoft 365 productivity and teamwork capabilities](/Learning/Demonstrate-fundamental-knowledge-of-Microsoft-365-productivity-and-teamwork-capabilities)
+- [Demonstrate fundamental knowledge of Microsoft 365 productivity and teamwork capabilities](/Tech/Learning/Demonstrate-fundamental-knowledge-of-Microsoft-365-productivity-and-teamwork-capabilities)
 
 
-- [Discuss Azure fundamental concepts](/Learning/Discuss-Azure-fundamental-concepts)
+- [Discuss Azure fundamental concepts](/Tech/Learning/Discuss-Azure-fundamental-concepts)
 
 
 - ebooks
 
 
-- [images](/Learning/images)
+- [images](/Tech/Learning/images)
 
 
 ## includes
 
 
-- [GitHub Pages Configuration](/includes/GitHub-Pages-Configuration)
+- [GitHub Pages Configuration](/Tech/includes/GitHub-Pages-Configuration)
 
