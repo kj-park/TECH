@@ -72,15 +72,62 @@ AIP unified labeling client에서만 제공하는 추가 기능들은 다음과 
 
 ## Manage Information Protection
 
-
 ![purview compliance overview](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Purview/purview-compliance-overview.svg?raw=true)
-
-
 
 ### Know Your Data
 
+데이터 환경을 이해하고 하이브리드 환경에서 민감한 데이터를 식별하려면 다음 기능을 사용하십시오.
+
 | Capability | What Problems does it Solve? | Get Started |
 |--|--|--|
-| Sensitive Information Types | 기본 제공 또는 사용자 지정 정규식이나 함수를 사용하여 민감한 데이터를 식별합니다. 확증적 증거에는 키워드, 신뢰 수준 및 근접성이 포함됩니다. | [Customize a built-in sensitive information type](https://docs.microsoft.com/en-us/microsoft-365/compliance/customize-a-built-in-sensitive-information-type?view=o365-worldwide) |
-| Trainable classifiers | 항목의 요소를 식별하는 대신 관심 있는 데이터의 예를 사용하여 민감한 데이터를 식별합니다(패턴 일치). 내장 분류기를 사용하거나 자신의 콘텐츠로 분류기를 훈련할 수 있습니다. | [Get started with trainable classifiers](https://docs.microsoft.com/en-us/microsoft-365/compliance/classifier-get-started-with?view=o365-worldwide) |
-| Data classification | 민감도 레이블, 보존 레이블이 있거나 분류된 조직의 항목을 그래픽으로 식별합니다. 또한 이 정보를 사용하여 사용자가 이러한 항목에 대해 수행하는 작업에 대한 통찰력을 얻을 수 있습니다. | [Get started with content explorer](https://docs.microsoft.com/en-us/microsoft-365/compliance/data-classification-content-explorer?view=o365-worldwide) <br /> [Get started with activity explorer](https://docs.microsoft.com/en-us/microsoft-365/compliance/data-classification-activity-explorer?view=o365-worldwide) |
+| [Sensitive Information Types](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitive-information-type-learn-about?view=o365-worldwide) | 기본 제공 또는 사용자 지정 정규식이나 함수를 사용하여 민감한 데이터를 식별합니다. 확증적 증거에는 키워드, 신뢰 수준 및 근접성이 포함됩니다. | [Customize a built-in sensitive information type](https://docs.microsoft.com/en-us/microsoft-365/compliance/customize-a-built-in-sensitive-information-type?view=o365-worldwide) |
+| [Trainable classifiers](https://docs.microsoft.com/en-us/microsoft-365/compliance/classifier-learn-about?view=o365-worldwide) | 항목의 요소를 식별하는 대신 관심 있는 데이터의 예를 사용하여 민감한 데이터를 식별합니다(패턴 일치). 내장 분류기를 사용하거나 자신의 콘텐츠로 분류기를 훈련할 수 있습니다. | [Get started with trainable classifiers](https://docs.microsoft.com/en-us/microsoft-365/compliance/classifier-get-started-with?view=o365-worldwide) |
+| [Data classification](https://docs.microsoft.com/en-us/microsoft-365/compliance/data-classification-overview?view=o365-worldwide) | 민감도 레이블, 보존 레이블이 있거나 분류된 조직의 항목을 그래픽으로 식별합니다. 또한 이 정보를 사용하여 사용자가 이러한 항목에 대해 수행하는 작업에 대한 통찰력을 얻을 수 있습니다. | [Get started with content explorer](https://docs.microsoft.com/en-us/microsoft-365/compliance/data-classification-content-explorer?view=o365-worldwide) <br /> [Get started with activity explorer](https://docs.microsoft.com/en-us/microsoft-365/compliance/data-classification-activity-explorer?view=o365-worldwide) |
+
+### Protect Your Data
+
+암호화, 액세스 제한 및 시각적 표시를 포함하는 유연한 보호 조치를 적용하려면 다음 기능을 사용하십시오.
+
+| Capability | What Problems does it Solve? | Get Started |
+|--|--|--|
+| [Sensitivity labels](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitivity-labels?view=o365-worldwide) | 앱, 서비스 및 장치 전반에 걸친 단일 레이블링 솔루션으로 조직 내부 및 외부로 이동하는 데이터를 보호합니다. | [Get started with sensitivity labels](https://docs.microsoft.com/en-us/microsoft-365/compliance/get-started-with-sensitivity-labels?view=o365-worldwide) |
+| [Azure Information Protection unified labeling client](https://docs.microsoft.com/en-us/azure/information-protection/rms-client/aip-clientv2) | Windows 컴퓨터의 경우 레이블 지정을 파일 탐색기 및 PowerShell로 확장하고 필요한 경우 Office 앱용 추가 기능 포함 | [Azure Information Protection unified labeling client administrator guide](https://docs.microsoft.com/en-us/azure/information-protection/rms-client/clientv2-admin-guide) |
+| [Double Key Encryption](https://docs.microsoft.com/en-us/microsoft-365/compliance/double-key-encryption?view=o365-worldwide) | 어떤 상황에서도 조직에서만 보호된 콘텐츠를 해독할 수 있으며 규정 요구 사항에 따라 지리적 경계 내에서 암호화 키를 보유해야 합니다. | [Deploy Double Key Encryption](https://docs.microsoft.com/en-us/microsoft-365/compliance/double-key-encryption?view=o365-worldwide#deploy-dke) |
+| [Office 365 Message Encryption (OME)](https://docs.microsoft.com/en-us/microsoft-365/compliance/ome?view=o365-worldwide) | 모든 장치의 모든 사용자에게 전송되는 이메일 메시지 및 첨부 문서를 암호화하여 승인된 수신자만 이메일 정보를 읽을 수 있도록 합니다. | [Set up new Message Encryption capabilities](https://docs.microsoft.com/en-us/microsoft-365/compliance/set-up-new-message-encryption-capabilities?view=o365-worldwide) |
+| [Service encryption with Customer Key](https://docs.microsoft.com/en-us/microsoft-365/compliance/customer-key-overview?view=o365-worldwide) | 승인되지 않은 시스템이나 직원이 데이터를 보는 것을 방지하고 Microsoft 데이터 센터에서 BitLocker 디스크 암호화를 보완합니다. | [Set up Customer Key for Office 365](https://docs.microsoft.com/en-us/microsoft-365/compliance/customer-key-set-up?view=o365-worldwide) |
+| [SharePoint Information Rights Management (IRM)](https://docs.microsoft.com/en-us/microsoft-365/compliance/set-up-irm-in-sp-admin-center?view=o365-worldwide#irm-enable-sharepoint-document-libraries-and-lists) | SharePoint 목록 및 라이브러리를 보호하여 사용자가 문서를 체크아웃할 때 다운로드한 파일이 보호되어 권한이 있는 사람만 지정한 정책에 따라 파일을 보고 사용할 수 있습니다. | [Set up Information Rights Management (IRM) in SharePoint admin center](https://docs.microsoft.com/en-us/microsoft-365/compliance/set-up-irm-in-sp-admin-center?view=o365-worldwide) |
+| [Rights Management connector](https://docs.microsoft.com/en-us/azure/information-protection/deploy-rms-connector) | Exchange 또는 SharePoint Server를 사용하는 기존 온프레미스 배포 또는 Windows Server 및 FCI(파일 분류 인프라)를 실행하는 파일 서버에 대한 보호 전용입니다. | [Steps to deploy the RMS connector](https://docs.microsoft.com/en-us/azure/information-protection/deploy-rms-connector#steps-to-deploy-the-rms-connector) |
+| [Azure Information Protection unified labeling scanner](https://docs.microsoft.com/en-us/azure/information-protection/deploy-aip-scanner) | 온프레미스에 있는 데이터 저장소에 있는 중요한 정보를 검색, 레이블 지정 및 보호합니다. | [Configuring and installing the Azure Information Protection unified labeling scanner](https://docs.microsoft.com/en-us/azure/information-protection/deploy-aip-scanner-configure-install) |
+| [Microsoft Defender for Cloud Apps](https://docs.microsoft.com/en-us/cloud-app-security/what-is-cloud-app-security) | 클라우드에 있는 데이터 저장소에 있는 민감한 정보를 검색, 레이블 지정 및 보호합니다. | [Discover, classify, label, and protect regulated and sensitive data stored in the cloud](https://docs.microsoft.com/en-us/cloud-app-security/best-practices#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud) |
+
+### Prevent Data Loss
+
+민감한 정보의 우발적인 과잉 공유를 방지하려면 다음 기능을 사용하십시오.
+
+| Capability | What Problems does it Solve? | Get Started |
+|--|--|--|
+| []() |   | []() |
+| []() |   | []() |
+| []() |   | []() |
+| []() |   | []() |
+| []() |   | []() |
+
+## Manage Data Lifecycle & Records (Govern Your Data)
+
+### Microsoft Purview Data Lifecycle Management
+
+필요한 것을 유지하고 필요하지 않은 것을 삭제하려면:
+
+| Capability | What Problems does it Solve? |
+|--|--|
+| []() |   |
+
+### Microsoft Purview Records Management
+
+비즈니스, 법률 또는 규제 기록 보관 요구 사항에 대한 고가치 항목 관리:
+
+| Capability | What Problems does it Solve? |
+|--|--|
+| []() |   |
+
+---
