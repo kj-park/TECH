@@ -72,6 +72,11 @@ AIP unified labeling client에서만 제공하는 추가 기능들은 다음과 
 
 ## Manage Information Protection
 
+
+![purview compliance overview](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Purview/purview-compliance-overview.svg?raw=true)
+
+
+
 ### Know Your Data
 
 | Capability | What Problems does it Solve? | Get Started |
