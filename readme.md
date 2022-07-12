@@ -26,16 +26,48 @@ Sharing the Technology to everyone who want to know.
 
 | Tab | What can you do? | Settings |
 |--|--|--|
-| General | 사용자가 테마를 재정의 방지 여부 또는 사용자의 Display Name 표시 여부 설정 | ![General](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Custom-Themes-General.png?raw=true) |
-| Logos | 로고를 추가하고 사용자가 로고를 선택할 때 이동할 URL을 지정할 수 있습니다. | ![Logos](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Custom-Themes-Logos.png?raw=true) |
-| Colors | 기본 색상을 설정하고 사용할 로고를 선택할 수 있습니다. | ![Colors](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Custom-Themes-Colors.png?raw=true) |
+| General | 사용자가 테마를 재정의 방지 여부 또는 사용자의 Display Name 표시 여부 설정 | ![General](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Custom-Themes-General.png?raw=true){: width="400"} |
+| Logos | <p>로고를 추가하고 사용자가 로고를 선택할 때 이동할 URL을 지정할 수 있습니다.</p><p>URL(HTTPS Image URL) 또는 10KB 이하 크기의 JPG/PNG/GIF(will be scaled to fit 200 x 48 pixels) 또는 SVG(will be resized to fit 24 pixels vertically) 이미지 업로드</p> | ![Logos](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Custom-Themes-Logos.png?raw=true){: width="400"} |
+| Colors | 기본 색상을 설정하고 사용할 로고를 선택할 수 있습니다. | ![Colors](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Custom-Themes-Colors.png?raw=true){: width="400"} |
+
+
+</p><p>URL(HTTPS Image URL) 또는 10KB 이하 크기의 JPG/PNG/GIF(will be scaled to fit 200 x 48 pixels) 또는 SVG(will be resized to fit 24 pixels vertically) 이미지 업로드</p>
 
 
 
+### Company Branding (In Azure Active Directory)
 
+- Sign-In Page Background Image
 
+    - Image Size: 1920x1080px
+    - File Size: < 300KB
+    - File Type: PNG, JPG, JPEG
 
+- Banner Logo
 
+    - Image Size: 280x60px
+    - File Size: 10KB
+    - File Type: PNG, JPG, JPEG
+
+- Username Hint
+
+- Sign-In Page Text
+
+- Advanced Settings
+
+    - Sign-in page background color
+
+    - Square logo image
+        - Image size: 240x240px (resizable)
+        - Max file size: 50KB
+        - PNG (preferred), JPG, or JPEG
+
+    - Square logo image, dark theme
+        - Image size: 240x240px (resizable)
+        - Max file size: 50KB
+        - PNG (preferred), JPG, or JPEG
+
+    - Show option to remain signed in
 
 ### Microsoft 365 Tenant Logo Example
 
