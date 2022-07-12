@@ -102,15 +102,17 @@ AIP unified labeling client에서만 제공하는 추가 기능들은 다음과 
 
 ### Prevent Data Loss
 
+https://docs.microsoft.com/en-us/microsoft-365/compliance/information-protection?view=o365-worldwide#prevent-data-loss
+
 민감한 정보의 우발적인 과잉 공유를 방지하려면 다음 기능을 사용하십시오.
 
 | Capability | What Problems does it Solve? | Get Started |
 |--|--|--|
-| []() |   | []() |
-| []() |   | []() |
-| []() |   | []() |
-| []() |   | []() |
-| []() |   | []() |
+| []() |  | []() |
+| []() |  | []() |
+| []() |  | []() |
+| []() |  | []() |
+| []() |  | []() |
 
 ## Manage Data Lifecycle & Records (Govern Your Data)
 
