@@ -108,13 +108,15 @@ https://docs.microsoft.com/en-us/microsoft-365/compliance/information-protection
 
 | Capability | What Problems does it Solve? | Get Started |
 |--|--|--|
-| []() |  | []() |
-| []() |  | []() |
-| []() |  | []() |
-| []() |  | []() |
-| []() |  | []() |
+| [Microsoft Purview Data Loss Prevention](https://docs.microsoft.com/en-us/microsoft-365/compliance/dlp-learn-about-dlp?view=o365-worldwide) | 민감한 항목의 의도하지 않은 공유를 방지하는 데 도움이 됩니다. | [Get started with the default DLP policy](https://docs.microsoft.com/en-us/microsoft-365/compliance/get-started-with-the-default-dlp-policy?view=o365-worldwide) |
+| [Endpoint data loss prevention](https://docs.microsoft.com/en-us/microsoft-365/compliance/endpoint-dlp-learn-about?view=o365-worldwide) | Windows 10 컴퓨터에서 사용 및 공유되는 항목으로 DLP 기능을 확장합니다. | [Get started with Endpoint data loss prevention](https://docs.microsoft.com/en-us/microsoft-365/compliance/endpoint-dlp-getting-started?view=o365-worldwide) |
+| [Microsoft Compliance Extension](https://docs.microsoft.com/en-us/microsoft-365/compliance/dlp-chrome-learn-about?view=o365-worldwide) | DLP 기능을 Chrome 브라우저로 확장 | [Get started with the Microsoft Compliance Extension](https://docs.microsoft.com/en-us/microsoft-365/compliance/dlp-chrome-get-started?view=o365-worldwide) |
+| [Microsoft Purview data loss prevention on-premises scanner (preview)](https://docs.microsoft.com/en-us/microsoft-365/compliance/dlp-on-premises-scanner-learn?view=o365-worldwide) | 파일 활동에 대한 DLP 모니터링과 해당 파일에 대한 보호 조치를 온-프레미스 파일 공유, SharePoint 폴더 및 문서 라이브러리로 확장합니다. | [Get started with Microsoft Purview data loss prevention on-premises scanner (preview)](https://docs.microsoft.com/en-us/microsoft-365/compliance/dlp-on-premises-scanner-get-started?view=o365-worldwide) |
+| [Protect sensitive information in Microsoft Teams chat and channel messages](https://docs.microsoft.com/en-us/microsoft-365/compliance/dlp-microsoft-teams?view=o365-worldwide) | 일부 DLP 기능을 Teams 채팅 및 채널 메시지로 확장 | [Learn about the default data loss prevention policy in Microsoft Teams (preview)](https://docs.microsoft.com/en-us/microsoft-365/compliance/dlp-teams-default-policy?view=o365-worldwide) |
 
 ## Manage Data Lifecycle & Records (Govern Your Data)
+
+![purview compliance overview](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Purview/govern-your-data.png?raw=true)
 
 ### Microsoft Purview Data Lifecycle Management
 
@@ -122,7 +124,10 @@ https://docs.microsoft.com/en-us/microsoft-365/compliance/information-protection
 
 | Capability | What Problems does it Solve? |
 |--|--|
-| []() |   |
+| [Retention policies for Microsoft 365 workloads, with retention labels for exceptions](https://docs.microsoft.com/en-us/microsoft-365/compliance/retention?view=o365-worldwide) | 전자 메일, 문서, 팀 및 Yammer 메시지에 대한 정책 관리를 통해 콘텐츠를 유지하거나 삭제할 수 있습니다. |
+| [Inactive mailboxes](https://docs.microsoft.com/en-us/microsoft-365/compliance/inactive-mailboxes-in-office-365?view=o365-worldwide) | 직원이 조직을 떠난 후에도 사서함 콘텐츠를 유지하여 관리자, 규정 준수 책임자 및 기록 관리자가 이 콘텐츠에 계속 액세스할 수 있습니다. |
+| [Archive mailboxes](https://docs.microsoft.com/en-us/microsoft-365/compliance/archive-mailboxes?view=o365-worldwide) | 사용자를 위한 추가 사서함 저장 공간을 제공합니다. |
+| [Import service for PST files](https://docs.microsoft.com/en-us/microsoft-365/compliance/importing-pst-files-to-office-365?view=o365-worldwide) | 규정 준수 또는 규정 요구 사항에 대해 전자 메일 메시지를 보관 및 검색하기 위해 PST 파일을 Exchange Online 사서함으로 대량 가져오기를 지원합니다. |
 
 ### Microsoft Purview Records Management
 
@@ -130,6 +135,8 @@ https://docs.microsoft.com/en-us/microsoft-365/compliance/information-protection
 
 | Capability | What Problems does it Solve? |
 |--|--|
-| []() |   |
+| [File plan](https://docs.microsoft.com/en-us/microsoft-365/compliance/file-plan-manager?view=o365-worldwide) | 보존 레이블을 대화식으로 생성하거나 대량으로 가져오고 분석을 위해 내보낼 수 있습니다. 레이블은 비즈니스 또는 규제 요구 사항을 식별하고 추적하는 데 도움이 되는 추가 관리 정보(선택 사항)를 지원합니다. |
+| [Retention labels for individual items, retention policies if needed for baseline retention](https://docs.microsoft.com/en-us/microsoft-365/compliance/retention?view=o365-worldwide) | 레이블은 필요할 때 기록 선언과 함께 수동 또는 자동으로 적용할 수 있는 유연한 보존 및 삭제 일정을 지원합니다. |
+| [Disposition review and proof of disposition](https://docs.microsoft.com/en-us/microsoft-365/compliance/disposition?view=o365-worldwide) | 기록 폐기 증거와 함께 영구적으로 삭제되기 전에 콘텐츠를 수동으로 검토합니다. |
 
 ---
