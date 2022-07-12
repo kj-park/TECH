@@ -26,9 +26,9 @@ Sharing the Technology to everyone who want to know.
 
 | Tab | What can you do? | Settings |
 |--|--|--|
-| **General** | 사용자가 테마를 재정의 방지 여부 또는 사용자의 Display Name 표시 여부 설정 | ![General](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Custom-Themes-General.png?raw=true | width=500) |
-| **Logos** | 로고를 추가하고 사용자가 로고를 선택할 때 이동할 URL을 지정할 수 있습니다.<br />URL(HTTPS Image URL) 또는 10KB 이하 크기의 JPG/PNG/GIF(will be scaled to fit 200 x 48 pixels) 또는 SVG(will be resized to fit 24 pixels vertically) 이미지 업로드 | ![Logos](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Custom-Themes-Logos.png?raw=true | width=500) |
-| **Colors** | 기본 색상을 설정하고 사용할 로고를 선택할 수 있습니다. | ![Colors](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Custom-Themes-Colors.png?raw=true | width=500) |
+| **General** | 사용자가 테마를 재정의 방지 여부 또는 사용자의 Display Name 표시 여부 설정 | ![General](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Custom-Themes-General.png?raw=true){: width=600} |
+| **Logos** | 로고를 추가하고 사용자가 로고를 선택할 때 이동할 URL을 지정할 수 있습니다.<br />URL(HTTPS Image URL) 또는 10KB 이하 크기의 JPG/PNG/GIF(will be scaled to fit 200 x 48 pixels) 또는 SVG(will be resized to fit 24 pixels vertically) 이미지 업로드 | ![Logos](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Custom-Themes-Logos.png?raw=true){: width=600} |
+| **Colors** | 기본 색상을 설정하고 사용할 로고를 선택할 수 있습니다. | ![Colors](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Custom-Themes-Colors.png?raw=true){: width=600} |
 
 
 </p><p>URL(HTTPS Image URL) 또는 10KB 이하 크기의 JPG/PNG/GIF(will be scaled to fit 200 x 48 pixels) 또는 SVG(will be resized to fit 24 pixels vertically) 이미지 업로드</p>
