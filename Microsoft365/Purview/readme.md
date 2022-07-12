@@ -41,7 +41,29 @@ Microsoft Purview에는 온프레미스, 다중 클라우드 및 SaaS(Software-a
 
 ## Microsoft Purview risk and compliance solutions
 
-- [Sensitivity Labels]()
+### [Protect sensitive data across clouds, apps, and devices]()
 
+### Identify data risks and manage regulatory compliance requirements
+
+내부 위험은 현대 직장에서 보안 및 규정 준수 전문가의 가장 큰 관심사 중 하나입니다. 업계 연구에 따르면 내부 위험은 종종 특정 사용자 이벤트 또는 활동과 관련이 있습니다. 이러한 위험으로부터 조직을 보호하는 것은 식별하기 어렵고 완화하기 어려울 수 있습니다. 내부자 위험에는 다양한 영역의 취약성이 포함되며 지적 재산 손실에서 직장 내 괴롭힘 등에 이르기까지 조직에 주요 문제를 일으킬 수 있습니다.
+
+Microsoft Purview는 조직에서 데이터 위험 및 규정 준수 요구 사항을 관리하는 데 도움이 되는 다음과 같은 규정 준수 솔루션을 제공합니다.
+
+- [Insider risk management](https://docs.microsoft.com/en-us/microsoft-365/compliance/purview-compliance?toc=%2Fpurview%2Ftoc.json&bc=%2Fpurview%2Fbreadcrumb%2Ftoc.json&view=o365-worldwide#detect-and-act-on-risk-activities-with-insider-risk-management)
+- [Communication compliance](https://docs.microsoft.com/en-us/microsoft-365/compliance/purview-compliance?toc=%2Fpurview%2Ftoc.json&bc=%2Fpurview%2Fbreadcrumb%2Ftoc.json&view=o365-worldwide#detect-and-act-on-inappropriate-and-sensitive-messages-with-communication-compliance)
+- [Information barriers](https://docs.microsoft.com/en-us/microsoft-365/compliance/purview-compliance?toc=%2Fpurview%2Ftoc.json&bc=%2Fpurview%2Fbreadcrumb%2Ftoc.json&view=o365-worldwide#restrict-communication-and-collaboration-between-users-with-information-barriers)
+- [Records management](https://docs.microsoft.com/en-us/microsoft-365/compliance/purview-compliance?toc=%2Fpurview%2Ftoc.json&bc=%2Fpurview%2Fbreadcrumb%2Ftoc.json&view=o365-worldwide#manage-business-legal-or-regulatory-record-keeping-requirements-with-records-management)
+- [Audit (Premium) and Audit (Standard)](https://docs.microsoft.com/en-us/microsoft-365/compliance/purview-compliance?toc=%2Fpurview%2Ftoc.json&bc=%2Fpurview%2Fbreadcrumb%2Ftoc.json&view=o365-worldwide#log-and-search-for-audited-activities-in-sharepoint-and-onedrive-with-audit-premium-or-audit-standard)
+- [eDiscovery (Premium) and eDiscovery (Standard)](https://docs.microsoft.com/en-us/microsoft-365/compliance/purview-compliance?toc=%2Fpurview%2Ftoc.json&bc=%2Fpurview%2Fbreadcrumb%2Ftoc.json&view=o365-worldwide#identify-and-manage-data-for-legal-cases-with-ediscovery-premium-or-ediscovery-standard)
+
+### Deploy Purview compliance solutions
+
+영역별 솔루션은 안전하고 규정을 준수하는 데이터 협업을 위해 통합 규정 준수 솔루션을 이해, 계획 및 구현하는 데 필요한 기술 지침을 제공합니다.
+
+- [Secure data with Zero Trust](https://docs.microsoft.com/en-us/security/zero-trust/deploy/data)
+- [Deploy an information protection solution](https://docs.microsoft.com/en-us/microsoft-365/compliance/information-protection-solution)
+- [Deploy a data governance solution](https://docs.microsoft.com/en-us/microsoft-365/compliance/data-governance-solution)
+- [Deploy information protection for data privacy regulations](https://docs.microsoft.com/en-us/microsoft-365/solutions/information-protection-deploy)
+- [Explore information protection & compliance illustrations](https://docs.microsoft.com/en-us/microsoft-365/solutions/productivity-illustrations)
 
 ---
