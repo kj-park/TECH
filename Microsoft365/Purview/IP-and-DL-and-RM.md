@@ -1,6 +1,6 @@
 ---
 title: Microsoft Purview Information Protection and Manage Data Lifecycle & Records Management
-filename: Microsoft365\Purview\Microsoft-Purview-Information-Protection-and-Manage-Data-Lifecycle-&-Records-Management.md
+filename: Microsoft365\Purview\IP-and-DL-and-RM.md
 ms.date: 2022.07.12
 ---
 
