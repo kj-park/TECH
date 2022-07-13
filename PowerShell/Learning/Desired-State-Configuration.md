@@ -7,4 +7,4 @@
 ---
 
 > [!div class="nextstepaction"]  
-> [Scripting and Development](Scripting-and-Development.md)
+> [Scripting and Development](Scripting-and-Development)

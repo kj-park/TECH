@@ -79,4 +79,4 @@ WMF installation adds and/or updates the following features:
 ---
 
 > [!div class="nextstepaction"]  
-> [Learning PowerShell](Learning-PowerShell-Basic.md)
+> [Learning PowerShell](Learning-PowerShell-Basic)

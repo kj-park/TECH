@@ -15,10 +15,10 @@ keywords:
 Contents:
 
 - [Overview](#overview)
-- [Installing PowerShell](Installing-PowerShell.md)
-- [Learning PowerShell Basic](Learning-PowerShell-Basic.md)
-- [Desired State Configuration (DSC)](Desired-State-Configuration.md)
-- [Scripting and Development](Scripting-and-Development.md)
+- [Installing PowerShell](Learning/Installing-PowerShell)
+- [Learning PowerShell Basic](Learning/Learning-PowerShell-Basic)
+- [Desired State Configuration (DSC)](Learning/Desired-State-Configuration)
+- [Scripting and Development](Learning/Scripting-and-Development)
 
 ---
 
@@ -86,4 +86,4 @@ PowerShell Desired State Configuration (DSC)는 Enterprise Infrastructure 환경
 ---
 
 > [!div class="nextstepaction"]  
-> [Installing PowerShell](Learning-PowerShell/Installing-PowerShell.md)
+> [Installing PowerShell](Learning/Installing-PowerShell)
