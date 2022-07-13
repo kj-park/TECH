@@ -68,6 +68,11 @@ WMF installation adds and/or updates the following features:
 - [PowerShell-7.2.1-win-x64.msi](https://github.com/PowerShell/PowerShell/releases/download/v7.2.1/PowerShell-7.2.1-win-x64.msi)
 - [PowerShell-7.2.1-win-x86.msi](https://github.com/PowerShell/PowerShell/releases/download/v7.2.1/PowerShell-7.2.1-win-x86.msi)
 
+> [!TIP] 
+> 최신 버전은 아래 링크에서 다운받을 수 있습니다:
+> [Installing the MSI Package](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.2#installing-the-msi-package)
+
+
 ## Useful Tools for Scripting and Shell
 
 - [Windows Terminal](https://docs.microsoft.com/en-us/windows/terminal/)
