@@ -1,7 +1,7 @@
 ﻿---
 title: Microsoft 365 E3 살펴보기
 filename: Microsoft365\Microsoft-365-E3-Overview-ko.md
-ms.date: 2022.04.29
+ms.date: 2022.07.25
 ---
 
 # Microsoft 365 E3 살펴보기
