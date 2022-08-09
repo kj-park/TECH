@@ -6,16 +6,16 @@ ms.date: 2022.07.25
 
 # Microsoft 365 E3 Overview
 
+---
 
-## In English
-
-### License Coverage
+## License Coverage
 
 - Installable on PCs or Macs - 5 per user
 - Phone and tablets/user - 5
 
+---
 
-### Office apps
+## Office apps
 
 Office apps empower your employees to create, collaborate, and share work wherever they are, on any device.
 
@@ -36,8 +36,9 @@ Office apps empower your employees to create, collaborate, and share work wherev
     - View organizational telemetry
 - InfoPath
 
+---
 
-### Collaboration and communication
+## Collaboration and communication
 
 Connect your organization with professional online meetings, business-class email, instant messaging, and in-app file sharing.
 
@@ -78,8 +79,9 @@ Connect your organization with professional online meetings, business-class emai
 - ~~Audio conferencing~~
 - ~~Phone system~~
 
+---
 
-### Accounts and security
+## Accounts and security
 
 Security comes standard in all Microsoft products. Use these resources to get secure today and protect against future threats.
 
@@ -169,7 +171,9 @@ Security comes standard in all Microsoft products. Use these resources to get se
     - ~~Secure your mailboxes~~ (In Microsoft 365 E5)
 - Mobile Device Management for Office 365
 
-### Operating system
+---
+
+## Operating system
 
 Windows 10 Enterprise
 
@@ -183,7 +187,9 @@ Windows 10 Enterprise
 - Microsoft Application Virtualization (App-V)
 - Microsoft User Environment Virtualization (UE-V)
 
-### Business apps
+---
+
+## Business apps
 
 Boost employee productivity with apps that help your organization automate processes, plan and track projects, create workflows, and more.
 
@@ -226,7 +232,9 @@ Boost employee productivity with apps that help your organization automate proce
 - Forms
 - To-Do
 
-### Additional services
+---
+
+## Additional services
 
 - MyAnalytics Outlook add-in
     - ~~Personal dashboard~~ (In Microsoft 365 E5)
