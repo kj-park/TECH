@@ -6,9 +6,9 @@ Protect Email and Collaboration with Defender
 
 ## Table of Contents
 
-- [Microsoft Defender for Office 365 Overview](#Microsoft-Defender-for-Office-365-Overview)
-- [Microsoft Defender for Office 365 Subscription Plan](#Microsoft-Defender-for-Office-365-Subscription-Plan)
-- [Preset Security Policies & Configuration Analyzer in EOP and MDO](#Preset-Security-Policies--Configuration-Analyzer-in-EOP-and-MDO)
+- [Microsoft Defender for Office 365 Overview](#microsoft-defender-for-office-365-overview)
+- [Microsoft Defender for Office 365 Subscription Plan](#microsoft-defender-for-office-365-subscription-plan)
+- [Preset Security Policies & Configuration Analyzer in EOP and MDO](#preset-security-policies--configuration-analyzer-in-eop-and-mdo)
 
 ## Microsoft Defender for Office 365 Overview
 
@@ -136,7 +136,19 @@ Automation, investigation, remediation, and education capabilities
 
 ### Preset Security Policies
 
+권장되는 모든 스팸, 맬웨어 및 피싱 정책을 한 번에 적용할 수 있습니다. 구성을 변경할 수 없으나 Microsoft의 데이터 센터의 관찰과 경험을 기반으로 설정하여 유해한 콘텐츠를 멀리 유지하는 것과 불필요한 중단을 방지하는 것 사이의 균형을 유지할 수 있습니다.
+
+[mdo-preset-security-policies.png](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Defender/mdo-preset-security-policies.png?raw=true)
+
+- **Built-in Protection.** 악의적인 링크 및 첨부 파일로 부터 보호할 수 있게 조직의 모든 사용자들에게 적용됩니다.
+- **Standard Protection.** 스팸, 피싱 및 맬웨어 위협으로 부터 보호하는 기본 보호 프로필입니다.
+- **Strict Protection.** 가치가 높은 대상 또는 우선 순위 사용자와 같은 선택된 사용자에 대한 보다 적극적인 보호 프로필입니다.
 
 ### Configuration Analyzer
+
+기존 보안 정책을 Standard 또는 Strict 권장사항 수준과 비교 분석하여 조정할 수 있습니다
+
+- Standard Recommendations
+- Strict Recommendations
 
 ---
