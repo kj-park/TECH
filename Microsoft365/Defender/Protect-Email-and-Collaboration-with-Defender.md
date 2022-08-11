@@ -21,7 +21,7 @@
 
 #### 엔터프라이즈 보안에는 단순한 예방 이상의 기능이 필요
 
-![mdo-user-env-protection-challenge](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Defender/mdo-user-env-protection-challenge.png?raw=true)
+![mdo-user-env-protection-challenge](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Defender/mdo-user-env-protection-challenge-03.png?raw=true)
 
 ---
 
