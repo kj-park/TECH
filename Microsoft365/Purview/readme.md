@@ -67,3 +67,5 @@ Microsoft Purview는 조직에서 데이터 위험 및 규정 준수 요구 사�
 - [Explore information protection & compliance illustrations](https://docs.microsoft.com/en-us/microsoft-365/solutions/productivity-illustrations)
 
 ---
+
+## [Microsoft Purview Information Protection and Manage Data Lifecycle & Records Management](IP-and-DL-and-RM)
