@@ -12,6 +12,20 @@ Microsoft 365 Defender의 강력한 보안 솔루션에 대해 알아보세요. 
 
 - [Microsoft Defender for Office365](Microsoft-Defender-for-Office365)
 
-- [Microsoft Defender SmartScreen Overview](Microsoft-Defender-SmartScreen-Overview)
 
 ---
+
+## Microsoft Defender for EndPoint
+
+
+
+
+
+
+
+### Conceptual Documents
+
+- [Microsoft Defender SmartScreen Overview](Microsoft-Defender-SmartScreen-Overview)
+
+
+

@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="910"
+   height="260"
+   viewBox="0 0 240.77083 68.791666"
+   version="1.1"
+   id="svg5"
+   xml:space="preserve"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   sodipodi:docname="defender-for-endpoint.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.4770342"
+     inkscape:cx="606.2825"
+     inkscape:cy="228.15991"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" /><defs
+     id="defs2" /><g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"><rect
+       style="fill:none;stroke:#999999;stroke-width:0.263923;stroke-dasharray:none;stroke-opacity:1"
+       id="rect792"
+       width="240.50687"
+       height="68.52774"
+       x="0.13196149"
+       y="0.13196149"
+       inkscape:label="rect-edge" /><rect
+       style="fill:none;stroke:#b3b3b3;stroke-width:0.109541;stroke-dasharray:none;stroke-opacity:1"
+       id="rect792-4"
+       width="240.66129"
+       height="11.796709"
+       x="0.054770589"
+       y="45.033932"
+       inkscape:label="rect-dist" /><rect
+       style="fill:#deeed6;fill-opacity:1;stroke:none;stroke-width:0.278785;stroke-dasharray:none;stroke-opacity:1"
+       id="rect10590"
+       width="34.395832"
+       height="39.6875"
+       x="82.319229"
+       y="2.2166381"
+       inkscape:label="rect-mdep1-ngp" /><rect
+       style="fill:#deeed6;fill-opacity:1;stroke:none;stroke-width:0.209059;stroke-dasharray:none;stroke-opacity:1"
+       id="rect10590-53"
+       width="95.701736"
+       height="8.0212288"
+       x="72.534546"
+       y="46.921673"
+       inkscape:label="rect-mdep1-cca-api" /><rect
+       style="opacity:0.7;fill:#deeed6;fill-opacity:1;stroke:none;stroke-width:0.158021;stroke-dasharray:none;stroke-opacity:1"
+       id="rect10590-53-5"
+       width="76.391991"
+       height="5.7412572"
+       x="163.51387"
+       y="61.829769"
+       inkscape:label="rect-mdep1" /><rect
+       style="fill:#deeed6;fill-opacity:1;stroke:none;stroke-width:0.278784;stroke-dasharray:none;stroke-opacity:1"
+       id="rect10590-5"
+       width="34.395832"
+       height="39.6875"
+       x="41.826687"
+       y="2.2166383"
+       inkscape:label="rect-mdep1-asr" /><image
+       width="19.84375"
+       height="16.658951"
+       preserveAspectRatio="none"
+       xlink:href="data:image/png;base64,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
+"
+       id="image5414"
+       x="10.410132"
+       y="5.7599745"
+       inkscape:label="image-mdvm" /><image
+       width="19.84375"
+       height="19.84375"
+       preserveAspectRatio="none"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAABCCAIAAABsNpe/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAA
+B3RJTUUH5AIIABohAjFiPgAAAAd0RVh0QXV0aG9yAKmuzEgAAAAMdEVYdERlc2NyaXB0aW9uABMJ
+ISMAAAAKdEVYdENvcHlyaWdodACsD8w6AAAADnRFWHRDcmVhdGlvbiB0aW1lADX3DwkAAAAJdEVY
+dFNvZnR3YXJlAF1w/zoAAAALdEVYdERpc2NsYWltZXIAt8C0jwAAAAh0RVh0V2FybmluZwDAG+aH
+AAAAB3RFWHRTb3VyY2UA9f+D6wAAAAh0RVh0Q29tbWVudAD2zJa/AAAABnRFWHRUaXRsZQCo7tIn
+AAAHE0lEQVRoge2a7W8bSR3Hf7Oza3u9dmInTs5H2shpXPXcJhCuaa7HPVCdjkS0lOpA4h4Qp0pI
+FSDEixN/Q4UQ1fECeAFCICFxh8Sb1rrKapFKOKKqWEppZTWto0Blp3londhJ/LBPMz9e7Cmqmvhh
+d90knPp9uzO/mc/uzG9mvrMEEeH/X8Jud6A9eoaxl/QMYy/pc4IhtjEW59wwDESklEqS1MbITdUG
+jHK5nM1mc7lcqVTSdR0AKKWKovT29sbj8f7+fvdNNBVxs/ypqnrjxo1MJlMulymllFJCCAAgIuec
+MSYIQl9f3/HjxwcGBtrX523kHGN+fj6VShUKBZ/PRyndtgwi6rqOiEePHj1x4oQgPK2p6BBjbm7u
+0qVLnHOPx9O0MCJWKpVEInH69Ol6wC7l5PUsLS0lk0lEbIUBAAghgUBgZmbmypUrDpprRbYxDMNI
+pVKmadrNRYqi3Lp1K5PJ2G2xFdnGuHnz5tLSktfrtVuREOL1eqemplRVtVu3qexh6Lp++/ZtBwyW
+RFEsFot37txxVr2B7GHkcrlisSiKzlcbSZKy2azj6vVkDyOfz7s8ZomiWCgUNjY23ATZKnsYxWLR
+Ze4XBEHTtGKx6CbINmFtlVZV1f0Sxjmv1Wougzwhe31q18G97QaAPQyv18s5d9ukIMiy7DLIkzFt
+lQ6Hwy4xrP1LZ2enmyBbZQ+jr6/PZXuMsXA4vMsYsViso6ODMea4PcMw4vG4tZ9vo+xh+Hy+I0eO
+ON5NMMYCgcDQ0JCz6g1kO3uOjo52dXUZhuGgsVqtNjY2FggEHNRtLNsYsiyPj49bhztbFSuVyqFD
+h0ZHR+222IqcrGWxWGxiYsIwDNM0W6xSqVT6+/tPnjzZ9llhyfkhNpvNXr16tVwuy7LcoHOGYRiG
+kUgkJiYmHG+Nm8qVpVAqlaampmZnZzVNE0Vx01IAAM65aZqIGIlExsbGnsa0flyuMCw9evTo3r17
+8/Pz6+vrloFAKfX7/ZFIZHBwMB6P74Bn1QaMTWmapqoqIkqSJMvy0/NBtqqdGLuo9pif6+vrpVKp
+XC5rmsY5lyRJUZSOjo5QKLQzLqgrjOXlZcv2LBaLmqY9vpIIgiCKYjAYjEaj8Xj8wIEDjXnKGhcI
++D0Ox6HDQZXL5dLpdC6X03VdkiQrRz2RdhGRMWaaJuc8FAodPnx4ZGQkGAw+XubWovrb66V/3q8u
+Vxkl8EK35+xY6Hsv2t442sao1WqTk5OZTAYRvV5vgxUDEVVVtXwdRVG6u7uPHTu2uUeuGfxn11bO
+/61gVhl4BKAEAMFAYHjqy50/P9V7+Dkbi4w9jIWFhcuXL6+srDRe8iwGQRCGh4ej0WhvT0+4Kwzw
+WfkNjX/877VfTK5m8zWQKdAtcarM66ffHwv94OXQcNTXZoy5ublkMskYa8XzZIzJsnzu3LlN2rkV
+PZ2v/f0/1U/ulueXdJAINJgJDEFlgky/esB/8oXAmweVoahXFOq+uFan+P379y9evEgIadG3taSq
+qizLFz5d/eP14r2SYVQYIIJHAKWZIU0JKCLneO1u+VpmA2R6MCK9uF/+1Tejke3qtpQZVldXk8kk
+ANg12qwv8cndcua/VYMh+CkoIkgtpyOBgI9CQAQBZhe1v/xrrVjbflvdPCLnPJVKqarqeAUIegXw
+ClB/SDQXIeARqJ/SOkGaY0xPT+dyOZ+vpam2W2qCUa1W0+m0MwZEtPJHu3Y7CMjrxGqCkclk1tbW
+HFwREUJM0zQMEwBkibQFhRJSb1o1wmCMzczM2EpNmyKEGIZRqVQAYH+n1AYMDiGf0O3f/oU2wlhe
+Xi4UCs6uASwMy3Ieeb4dhz6Tx7s9Ae/2HW6Ekc/nTdN0c3peXFwEgFdjfjFAod64blEmvjHor/ew
+EcbDhw/dHH1EUXzw4AEixsLSKwN+0Fy4phxBpu98qaPe87q9RERnk3tT1o2M9UF++FLI1dfQ+Otx
+Zaj+ZrHuuDdN0zpbu/Gea7VaOp0+c+bMt44EB/vluQUN6gzuJkL46WtdDZ7XxUDEWCzm8l7Gshd0
+Xfd4POfHe97+Xc4JRpV9JRE4nWjkNe7EWRwRrTzx9T/kU9NrELCT+kykBKY/GPhiwx37TpgXm7nu
+999+vifisTHXEaHGfvlWtDED7PBvYV/oEP/6/j5KCRitkWywH30t8uOXw00L7vTfba8P+P/8/j7g
+0IQEAdbNd14N//pMtJWwu/CT3neGgx+d3ScA1B1diLBhfve1ro/ebfVya9fstiuzlff+NL9SMp88
+CZoIGvtgvOfCN55rPdpuuobZgn7244Xrd8vgEz47ElaZIJEP34r+5JVGq8RW7bL5yRE//MfqhcmV
+xWUdRPJGInD+VO9L+21fN+8JD7dQYb+ZWj3Y63l3xOEN7Z7AcK/Pye/EzzD2kv4HXaUhv9iB64sA
+AAAASUVORK5CYII=
+"
+       id="image5790"
+       x="210.36783"
+       y="4.1675749"
+       inkscape:label="image-mte" /><image
+       width="19.84375"
+       height="19.84375"
+       preserveAspectRatio="none"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAABCCAIAAABsNpe/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAA
+B3RJTUUH5AIIABkL8qf4KwAAAAd0RVh0QXV0aG9yAKmuzEgAAAAMdEVYdERlc2NyaXB0aW9uABMJ
+ISMAAAAKdEVYdENvcHlyaWdodACsD8w6AAAADnRFWHRDcmVhdGlvbiB0aW1lADX3DwkAAAAJdEVY
+dFNvZnR3YXJlAF1w/zoAAAALdEVYdERpc2NsYWltZXIAt8C0jwAAAAh0RVh0V2FybmluZwDAG+aH
+AAAAB3RFWHRTb3VyY2UA9f+D6wAAAAh0RVh0Q29tbWVudAD2zJa/AAAABnRFWHRUaXRsZQCo7tIn
+AAAHvUlEQVRoge1aXUwb2RWeH8+M8Q/GBhwE2MSQkDgyIZBg4zhIIWh32eaBtlLYJI3Etvvz2Id9
+6Usf25e+9qlqK3WbSN0ihW5SZbuNFFUbZYYQDMaJGuR45cimGGIDTgye3zsz+zAty/Jjj2eGlkp8
+b3N17j3nm3vvueeec2FZlqH/fyD/awOMwSGNg4RDGgcJhzTUYWlpKR6PS5K0r1rg/Ts3GIaZmpqa
+m5tjGKa1tTUSibS3t++Trv2iEY/Hp6amCoWC2WxGEITneVmWOzs7z58/39DQYLg642mk02mSJBcW
+FnAcN5lMm+2yLLMsSxBET09PMBg0m80GKjWSxuvXrymKmp+fl2WZIIhdZSRJYlnW5XKFQqHTp08b
+pdoYGoIgTE9Pz87O0jRtNpthGC4vDwAQBMHj8UQiEa/Xq98AA2jMz89PTk7m83mCIFAUVd+R4zgY
+hv1+fzgcdjqdemzQRWNpaYkkyVQqZTKZMAzTMIKyYSwWS29v77lz53Ac12aJRhobGxuPHz9+9uwZ
+AED/ZhVFkeO4xsbGcDjs9/s1jFA1DUmSYrHYkydPisWi4kw1aN0VgiAAAHw+XyQSaW5urqpvdTRS
+qRRJktlsdpszNRAsy6IoGggEwuGw3W5X2UstjZWVFYqiXrx4AcOw5hWsErIsMwxjt9v7+vp6e3vV
+uI3KNGianpmZicViLMuqcabbDFKiKfg/UN9X2TBNTU1KFFN+9Vamce/evVgsZrfb1W8D5VhQ5o0g
+CARBFJt4nlca1Q/F87wgCFevXj169GgZscrrWxAE9VtZIeB0On0+n8fjqa+vt1gsCIIAAGiazuVy
+6XQ6nU5vbGwo9CoOiOO4JEkAgPJilWmo/3MMwzgcjr6+vlOnTu30wjabze12BwKBYrEYj8djsRjH
+cXvFLFuhZjUa422UTXny5MmhoSGbzVZeuLa2dmBg4MSJE/fv389mszU1NfoNMMDrKxyCweDIyEhF
+Dptwu92jo6MdHR0Mw+i3wQAaDMP09PQMDg5W2xHH8ZGREY/Hw7KsThv00uB5vqWlZWhoSFt3k8l0
++fJli8UiiqIeM3TRUJz1pUuXqgpst6G2tjYSifA8r8cSXTQ4jjt+/HhV8c/YePb98ey2xq6ursbG
+xopetQz0LqpAIKBe+Gd/y/3x4dqnX61d/dMiB749dlEU9fv9eiZEOw1RFB0OR2trq0r5X/5j9Vdf
+5CAbCsEQL24PHXw+H47jmi8/2mkAAOrr61WGib+eLPz8L8uQBYU2xO8H6yZutBKm75xoLpfLbrdr
+TmdppyFJksPhUCP5h9k3P/1zFqpBIFoc6q4d/1HLThkMw2w2m2Z/pWtv7AwlJjMMlfnOcTbxz/Uf
+31qEcARixNAJ252xVgzdPbIgCELzotIVjGzTmlzhv/e7jChBs5/4jrlwCILuf11679N/QSgMcVKg
+zfLFBx4rvuePE0Wxqkh+K7TPBgzDNE1vfgJJvv5Z9vUKv14C7/52YYOT5rLsD36/ACQZEqT2JuLL
+j7yumj2PF1mWaZrWfCXWPhsoiq6trX37CcO/eLvxh1mW5qSvl9mB36RzGyLNS5AENbmwv3/sbakt
+p2t9fb1YLGqmoX02UBRdXV0tFovKJwxD73Ra//qh14zBEArPpZlsQYAgqM6Gfvlx27H6Cg5tcXFR
+z2xop4EgCE3TyWRya+OldsvdD704CkMwBMlyDY7c+8jb3VT5UpFIJPQkWXR5KgzDnj59us1LvnXM
++vkHHkiGIAn6/Cee897K14lXr16lUik9mQpdngrDsFwuF41GQ6HQ1vZ3O22fvd8KROjt49aKgwiC
+8PDhQ0mSNLspSP/tz2w2UxTl8Xi2BYjvddWqHCGfz798+VLnHVBvaIggiCzLd+/eXV1d1TZCU1NT
+R0eHzpuTAbc/DMNKpdL4+Hgmk9FiAYIMDAyYTCY9SfHKNNSEaziOMwxz+/btR48eafivbre7q6tr
+r0u5LMsVGVamgWEYy7IVyWAYhiAISZK3bt2iKCqfz1cVrvb39+8aGoqiqCTpyndXlfyMRqOxWIzn
+eYIgVFaSCIJwOp0ul8tqtSIIUiqVVlZW3G738PDwXh2np6cfPHhgtf7buW2WPoLB4JkzZ8q7Y7Wp
+6Hw+T5JkMplEEESNg5dlGQAgiqIyPgzDSgp0dHR0rzQmAODmzZuFQgHDMKVy6/f7I5FIXV1dRXXV
+FQaSySRFUcvLy9XWxxTwPH/kyJHr16/vdWAnEomJiQkEQZqbmy9cuODz+VSOXHWZBgAwMzMTjUZL
+pVK1CXYIgmiaHh4e7u7u3kvgzp07DQ0N/f39Vf0mjUWzN2/eUBT1/PnzMrXjXQEAqKmpGRsbMyTn
+uQldJcxMJkOSZCaTqar4RNN0KBS6ePGiZr07YUBBedu7iorykiTJsnzjxg0DX10YU96naXpqaioe
+jyvFkIryDMN4vd4rV67oSTduhTF1VIvFMjg4eO3aNSU6EgShjDDHcSiK2u12nXnbrTD+6UsikaAo
+KpfL7XTKAACe55U3Fm1tbQYq3ZeHSIIgRKPRmZmZzSckyosXp9MZCoXKeFvN2MdnYYVCQXnQozjZ
+7u7uUChkrJ/dxD7SUJBKpRKJxNmzZ91u9/5p2Xca/x0cvvw8SDikcZBwSOMg4RvGGcHcVVwpiwAA
+AABJRU5ErkJggg==
+"
+       id="image6530"
+       x="169.51318"
+       y="4.1675749"
+       inkscape:label="image-air" /><image
+       width="19.84375"
+       height="19.84375"
+       preserveAspectRatio="none"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAABCCAIAAABsNpe/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAA
+B3RJTUUH5AIIABYCDONcQAAAAAd0RVh0QXV0aG9yAKmuzEgAAAAMdEVYdERlc2NyaXB0aW9uABMJ
+ISMAAAAKdEVYdENvcHlyaWdodACsD8w6AAAADnRFWHRDcmVhdGlvbiB0aW1lADX3DwkAAAAJdEVY
+dFNvZnR3YXJlAF1w/zoAAAALdEVYdERpc2NsYWltZXIAt8C0jwAAAAh0RVh0V2FybmluZwDAG+aH
+AAAAB3RFWHRTb3VyY2UA9f+D6wAAAAh0RVh0Q29tbWVudAD2zJa/AAAABnRFWHRUaXRsZQCo7tIn
+AAAE00lEQVRoge2az0szRxjHn5nZ3exq3teo/WFf9GDEIB6Cv4r1JAr+pBhUeHvssYeee+u/UEov
+vXrosV6qiKKHqNFU/AGhiCBV0YLW0FhpNBvN7s70MLrvNjFrUn/svpIvJGxmhmE+88wzz5OZRYwx
+eP+FnR7A46iE4SaVMNykEoab9EIwBKcHAAAwPz+fSCQopY2NjZ2dnbkNdnZ2mpqaMM476a6wRjwe
+Pzo6Ojw8TCQSubXRaHRycnJhYcGmB1dYQ5IkSZIopbnzvbGxEYlEKioqYrEYxri3t5cQktuDK6yB
+EOIPlFJreSwWC4fDsixjjBljl5eX+TJAV1iDYyCErBjb29sLCwsejwdjrKpqIBAYGRm50xTgWmvs
+7u7Ozc2JokgIUVW1vr7ehgGKtca3839Ff08hz4PhDfa6jPz0xRuvhMGCwdfMwcHBzMyMIAiCIKiq
+WldXFwqFBMFuqMVh/PpHOvxbEsryzkqh0hipEDI6AwkAACHEAURRPD4+npqaQggJgpBOp2tqakZH
+Rz0ej31/xWGUSxgUAvKDMUT2yoNNb+XWEEUxHo9PT08zxkRRTKfT1dXVY2NjiqLc259jLs4YZO06
+GOOLiwvOcHV15fP5xsfHvV5vIb05iUFvMUzf4HFD07Sqqqq3b98WyAAOYlAGZhAwMcyfoiguLy8b
+hoEtMgzD7/cHAoHc3pyzBkCWb5gihJydncXj8axgp6qqx+NxGQZj5qJijOm6zsOCiWTdYXmhYRj5
+3N3JRWVieL1en88nSRK7FQBkPQOAruv5dl6HMBAweOcbPT093d3dwEssnywkSqksy3f25+RO9Vq+
+yQa4Bz+kN8esoVP25c9/louY3kw2t8/tN2WSgH8c/bhKKSjUOoWBKINftv6BfCevBgOFfPf5h+Bq
+DC6bIRqsTCb4vxuxjVyRqD9cJQw3qYThJpUw3KQShpv0QjCKS0Z0ysBgYOS/g8YABWcQj6jiMLwS
+LlMIyBjgJhXlD8BucjydvvtP95xCRV3vn6eNK40BugVgzJpdA8AP0b+/n088wnmcwcpksveN/5NX
+BU10cdaoVAjYnn19VE6A2jV4ItlhGIYBluNuyDnCyJVGARxwDVuM2dnZk5MTSZJQjgDAfNY0rbOz
+s7Gx8bnGfIfsMC4vL8/Pz/mBRW6tWaiqanNz85OMrmDZYei6nslkrAuJTz+3j1loGIbNzcPzyA4j
+GAzW1tbySyAuboG9vT1d1+/1k+fUPRi5hevr69fX145Pf5aKS0ZWVlbC4TAhhHu2e14pKyJuRKPR
+1dVVRVEQQplMxu/3n56eappmbaNTBhoF7cHrzWBXAip8lgrFWFtbi0QinCGVSnV1dXV0dExMTGQ1
+q1TImw+kR4niioeQgtdKQRjr6+tLS0smQ3t7e3d3N78ZylpXX39W+dWnvseKgLJQaEf3Y2xubi4u
+LsqyzBna2tr6+voAgFKau1mJBInEZRkupXRrayscDvM79lQq1dra2t/fz2vNcO4G2a2+ZDIZiUQI
+IZyhpaVlYGDArH1vMHw+XygUwhgnk8lgMDg4OGit5ZfZ1rDooO7xjYaGhuHh4f39/aGhoawqhBC5
+leNmKe5vk1WUUv5KDWNMUZR7XyR4Uv1/DFfphZyMlDDcpBKGm/RCMP4FYuUn6jdQIfcAAAAASUVO
+RK5CYII=
+"
+       id="image7270"
+       x="49.865395"
+       y="4.1675749"
+       inkscape:label="image-asr" /><image
+       width="19.84375"
+       height="19.84375"
+       preserveAspectRatio="none"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAABCCAIAAABsNpe/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAA
+B3RJTUUH5AIIABcyMyFdrQAAAAd0RVh0QXV0aG9yAKmuzEgAAAAMdEVYdERlc2NyaXB0aW9uABMJ
+ISMAAAAKdEVYdENvcHlyaWdodACsD8w6AAAADnRFWHRDcmVhdGlvbiB0aW1lADX3DwkAAAAJdEVY
+dFNvZnR3YXJlAF1w/zoAAAALdEVYdERpc2NsYWltZXIAt8C0jwAAAAh0RVh0V2FybmluZwDAG+aH
+AAAAB3RFWHRTb3VyY2UA9f+D6wAAAAh0RVh0Q29tbWVudAD2zJa/AAAABnRFWHRUaXRsZQCo7tIn
+AAAFAElEQVRoge2aX0xbVRzHv+fcP+1ty+bGgqNhjBkeFowJEpJp1EV5MRKTLhqSLT7MxBATjTEx
+y4yJiU+L0WmiDxrjgzxo5gPBVCDYbIjLNh+2iiwCkkDA8AACg1LobaH3zzk+lJWCbYHmXCikn6dy
+bjm/87m/9nfOPaeEc479D93rAYihpFFMlDSKiZJGMVHSKCYOiIactZUxdu/evfHx8cKWKoQQxphp
+mpktiqIUNkTOucfjaWxsPHnyZM6IWQfa29t79+5dt9tNCCkgsGmafr+/qakp3RKNRkOhEIDCOrQs
+i1La0tKSyyRLNqLR6NDQkM/no5RuuqnbJx6Pj42Npf9MJBKMMUKy37U8EEJUVVUUZWVlpb+/fwca
+8XicMSbLMmNM07Tq6uodBU7Ftm17eno63UIpra2t3Wk/ACzLmpmZASDLciKRyPW2LBqEkFTqTdOs
+qakJBAIFhBeFruttbW2pHFKasyBtUan2/GnEsqztvO1AF1yB3P931bI50gXK5i6VPnHcJTaKsxqd
+I3rgm0moBCAAQADd+vS8fz9pMM4/CM2BANLDVCRZ7SnPu88cFR7Lwe9GW//S3xMJaBIIASEAAcPV
+5gpVKmQGzI9TGgmTfXRjHmpG/yv2s3W+c4+XORHOKY0vf1+cmlpd1+AcMvnspQqHwjmiMR+3Pvlt
+AZq03hS3WxoPn6nWnAgHhzSu3FxYWjAgrxdZzyH5c8dSAScq1T8R4+s7i/BkpCLJWs8e8x+SEyZL
+tyWSzOuimiLmPorX+PDGvKFb8GX0rNH2v2LtgzGkVjYEum6dOeX54by/SDUGplevhaMbUgGAkOmo
+CcYBgAAxu/6097uWygqfsOiCNS6HHsDg8FLwtYl7DYmsTYIx68XGwx0Xq7yC8pBCpMZPQ7HecBRu
+iiQDAJVuMOGAbrU8feTaBb9MBc+AIjUeK1d+eaeGKhSAKpGPby5cH4rBRQGAc+h26wvl375aKTBi
+GpEa9ZVuVLpTrxdX7D8mV9ZqLuNI2JeaK64276vpD8DbnbORiAGZwOZYZVdeOe6cAxxa4f45tfpj
+OAqvBJPB4l9d8L/11BEnAqVxRONy6AFMDoAA31888Vr9ISeiZCJe4/pY/NehZUjELdP216tePu0T
+HuL/CNbgwPuhOayyR46pP79x4myNR2z/uRCs8cWdyP3wkr/W29164smHVWsXEKnBOTjHpXOPvvl8
+ee1RVWDPWyJSgxC895z45+ztkG/e4Jzn2ajbHVyube2h5MuGJEmxWGxkZETQkAohz75tJvk0FEWZ
+n5/v7u4WNKRCIIS4XK4tjxO2+G5QSt3u3Ss4BZPlo88Y2/Md6KwwxnJdyqJRVlamKEqxmTDGyspy
+7nFl0ZidnU2dDDk5qh0jSVIkEllcXMx6dfMp1uTkZEdHB6VUkqSs/7CHGIbh9XoDgUBl5eZnrw3Z
+mJub6+zsBFCEDgBUVY3H4+3t7RMTE5surWssLy8Hg0HDMAo++d0FVFW1bTsYDA4PD2e2r2kkk8lg
+MLi0tKSqu7oWKgBZlimlPT094XA43UgBmKbZ1dU1MzOzL6YIAJIkqara19d369atVBWmAAYGBkZH
+RzXNqX1iJ6CUapp2+/btwcFBpGZxwzAsy0omk3s9th3DGEstXmUADQ0Nuq7HYrHiLFBZ4Zwzxqqq
+qurq6pDrNyP7jgNyLl7SKCZKGsVESaOYKGkUE/8BnRXX3v6Vp3kAAAAASUVORK5CYII=
+"
+       id="image8010"
+       x="129.63058"
+       y="4.1675749"
+       inkscape:label="image-edr" /><image
+       width="19.84375"
+       height="19.84375"
+       preserveAspectRatio="none"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAABCCAIAAABsNpe/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAA
+B3RJTUUH5AIKFQg0p/xfFgAAAAd0RVh0QXV0aG9yAKmuzEgAAAAMdEVYdERlc2NyaXB0aW9uABMJ
+ISMAAAAKdEVYdENvcHlyaWdodACsD8w6AAAADnRFWHRDcmVhdGlvbiB0aW1lADX3DwkAAAAJdEVY
+dFNvZnR3YXJlAF1w/zoAAAALdEVYdERpc2NsYWltZXIAt8C0jwAAAAh0RVh0V2FybmluZwDAG+aH
+AAAAB3RFWHRTb3VyY2UA9f+D6wAAAAh0RVh0Q29tbWVudAD2zJa/AAAABnRFWHRUaXRsZQCo7tIn
+AAAFdklEQVRoge1ZWWxUVRj+zl3mztZOZ5h2pm06MwVURCsglhQBiYoJQqFEDAoGjaKRGhWK+kBc
+WGJ8UGliRIMPEkQ0GiCGgGnEaEBciLJFoREooKFgKdAynX3uvef4ACqo9C5zB6Y6X+bxnHv+b85/
+/uX7CWMMAx/c1TbAGhRpFBKKNAoJRRqFhCKNQkJ+afzaK0fTKoDTCeXY2axC81UxCPn46JGz2XW7
+o5va4+2dqQ2PhhqHudfuiS7e2BWusjfU2O+pK5023C1wxMITLaaxvyvzxo6eD/ZGUzEFIgeFcSAA
+CCDLrKM709GZWrfz3A019hcmld8/stSqc62hwRg+Pxxfsyu6/sc+JaHCwcMtAACjhAAAIQQ8gchB
+5AAcOJmZvfr4xnrPq42BWq+YuwG50jjZp3y0L7pmV/Sn4ylQwM5dINA/JA42bPghuvVQYuEEX/NY
+b7AkJ0tMblYp2340+f6e6Cf7Y9FeGSIHiYchbyeAi+9L0+WbT638tnfWTSVzRnoawg6RN/NmjNHo
+jit7T6Q/O5RoOxj/+WQGCtP791/2fAK30JNQV23rWfVN79CAdFutc1zEUReUwl5xkJPn9UUCDQtS
+Mn3tq57umNIVV4/1Zo+claNRBSqFyMHGQTJv/6VWEAg8GDpOZTo606t3ABJX6uIrXLzPybs5cn2V
+tLIpaJ5GUqZLtp5BTIbIgScQCCQOJD/ZhgA2DjYAAGN9SbUvpoABKfWXuLP/rRo0OEK8Lr6XMghW
+hnltEAIe+OOdlEoaf1yxGCkkFGkUEoo0CglFGoUEDRoDReDVyo4ElnZpJqFZ9mrQsIucQyRX+VIo
+89hzK0bsAvE5eFDrbDIBhkqtpkr7iYfKRKgMDCZ/FyzJYTtlQwfZ+jdSu+MZXmHbklRNhrQMlVUG
+IKswpFWTvabC6oIanQ3RnDZ1RuV9nWliqrdklI0JOSrcwtGebPtvGZMfYZg42FnSb62uTWNAQNc1
+tx2MH+7KENGwYzGVNd1YEvaKB05lvj+WNNx7EcKydETIMbra3v9CXTTau7PPvtcJt/DXm9WJFA23
+DA57xU3tsefXnTAsPjAgrW5aWGsNjXm3eF7+8sy5uAKBN2YHT208AeAQObgEOA1uz9IhIdeUYW7N
+hbr8pMzBPzTag/QVTx8ZOn+MV4/aq9fdF433SSUC1CsYD2TqLbfNq/foWauXRqhMbB7nRVLNwS6D
+SNPnJg7yOnT5oYHg8+Ltfn+FDdkr4loZGqmxLxzn1bncAA2fk2+dFkCWGg1XhsEYVPZmU9ChO8Qb
+SwVzR3mm15choRg3zQji6oPjfY06AtSfMJzR3p0ZrKyQkMmba6XUISHHW9MDhjYZpuF3CR/PrSYc
+oOTBt2Qq2bn1c6vdWmrn32CmcJ0Qcb5zXxUyKqwdSaoMClv7QPWoSo2c/U+YlBQeqy9bMj2IhGpZ
+Y0gZUuqKeytn1ZkZCJpXRpZO8rfcXY64FUwoQ1JdOiO4aLzP3Adymri1Tg0QoLXtNFy8eelBZUjT
+ZTOCL93pN21JriPMFVMDbhu3fHM3JM7MDESmUFjrrMoWs/dwHhbIbcvuKn97ThUoM5zg06rEkw8f
+rsmRA6xSDZsbvG2Ph/xu3kDRFVciftu2JyOzR1gw5LdM/Jx8rXvngtpbr3EhpmgEYpUhpkwd5dm5
+oLahxmHJ6VZquEN8tu1PhJ+ZXI4svWyaT6k88MrM4JZHagK5TKIvhcVStMCR1xsDn84PDy63XXwt
+BBcuYXTE+fVTkcW3mw9K/4q8KOpTrnPvbqltvsMPhSZlCiCaoSBY2hT47umIVY50MfIr8LQdjAdK
+hJur7F90JJw2bmzIegLn8R/Rqf4fY5qBgiKNQkKRRiHhd5p8AxeIso18AAAAAElFTkSuQmCC
+"
+       id="image8750"
+       x="89.747993"
+       y="4.1675749"
+       inkscape:label="image-ngp" /><a
+       id="a13244"
+       xlink:href="https://docs.microsoft.com/en-us/microsoft-365/security/defender-vulnerability-management/defender-vulnerability-management?view=o365-worldwide"
+       target="_blank"><text
+         xml:space="preserve"
+         style="font-size:3.88056px;text-align:center;text-anchor:middle;fill:#0065b3;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-dasharray:none;stroke-opacity:1"
+         x="20.659725"
+         y="28.588352"
+         id="text9900"
+         inkscape:label="text-mdvm"><tspan
+           sodipodi:role="line"
+           id="tspan9898"
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.88056px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Semi-Bold';text-align:center;text-anchor:middle;fill:#0065b3;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="20.659725"
+           y="28.588352">Core Defender</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.88056px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Semi-Bold';text-align:center;text-anchor:middle;fill:#0065b3;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="20.659725"
+           y="33.483974"
+           id="tspan9902">Vulnerability</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.88056px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Semi-Bold';text-align:center;text-anchor:middle;fill:#0065b3;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="20.659725"
+           y="38.379593"
+           id="tspan9904">Management</tspan></text></a><a
+       id="a13238"
+       target="_blank"
+       xlink:href="https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint?view=o365-worldwide#apis"><text
+         xml:space="preserve"
+         style="font-size:3.88056px;text-align:center;text-anchor:middle;fill:#0065b3;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-dasharray:none;stroke-opacity:1"
+         x="120.36931"
+         y="51.933689"
+         id="text9900-6"
+         inkscape:label="text-cca-api"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.88056px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Semi-Bold';text-align:center;text-anchor:middle;fill:#0065b3;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="120.36931"
+           y="51.933689"
+           id="tspan9904-2">Centralized Configuration and Administration, APIs</tspan></text></a><a
+       id="a13234"
+       xlink:href="https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint?view=o365-worldwide#mtp"
+       target="_blank"><text
+         xml:space="preserve"
+         style="font-size:3.88056px;text-align:center;text-anchor:middle;fill:#0065b3;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-dasharray:none;stroke-opacity:1"
+         x="120.36931"
+         y="62.813969"
+         id="text9900-6-0"
+         inkscape:label="text-defender"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.88056px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Semi-Bold';text-align:center;text-anchor:middle;fill:#0065b3;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="120.36931"
+           y="62.813969"
+           id="tspan9904-2-1">Microsoft 365 Defender</tspan></text></a><a
+       id="a13230"
+       target="_blank"
+       xlink:href="https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/defender-endpoint-plan-1?view=o365-worldwide"><text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.175px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Semi-Bold';text-align:center;text-anchor:middle;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-dasharray:none;stroke-opacity:1"
+         x="201.62614"
+         y="65.878296"
+         id="text9900-6-0-9"
+         inkscape:label="text-mde-p1"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.175px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Semi-Bold';text-align:center;text-anchor:middle;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="201.62614"
+           y="65.878296"
+           id="tspan9904-2-1-0">Microsoft Defender for EndPoint Plan 1 Capabilities</tspan></text></a><a
+       id="a13249"
+       xlink:href="https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/overview-attack-surface-reduction?view=o365-worldwide"
+       target="_blank"><text
+         xml:space="preserve"
+         style="font-size:3.88056px;text-align:center;text-anchor:middle;fill:#0065b3;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-dasharray:none;stroke-opacity:1"
+         x="59.313995"
+         y="28.588352"
+         id="text9900-8"
+         inkscape:label="text-asr"><tspan
+           sodipodi:role="line"
+           id="tspan9898-2"
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.88056px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Semi-Bold';text-align:center;text-anchor:middle;fill:#0065b3;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="59.313995"
+           y="28.588352">Attack Surface</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.88056px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Semi-Bold';text-align:center;text-anchor:middle;fill:#0065b3;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="59.313995"
+           y="33.483974"
+           id="tspan9904-0">Reduction</tspan></text></a><a
+       id="a13254"
+       xlink:href="https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/next-generation-protection?view=o365-worldwide"
+       target="_blank"><text
+         xml:space="preserve"
+         style="font-size:3.88056px;text-align:center;text-anchor:middle;fill:#0065b3;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-dasharray:none;stroke-opacity:1"
+         x="99.405479"
+         y="28.520138"
+         id="text9900-8-6"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.88056px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Semi-Bold';text-align:center;text-anchor:middle;fill:#0065b3;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="99.405479"
+           y="28.520138"
+           id="tspan9904-0-7">Next-Generation</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.88056px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Semi-Bold';text-align:center;text-anchor:middle;fill:#0065b3;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="99.405479"
+           y="33.41576"
+           id="tspan10339">Protection</tspan></text></a><a
+       id="a13260"
+       xlink:href="https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/overview-endpoint-detection-response?view=o365-worldwide"
+       target="_blank"><text
+         xml:space="preserve"
+         style="font-size:3.88056px;text-align:center;text-anchor:middle;fill:#0065b3;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-dasharray:none;stroke-opacity:1"
+         x="139.05736"
+         y="28.544769"
+         id="text9900-8-6-9"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.88056px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Semi-Bold';text-align:center;text-anchor:middle;fill:#0065b3;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="139.05736"
+           y="28.544769"
+           id="tspan10339-7">EndPoint</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.88056px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Semi-Bold';text-align:center;text-anchor:middle;fill:#0065b3;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="139.05736"
+           y="33.440392"
+           id="tspan10375">Detection and</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.88056px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Semi-Bold';text-align:center;text-anchor:middle;fill:#0065b3;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="139.05736"
+           y="38.33601"
+           id="tspan10377">Response</tspan></text></a><a
+       id="a13266"
+       xlink:href="https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/automated-investigations?view=o365-worldwide"
+       target="_blank"><text
+         xml:space="preserve"
+         style="font-size:3.88056px;text-align:center;text-anchor:middle;fill:#0065b3;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-dasharray:none;stroke-opacity:1"
+         x="179.29379"
+         y="28.544769"
+         id="text9900-8-6-9-9"
+         inkscape:label="text-air"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.88056px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Semi-Bold';text-align:center;text-anchor:middle;fill:#0065b3;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="179.29379"
+           y="28.544769"
+           id="tspan10377-7">Automated</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.88056px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Semi-Bold';text-align:center;text-anchor:middle;fill:#0065b3;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="179.29379"
+           y="33.440392"
+           id="tspan10421">Investigation and</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.88056px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Semi-Bold';text-align:center;text-anchor:middle;fill:#0065b3;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="179.29379"
+           y="38.33601"
+           id="tspan10423">Remediation</tspan></text></a><a
+       id="a13271"
+       xlink:href="https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/microsoft-threat-experts?view=o365-worldwide"
+       target="_blank"><text
+         xml:space="preserve"
+         style="font-size:3.88056px;text-align:center;text-anchor:middle;fill:#0065b3;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-dasharray:none;stroke-opacity:1"
+         x="220.18867"
+         y="28.588352"
+         id="text9900-8-6-9-9-2"
+         inkscape:label="text-mte"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.88056px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Semi-Bold';text-align:center;text-anchor:middle;fill:#0065b3;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="220.18867"
+           y="28.588352"
+           id="tspan10423-5">Microsoft</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.88056px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Semi-Bold';text-align:center;text-anchor:middle;fill:#0065b3;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="220.18867"
+           y="33.483974"
+           id="tspan10467">Threat Exports</tspan></text></a></g></svg>
