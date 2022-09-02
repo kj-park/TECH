@@ -308,10 +308,95 @@ foreach($person in $data)
 
 ### Operators
 
-ref: [operators](https://docs.microsoft.com/en-us/powershell/scripting/learn/deep-dives/everything-about-arrays?view=powershell-7.2#operators)
+```powershell
+# -join
+
+PS> $data = @(1,2,3,4)
+PS> $data -join '-'
+1-2-3-4
+PS> $data -join ','
+1,2,3,4
+
+# -join $array
+
+PS> $data = @(1,2,3,4)
+PS> $data -join $null
+1234
+
+PS> $data = @(1,2,3,4)
+PS> -join $data
+1234
+
+# -replace and -split
+
+PS> $data = @('ATX-SQL-01','ATX-SQL-02','ATX-SQL-03')
+PS> $data -replace 'ATX','LAX'
+LAX-SQL-01
+LAX-SQL-02
+LAX-SQL-03
+
+# -contains
+
+PS> $data = @('red','green','blue')
+PS> $data -contains 'green'
+True
+
+# -in
+
+PS> $data = @('red','green','blue')
+PS> 'green' -in $data
+True
+
+PS> $data = @('red','green','blue')
+PS> $pattern = "^({0})$" -f ($data -join '|')
+PS> $pattern
+^(red|green|blue)$
+
+PS> 'green' -match $pattern
+True
+
+# -eq and -ne Array가 왼쪽에 있으면 모든 item을 비교하고 일치하는 항목을 return
+
+PS> $data = @('red','green','blue')
+PS> $data -eq 'green'
+green
+
+PS> $data = @('red','green','blue')
+PS> $data -ne 'green'
+red
+blue
+
+$data = @('red','green','blue')
+if ( $data -eq 'green' )
+{
+    'Green was found'
+}
+if ( $data -ne 'green' )
+{
+    'And green was not found'
+}
+
+# -match & Select-String
+
+PS> $servers = @(
+    'LAX-SQL-01'
+    'LAX-API-01'
+    'ATX-SQL-01'
+    'ATX-API-01'
+)
+PS> $servers -match 'SQL'
+LAX-SQL-01
+ATX-SQL-01
+
+$servers | Select-String SQL
+
+```
+
 
 ### Adding to arrays
 
+
+ref: [array-addition](https://docs.microsoft.com/en-us/powershell/scripting/learn/deep-dives/everything-about-arrays?view=powershell-7.2#array-addition)
 
 ### Array Types
 
