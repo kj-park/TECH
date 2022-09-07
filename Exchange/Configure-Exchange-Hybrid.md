@@ -53,7 +53,9 @@ Hybrid Deployment는 아래의 기능들을 가능하게 합니다:
 
 - Client Requirements
 
-    Pre-Outlook 2010 clients aren't supported in hybrid deployments or with Microsoft 365 or Office 365.
+    - [Office versions and connectivity to Microsoft 365 services](https://docs.microsoft.com/en-us/deployoffice/endofsupport/microsoft-365-services-connectivity)
+    - [New minimum Outlook for Windows version requirements for Microsoft 365](https://techcommunity.microsoft.com/t5/microsoft-365-blog/new-minimum-outlook-for-windows-version-requirements-for/ba-p/2684142)
+
 
 - Information Rights Management
 
