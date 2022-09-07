@@ -66,14 +66,14 @@ Sharing the Technology to everyone who want to know.
 
 ### Microsoft 365 Tenant Logo Example
 
-![](https://github.com/kj-park/tech/blob/main/theme/m365poc-default-logo.svg?raw=true)
+![](https://github.com/kj-park/tech/blob/main/theme/m365only-default-logo.svg)
 
-![](https://github.com/kj-park/tech/blob/main/theme/m365poc-alternate-logo.svg?raw=true)
+![](https://github.com/kj-park/tech/blob/main/theme/m365poc-alternate-logo.svg)
 
 
-![](https://github.com/kj-park/tech/blob/main/theme/m365only-default-logo.svg?raw=true)
+![](https://github.com/kj-park/tech/blob/main/theme/m365only-default-logo.svg)
 
-![](https://github.com/kj-park/tech/blob/main/theme/m365only-alternate-logo.svg?raw=true)
+![](https://github.com/kj-park/tech/blob/main/theme/m365only-alternate-logo.svg)
 
 ---
 
