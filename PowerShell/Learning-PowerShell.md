@@ -45,6 +45,7 @@ PowerShell은 대부분의 당신이 일하는 것과 관련된 기술들을 관
 - [Windows](https://docs.microsoft.com/en-us/powershell/windows/get-started)
 - [Exchange](https://docs.microsoft.com/en-us/powershell/exchange/exchange-management-shell)
 - [SQL](https://docs.microsoft.com/en-us/sql/powershell/sql-server-powershell)
+- [Microsoft Graph PowerShell SDK](https://docs.microsoft.com/en-us/powershell/microsoftgraph/get-started?view=graph-powershell-1.0)
 - [**Microsoft 365**](https://docs.microsoft.com/en-us/microsoft-365/enterprise/manage-microsoft-365-with-microsoft-365-powershell)
 
 #### Third-party
