@@ -75,9 +75,7 @@ Sharing the Technology to everyone who want to know.
 
 ![](https://github.com/kj-park/tech/blob/main/theme/m365only-alternate-logo.svg?raw=true)
 
-
 ![](https://raw.githubusercontent.com/kj-park/tech/main/theme/m365only-default-logo.svg)
-
 
 ---
 
