@@ -1,6 +1,6 @@
 ---
 title: Create safe sender lists in EOP
-filename: Exchange\Conceptual\Create-safe-sender-lists-in-EOP.md
+filename: Exchange\Online\Create-safe-sender-lists-in-EOP.md
 ms.date: 2022.09.14
 ---
 

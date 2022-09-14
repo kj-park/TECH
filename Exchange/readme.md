@@ -76,6 +76,8 @@ Exchange 인프라를 관리에 필요한 주제들에 대하여 기술합니다
 
 - [Configure Microsoft 365 Groups with on-premises Exchange Hybrid](Online/Configure-Microsoft-365-Groups-with-on-premises-Exchange-Hybrid)
 
+- [Create safe sender lists in EOP](Online/Create-safe-sender-lists-in-EOP)
+
 ## Conceptual Documents
 
 - [How to use Sender Policy Framework (SPF) to prevent spoofing](Conceptual/Sender-Policy-Framework)
@@ -88,4 +90,4 @@ Exchange 인프라를 관리에 필요한 주제들에 대하여 기술합니다
 
 - [Exchange Mail Flow and Recipient Types](Conceptual/Exchange-Mail-Flow-and-Recipient-Types)
 
-- [Create safe sender lists in EOP](Conceptual/Create-safe-sender-lists-in-EOP)
+
