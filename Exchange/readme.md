@@ -87,3 +87,5 @@ Exchange 인프라를 관리에 필요한 주제들에 대하여 기술합니다
 - [Digital certificates and encryption in Exchange Server](Conceptual/Certificate-and-Encrpytion-in-Exchange-Server)
 
 - [Exchange Mail Flow and Recipient Types](Conceptual/Exchange-Mail-Flow-and-Recipient-Types)
+
+- [Create safe sender lists in EOP](Conceptual/Create-safe-sender-lists-in-EOP)
