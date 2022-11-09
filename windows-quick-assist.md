@@ -35,8 +35,9 @@ If you open Quick Assist app and see the below picture, you already installed th
 
 ![UserGuide-En-QuickAssist-002](https://github.com/kj-park/tech/blob/main/media/UserGuide-En-QuickAssist-002.png?raw=true)
 
+---
 
-#### Give assistance
+## Give assistance
 
 Select **Start**  > **Quick Assist** (or select the **Start**  button, type **Quick Assist** in the search box, then select it in the results).
 
@@ -73,11 +74,38 @@ When you connected with remote windows, you can see the below picture.
 > 
 > Wait for your devices to connect.
 
-#### Get assistance
+---
 
-![UserGuide-En-QuickAssist-002](https://github.com/kj-park/tech/blob/main/media/UserGuide-En-QuickAssist-002.png?raw=true)
+## Get assistance
 
-![UserGuide-En-QuickAssist-002](https://github.com/kj-park/tech/blob/main/media/UserGuide-En-QuickAssist-002.png?raw=true)
+1. Open the Start menu go to Windows Accessories -> **Quick Assist** or type **Quick Assist** in the search bar > and select the Quick Assist app to launch it.
 
+    ![UserGuide-En-QuickAssist-002](https://github.com/kj-park/tech/blob/main/media/UserGuide-En-QuickAssist-002.png?raw=true)
 
+    Accept the privacy policy, if prompted.
 
+1. Enter the code provided in Code from assistant and click **Share screen**.
+
+    ![UserGuide-En-QuickAssist-002-01](https://github.com/kj-park/tech/blob/main/media/UserGuide-En-QuickAssist-002-01.png?raw=true)
+
+1. Verify that the person trying to help you is who you expected and **accept** the request.
+
+    ![UserGuide-En-QuickAssist-003](https://github.com/kj-park/tech/blob/main/media/UserGuide-En-QuickAssist-003.png?raw=true)
+
+    If you ar asked to allow access from Windows Defender Firewall, select **Allow access**.
+
+    ![UserGuide-En-QuickAssist-003-01](https://github.com/kj-park/tech/blob/main/media/UserGuide-En-QuickAssist-003-01.png?raw=true)
+
+If you want to send message to assistant, Input message as like below picture and select **Send**.
+
+![UserGuide-En-QuickAssist-003-02](https://github.com/kj-park/tech/blob/main/media/UserGuide-En-QuickAssist-003-02.png?raw=true)
+
+You can received message from assistant as like below.
+
+![UserGuide-En-QuickAssist-003-03](https://github.com/kj-park/tech/blob/main/media/UserGuide-En-QuickAssist-003-03.png?raw=true)
+
+You can exit from remote assistance as select exit button.
+
+![UserGuide-En-QuickAssist-004](https://github.com/kj-park/tech/blob/main/media/UserGuide-En-QuickAssist-004.png?raw=true)
+
+---
