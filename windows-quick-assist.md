@@ -67,10 +67,10 @@ When you connected with remote windows, you can see the below picture.
 >
 > Give the security code to the person you’re helping and tell them to follow these steps:
 > 
-> 1. Open the Start menu go to Windows Accessories -> **Quick Assist** or type **Quick Assist** in the search bar > and select the Quick Assist app to launch it.
+> 1. Open the Start menu go to Windows Accessories -> **`Quick Assist`** or type **`Quick Assist`** in the search bar > and select the Quick Assist app to launch it.
 > 1. Accept the privacy policy, if prompted.
-> 1. Enter the code provided in Code from assistant and click **Share screen**.
-> 1. Verify that the person trying to help you is who you expected and **accept** the request.
+> 1. Enter the code provided in Code from assistant and click <kbd>Share screen</kbd>.
+> 1. Verify that the person trying to help you is who you expected and <kbd>accept</kbd> the request.
 > 
 > Wait for your devices to connect.
 
