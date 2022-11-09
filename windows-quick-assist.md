@@ -77,7 +77,7 @@ When you connected with remote windows, you can see the below picture.
 
 ![UserGuide-En-QuickAssist-002](https://github.com/kj-park/tech/blob/main/media/UserGuide-En-QuickAssist-002.png?raw=true)
 
-
+![UserGuide-En-QuickAssist-002](https://github.com/kj-park/tech/blob/main/media/UserGuide-En-QuickAssist-002.png?raw=true)
 
 
 
