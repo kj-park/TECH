@@ -49,7 +49,7 @@ If you are not sign-in as microsoft account, you should sign-in as microsoft acc
 
 ![UserGuide-En-QuickAssist-000-02](https://github.com/kj-park/tech/blob/main/media/UserGuide-En-QuickAssist-000-02.png?raw=true)
 
-Then send the 6-digit code to the person you're helping. When they've entered it, select either **Take full control** or **View screen**. Select **Continue **and wait for the person you're helping to allow the connection.
+Then send the 6-digit code to the person you're helping. When they've entered it, select either **Take full control** or **View screen**. Select **Continue** and wait for the person you're helping to allow the connection.
 
 ![UserGuide-En-QuickAssist-000-03](https://github.com/kj-park/tech/blob/main/media/UserGuide-En-QuickAssist-000-03.png?raw=true)
 
