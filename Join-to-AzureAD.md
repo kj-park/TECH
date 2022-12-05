@@ -13,7 +13,9 @@ check whether you are currently using an AD account or a local account.
 
     If you are using AD account, you can check the domain name as like "**`DOMSG\<your-id>`**". "**DOMSG**" is your domain name.
 
-    if you are using a local account go to the **`[Local Account]`** step.
+    if you are using a local account go to the **[Join to Azure AD](#join-to-azure-ad)** step.
+
+## Disconnect from AD
 
 1. You need to disconnect from AD in the followed steps.
 
@@ -56,9 +58,9 @@ check whether you are currently using an AD account or a local account.
 
     It will be restart your windows and sign-in via local user automatically.
 
-1. **`[Local Account]`**
+## Join to Azure AD
 
-    Press <kbd>windows</kbd> + <kbd>R</kbd> and type "**ms-settings:workplace**" in text box and select `OK`.
+1. Press <kbd>windows</kbd> + <kbd>R</kbd> and type "**ms-settings:workplace**" in text box and select `OK`.
 
 Now, You can join your windows to Azure AD. please refer the provided guide.
 
