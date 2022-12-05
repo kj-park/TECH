@@ -50,7 +50,7 @@ check whether you are currently using an AD account or a local account.
     C:\Scripts\Disconnect-AD.ps1
     ```
 
-1. In the popuped window, **Disconnect from AD and Restart Windows**, check the account name after restarting windows and Select **`OK`**.
+1. In the popuped window, **Disconnect from AD and Restart Windows**, check the account name that can sign-in after restarting windows and Select **`OK`**.
 
     ![join-to-azuread-006](https://github.com/kj-park/tech/blob/main/media/join-to-azuread-006.png?raw=true)
 
