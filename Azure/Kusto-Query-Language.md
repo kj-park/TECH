@@ -3,7 +3,7 @@
 
 Kusto Query Language는 data를 탐색하고, patterns 발견, 이상 현상이나 특이점을 확인하는 등의 통계 모델링을 생성하는 강력한 도구입니다. Query는 SQL에서 database 또는 tables, columns 등과 같이 계층적으로 조직화된 schema 항목을 사용합니다.
 
-Query는 하나 이상의 query statements로 구성되며 semicolon (`'`)으로 구분합니다.  Query는 아래의 3가지 종류가 있습니다:
+Query는 하나 이상의 query statements로 구성되며 semicolon (`;`)으로 구분합니다.  Query는 아래의 3가지 종류가 있습니다:
 
 - A [tabular expression statement](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/tabularexpressionstatements)
 - A [let statement](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/letstatement)
@@ -11,7 +11,7 @@ Query는 하나 이상의 query statements로 구성되며 semicolon (`'`)으로
 
 Query는 tabular expression statement를 꼭 포함하여야 하며 tabular expression statement는 하나 이상의 tabular results를 생성합니다.
 
-가장 일반적인 query statement가 tabular expression statement이며 zero 또는 이 상의 operators로 구성되며, Operators는 '|' (pipe)로 순차적으로 구분되어 다음 operator로 data flows 또는 pipe되어지며 깔데기와 같이 data를 filter하거나 manipulate 합니다.
+가장 일반적인 query statement가 tabular expression statement이며 zero 또는 이 상의 operators로 구성되며, Operators는 `|` (pipe)로 순차적으로 구분되어 다음 operator로 data flows 또는 pipe되어지며 깔데기와 같이 data를 filter하거나 manipulate 합니다.
 
 ```kusto
 StormEvents 
