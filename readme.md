@@ -89,4 +89,3 @@ Sharing the Technology to everyone who want to know.
 
 [!INCLUDE [toc](toc.md)]
 
-{% include 01-name.md %}
