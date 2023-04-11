@@ -107,6 +107,56 @@ StormEvents
 | render barchart
 ```
 
+## Conditionally count rows ([**`countif()`**](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/countif-aggfunction))
+
+```kusto
+StormEvents
+| summarize StormsWithCropDamage = countif(DamageCrops > 0) by State
+| top 5 by StormsWithCropDamage
+```
+
+## Group data into bins
+
+숫자 또는 시간 값으로 집계하려면 먼저 bin() 함수를 사용하여 데이터를 bin으로 그룹화합니다.
+
+bin() 사용하면 값이 특정 범위 내에서 분산되는 방식을 이해하고 서로 다른 기간을 비교하는 데 도움이 될 수 있습니다.
+
+다음 쿼리는 2007년에 매주 작물 손상을 일으킨 폭풍의 수를 계산합니다. 함수에 유효한 시간 범위 값이 필요하므로 인수는 7d 1주일을 나타냅니다.
+
+```kusto
+StormEvents
+| where StartTime between (datetime(2007-01-01) .. datetime(2007-12-31)) 
+    and DamageCrops > 0
+| summarize EventCount = count() by bin(StartTime, 7d)
+| render timechart
+```
+
+## Calculate the min, max, avg, and sum
+
+```kusto
+StormEvents
+| where DamageCrops > 0
+| summarize
+    MaxCropDamage=max(DamageCrops), 
+    MinCropDamage=min(DamageCrops), 
+    AvgCropDamage=avg(DamageCrops)
+    by EventType
+| sort by AvgCropDamage
+```
+
+```kusto
+StormEvents
+| where StartTime between (datetime(2007-01-01) .. datetime(2007-12-31)) 
+    and DamageCrops > 0
+| summarize CropDamage = sum(DamageCrops) by bin(StartTime, 7d)
+| render timechart
+```
+
+## Calculate percentages
+
+
+
+
 > [!TODO]  
 > https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/tutorials/use-aggregation-functions#conditionally-count-rows
 
