@@ -15,24 +15,24 @@
 
 - Design and Deploy
 
-	- [Deploying Active Directory Domains](/Tech/AD/Design-and-Deploy/Deploying-Active-Directory-Domains)
 	- [Deploying a Managed Software Environment](/Tech/AD/Design-and-Deploy/Deploying-a-Managed-Software-Environment)
+	- [Deploying Active Directory Domains](/Tech/AD/Design-and-Deploy/Deploying-Active-Directory-Domains)
 	- [Deploying Security Policy](/Tech/AD/Design-and-Deploy/Deploying-Security-Policy)
+	- [Designing a File and Print Service](/Tech/AD/Design-and-Deploy/Designing-a-File-and-Print-Service)
+	- [Designing a Group Policy Infrastructure](/Tech/AD/Design-and-Deploy/Designing-a-Group-Policy-Infrastructure)
+	- [Designing a Resource Authorization Strategy](/Tech/AD/Design-and-Deploy/Designing-a-Resource-Authorization-Strategy)
 	- [Designing Active Directory Logical Structure](/Tech/AD/Design-and-Deploy/Designing-Active-Directory-Logical-Structure)
 		- [Create a Domain Design](/Tech/AD/Design-and-Deploy/Designing-Active-Directory-Logical-Structure/Create-a-Domain-Design)
 		- [Create a Forest Design](/Tech/AD/Design-and-Deploy/Designing-Active-Directory-Logical-Structure/Create-a-Forest-Design)
 		- [Design a DNS Infrastructure](/Tech/AD/Design-and-Deploy/Designing-Active-Directory-Logical-Structure/Design-a-DNS-Infrastructure)
 		- [Design a Organizational Unit](/Tech/AD/Design-and-Deploy/Designing-Active-Directory-Logical-Structure/Design-a-Organizational-Unit)
-	- [Designing a File and Print Service](/Tech/AD/Design-and-Deploy/Designing-a-File-and-Print-Service)
-	- [Designing a Group Policy Infrastructure](/Tech/AD/Design-and-Deploy/Designing-a-Group-Policy-Infrastructure)
 	- [Designing an Authentication Strategy](/Tech/AD/Design-and-Deploy/Designing-an-Authentication-Strategy)
-	- [Designing a Resource Authorization Strategy](/Tech/AD/Design-and-Deploy/Designing-a-Resource-Authorization-Strategy)
 	- [Designing Managed Updates Management Environment with WSUS](/Tech/AD/Design-and-Deploy/Designing-Managed-Updates-Management-Environment-with-WSUS)
 	- [Designing the Site Topology](/Tech/AD/Design-and-Deploy/Designing-the-Site-Topology)
 	- [Enable Advanced Active Directory Features](/Tech/AD/Design-and-Deploy/Enable-Advanced-Active-Directory-Features)
 	- [Migration of User State](/Tech/AD/Design-and-Deploy/Migration-of-User-State)
-	- [Planning Active Directory Project](/Tech/AD/Design-and-Deploy/Planning-Active-Directory-Project)
 	- [Planning a Secure Environment](/Tech/AD/Design-and-Deploy/Planning-a-Secure-Environment)
+	- [Planning Active Directory Project](/Tech/AD/Design-and-Deploy/Planning-Active-Directory-Project)
 	- [Planning Domain Controller Capacity](/Tech/AD/Design-and-Deploy/Planning-Domain-Controller-Capacity)
 
 - [images](/Tech/AD/images)
@@ -40,6 +40,14 @@
 
 - [readme](/Tech/AD/readme)
 
+
+## Azure
+
+
+- AzureDataExplorer
+
+	- [Kusto Query Language](/Tech/Azure/AzureDataExplorer/Kusto-Query-Language)
+	- [Tutorial  Write Kusto Queries](/Tech/Azure/AzureDataExplorer/Tutorial--Write-Kusto-Queries)
 
 ## Exchange
 
@@ -87,6 +95,7 @@
 - Online
 
 	- [Configure Microsoft 365 Groups with on premises Exchange Hybrid](/Tech/Exchange/Online/Configure-Microsoft-365-Groups-with-on-premises-Exchange-Hybrid)
+	- [Create safe sender lists in EOP](/Tech/Exchange/Online/Create-safe-sender-lists-in-EOP)
 	- [Exchange Hybrid Off Boarding Migration](/Tech/Exchange/Online/Exchange-Hybrid-Off-Boarding-Migration)
 	- [Exchange Online Quarantine](/Tech/Exchange/Online/Exchange-Online-Quarantine)
 	- [Importing PST file to Microsoft 365](/Tech/Exchange/Online/Importing-PST-file-to-Microsoft-365)
@@ -120,13 +129,15 @@
 			- [Securing security info registration](/Tech/Microsoft365/AzureAD/Conditional-Access/Common-Policies/Securing-security-info-registration)
 			- [Sign in risk based Conditional Access](/Tech/Microsoft365/AzureAD/Conditional-Access/Common-Policies/Sign-in-risk-based-Conditional-Access)
 			- [User risk based Conditional Access](/Tech/Microsoft365/AzureAD/Conditional-Access/Common-Policies/User-risk-based-Conditional-Access)
-		- [Multi factor Authentication Users and Service Settings](/Tech/Microsoft365/AzureAD/Conditional-Access/Multi-factor-Authentication-Users-and-Service-Settings)
+	- [Multi factor Authentication Users and Service Settings](/Tech/Microsoft365/AzureAD/Multi-factor-Authentication-Users-and-Service-Settings)
 	- [readme](/Tech/Microsoft365/AzureAD/readme)
 
 - Defender
 
-	- [Microsoft Defender for Office365 Overview](/Tech/Microsoft365/Defender/Microsoft-Defender-for-Office365-Overview)
+	- [Microsoft Defender for EndPoints](/Tech/Microsoft365/Defender/Microsoft-Defender-for-EndPoints)
+	- [Microsoft Defender for Office365](/Tech/Microsoft365/Defender/Microsoft-Defender-for-Office365)
 	- [Microsoft Defender SmartScreen Overview](/Tech/Microsoft365/Defender/Microsoft-Defender-SmartScreen-Overview)
+	- [readme](/Tech/Microsoft365/Defender/readme)
 
 - EMS
 
@@ -152,14 +163,32 @@
 - [Microsoft 365 E3 Overview ko](/Tech/Microsoft365/Microsoft-365-E3-Overview-ko)
 
 
+- [Microsoft 365 E5 Overview](/Tech/Microsoft365/Microsoft-365-E5-Overview)
+
+
 - Planner
 
 	- [readme](/Tech/Microsoft365/Planner/readme)
 
 - Purview
 
+	- Data Lifecycle
+		- [readme](/Tech/Microsoft365/Purview/Data-Lifecycle/readme)
 	- [draft](/Tech/Microsoft365/Purview/draft)
+	- eDiscovery
+		- [readme](/Tech/Microsoft365/Purview/eDiscovery/readme)
+	- Holds
+		- [readme](/Tech/Microsoft365/Purview/Holds/readme)
+	- Information Protection
+		- [data classification](/Tech/Microsoft365/Purview/Information-Protection/data-classification)
+		- [readme](/Tech/Microsoft365/Purview/Information-Protection/readme)
+		- [sensitive information types](/Tech/Microsoft365/Purview/Information-Protection/sensitive-information-types)
+		- [sensitivity labels](/Tech/Microsoft365/Purview/Information-Protection/sensitivity-labels)
+		- [trainable classifiers](/Tech/Microsoft365/Purview/Information-Protection/trainable-classifiers)
+	- [IP and DL and RM](/Tech/Microsoft365/Purview/IP-and-DL-and-RM)
 	- [readme](/Tech/Microsoft365/Purview/readme)
+	- Records Management
+		- [readme](/Tech/Microsoft365/Purview/Records-Management/readme)
 
 - [readme](/Tech/Microsoft365/readme)
 
@@ -184,12 +213,15 @@
 - [images](/Tech/PowerShell/images)
 
 
+- Learning
+
+	- [Desired State Configuration](/Tech/PowerShell/Learning/Desired-State-Configuration)
+	- [Installing PowerShell](/Tech/PowerShell/Learning/Installing-PowerShell)
+	- [Learning PowerShell Basic](/Tech/PowerShell/Learning/Learning-PowerShell-Basic)
+	- [Scripting and Development](/Tech/PowerShell/Learning/Scripting-and-Development)
+
 - [Learning PowerShell](/Tech/PowerShell/Learning-PowerShell)
 
-	- [Desired State Configuration](/Tech/PowerShell/Learning-PowerShell/Desired-State-Configuration)
-	- [Installing PowerShell](/Tech/PowerShell/Learning-PowerShell/Installing-PowerShell)
-	- [Learning PowerShell Basic](/Tech/PowerShell/Learning-PowerShell/Learning-PowerShell-Basic)
-	- [Scripting and Development](/Tech/PowerShell/Learning-PowerShell/Scripting-and-Development)
 
 - [readme](/Tech/PowerShell/readme)
 

@@ -85,3 +85,6 @@ Sharing the Technology to everyone who want to know.
 
 > [!div class="nextstepaction"]  
 > [GitHub Pages Configuration](includes/GitHub-Pages-Configuration)
+
+
+[!INCLUDE [toc](toc.md)]
