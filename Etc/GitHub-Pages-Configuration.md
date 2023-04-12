@@ -37,7 +37,7 @@ default layout is...:
 
 <!--- Reference Link --->
 
-[check]: {{site.url}}/images/.icons/check.svg "check"
+[check]: /Tech/images/.icons/check.svg "check"
 [critical]: {{site.url}}/images/.icons/critical.svg "critical"
 [failed]: {{site.url}}/images/.icons/failed.svg "failed"
 [failure]: {{site.url}}/images/.icons/failure.svg "failure"
