@@ -1,0 +1,48 @@
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+    <ul class="w3-navbar w3-light-blue" id="NavBar">
+        <li>
+        <a href="{{ site.url }}" class="w3-wide w3-text-white">Tech</a>
+        </li>
+        <!-- Right-sided navbar links -->
+        <li class="w3-right w3-hide-small">
+        <a href="{{ site.url }}/About" class="w3-text-white"><i class="fa fa-user-o"></i> About</a>
+        <a href="{{ site.url }}/Microsoft365/" class="w3-text-white"><i class="fa fa-map-o"></i> Microsoft 365</a>
+        <a href="{{ site.url }}/ActiveDirectory/" class="w3-text-white"><i class="fa fa-map-o"></i> Active Directory</a>
+        <a href="{{ site.url }}/Scripting/" class="w3-text-white"><i class="fa fa-code"></i> Scripting</a>
+        <a href="{{ site.url }}/Contact" class="w3-text-white"><i class="fa fa-address-card-o"></i> Contact</a>
+        </li>
+        <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+        <li>
+        <a href="javascript:void(0)" class="w3-right w3-hide-large w3-hide-medium" onclick="SideNav_open()">
+            <i class="fa fa-bars w3-padding-right w3-padding-left w3-text-white"></i>
+        </a>
+        </li>
+    </ul>
+    <!-- SideNav on small screens when clicking the menu icon -->
+    <nav class="w3-sidenav w3-light-blue w3-card-2 w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="SideNav">
+    <a href="javascript:void(0)" onclick="SideNav_close()" class="w3-large w3-padding-16 w3-text-white">Close X</a>
+    <a href="{{ site.url }}/About" onclick="SideNav_close()" class="w3-text-white"><i class="fa fa-user-o"></i> About</a>
+    <a href="{{ site.url }}/Microsoft365/" onclick="SideNav_close()" class="w3-text-white"><i class="fa fa-map-o"></i> Microsoft 365</a>
+    <a href="{{ site.url }}/ActiveDirectory/" onclick="SideNav_close()" class="w3-text-white"><i class="fa fa-map-o"></i> Active Directory</a>
+    <a href="{{ site.url }}/Scripting/" onclick="SideNav_close()" class="w3-text-white"><i class="fa fa-code"></i> Scripting</a>
+    <a href="{{ site.url }}/Contact" onclick="SideNav_close()" class="w3-text-white"><i class="fa fa-address-card-o"></i> Contact</a>
+    </nav>
+    </div>
+    <script>
+        var SideNav = document.getElementById("SideNav");
+    
+        function SideNav_open() {
+            if (SideNav.style.display === 'block') {
+                SideNav.style.display = 'none';
+            } else {
+                SideNav.style.display = 'block';
+                SideNav.style.zIndex = 5;
+            }
+        }
+    
+        function SideNav_close() {
+            SideNav.style.display = "none";
+        }
+    </script>

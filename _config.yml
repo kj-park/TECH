@@ -1,0 +1,29 @@
+title: [Technical Readiness]
+description: [Sharing the Technology to everyone who want to know.]
+theme: jekyll-theme-cayman
+url: https://kj-park.github.io/Tech
+timezone: Asia/Seoul
+encoding: utf-8
+defaults:
+    - 
+        scope:
+            path: "posts"
+            type: "posts"
+        values:
+            layout: "default"
+            category: "posts"
+    -
+        scope:
+            path: "projects"
+            type: "projects"
+        values:
+            layout: "default"
+            author: "kj-park"
+            category: "projects"
+    -
+        scope:
+            path: "pages"
+            type: "pages"
+        values:
+            layout: "default"
+            category: "pages"
