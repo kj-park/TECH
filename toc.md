@@ -1,6 +1,118 @@
 
+---
+layout: default
+---
+
 # Contents Index
 
+
+## Microsoft365
+
+
+- AzureAD
+
+	- [Authentication](/Tech/Microsoft365/AzureAD/Authentication)
+	- [Azure Active Directory Overview](/Tech/Microsoft365/AzureAD/Azure-Active-Directory-Overview)
+	- Conditional Access
+		- [Azure AD Conditional Access Overview](/Tech/Microsoft365/AzureAD/Conditional-Access/Azure-AD-Conditional-Access-Overview)
+		- [Azure AD Conditional Access Policy Access Controls](/Tech/Microsoft365/AzureAD/Conditional-Access/Azure-AD-Conditional-Access-Policy-Access-Controls)
+		- [Azure AD Conditional Access Policy Assignments](/Tech/Microsoft365/AzureAD/Conditional-Access/Azure-AD-Conditional-Access-Policy-Assignments)
+		- Common Policies
+			- [Block access by location](/Tech/Microsoft365/AzureAD/Conditional-Access/Common-Policies/Block-access-by-location)
+			- [Block access except specific apps](/Tech/Microsoft365/AzureAD/Conditional-Access/Common-Policies/Block-access-except-specific-apps)
+			- [Block Legacy Authentication](/Tech/Microsoft365/AzureAD/Conditional-Access/Common-Policies/Block-Legacy-Authentication)
+			- [Require compliant device](/Tech/Microsoft365/AzureAD/Conditional-Access/Common-Policies/Require-compliant-device)
+			- [Require MFA for Administrators](/Tech/Microsoft365/AzureAD/Conditional-Access/Common-Policies/Require-MFA-for-Administrators)
+			- [Require MFA for All Users](/Tech/Microsoft365/AzureAD/Conditional-Access/Common-Policies/Require-MFA-for-All-Users)
+			- [Require MFA for Azure Management](/Tech/Microsoft365/AzureAD/Conditional-Access/Common-Policies/Require-MFA-for-Azure-Management)
+			- [Securing security info registration](/Tech/Microsoft365/AzureAD/Conditional-Access/Common-Policies/Securing-security-info-registration)
+			- [Sign in risk based Conditional Access](/Tech/Microsoft365/AzureAD/Conditional-Access/Common-Policies/Sign-in-risk-based-Conditional-Access)
+			- [User risk based Conditional Access](/Tech/Microsoft365/AzureAD/Conditional-Access/Common-Policies/User-risk-based-Conditional-Access)
+	- [Multi factor Authentication Users and Service Settings](/Tech/Microsoft365/AzureAD/Multi-factor-Authentication-Users-and-Service-Settings)
+	- [readme](/Tech/Microsoft365/AzureAD/readme)
+
+- Defender
+
+	- [Microsoft Defender for EndPoints](/Tech/Microsoft365/Defender/Microsoft-Defender-for-EndPoints)
+	- [Microsoft Defender for Office365](/Tech/Microsoft365/Defender/Microsoft-Defender-for-Office365)
+	- [Microsoft Defender SmartScreen Overview](/Tech/Microsoft365/Defender/Microsoft-Defender-SmartScreen-Overview)
+	- [readme](/Tech/Microsoft365/Defender/readme)
+
+- EMS
+
+	- [Microsoft Intune Overview](/Tech/Microsoft365/EMS/Microsoft-Intune-Overview)
+	- [Network Endpoints for Microsoft Intune](/Tech/Microsoft365/EMS/Network-Endpoints-for-Microsoft-Intune)
+	- [Set up Microsoft Intune](/Tech/Microsoft365/EMS/Set-up-Microsoft-Intune)
+
+- Hybrid
+
+	- [AAD Connect Sync Accounts](/Tech/Microsoft365/Hybrid/AAD-Connect-Sync-Accounts)
+	- [Configure Azure AD Connect Sync](/Tech/Microsoft365/Hybrid/Configure-Azure-AD-Connect-Sync)
+	- [Understand Azure AD Connect Sync](/Tech/Microsoft365/Hybrid/Understand-Azure-AD-Connect-Sync)
+
+- [images](/Tech/Microsoft365/images)
+
+
+- [index](/Tech/Microsoft365/index)
+
+
+- [Microsoft 365 apps for enterpise](/Tech/Microsoft365/Microsoft-365-apps-for-enterpise)
+
+
+- [Microsoft 365 E3 Overview en](/Tech/Microsoft365/Microsoft-365-E3-Overview-en)
+
+
+- [Microsoft 365 E3 Overview ko](/Tech/Microsoft365/Microsoft-365-E3-Overview-ko)
+
+
+- [Microsoft 365 E5 Overview](/Tech/Microsoft365/Microsoft-365-E5-Overview)
+
+
+- Planner
+
+	- [readme](/Tech/Microsoft365/Planner/readme)
+
+- Purview
+
+	- Data Lifecycle
+		- [readme](/Tech/Microsoft365/Purview/Data-Lifecycle/readme)
+	- [draft](/Tech/Microsoft365/Purview/draft)
+	- eDiscovery
+		- [readme](/Tech/Microsoft365/Purview/eDiscovery/readme)
+	- Holds
+		- [readme](/Tech/Microsoft365/Purview/Holds/readme)
+	- Information Protection
+		- [data classification](/Tech/Microsoft365/Purview/Information-Protection/data-classification)
+		- [readme](/Tech/Microsoft365/Purview/Information-Protection/readme)
+		- [sensitive information types](/Tech/Microsoft365/Purview/Information-Protection/sensitive-information-types)
+		- [sensitivity labels](/Tech/Microsoft365/Purview/Information-Protection/sensitivity-labels)
+		- [trainable classifiers](/Tech/Microsoft365/Purview/Information-Protection/trainable-classifiers)
+	- [IP and DL and RM](/Tech/Microsoft365/Purview/IP-and-DL-and-RM)
+	- [readme](/Tech/Microsoft365/Purview/readme)
+	- Records Management
+		- [readme](/Tech/Microsoft365/Purview/Records-Management/readme)
+
+- Search
+
+	- [Microsoft Search Overview](/Tech/Microsoft365/Search/Microsoft-Search-Overview)
+
+- SharePointOnline
+
+
+- source
+
+
+- Teams
+
+	- [Upgrade from Skype for Business](/Tech/Microsoft365/Teams/Upgrade-from-Skype-for-Business)
+
+## Azure
+
+
+- AzureDataExplorer
+
+	- [Kusto Query Language](/Tech/Azure/AzureDataExplorer/Kusto-Query-Language)
+	- [Tutorial  Write Kusto Queries](/Tech/Azure/AzureDataExplorer/Tutorial--Write-Kusto-Queries)
 
 ## AD
 
@@ -40,14 +152,6 @@
 
 - [readme](/Tech/AD/readme)
 
-
-## Azure
-
-
-- AzureDataExplorer
-
-	- [Kusto Query Language](/Tech/Azure/AzureDataExplorer/Kusto-Query-Language)
-	- [Tutorial  Write Kusto Queries](/Tech/Azure/AzureDataExplorer/Tutorial--Write-Kusto-Queries)
 
 ## Exchange
 
@@ -107,132 +211,23 @@
 - source
 
 
-## Microsoft365
+## Scripting
 
 
-- AzureAD
+- PowerShell
 
-	- [Authentication](/Tech/Microsoft365/AzureAD/Authentication)
-	- [Azure Active Directory Overview](/Tech/Microsoft365/AzureAD/Azure-Active-Directory-Overview)
-	- Conditional Access
-		- [Azure AD Conditional Access Overview](/Tech/Microsoft365/AzureAD/Conditional-Access/Azure-AD-Conditional-Access-Overview)
-		- [Azure AD Conditional Access Policy Access Controls](/Tech/Microsoft365/AzureAD/Conditional-Access/Azure-AD-Conditional-Access-Policy-Access-Controls)
-		- [Azure AD Conditional Access Policy Assignments](/Tech/Microsoft365/AzureAD/Conditional-Access/Azure-AD-Conditional-Access-Policy-Assignments)
-		- Common Policies
-			- [Block access by location](/Tech/Microsoft365/AzureAD/Conditional-Access/Common-Policies/Block-access-by-location)
-			- [Block access except specific apps](/Tech/Microsoft365/AzureAD/Conditional-Access/Common-Policies/Block-access-except-specific-apps)
-			- [Block Legacy Authentication](/Tech/Microsoft365/AzureAD/Conditional-Access/Common-Policies/Block-Legacy-Authentication)
-			- [Require compliant device](/Tech/Microsoft365/AzureAD/Conditional-Access/Common-Policies/Require-compliant-device)
-			- [Require MFA for Administrators](/Tech/Microsoft365/AzureAD/Conditional-Access/Common-Policies/Require-MFA-for-Administrators)
-			- [Require MFA for All Users](/Tech/Microsoft365/AzureAD/Conditional-Access/Common-Policies/Require-MFA-for-All-Users)
-			- [Require MFA for Azure Management](/Tech/Microsoft365/AzureAD/Conditional-Access/Common-Policies/Require-MFA-for-Azure-Management)
-			- [Securing security info registration](/Tech/Microsoft365/AzureAD/Conditional-Access/Common-Policies/Securing-security-info-registration)
-			- [Sign in risk based Conditional Access](/Tech/Microsoft365/AzureAD/Conditional-Access/Common-Policies/Sign-in-risk-based-Conditional-Access)
-			- [User risk based Conditional Access](/Tech/Microsoft365/AzureAD/Conditional-Access/Common-Policies/User-risk-based-Conditional-Access)
-	- [Multi factor Authentication Users and Service Settings](/Tech/Microsoft365/AzureAD/Multi-factor-Authentication-Users-and-Service-Settings)
-	- [readme](/Tech/Microsoft365/AzureAD/readme)
-
-- Defender
-
-	- [Microsoft Defender for EndPoints](/Tech/Microsoft365/Defender/Microsoft-Defender-for-EndPoints)
-	- [Microsoft Defender for Office365](/Tech/Microsoft365/Defender/Microsoft-Defender-for-Office365)
-	- [Microsoft Defender SmartScreen Overview](/Tech/Microsoft365/Defender/Microsoft-Defender-SmartScreen-Overview)
-	- [readme](/Tech/Microsoft365/Defender/readme)
-
-- EMS
-
-	- [Microsoft Intune Overview](/Tech/Microsoft365/EMS/Microsoft-Intune-Overview)
-	- [Network Endpoints for Microsoft Intune](/Tech/Microsoft365/EMS/Network-Endpoints-for-Microsoft-Intune)
-	- [Set up Microsoft Intune](/Tech/Microsoft365/EMS/Set-up-Microsoft-Intune)
-
-- Hybrid
-
-	- [AAD Connect Sync Accounts](/Tech/Microsoft365/Hybrid/AAD-Connect-Sync-Accounts)
-	- [Configure Azure AD Connect Sync](/Tech/Microsoft365/Hybrid/Configure-Azure-AD-Connect-Sync)
-	- [Understand Azure AD Connect Sync](/Tech/Microsoft365/Hybrid/Understand-Azure-AD-Connect-Sync)
-
-- [images](/Tech/Microsoft365/images)
-
-
-- [Microsoft 365 apps for enterpise](/Tech/Microsoft365/Microsoft-365-apps-for-enterpise)
-
-
-- [Microsoft 365 E3 Overview en](/Tech/Microsoft365/Microsoft-365-E3-Overview-en)
-
-
-- [Microsoft 365 E3 Overview ko](/Tech/Microsoft365/Microsoft-365-E3-Overview-ko)
-
-
-- [Microsoft 365 E5 Overview](/Tech/Microsoft365/Microsoft-365-E5-Overview)
-
-
-- Planner
-
-	- [readme](/Tech/Microsoft365/Planner/readme)
-
-- Purview
-
-	- Data Lifecycle
-		- [readme](/Tech/Microsoft365/Purview/Data-Lifecycle/readme)
-	- [draft](/Tech/Microsoft365/Purview/draft)
-	- eDiscovery
-		- [readme](/Tech/Microsoft365/Purview/eDiscovery/readme)
-	- Holds
-		- [readme](/Tech/Microsoft365/Purview/Holds/readme)
-	- Information Protection
-		- [data classification](/Tech/Microsoft365/Purview/Information-Protection/data-classification)
-		- [readme](/Tech/Microsoft365/Purview/Information-Protection/readme)
-		- [sensitive information types](/Tech/Microsoft365/Purview/Information-Protection/sensitive-information-types)
-		- [sensitivity labels](/Tech/Microsoft365/Purview/Information-Protection/sensitivity-labels)
-		- [trainable classifiers](/Tech/Microsoft365/Purview/Information-Protection/trainable-classifiers)
-	- [IP and DL and RM](/Tech/Microsoft365/Purview/IP-and-DL-and-RM)
-	- [readme](/Tech/Microsoft365/Purview/readme)
-	- Records Management
-		- [readme](/Tech/Microsoft365/Purview/Records-Management/readme)
-
-- [readme](/Tech/Microsoft365/readme)
-
-
-- Search
-
-	- [Microsoft Search Overview](/Tech/Microsoft365/Search/Microsoft-Search-Overview)
-
-- SharePointOnline
-
-
-- source
-
-
-- Teams
-
-	- [Upgrade from Skype for Business](/Tech/Microsoft365/Teams/Upgrade-from-Skype-for-Business)
-
-## PowerShell
-
-
-- [images](/Tech/PowerShell/images)
-
-
-- Learning
-
-	- [Desired State Configuration](/Tech/PowerShell/Learning/Desired-State-Configuration)
-	- [Installing PowerShell](/Tech/PowerShell/Learning/Installing-PowerShell)
-	- [Learning PowerShell Basic](/Tech/PowerShell/Learning/Learning-PowerShell-Basic)
-	- [Scripting and Development](/Tech/PowerShell/Learning/Scripting-and-Development)
-
-- [Learning PowerShell](/Tech/PowerShell/Learning-PowerShell)
-
-
-- [readme](/Tech/PowerShell/readme)
-
-
-- source
-
-	- Modules
-	- Scripts
-
-- Tasks
-
+	- [images](/Tech/Scripting/PowerShell/images)
+	- Learning
+		- [Desired State Configuration](/Tech/Scripting/PowerShell/Learning/Desired-State-Configuration)
+		- [Installing PowerShell](/Tech/Scripting/PowerShell/Learning/Installing-PowerShell)
+		- [Learning PowerShell Basic](/Tech/Scripting/PowerShell/Learning/Learning-PowerShell-Basic)
+		- [Scripting and Development](/Tech/Scripting/PowerShell/Learning/Scripting-and-Development)
+	- [Learning PowerShell](/Tech/Scripting/PowerShell/Learning-PowerShell)
+	- [readme](/Tech/Scripting/PowerShell/readme)
+	- source
+		- Modules
+		- Scripts
+	- Tasks
 
 ## Learning
 
@@ -249,8 +244,14 @@
 - [images](/Tech/Learning/images)
 
 
-## includes
+## Etc
 
 
-- [GitHub Pages Configuration](/Tech/includes/GitHub-Pages-Configuration)
+- [Join to AzureAD](/Tech/Etc/Join-to-AzureAD)
+
+
+- [m365only lab history](/Tech/Etc/m365only-lab-history)
+
+
+- [windows quick assist](/Tech/Etc/windows-quick-assist)
 

@@ -14,4 +14,6 @@ layout: default
 
 - [Scripting](Scripting)
 
+- [Learning](Learning)
+
 - [Etc](Etc) 

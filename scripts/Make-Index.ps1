@@ -1,5 +1,4 @@
 ﻿
-
 function Get-Indent {
     param (
         [String]$RootPath = $RootPath,
@@ -126,10 +125,10 @@ function Make-Index {
     param (
         [String]$RootPath = 'C:\REPOSITORY\GITHUB\Tech',
         [String]$IndexFile = 'C:\REPOSITORY\GITHUB\Tech\toc.md',
-        $ContentFolders = @('AD','Azure','Exchange','Microsoft365','PowerShell','Learning','includes')
+        $ContentFolders = @('Microsoft365','Azure','AD','Exchange','Scripting','Learning','Etc')
     )
     begin {
-        $MarkdownString = "`n# Contents Index`n"
+        $MarkdownString = "`n---`nlayout: default`n---`n`n# Contents Index`n"
         Clear-Content -LiteralPath $IndexFile -Force
         Add-Content -LiteralPath $IndexFile -Value $MarkdownString -Force
         New-Variable -Name TocContents -Value @() -Force -Scope Global
@@ -147,4 +146,3 @@ function Make-Index {
 }
 
 Make-Index
-

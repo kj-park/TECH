@@ -1,3 +1,6 @@
+---
+layout: default
+---
 
 # Join to AzureAD
 

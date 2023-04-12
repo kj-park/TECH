@@ -1,6 +1,7 @@
 ---
+layout: default
 title: PowerShell Scripting
-filename: PowerShell\readme.md
+filename: PowerShell\index.md
 ms.date: 2021.04.05
 keywords:
     - PowerShell
