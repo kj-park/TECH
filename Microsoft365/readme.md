@@ -1,7 +1,6 @@
 ---
+layout: default
 title: Microsoft 365
-filename: Microsoft365\readme.md
-ms.date: 2012.03.31
 ---
 
 # Microsoft 365
