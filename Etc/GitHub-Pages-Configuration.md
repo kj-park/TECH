@@ -37,12 +37,12 @@ default layout is...:
 
 <!--- Reference Link --->
 
-[check]: /images/.icons/check.svg "check"
-[critical]: /images/.icons/critical.svg "critical"
-[failed]: /images/.icons/failed.svg "failed"
-[failure]: /images/.icons/failure.svg "failure"
-[Info]: /images/.icons/Info.svg "Info"
-[search]: /images/.icons/search.svg "search"
-[success]: /images/.icons/success.svg "success"
-[tag]: /images/.icons/tag.svg "tag"
-[warning]: /images/.icons/warning.svg "warning"
+[check]: {{site.url}}/images/.icons/check.svg "check"
+[critical]: {{site.url}}/images/.icons/critical.svg "critical"
+[failed]: {{site.url}}/images/.icons/failed.svg "failed"
+[failure]: {{site.url}}/images/.icons/failure.svg "failure"
+[Info]: {{site.url}}/images/.icons/Info.svg "Info"
+[search]: {{site.url}}/images/.icons/search.svg "search"
+[success]: {{site.url}}/images/.icons/success.svg "success"
+[tag]: {{site.url}}/images/.icons/tag.svg "tag"
+[warning]: {{site.url}}/images/.icons/warning.svg "warning"
