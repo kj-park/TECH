@@ -128,7 +128,7 @@ function Make-Index {
         $ContentFolders = @('Microsoft365','Azure','AD','Exchange','Scripting','Learning','Etc')
     )
     begin {
-        $MarkdownString = "`n---`nlayout: default`n---`n`n# Contents Index`n"
+        $MarkdownString = "---`nlayout: default`n---`n`n# Contents Index`n"
         Clear-Content -LiteralPath $IndexFile -Force
         Add-Content -LiteralPath $IndexFile -Value $MarkdownString -Force
         New-Variable -Name TocContents -Value @() -Force -Scope Global

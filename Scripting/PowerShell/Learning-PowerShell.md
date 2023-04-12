@@ -66,8 +66,8 @@ PowerShell은 .NET Common Language Runtime (CLR)을 기반으로 만들었기에
 
 - Extensible through ......
     - [functions](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_functions_advanced),
-    - [classes](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_classes), 
-    - [scripts](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_scripts), and 
+    - [classes](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_classes),
+    - [scripts](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_scripts), and
     - [modules](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_modules)
 - Extensible [formatting system](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_format.ps1xml) for easy output
 - Extensible [type system](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_types.ps1xml) for creating dynamic types

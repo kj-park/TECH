@@ -1,4 +1,3 @@
-
 ---
 layout: default
 ---
@@ -111,7 +110,6 @@ layout: default
 
 - AzureDataExplorer
 
-	- [Kusto Query Language](/Tech/Azure/AzureDataExplorer/Kusto-Query-Language)
 	- [Tutorial  Write Kusto Queries](/Tech/Azure/AzureDataExplorer/Tutorial--Write-Kusto-Queries)
 
 ## AD
@@ -214,16 +212,23 @@ layout: default
 ## Scripting
 
 
+- [index](/Tech/Scripting/index)
+
+
+- KQL
+
+	- [index](/Tech/Scripting/KQL/index)
+
 - PowerShell
 
 	- [images](/Tech/Scripting/PowerShell/images)
+	- [index](/Tech/Scripting/PowerShell/index)
 	- Learning
 		- [Desired State Configuration](/Tech/Scripting/PowerShell/Learning/Desired-State-Configuration)
 		- [Installing PowerShell](/Tech/Scripting/PowerShell/Learning/Installing-PowerShell)
 		- [Learning PowerShell Basic](/Tech/Scripting/PowerShell/Learning/Learning-PowerShell-Basic)
 		- [Scripting and Development](/Tech/Scripting/PowerShell/Learning/Scripting-and-Development)
 	- [Learning PowerShell](/Tech/Scripting/PowerShell/Learning-PowerShell)
-	- [readme](/Tech/Scripting/PowerShell/readme)
 	- source
 		- Modules
 		- Scripts
