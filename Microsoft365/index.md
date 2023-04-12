@@ -3,7 +3,7 @@ layout: default
 title: Microsoft 365
 ---
 
-# Microsoft 365
+# Microsoft 365 Overview
 
 - [Microsoft 365 apps for enterpise](Microsoft-365-apps-for-enterpise)
 

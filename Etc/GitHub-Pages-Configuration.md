@@ -15,9 +15,7 @@ default layout is...:
 
 # Image rendering in GitHub Pages
 
-![Transport Pipeline Overview](https://raw.githubusercontent.com/kj-park/Tech/main/Exchange/.media/transport-pipeline-overview.png)
-
-![Transport Pipeline Overview](https://github.com/kj-park/Tech/blob/main/Exchange/.media/transport-pipeline-overview.png?raw=true)
+![Transport Pipeline Overview](/Exchange/images/transport-pipeline-overview.png)
 
 ---
 
@@ -39,12 +37,12 @@ default layout is...:
 
 <!--- Reference Link --->
 
-[check]: https://github.com/kj-park/tech/blob/main/.icons/check.svg?raw=true "check"
-[critical]: https://github.com/kj-park/tech/blob/main/.icons/critical.svg?raw=true "critical"
-[failed]: https://github.com/kj-park/tech/blob/main/.icons/failed.svg?raw=true "failed"
-[failure]: https://github.com/kj-park/tech/blob/main/.icons/failure.svg?raw=true "failure"
-[Info]: https://github.com/kj-park/tech/blob/main/.icons/Info.svg?raw=true "Info"
-[search]: https://github.com/kj-park/tech/blob/main/.icons/search.svg?raw=true "search"
-[success]: https://github.com/kj-park/tech/blob/main/.icons/success.svg?raw=true "success"
-[tag]: https://github.com/kj-park/tech/blob/main/.icons/tag.svg?raw=true "tag"
-[warning]: https://github.com/kj-park/tech/blob/main/.icons/warning.svg?raw=true "warning"
+[check]: /images/.icons/check.svg "check"
+[critical]: /images/.icons/critical.svg "critical"
+[failed]: /images/.icons/failed.svg "failed"
+[failure]: /images/.icons/failure.svg "failure"
+[Info]: /images/.icons/Info.svg "Info"
+[search]: /images/.icons/search.svg "search"
+[success]: /images/.icons/success.svg "success"
+[tag]: /images/.icons/tag.svg "tag"
+[warning]: /images/.icons/warning.svg "warning"

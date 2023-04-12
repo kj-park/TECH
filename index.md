@@ -16,4 +16,6 @@ layout: default
 
 - [Learning](Learning)
 
-- [Etc](Etc) 
+- [Etc](Etc)
+
+---
