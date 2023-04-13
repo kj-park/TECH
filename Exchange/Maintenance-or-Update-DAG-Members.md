@@ -164,7 +164,7 @@ Maintenance가 완료된 후 DAG member를 다시 service할 수 있는 상태�
     ```
 
     > [!NOTE]
-    > **Script**:[Backup-ExchangeConfigFiles.ps1](https://github.com/kj-park/tech/blob/main/Exchange/source/Backup-ExchangeConfigFiles.ps1)  
+    > **Script**:[Backup-ExchangeConfigFiles.ps1]({{ site.url }}/Exchange/src/Backup-ExchangeConfigFiles.ps1)  
 
 1. 서버를 유지보수모드(Maintenance mode)로 설정합니다.
 
