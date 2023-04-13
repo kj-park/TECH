@@ -15,7 +15,7 @@ default layout is...:
 
 # Image rendering in GitHub Pages
 
-![Transport Pipeline Overview](/Exchange/images/transport-pipeline-overview.png)
+![Transport Pipeline Overview]({{ site.url }}/Exchange/images/transport-pipeline-overview.png)
 
 ---
 
@@ -37,12 +37,12 @@ default layout is...:
 
 <!--- Reference Link --->
 
-[check]: /Tech/images/.icons/check.svg "check"
-[critical]: /Tech/images/.icons/critical.svg "critical"
-[failed]: /Tech/images/.icons/failed.svg "failed"
-[failure]: /Tech/images/.icons/failure.svg "failure"
-[Info]: /Tech/images/.icons/Info.svg "Info"
-[search]: /Tech/images/.icons/search.svg "search"
-[success]: /Tech/images/.icons/success.svg "success"
-[tag]: /Tech/images/.icons/tag.svg "tag"
-[warning]: /Tech/images/.icons/warning.svg "warning"
+[check]: {{ site.url }}/images/.icons/check.svg "check"
+[critical]: {{ site.url }}/images/.icons/critical.svg "critical"
+[failed]: {{ site.url }}/images/.icons/failed.svg "failed"
+[failure]: {{ site.url }}/images/.icons/failure.svg "failure"
+[Info]: {{ site.url }}/images/.icons/Info.svg "Info"
+[search]: {{ site.url }}/images/.icons/search.svg "search"
+[success]: {{ site.url }}/images/.icons/success.svg "success"
+[tag]: {{ site.url }}/images/.icons/tag.svg "tag"
+[warning]: {{ site.url }}/images/.icons/warning.svg "warning"
