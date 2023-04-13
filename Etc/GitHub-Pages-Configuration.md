@@ -21,7 +21,7 @@ default layout is...:
 
 > View: [Backup-ExchangeConfigFiles.ps1]({{ site.url }}/Exchange/src/Backup-ExchangeConfigFiles.ps1)
 
-> View: [windows-virtual-desktop-handbook-security-basic.pdf](https://github.com/kj-park/Tech/blob/main/ebooks/windows-virtual-desktop-handbook-security-basic.pdf)
+> View: [Azure Virtual Desktop Handbook: Security Fundamentals]({{ site.url }}/docs/Azure-Virtual-Desktop-Handbook---Security-Fundamentals.pdf)
 
 ---
 
