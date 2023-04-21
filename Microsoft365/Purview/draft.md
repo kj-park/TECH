@@ -65,14 +65,14 @@ AIP unified labeling client에서만 제공하는 추가 기능들은 다음과 
 
     아래 그림은 Labels을 만들거나 수정 시 Groups & Sites 가 Enable되어 선택할 수 있음을 보여주고 있습니다:
 
-    ![aip label scope groups and sites]({{ site.url }}/Tech/Microsoft365/images/Purview/aip-label-scope-groups-and-sites.png?raw=true)
+    ![aip label scope groups and sites]({{ site.url }}/Microsoft365/images/Purview/aip-label-scope-groups-and-sites.png?raw=true)
 
 ---
 
 
 ## Microsoft Purview Information Protection
 
-![purview compliance overview]({{ site.url }}/Tech/Microsoft365/images/Purview/purview-compliance-overview.svg?raw=true)
+![purview compliance overview]({{ site.url }}/Microsoft365/images/Purview/purview-compliance-overview.svg?raw=true)
 
 ### Know Your Data
 
@@ -116,7 +116,7 @@ https://docs.microsoft.com/en-us/microsoft-365/compliance/information-protection
 
 ## Manage Data Lifecycle & Records (Govern Your Data)
 
-![purview compliance overview]({{ site.url }}/Tech/Microsoft365/images/Purview/govern-your-data.png?raw=true)
+![purview compliance overview]({{ site.url }}/Microsoft365/images/Purview/govern-your-data.png?raw=true)
 
 ### Microsoft Purview Data Lifecycle Management
 

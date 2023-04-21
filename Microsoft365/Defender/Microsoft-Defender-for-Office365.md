@@ -16,9 +16,9 @@ Protect Email and Collaboration with Defender
 
 #### 사용자 환경 보호 과제
 
-![mdo-user-env-protection-challenge]({{ site.url }}/Tech/Microsoft365/images/Defender/mdo-user-env-protection-challenge-01.png?raw=true)
+![mdo-user-env-protection-challenge]({{ site.url }}/Microsoft365/images/Defender/mdo-user-env-protection-challenge-01.png?raw=true)
 
-![mdo-user-env-protection-challenge]({{ site.url }}/Tech/Microsoft365/images/Defender/mdo-user-env-protection-challenge-02.png?raw=true)
+![mdo-user-env-protection-challenge]({{ site.url }}/Microsoft365/images/Defender/mdo-user-env-protection-challenge-02.png?raw=true)
 
 <sup>1</sup> Verizon Data Breach Investigations Report  
 <sup>2</sup> Microsoft 2021 Digital Defense Report  
@@ -26,15 +26,15 @@ Protect Email and Collaboration with Defender
 
 #### 엔터프라이즈 보안에는 단순한 예방 이상의 기능이 필요
 
-![mdo-user-env-protection-challenge]({{ site.url }}/Tech/Microsoft365/images/Defender/mdo-user-env-protection-challenge-03.png?raw=true)
+![mdo-user-env-protection-challenge]({{ site.url }}/Microsoft365/images/Defender/mdo-user-env-protection-challenge-03.png?raw=true)
 
 #### Multi-Layered Protection Stack
 
-![mdo-user-env-protection-challenge]({{ site.url }}/Tech/Microsoft365/images/Defender/mdo-multi-layered-protection-stack.png?raw=true)
+![mdo-user-env-protection-challenge]({{ site.url }}/Microsoft365/images/Defender/mdo-multi-layered-protection-stack.png?raw=true)
 
 #### Microsoft 365 Zero Trust Architecture
 
-![mdo-m365-zero-trust-architecture]({{ site.url }}/Tech/Microsoft365/images/Defender/mdo-m365-zero-trust-architecture.png?raw=true)
+![mdo-m365-zero-trust-architecture]({{ site.url }}/Microsoft365/images/Defender/mdo-m365-zero-trust-architecture.png?raw=true)
 
 ---
 
@@ -42,7 +42,7 @@ Protect Email and Collaboration with Defender
 
 Office 365 Security는 조직의 Email messages 또는 Links(Urls), Collaboration tools에서 노출되는 악의적인 위협에 대한 보호를 제공합니다. 
 
-![mdo-subscription-plan]({{ site.url }}/Tech/Microsoft365/images/Defender/mdo-subscription-plan.png?raw=true)
+![mdo-subscription-plan]({{ site.url }}/Microsoft365/images/Defender/mdo-subscription-plan.png?raw=true)
 
 Microsoft Defender for Office 365 Plan 2 is included in Office 365 E5, Office 365 A5, and Microsoft 365 E5.
 
@@ -138,7 +138,7 @@ Automation, investigation, remediation, and education capabilities
 
 권장되는 모든 스팸, 맬웨어 및 피싱 정책을 한 번에 적용할 수 있습니다. 구성을 변경할 수 없으나 Microsoft의 데이터 센터의 관찰과 경험을 기반으로 설정하여 유해한 콘텐츠를 멀리 유지하는 것과 불필요한 중단을 방지하는 것 사이의 균형을 유지할 수 있습니다.
 
-![mdo-preset-security-policies.png]({{ site.url }}/Tech/Microsoft365/images/Defender/mdo-preset-security-policies.png?raw=true)
+![mdo-preset-security-policies.png]({{ site.url }}/Microsoft365/images/Defender/mdo-preset-security-policies.png?raw=true)
 
 - **Built-in Protection.** 악의적인 링크 및 첨부 파일로 부터 보호할 수 있게 조직의 모든 사용자들에게 적용됩니다.
 - **Standard Protection.** 스팸, 피싱 및 맬웨어 위협으로 부터 보호하는 기본 보호 프로필입니다.

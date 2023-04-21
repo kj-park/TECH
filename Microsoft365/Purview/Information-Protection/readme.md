@@ -8,11 +8,11 @@ ms.date: 2022.09.02
 
 
 
-![mip-solution-overview-extended]({{ site.url }}/Tech/Microsoft365/images/Purview/mip-solution-overview-extended.png?raw=true)
+![mip-solution-overview-extended]({{ site.url }}/Microsoft365/images/Purview/mip-solution-overview-extended.png?raw=true)
 
-![knowyourdata-mipsolution]({{ site.url }}/Tech/Microsoft365/images/Purview/knowyourdata-mipsolution.png?raw=true)
+![knowyourdata-mipsolution]({{ site.url }}/Microsoft365/images/Purview/knowyourdata-mipsolution.png?raw=true)
 
-![protect-mipsolution]({{ site.url }}/Tech/Microsoft365/images/Purview/protect-mipsolution.png?raw=true)
+![protect-mipsolution]({{ site.url }}/Microsoft365/images/Purview/protect-mipsolution.png?raw=true)
 
-![dlp-mipsolutio]({{ site.url }}/Tech/Microsoft365/images/Purview/dlp-mipsolution.png?raw=true)
+![dlp-mipsolutio]({{ site.url }}/Microsoft365/images/Purview/dlp-mipsolution.png?raw=true)
 

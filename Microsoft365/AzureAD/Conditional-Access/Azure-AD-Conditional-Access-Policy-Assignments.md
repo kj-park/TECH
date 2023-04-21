@@ -10,7 +10,7 @@ ms.date: 2012.05.06
 
 모든 사용자, 특정 사용자 그룹, 디렉터리 역할 또는 외부 게스트 사용자에 대한 사용자 및 그룹 할당을 기반으로 사용자 액세스를 제어
 
-![conditional-access-policy-assignments]({{ site.url }}/Tech/Microsoft365/images/AzureAD/conditional-access-policy-assignments-users-and-groups.svg?raw=true)
+![conditional-access-policy-assignments]({{ site.url }}/Microsoft365/images/AzureAD/conditional-access-policy-assignments-users-and-groups.svg?raw=true)
 
 
 ### Include
@@ -53,7 +53,7 @@ Cloud apps 또는 actions은 조건부 액세스 정책의 주요 신호에 속�
 - 관리자는 기본 제공되는 Microsoft 애플리케이션과 모든 [Azure AD integrated applications](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/what-is-application-management) (갤러리, 비갤러리 및 Application Proxy를 통해 게시된 Application 등)을 포함한 Application 목록에서 선택할 수 있습니다.
 관리자는 사용자 작업을 기반으로 하여 정책을 정의하도록 선택할 수 있습니다. 유일하게 지원되는 작업은 보안 정보 등록(미리 보기)입니다. 여기서는 조건부 액세스를 사용하여 결합된 보안 정보 등록 환경을 제어할 수 있습니다.
 
-![conditional-access-policy-assignments-cloud-apps-or-actions]({{ site.url }}/Tech/Microsoft365/images/AzureAD/conditional-access-policy-assignments-cloud-apps-or-actions.svg?raw=true)
+![conditional-access-policy-assignments-cloud-apps-or-actions]({{ site.url }}/Microsoft365/images/AzureAD/conditional-access-policy-assignments-cloud-apps-or-actions.svg?raw=true)
 
 ### Cloud apps
 
@@ -119,7 +119,7 @@ https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/conce
     - SSPR registration enforced
     - SSPR refresh enforced
     
-    ![combined-security-info-flow-chart]({{ site.url }}/Tech/Microsoft365/images/AzureAD/combined-security-info-flow-chart.png?raw=true)
+    ![combined-security-info-flow-chart]({{ site.url }}/Microsoft365/images/AzureAD/combined-security-info-flow-chart.png?raw=true)
 
 - **Manage mode.** part of the user profile
 
@@ -134,14 +134,14 @@ https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/conce
 
 ## Assignments: Conditions
 
-![conditional-access-policy-assignments-conditions]({{ site.url }}/Tech/Microsoft365/images/AzureAD/conditional-access-policy-assignments-conditions.svg?raw=true)
+![conditional-access-policy-assignments-conditions]({{ site.url }}/Microsoft365/images/AzureAD/conditional-access-policy-assignments-conditions.svg?raw=true)
 
 
 ### User Risk
 
 [Identity Protection](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/overview-identity-protection)에 대 한 액세스 권한이 있는 고객의 경우 조건부 액세스 정책의 일부로 사용자 위험을 평가할 수 있음.  사용자 위험은 지정된 ID 또는 계정이 손상될 확률을 나타냄.
 
-![identity-protection-user-risk-policy]({{ site.url }}/Tech/Microsoft365/images/AzureAD/identity-protection-user-risk-policy.svg?raw=true)
+![identity-protection-user-risk-policy]({{ site.url }}/Microsoft365/images/AzureAD/identity-protection-user-risk-policy.svg?raw=true)
 
 > [!NOTE]
 > **참고:** [What is risk](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/concept-identity-protection-risks#user-risk) 및 [How To: Configure and enable risk policies](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/howto-identity-protection-configure-risk-policies).
@@ -150,33 +150,33 @@ https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/conce
 
 [Identity Protection](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/overview-identity-protection)에 대 한 액세스 권한이 있는 고객의 경우 조건부 액세스 정책의 일부로 로그인 위험을 평가할 수 있음.
 
-![identity-protection-sign-in-risk-policy]({{ site.url }}/Tech/Microsoft365/images/AzureAD/identity-protection-sign-in-risk-policy.svg?raw=true)
+![identity-protection-sign-in-risk-policy]({{ site.url }}/Microsoft365/images/AzureAD/identity-protection-sign-in-risk-policy.svg?raw=true)
 
 > [!NOTE]
 > **참고:** [What is risk](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/concept-identity-protection-risks#user-risk) 및 [How To: Configure and enable risk policies](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/howto-identity-protection-configure-risk-policies).
 
 ### Device Platforms
 
-![conditional-access-policy-assignments-conditions-device-platforms]({{ site.url }}/Tech/Microsoft365/images/AzureAD/conditional-access-policy-assignments-conditions-device-platforms.svg?raw=true)
+![conditional-access-policy-assignments-conditions-device-platforms]({{ site.url }}/Microsoft365/images/AzureAD/conditional-access-policy-assignments-conditions-device-platforms.svg?raw=true)
 
 ### Locations
 
-![conditional-access-policy-assignments-conditions-locations]({{ site.url }}/Tech/Microsoft365/images/conditional-access-policy-assignments-conditions-locations.svg?raw=true)
+![conditional-access-policy-assignments-conditions-locations]({{ site.url }}/Microsoft365/images/conditional-access-policy-assignments-conditions-locations.svg?raw=true)
 
 #### Named Locations
 
-![conditional-access-policy-management-named-locations]({{ site.url }}/Tech/Microsoft365/images/AzureAD/conditional-access-policy-management-named-locations.svg?raw=true)
+![conditional-access-policy-management-named-locations]({{ site.url }}/Microsoft365/images/AzureAD/conditional-access-policy-management-named-locations.svg?raw=true)
 
 #### Multi-Factor Authentication (MFA trusted IPs)
 
-![conditional-access-policy-management-named-locations-mfa-trusted]({{ site.url }}/Tech/Microsoft365/images/AzureAD/conditional-access-policy-management-named-locations-mfa-trusted.svg?raw=true)
+![conditional-access-policy-management-named-locations-mfa-trusted]({{ site.url }}/Microsoft365/images/AzureAD/conditional-access-policy-management-named-locations-mfa-trusted.svg?raw=true)
 
 ### Client Apps
 
-![conditional-access-policy-assignments-conditions-client-apps]({{ site.url }}/Tech/Microsoft365/images/AzureAD/conditional-access-policy-assignments-conditions-client-apps.svg?raw=true)
+![conditional-access-policy-assignments-conditions-client-apps]({{ site.url }}/Microsoft365/images/AzureAD/conditional-access-policy-assignments-conditions-client-apps.svg?raw=true)
 
 ### Device state (Preview)
 
-![conditional-access-policy-assignments-conditions-device-state]({{ site.url }}/Tech/Microsoft365/images/AzureAD/conditional-access-policy-assignments-conditions-device-state.svg?raw=true)
+![conditional-access-policy-assignments-conditions-device-state]({{ site.url }}/Microsoft365/images/AzureAD/conditional-access-policy-assignments-conditions-device-state.svg?raw=true)
 
 ---

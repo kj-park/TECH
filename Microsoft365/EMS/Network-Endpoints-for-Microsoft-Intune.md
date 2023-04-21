@@ -50,7 +50,7 @@ PowerShell Script 또는 Win32 Apps 배포에 Intune을 사용한다면 테넌�
 
 MDM에서 관리되는 Windows의 장치 action 또는 즉각적인 activites를 위하여 Windows Push Notification Services (WNS)를 사용합니다.
 
-{{ site.url }}/Tech/Microsoft365/images/WNSPublicIPs_2021_09_28.xml?raw=true
+{{ site.url }}/Microsoft365/images/WNSPublicIPs_2021_09_28.xml?raw=true
 
 ---
 

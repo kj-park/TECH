@@ -9,7 +9,7 @@ ms.date: 2012.04.29
 
 
 
-![AAD-Connect-Accounts]({{ site.url }}/Tech/Microsoft365/images/Hybrid/AAD-Connect-Accounts.png?raw=true)
+![AAD-Connect-Accounts]({{ site.url }}/Microsoft365/images/Hybrid/AAD-Connect-Accounts.png?raw=true)
 
 | Account | Description |
 |--|--|
@@ -20,7 +20,7 @@ ms.date: 2012.04.29
 
 ## Changing the AD DS account password
 
-![AAD-connector-adds-account-password]({{ site.url }}/Tech/Microsoft365/images/Hybrid/AAD-connector-adds-account-password.png?raw=true)
+![AAD-connector-adds-account-password]({{ site.url }}/Microsoft365/images/Hybrid/AAD-connector-adds-account-password.png?raw=true)
 
 ## Changing the ADSync service account password
 

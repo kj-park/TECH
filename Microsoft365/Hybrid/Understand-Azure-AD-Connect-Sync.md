@@ -12,7 +12,7 @@ ms.date: 2022.04.12
 
 동기화 엔진은 연결된 여러 데이터 원본에 저장된 개체의 통합된 보기를 만들고 해당 데이터 원본에서 ID 정보를 관리합니다. 이 통합된 보기는 연결된 데이터 원본에서 검색된 ID 정보와 이 정보를 처리하는 방법을 결정하는 규칙 집합에 의해 결정됩니다.
 
-![aadc-sync-arch]({{ site.url }}/Tech/Microsoft365/images/Hybrid/aadc-sync-arch.png?raw=true)
+![aadc-sync-arch]({{ site.url }}/Microsoft365/images/Hybrid/aadc-sync-arch.png?raw=true)
 
 ### Connected Data Source
 
@@ -64,7 +64,7 @@ Identity Management는 아래의 3 가지 processes에서 발생합니다:
 
 - **Export.** 동기화 엔진은 staging 개체에서 준비된 변경 내용을 푸시합니다.
 
-![aadc-sync-process]({{ site.url }}/Tech/Microsoft365/images/Hybrid/aadc-sync-process.png?raw=true)
+![aadc-sync-process]({{ site.url }}/Microsoft365/images/Hybrid/aadc-sync-process.png?raw=true)
 
 ---
 
@@ -72,11 +72,11 @@ Identity Management는 아래의 3 가지 processes에서 발생합니다:
 
 Declarative Provisioning은 연결된 원본 디렉터리에서 들어오는 개체를 처리하고 개체 및 특성이 원본에서 대상으로 변환되는 방법을 결정합니다. 개체는 동기화 파이프라인에서 처리되고 파이프라인은 <kbd>**inbound rules**</kbd> 및 <kbd>**outbound rules**</kbd>에 동일합니다.
 
-![aadc-sync-provisioning-001]({{ site.url }}/Tech/Microsoft365/images/Hybrid/aadc-sync-provisioning-001.png?raw=true)
+![aadc-sync-provisioning-001]({{ site.url }}/Microsoft365/images/Hybrid/aadc-sync-provisioning-001.png?raw=true)
 
 파이프라인에는 여러 다른 모듈이 있습니다. 각 모듈은 동기화 개체에서 한 가지 개념을 담당합니다.
 
-![aadc-sync-provisioning-002]({{ site.url }}/Tech/Microsoft365/images/Hybrid/aadc-sync-provisioning-002.png?raw=true)
+![aadc-sync-provisioning-002]({{ site.url }}/Microsoft365/images/Hybrid/aadc-sync-provisioning-002.png?raw=true)
 
 - **Source.** The source object
 - **Scope.** Finds all sync rules that are in scope
@@ -88,13 +88,13 @@ Declarative Provisioning은 연결된 원본 디렉터리에서 들어오는 개
 ### Synchronization rule
 
 
-![aadc-sync-rule-001]({{ site.url }}/Tech/Microsoft365/images/Hybrid/aadc-sync-rule-001.png?raw=true)
+![aadc-sync-rule-001]({{ site.url }}/Microsoft365/images/Hybrid/aadc-sync-rule-001.png?raw=true)
 
-![aadc-sync-rule-002]({{ site.url }}/Tech/Microsoft365/images/Hybrid/aadc-sync-rule-002.png?raw=true)
+![aadc-sync-rule-002]({{ site.url }}/Microsoft365/images/Hybrid/aadc-sync-rule-002.png?raw=true)
 
-![aadc-sync-rule-003]({{ site.url }}/Tech/Microsoft365/images/Hybrid/aadc-sync-rule-003.png?raw=true)
+![aadc-sync-rule-003]({{ site.url }}/Microsoft365/images/Hybrid/aadc-sync-rule-003.png?raw=true)
 
-![aadc-sync-rule-004]({{ site.url }}/Tech/Microsoft365/images/Hybrid/aadc-sync-rule-004.png?raw=true)
+![aadc-sync-rule-004]({{ site.url }}/Microsoft365/images/Hybrid/aadc-sync-rule-004.png?raw=true)
 
 ---
 
@@ -113,7 +113,7 @@ Azure AD Connect 동기화는 Forefront Identity Manager 2010에 처음 도입�
 
 **Name:** In from AD – User UsageLocation(MsExchUsageLocation) 
 
-![aadc-sync-rule-005]({{ site.url }}/Tech/Microsoft365/images/Hybrid/aadc-sync-rule-005.png?raw=true)
+![aadc-sync-rule-005]({{ site.url }}/Microsoft365/images/Hybrid/aadc-sync-rule-005.png?raw=true)
 
 
 ```powershell

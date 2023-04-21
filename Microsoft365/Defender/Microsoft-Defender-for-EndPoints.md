@@ -9,4 +9,4 @@ ms.date: 2022.08.11
 
 
 
-![defender-for-endpoint]({{ site.url }}/Tech/Microsoft365/images/Defender/defender-for-endpoint.svg?raw=true)
+![defender-for-endpoint]({{ site.url }}/Microsoft365/images/Defender/defender-for-endpoint.svg?raw=true)
