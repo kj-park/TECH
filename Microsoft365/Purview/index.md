@@ -1,7 +1,8 @@
 ---
-title: Microsoft Purview
-filename: Microsoft365\Purview\readme.md
-ms.date: 2022.06.30
+layout: default
+title: [Microsoft 365 Purview]
+filename: Microsoft365/Purview/index.md
+ms.date: 2023.04.20
 ---
 
 # Microsoft Purview

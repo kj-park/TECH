@@ -1,7 +1,8 @@
 ---
-title: Microsoft 365 Defender
-filename: Microsoft365\Defender\readme.md
-ms.date: 2022.08.11
+layout: default
+title: [Microsoft 365 Defender]
+filename: Microsoft365/Defender/index.md
+ms.date: 2023.04.20
 ---
 
 # Microsoft 365 Defender
