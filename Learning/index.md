@@ -1,5 +1,8 @@
 ---
 layout: default
+title: [Learning]
+filename: Learning/index.md
+ms.date: 2023.04.20
 ---
 
 # Learning

@@ -1,7 +1,8 @@
 ---
-title: Exchange
-filename: Exchange/readme.md
-ms.date: 2021.04.01
+layout: default
+title: [Exchange]
+filename: Exchange/index.md
+ms.date: 2023.04.20
 ---
 
 # Exchange
