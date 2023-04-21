@@ -8,7 +8,7 @@ ms.date: 2022.07.12
 
 ## Microsoft Purview Information Protection
 
-![purview compliance overview](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Purview/purview-compliance-overview.svg?raw=true)
+![purview compliance overview]({{ site.url }}/Tech/Microsoft365/images/Purview/purview-compliance-overview.svg?raw=true)
 
 ### Know Your Data
 
@@ -52,7 +52,7 @@ https://docs.microsoft.com/en-us/microsoft-365/compliance/information-protection
 
 ## Manage Data Lifecycle & Records (Govern Your Data)
 
-![purview compliance overview](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Purview/govern-your-data.png?raw=true)
+![purview compliance overview]({{ site.url }}/Tech/Microsoft365/images/Purview/govern-your-data.png?raw=true)
 
 ### Microsoft Purview Data Lifecycle Management
 

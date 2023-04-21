@@ -19,7 +19,7 @@ Announced Skype for Business Online will be retired on July 31, 2021.
 
 ## About the upgrade framework
 
-![About the upgrade framework](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Teams/upgrade-banner-main.png?raw=true)
+![About the upgrade framework]({{ site.url }}/Tech/Microsoft365/images/Teams/upgrade-banner-main.png?raw=true)
 
 
 ### Pre-upgrade: Prepare your organization for Teams

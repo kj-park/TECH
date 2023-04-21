@@ -11,7 +11,7 @@ Install Type은 아래와 같습니다:
 - Express Installation
 - Custom Installation
 
-![AAD-Connector-Install-type](https://github.com/kj-park/Tech/blob/main/Microsoft365/media/Hybrid/AAD-Connector-Install-type.png?raw=true)
+![AAD-Connector-Install-type]({{ site.url }}/Tech/Microsoft365/images/Hybrid/AAD-Connector-Install-type.png?raw=true)
 
 ---
 
@@ -101,43 +101,43 @@ Express Install은 아래의 옵션으로 구성:
 
 The customized path allows many more options than express.
 
-![AAD-Connector-custom-Install-001](https://github.com/kj-park/Tech/blob/main/Microsoft365/media/Hybrid/AAD-Connector-custom-Install-001.png?raw=true)
+![AAD-Connector-custom-Install-001]({{ site.url }}/Tech/Microsoft365/images/Hybrid/AAD-Connector-custom-Install-001.png?raw=true)
 
-![AAD-Connector-custom-Install-002](https://github.com/kj-park/Tech/blob/main/Microsoft365/media/Hybrid/AAD-Connector-custom-Install-002.png?raw=true)
+![AAD-Connector-custom-Install-002]({{ site.url }}/Tech/Microsoft365/images/Hybrid/AAD-Connector-custom-Install-002.png?raw=true)
 
-![AAD-Connector-custom-Install-003](https://github.com/kj-park/Tech/blob/main/Microsoft365/media/Hybrid/AAD-Connector-custom-Install-003.png?raw=true)
+![AAD-Connector-custom-Install-003]({{ site.url }}/Tech/Microsoft365/images/Hybrid/AAD-Connector-custom-Install-003.png?raw=true)
 
-![AAD-Connector-custom-Install-004](https://github.com/kj-park/Tech/blob/main/Microsoft365/media/Hybrid/AAD-Connector-custom-Install-004.png?raw=true)
+![AAD-Connector-custom-Install-004]({{ site.url }}/Tech/Microsoft365/images/Hybrid/AAD-Connector-custom-Install-004.png?raw=true)
 
-![AAD-Connector-custom-Install-005](https://github.com/kj-park/Tech/blob/main/Microsoft365/media/Hybrid/AAD-Connector-custom-Install-005.png?raw=true)
+![AAD-Connector-custom-Install-005]({{ site.url }}/Tech/Microsoft365/images/Hybrid/AAD-Connector-custom-Install-005.png?raw=true)
 
-![AAD-Connector-custom-Install-006](https://github.com/kj-park/Tech/blob/main/Microsoft365/media/Hybrid/AAD-Connector-custom-Install-006.png?raw=true)
+![AAD-Connector-custom-Install-006]({{ site.url }}/Tech/Microsoft365/images/Hybrid/AAD-Connector-custom-Install-006.png?raw=true)
 
-![AAD-Connector-custom-Install-007](https://github.com/kj-park/Tech/blob/main/Microsoft365/media/Hybrid/AAD-Connector-custom-Install-007.png?raw=true)
+![AAD-Connector-custom-Install-007]({{ site.url }}/Tech/Microsoft365/images/Hybrid/AAD-Connector-custom-Install-007.png?raw=true)
 
-![AAD-Connector-custom-Install-008](https://github.com/kj-park/Tech/blob/main/Microsoft365/media/Hybrid/AAD-Connector-custom-Install-008.png?raw=true)
+![AAD-Connector-custom-Install-008]({{ site.url }}/Tech/Microsoft365/images/Hybrid/AAD-Connector-custom-Install-008.png?raw=true)
 
-![AAD-Connector-custom-Install-009](https://github.com/kj-park/Tech/blob/main/Microsoft365/media/Hybrid/AAD-Connector-custom-Install-009.png?raw=true)
+![AAD-Connector-custom-Install-009]({{ site.url }}/Tech/Microsoft365/images/Hybrid/AAD-Connector-custom-Install-009.png?raw=true)
 
-![AAD-Connector-custom-Install-010](https://github.com/kj-park/Tech/blob/main/Microsoft365/media/Hybrid/AAD-Connector-custom-Install-010.png?raw=true)
+![AAD-Connector-custom-Install-010]({{ site.url }}/Tech/Microsoft365/images/Hybrid/AAD-Connector-custom-Install-010.png?raw=true)
 
-![AAD-Connector-custom-Install-011](https://github.com/kj-park/Tech/blob/main/Microsoft365/media/Hybrid/AAD-Connector-custom-Install-011.png?raw=true)
+![AAD-Connector-custom-Install-011]({{ site.url }}/Tech/Microsoft365/images/Hybrid/AAD-Connector-custom-Install-011.png?raw=true)
 
-![AAD-Connector-custom-Install-012](https://github.com/kj-park/Tech/blob/main/Microsoft365/media/Hybrid/AAD-Connector-custom-Install-012.png?raw=true)
+![AAD-Connector-custom-Install-012]({{ site.url }}/Tech/Microsoft365/images/Hybrid/AAD-Connector-custom-Install-012.png?raw=true)
 
-![AAD-Connector-custom-Install-013](https://github.com/kj-park/Tech/blob/main/Microsoft365/media/Hybrid/AAD-Connector-custom-Install-013.png?raw=true)
+![AAD-Connector-custom-Install-013]({{ site.url }}/Tech/Microsoft365/images/Hybrid/AAD-Connector-custom-Install-013.png?raw=true)
 
-![AAD-Connector-custom-Install-014](https://github.com/kj-park/Tech/blob/main/Microsoft365/media/Hybrid/AAD-Connector-custom-Install-014.png?raw=true)
+![AAD-Connector-custom-Install-014]({{ site.url }}/Tech/Microsoft365/images/Hybrid/AAD-Connector-custom-Install-014.png?raw=true)
 
-![AAD-Connector-custom-Install-015](https://github.com/kj-park/Tech/blob/main/Microsoft365/media/Hybrid/AAD-Connector-custom-Install-015.png?raw=true)
+![AAD-Connector-custom-Install-015]({{ site.url }}/Tech/Microsoft365/images/Hybrid/AAD-Connector-custom-Install-015.png?raw=true)
 
-![AAD-Connector-custom-Install-016](https://github.com/kj-park/Tech/blob/main/Microsoft365/media/Hybrid/AAD-Connector-custom-Install-016.png?raw=true)
+![AAD-Connector-custom-Install-016]({{ site.url }}/Tech/Microsoft365/images/Hybrid/AAD-Connector-custom-Install-016.png?raw=true)
 
-![AAD-Connector-custom-Install-017](https://github.com/kj-park/Tech/blob/main/Microsoft365/media/Hybrid/AAD-Connector-custom-Install-017.png?raw=true)
+![AAD-Connector-custom-Install-017]({{ site.url }}/Tech/Microsoft365/images/Hybrid/AAD-Connector-custom-Install-017.png?raw=true)
 
-![AAD-Connector-custom-Install-018](https://github.com/kj-park/Tech/blob/main/Microsoft365/media/Hybrid/AAD-Connector-custom-Install-018.png?raw=true)
+![AAD-Connector-custom-Install-018]({{ site.url }}/Tech/Microsoft365/images/Hybrid/AAD-Connector-custom-Install-018.png?raw=true)
 
-![AAD-Connector-custom-Install-019](https://github.com/kj-park/Tech/blob/main/Microsoft365/media/Hybrid/AAD-Connector-custom-Install-019.png?raw=true)
+![AAD-Connector-custom-Install-019]({{ site.url }}/Tech/Microsoft365/images/Hybrid/AAD-Connector-custom-Install-019.png?raw=true)
 
 ### Azure AD Connect Sync Permissions Assign
 

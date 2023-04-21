@@ -10,7 +10,7 @@ Modern 보안 경계는 조직의 네트워크를 넘어 사용자 와 장치의
 
 조직은 이런 Identity Signals 기반의 접근제어를 할 수 있음.
 
-![conditional-access-signal-decision-enforcement](https://github.com/kj-park/Tech/blob/main/Microsoft365/media/AzureAD/conditional-access-signal-decision-enforcement.png?raw=true)
+![conditional-access-signal-decision-enforcement]({{ site.url }}/Tech/Microsoft365/images/AzureAD/conditional-access-signal-decision-enforcement.png?raw=true)
 
 관리자는 아래의 두 가지 주요 목표에 직면합니다:
 
@@ -19,7 +19,7 @@ Modern 보안 경계는 조직의 네트워크를 넘어 사용자 와 장치의
 
 조건부 액세스 정책을 사용하면 필요할 때 적절한 액세스 제어를 적용하여 조직의 보안을 유지할 수 있습니다.
 
-![conditional-access-overview-how-it-works](https://github.com/kj-park/Tech/blob/main/Microsoft365/media/AzureAD/conditional-access-overview-how-it-works.png?raw=true)
+![conditional-access-overview-how-it-works]({{ site.url }}/Tech/Microsoft365/images/AzureAD/conditional-access-overview-how-it-works.png?raw=true)
 
 > [!IMPORTANT]
 > 조건부 액세스 정책은 1단계 인증이 완료된 후에 적용

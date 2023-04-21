@@ -30,19 +30,19 @@ Intune에 등록된 Windows들에 대하여 Microsoft Edge에 대한 Defender Sm
 
 ### MEM Device Configuration Profile (**Device Restriction Type**)
 
-![mem-win-config-device-restrict-defender-smartscreen-Profile](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Defender/mem-win-config-device-restrict-defender-smartscreen-Profile.png?raw=true)
+![mem-win-config-device-restrict-defender-smartscreen-Profile]({{ site.url }}/Tech/Microsoft365/images/Defender/mem-win-config-device-restrict-defender-smartscreen-Profile.png?raw=true)
 
 
 ### MEM Endpoint Security Attack Surface Reduction Profile (**Web Protection Type**)
 
-![mem-win-endpointsecurity-ASR-webprotection-defender-smartscreen-profile](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Defender/mem-win-endpointsecurity-ASR-webprotection-defender-smartscreen-profile.png?raw=true)
+![mem-win-endpointsecurity-ASR-webprotection-defender-smartscreen-profile]({{ site.url }}/Tech/Microsoft365/images/Defender/mem-win-endpointsecurity-ASR-webprotection-defender-smartscreen-profile.png?raw=true)
 
 
 ### MEM Device Configuration Profile (**Administrative Templates Type**)
 
-![mem-win-config-admx-computer-defender-smartscreen-Profile](https://github.com/kj-park/tech/blob/main/Microsoft365/media/mem-win-config-admx-computer-defender-smartscreen-Profile.png?raw=true)
+![mem-win-config-admx-computer-defender-smartscreen-Profile]({{ site.url }}/Tech/Microsoft365/images/mem-win-config-admx-computer-defender-smartscreen-Profile.png?raw=true)
 
-![mem-win-config-admx-computer-defender-smartscreen-detailsettings](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Defender/mem-win-config-admx-computer-defender-smartscreen-detailsettings.png?raw=true)
+![mem-win-config-admx-computer-defender-smartscreen-detailsettings]({{ site.url }}/Tech/Microsoft365/images/Defender/mem-win-config-admx-computer-defender-smartscreen-detailsettings.png?raw=true)
 
 ---
 
@@ -50,22 +50,22 @@ Intune에 등록된 Windows들에 대하여 Microsoft Edge에 대한 Defender Sm
 
 **Microsoft Edge Legacy**에서 Defender SmartScreen 설정은 **Windows Security** 설정 창의 **앱 및 브라우저 컨트롤**의 **평판 기반 보호** 항목에서 확인할 수 있습니다:
 
-![mem-win-config-device-restrict-defender-smartscreen-windowssecurity](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Defender/mem-win-config-device-restrict-defender-smartscreen-windowssecurity.png?raw=true)
+![mem-win-config-device-restrict-defender-smartscreen-windowssecurity]({{ site.url }}/Tech/Microsoft365/images/Defender/mem-win-config-device-restrict-defender-smartscreen-windowssecurity.png?raw=true)
 
 또한, Microsoft Edge Legacy에서는 **설정**의 **업데이트 및 보안** 항목에서 확인할 수 있습니다:
-![mem-win-config-device-restrict-defender-smartscreen-edgelegacy](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Defender/mem-win-config-device-restrict-defender-smartscreen-edgelegacy.png?raw=true)
+![mem-win-config-device-restrict-defender-smartscreen-edgelegacy]({{ site.url }}/Tech/Microsoft365/images/Defender/mem-win-config-device-restrict-defender-smartscreen-edgelegacy.png?raw=true)
 
 **Microsoft Edge** current version에서 Defender SmartScreen 설정은 **[개인 정보, 검색 및 서비스](edge://settings/privacy)**의 **보안** 항목에서 확인할 수 있습니다:
 
-![Edge-Defender-SmartScreen-enable](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Defender/Edge-Defender-SmartScreen-enable.png?raw=true)
+![Edge-Defender-SmartScreen-enable]({{ site.url }}/Tech/Microsoft365/images/Defender/Edge-Defender-SmartScreen-enable.png?raw=true)
 
 정책이 적용된 경우 아래 그림과 같이 **Microsoft Defender SmartScreen** 설정 항목이 켜진 상태로 변경하지 못하게 비활성화되어 있습니다:
 
-![mem-win-config-device-restrict-defender-smartscreen-edge](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Defender/mem-win-config-device-restrict-defender-smartscreen-edge.png?raw=true)
+![mem-win-config-device-restrict-defender-smartscreen-edge]({{ site.url }}/Tech/Microsoft365/images/Defender/mem-win-config-device-restrict-defender-smartscreen-edge.png?raw=true)
 
 Microsoft Edge에서 적용된 세부 정책의 확인은 **[정책](edge://policy/)**에서 확인할 수 있습니다:
 
-![Edge-Policies](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Defender/Edge-Policies.png?raw=true)
+![Edge-Policies]({{ site.url }}/Tech/Microsoft365/images/Defender/Edge-Policies.png?raw=true)
 
 ### SmartScreen이 어떻게 보호하나요?
 
@@ -80,18 +80,18 @@ Microsoft Edge에서 적용된 세부 정책의 확인은 **[정책](edge://poli
 
 | 분류 | Edge Action | Description |
 |--|--|--|
-| Suspicious Phishing Site | ![smartscreen-on-edge-phishing-suspicious](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Defender/smartscreen-on-edge-phishing-suspicious.png?raw=true) |  |
-| Known Phishing Site  | ![smartscreen-on-edge-phishing](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Defender/smartscreen-on-edge-phishing.png?raw=true) |  |
-| Malware Site | ![smartscreen-on-edge-malware-site](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Defender/smartscreen-on-edge-malware-site.png?raw=true) |  |
-| Blocked Download | ![smartscreen-on-edge-blocked-download](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Defender/smartscreen-on-edge-blocked-download.png?raw=true) |  |
-| Contain malicious frame site | ![smartscreen-on-edge-malicious-frame](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Defender/smartscreen-on-edge-malicious-frame.png?raw=true) |  |
-| Unknown Download | ![smartscreen-on-edge-unknown-download](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Defender/smartscreen-on-edge-unknown-download.png?raw=true) |  |
-| Known Malware Download | ![smartscreen-on-edge-known-malware-download](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Defender/smartscreen-on-edge-known-malware-download.png?raw=true) |  |
+| Suspicious Phishing Site | ![smartscreen-on-edge-phishing-suspicious]({{ site.url }}/Tech/Microsoft365/images/Defender/smartscreen-on-edge-phishing-suspicious.png?raw=true) |  |
+| Known Phishing Site  | ![smartscreen-on-edge-phishing]({{ site.url }}/Tech/Microsoft365/images/Defender/smartscreen-on-edge-phishing.png?raw=true) |  |
+| Malware Site | ![smartscreen-on-edge-malware-site]({{ site.url }}/Tech/Microsoft365/images/Defender/smartscreen-on-edge-malware-site.png?raw=true) |  |
+| Blocked Download | ![smartscreen-on-edge-blocked-download]({{ site.url }}/Tech/Microsoft365/images/Defender/smartscreen-on-edge-blocked-download.png?raw=true) |  |
+| Contain malicious frame site | ![smartscreen-on-edge-malicious-frame]({{ site.url }}/Tech/Microsoft365/images/Defender/smartscreen-on-edge-malicious-frame.png?raw=true) |  |
+| Unknown Download | ![smartscreen-on-edge-unknown-download]({{ site.url }}/Tech/Microsoft365/images/Defender/smartscreen-on-edge-unknown-download.png?raw=true) |  |
+| Known Malware Download | ![smartscreen-on-edge-known-malware-download]({{ site.url }}/Tech/Microsoft365/images/Defender/smartscreen-on-edge-known-malware-download.png?raw=true) |  |
 
 | 분류 | Edge Action | Description |
 |--|--|--|
-| Block URL by Web Content Filtering | ![smartscreen-on-edge-web-content-filtering-01](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Defender/smartscreen-on-edge-web-content-filtering-01.png?raw=true) |  |
-| Block URL by Web Content Filtering detail | ![smartscreen-on-edge-web-content-filtering-02](https://github.com/kj-park/tech/blob/main/Microsoft365/media/Defender/smartscreen-on-edge-web-content-filtering-02.png?raw=true) |  |
+| Block URL by Web Content Filtering | ![smartscreen-on-edge-web-content-filtering-01]({{ site.url }}/Tech/Microsoft365/images/Defender/smartscreen-on-edge-web-content-filtering-01.png?raw=true) |  |
+| Block URL by Web Content Filtering detail | ![smartscreen-on-edge-web-content-filtering-02]({{ site.url }}/Tech/Microsoft365/images/Defender/smartscreen-on-edge-web-content-filtering-02.png?raw=true) |  |
 
 #### Web Content Filtering in Defender for Endpoint
 
