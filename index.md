@@ -8,7 +8,6 @@ ms.date: 2023.04.20
 # Table of Contents
 
 - [Microsoft 365](Microsoft365)
-
     - [Microsoft 365 Overview](Microsoft365/Overview)
     - [Hybrid Configuration](Microsoft365/Hybrid)
     - [Azure Active Directory](Microsoft365/AzureAD)
