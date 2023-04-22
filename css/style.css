@@ -1065,6 +1065,5 @@ ul {
 }
 
 ul ul {
-  padding-left: 10;
-  margin: auto;
+  padding: 1em;
 }
