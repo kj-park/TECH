@@ -1,10 +1,11 @@
 ﻿---
-title: 엔터프라이즈용 Microsoft 365 앱
-filename: Microsoft365\Microsoft-365-apps-for-enterpise.md
-ms.date: 2022.05.02
+layout: default
+title: [Microsoft 365 apps for Enterprise]
+filename: Microsoft365/Overview/Microsoft-365-apps-for-enterprise.md
+ms.date: 2023.04.20
 ---
 
-# 엔터프라이즈용 Microsoft 365 앱
+# Microsoft 365 apps for Enterprise
 
 엔터프라이즈용 Microsoft 365 앱은 가장 생산적이고 가장 안전한 엔터프라이즈용 Office 환경으로, 팀이 언제 어디서나 원활하게 작업할 수 있도록 합니다.
 
@@ -102,3 +103,12 @@ EOP 맬웨어 방지, 스팸 방지*1
 
 Word, Excel, PowerPoint, Outlook에 중요도 라벨 추가
 
+---
+
+## Recommended content
+
+- [Microsoft 365  for Enterprise Overview](/Overview)
+
+- [Microsoft 365 E3 Overview](/Overview/Microsoft-365-E3-Overview)
+
+- [Microsoft 365 E5 Overview](/Overview/Microsoft-365-E5-Overview)

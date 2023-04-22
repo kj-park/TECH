@@ -46,3 +46,13 @@ Stay connected and get more done with intelligent apps and experiences, integrat
 
 
 
+
+---
+
+## Recommended content
+
+- [Microsoft 365  for Enterprise Overview](/Overview)
+
+- [Microsoft 365 E3 Overview](/Overview/Microsoft-365-E3-Overview)
+
+- [Microsoft 365 apps for Enterprise](/Overview/Microsoft-365-apps-for-enterpise)

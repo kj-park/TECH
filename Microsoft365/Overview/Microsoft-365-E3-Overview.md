@@ -1,10 +1,11 @@
 ﻿---
-title: Microsoft 365 E3 살펴보기
-filename: Microsoft365\Microsoft-365-E3-Overview-ko.md
-ms.date: 2022.07.25
+layout: default
+title: [Microsoft 365 E3 Overview]
+filename: Microsoft365/Overview/Microsoft-365-E3-Overview.md
+ms.date: 2023.04.20
 ---
 
-# Microsoft 365 E3 살펴보기
+# Microsoft 365 E3 Overview
 
 Microsoft 365 E3는 핵심 보안 및 규정 준수 기능과 함께 동급 최고의 생산성 응용 프로그램을 가지고 있습니다.
 
@@ -42,7 +43,7 @@ Microsoft 365 E3는 핵심 보안 및 규정 준수 기능과 함께 동급 최�
 세련된 통화 기능과 모임, 채팅, 콘텐츠 및 통화용 중앙 허브를 통해 차원 높은 모임 환경을 제공하세요.
 
 - Microsoft Teams
-- ~~전화 시스템, 오디오 회의~~
+- ~~전화 시스템, 오디오 회의~~ (included in E5)
 
 ## 디바이스 및 앱 관리
 
@@ -97,7 +98,7 @@ Microsoft 365 E3는 핵심 보안 및 규정 준수 기능과 함께 동급 최�
 
 - Windows Hello, Credential Guard 및 Direct Access
 - Azure Active Directory Premium 플랜 1
-- ~~Azure Active Directory Premium 플랜 2~~
+- ~~Azure Active Directory Premium 플랜 2~~ (included in E5)
 
 ## 위협 방지
 
@@ -105,11 +106,11 @@ Microsoft 365 E3는 핵심 보안 및 규정 준수 기능과 함께 동급 최�
 
 - Microsoft Advanced Threat Analytics
 - Microsoft Defender Defender 바이러스 백신 및 Device Guard
-- ~~Microsoft 365 Defender~~
+- ~~Microsoft 365 Defender~~ (included in E5)
 - 엔드포인트용 Microsoft Defender P1
-- ~~엔드포인트용 Microsoft Defender P2~~
-- ~~Office 365용 Microsoft Defender~~
-- ~~Microsoft Defender for Identity~~
+- ~~엔드포인트용 Microsoft Defender P2~~ (included in E5)
+- ~~Office 365용 Microsoft Defender~~ (included in E5)
+- ~~Microsoft Defender for Identity~~ (included in E5)
 
 ## 정보 보호
 
@@ -118,7 +119,7 @@ Microsoft 365 E3는 핵심 보안 및 규정 준수 기능과 함께 동급 최�
 - 전자 메일 및 파일의 데이터 손실 방지
 - Windows Information Protection 및 BitLocker
 - Azure Information Protection P1
-- ~~Azure Information Protection P2~~
+- ~~Azure Information Protection P2~~ (included in E5)
 - Microsoft Defender for Cloud Apps
 
 ## 보안 관리
@@ -134,9 +135,17 @@ Microsoft 365 E3는 핵심 보안 및 규정 준수 기능과 함께 동급 최�
 
 - 수동 보존 레이블, 콘텐츠 검색, 기본 감사
 - 기본 조직 전체 또는 지역 전체 보존 정책, Teams 보존 정책, 핵심 eDiscovery, 소송 보존
-- ~~규칙 기반 자동 보존 정책, 기계 학습 기반 보존, 레코드 관리~~
-- ~~Advanced eDiscovery, 고급 감사~~
-- ~~내부 위험 관리, 커뮤니케이션 규정 준수, 정보 장벽, 고객 Lockbox, Privileged Access - Management~~
-- ~~기본 제공 타사 연결~~
+- ~~규칙 기반 자동 보존 정책, 기계 학습 기반 보존, 레코드 관리~~ (included in E5)
+- ~~Advanced eDiscovery, 고급 감사~~ (included in E5)
+- ~~내부 위험 관리, 커뮤니케이션 규정 준수, 정보 장벽, 고객 Lockbox, Privileged  Access - Management~~ (included in E5)
+- ~~기본 제공 타사 연결~~ (included in E5)
 
+---
 
+## Recommended content
+
+- [Microsoft 365  for Enterprise Overview](/Overview)
+
+- [Microsoft 365 E5 Overview](/Overview/Microsoft-365-E5-Overview)
+
+- [Microsoft 365 apps for Enterprise](/Overview/Microsoft-365-apps-for-enterpise)
