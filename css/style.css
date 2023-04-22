@@ -872,7 +872,11 @@ nav.w3-indigo a {
 }
 
 .main-content p {
-  margin-bottom: 1em;
+    display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 .main-content code {
@@ -948,7 +952,12 @@ nav.w3-indigo a {
 
 .main-content ul,
 .main-content ol {
-  margin-top: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.main-content ul ul {
+  padding: 1em;
 }
 
 .main-content blockquote {
@@ -1059,11 +1068,3 @@ dd {
   color: #000000;
 }
 
-ul {
-  padding: 0;
-  margin: 0;
-}
-
-ul ul {
-  padding: 1em;
-}
