@@ -527,7 +527,7 @@ ul.w3-ul li:last-child {
 }
 
 .w3-navbar li {
-  float: left;
+  float: right;
 }
 
 .w3-navbar li a,
