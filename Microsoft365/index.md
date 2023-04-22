@@ -15,7 +15,7 @@ ms.date: 2023.04.20
 
 - [Microsoft 365 E5 Overview](Overview/Microsoft-365-E5-Overview)
 
-- [Microsoft 365 apps for Enterprise](Overview/Microsoft-365-apps-for-enterpise)
+- [Microsoft 365 apps for Enterprise](Overview/Microsoft-365-apps-for-enterprise)
 
 - Etc
     - [Microsoft Search Overview](Overview/Microsoft-Search-Overview)
