@@ -62,6 +62,10 @@ Microsoft 365 최신 제품 및 기능에 액세스하세요. 여기에는 Offic
 - Microsoft 365 for enterprise가 지원하는 Microsoft 최신 작업 공간의 핵심 구성 요소.
 - 일부 공통 조직 부서에 대한 Microsoft 365 생산성 라이브러리 및 대표적인 시나리오.
 
+아래의 그림은 Microsoft 365 Enterprise 기반의 구성 architecture의 일반적인 시나리오 예입니다: 
+
+![m365-general-scenarios-01](images/m365-general-scenarios-01.png)
+
 ---
 
 ## Recommended content

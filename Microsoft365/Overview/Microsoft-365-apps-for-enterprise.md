@@ -96,12 +96,12 @@ ms.date: 2023.04.20
 
 ## 위협 방지
 
-EOP 맬웨어 방지, 스팸 방지*1
-문서의 ATP 안전한 링크1
+- EOP 맬웨어 방지, 스팸 방지*1
+- 문서의 ATP 안전한 링크1
 
-규정 준수
+## 규정 준수
 
-Word, Excel, PowerPoint, Outlook에 중요도 라벨 추가
+- Word, Excel, PowerPoint, Outlook에 중요도 라벨 추가
 
 ---
 
