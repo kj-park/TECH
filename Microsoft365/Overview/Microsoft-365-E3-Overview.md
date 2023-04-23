@@ -32,7 +32,7 @@ Microsoft 365 E3는 핵심 보안 및 규정 준수 기능과 함께 동급 최�
 
 Microsoft 365 앱을 사용하면 직원이 어디에 있든 모든 장치에서 작업을 만들고 공동 작업하고 공유할 수 있습니다.
 
-### Included Apps
+**Included Apps:**
 
 - **Outlook.** 이메일을 정리하고 일정을 조정하고 연락처를 최신 상태로 유지하세요.
 - **Word.** 아름다운 문서 작성, 다듬기 및 공유하세요.
@@ -51,16 +51,22 @@ Microsoft 365 앱을 사용하면 직원이 어디에 있든 모든 장치에서
     - **View organizational telemetry.** 사용자가 특정 구성 요소에 액세스하는 빈도와 해당 특정 구성 요소에 대한 사용자 수를 식별하는 데 도움이 됩니다.
 - **InfoPath.** 구조화된 데이터가 포함된 전자 양식을 설계하고 배포합니다.
 
-## <i class="fa fa-circle" aria-hidden="true"></i> Collaboration and communication
+## <i class="fa fa-dot-circle-o" aria-hidden="true"></i> Collaboration and communication
 
 전문적인 온라인 회의, 비즈니스급 이메일, 인스턴트 메시징 및 인앱 파일 공유를 통해 조직을 연결하십시오.
 
-### Included Apps
+**Included Apps:**
 
 - **Exchange.** Plan 2. Secure and reliable business-class email.
+    - Mailbox storage: 100GB
+    - Max message send size: 150MB
+    - E-mail in-place archive.
+    - Anti-malware and anti-spam.
+    - Unified messaging services.
+    - Data loss prevention (DLP).
 - **OneDrive.** Plan 2. Do more wherever you are with secure access, sharing, and file storage.
 - **SharePoint.** Plan 2. Share and manage content, knowledge, and applications to empower teamwork, quickly find information, and seamlessly collaborate across the organization.
-- **Teams.** Communicate through threaded and persistent chat and keep everyone in the know. Initiae a private or group chat, share files or co-author content.
+- **Teams.** Communicate through threaded and persistent chat and keep everyone in the know. Initiate a private or group chat, share files or co-author content.
 - **Yammer.** Yammer collaboration software and business applications allow your employees to connect with the right people, share information across teams, and organize around projects so they can go further, faster.
 - ~~Audio conferencing.~~ (included in E5) Join meetings from a phone or use Microsoft Teams to dial anybody directly. Meetings include a dial-in number spanning 400+ cities across the globe, making it easier for people on the go or without Internet.
 - ~~Phone system.~~ (included in E5) For organizations that need call management capabilities (make, receive and transfer calls) in the cloud and use the Office 365 admin center to manage users.
