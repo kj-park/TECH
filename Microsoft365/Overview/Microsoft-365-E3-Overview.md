@@ -13,32 +13,58 @@ Microsoft 365 E3는 핵심 보안 및 규정 준수 기능과 함께 동급 최�
 - 통합 워크플로를 사용하여 비즈니스를 관리하고 고객 관계를 강화하는 방식을 혁신합니다.
 - 지능적인 보안으로 직원과 데이터, 고객 정보를 사전 대응식으로 보호합니다.
 
+## License Coverage
 
-<i class="fa fa-circle" aria-hidden="true"></i> Included
+사용자당 최대 5대의 PC/Mac, 5대의 태블릿 및 5대의 모바일 디바이스에 Office 클라이언트 앱(Word, Excel, PowerPoint, OneNote, Publisher(PC 전용), Access(PC 전용))을 설치할 수 있습니다.
 
-<i class="fa fa-circle-o" aria-hidden="true"></i> Partially included
+- Installable on PCs or Macs: 5 per user
+- Phones and tablets/user: 5
 
-<i class="fa fa-dot-circle-o" aria-hidden="true"></i> Not included
+> **Legend:**
+>
+> <i class="fa fa-circle" aria-hidden="true"></i> Included
+>
+> <i class="fa fa-dot-circle-o" aria-hidden="true"></i> Partially included
+>
+> <i class="fa fa-circle-o" aria-hidden="true"></i> Not included
 
+## <i class="fa fa-circle" aria-hidden="true"></i> Office apps
 
+Microsoft 365 앱을 사용하면 직원이 어디에 있든 모든 장치에서 작업을 만들고 공동 작업하고 공유할 수 있습니다.
 
+### Included Apps
 
-## Microsoft Office 앱
+- **Outlook.** 이메일을 정리하고 일정을 조정하고 연락처를 최신 상태로 유지하세요.
+- **Word.** 아름다운 문서 작성, 다듬기 및 공유하세요.
+- **Excel.** 새롭고 직관적인 방식으로 데이터를 분석하고 시각화합니다..
+- **Excel Power Query and Power Pivot.** 파워 쿼리로 데이터를 검색 및 연결하고, 파워 피벗으로 이 데이터를 모델링 및 분석하고, 파워 뷰 및 파워 맵으로 대화형 보고서 및 맵에서 통찰력을 시각화하세요.
+- **PowerPoint.** 아이디어를 만들고, 공동 작업하고, 효과적으로 발표하세요.
+- **OneNote.** 나만의 디지털 노트에 생각을 담으세요.
+- **Access.** 나만의 맞춤형 데이터베이스 앱을 빠르게 생성하고 데이터의 힘을 활용하십시오.
+- **Sway.** 시각적으로 눈에 띄는 뉴스레터, 프레젠테이션 및 문서를 몇 분 만에 만드십시오.
+- **Publisher.** 강력하고 사용하기 쉬운 도구를 사용하여 전문가 수준의 출판물을 인쇄하고 공유하십시오.
+- **Office Online.** Web versions of Outlook, Word, Excel, PowerPoint, and OneNote
+- **Always up to date.** 버전 업그레이드 비용을 지불할 필요가 없습니다. 업데이트는 구독에 포함됩니다. 새로운 기능은 Office 365 고객에게 정기적으로 배포됩니다.
+- **Enterprise Management**
+    - **Group policy management.** 그룹 정책을 사용하여 조직의 앱 및 업데이트 관리를 간소화합니다.
+    - **Support for remote desktop and virtualization.** 공유 원격 데스크톱 서버 또는 가상 머신에서 Office 실행할 수 있습니다.
+    - **View organizational telemetry.** 사용자가 특정 구성 요소에 액세스하는 빈도와 해당 특정 구성 요소에 대한 사용자 수를 식별하는 데 도움이 됩니다.
+- **InfoPath.** 구조화된 데이터가 포함된 전자 양식을 설계하고 배포합니다.
 
-엔터프라이즈용 Microsoft 365 앱은 가장 생산적이고 가장 안전한 엔터프라이즈용 Office 환경으로, 팀이 언제 어디서나 원활하게 작업할 수 있도록 합니다.
+## <i class="fa fa-circle" aria-hidden="true"></i> Collaboration and communication
 
-최상의 아이디어를 발휘하여 업무를 처리하고 이동 중에도 연결 상태를 유지하세요.
+전문적인 온라인 회의, 비즈니스급 이메일, 인스턴트 메시징 및 인앱 파일 공유를 통해 조직을 연결하십시오.
 
-- PowerPoint
-- Word
-- Excel
-- OneNote
-- Publisher (PC 전용)
-- Access (PC 전용)
+### Included Apps
 
-사용자당 최대 5대의 PC/Mac, 5대의 태블릿 및 5대의 모바일 디바이스에 Office 클라이언트 앱(Word, Excel, PowerPoint, OneNote, Publisher(PC 전용), Access(PC 전용))을 설치할 수 있습니다.12
+- **Exchange.** Plan 2. Secure and reliable business-class email.
+- **OneDrive.** Plan 2. Do more wherever you are with secure access, sharing, and file storage.
+- **SharePoint.** Plan 2. Share and manage content, knowledge, and applications to empower teamwork, quickly find information, and seamlessly collaborate across the organization.
+- **Teams.** Communicate through threaded and persistent chat and keep everyone in the know. Initiae a private or group chat, share files or co-author content.
+- **Yammer.** Yammer collaboration software and business applications allow your employees to connect with the right people, share information across teams, and organize around projects so they can go further, faster.
+- ~~Audio conferencing.~~ (included in E5) Join meetings from a phone or use Microsoft Teams to dial anybody directly. Meetings include a dial-in number spanning 400+ cities across the globe, making it easier for people on the go or without Internet.
+- ~~Phone system.~~ (included in E5) For organizations that need call management capabilities (make, receive and transfer calls) in the cloud and use the Office 365 admin center to manage users.
 
-웹 및 모바일용 Office
 
 ## 전자 메일 및 일정
 
