@@ -9,11 +9,9 @@ ms.date: 2023.04.20
 
 ## Microsoft 365 for Enterprise
 
-- [Microsoft 365  for Enterprise Overview](Overview)
+- [Microsoft 365 for Enterprise Overview](Overview)
 
-- [Microsoft 365 E3 Overview](Overview/Microsoft-365-E3-Overview)
-
-- [Microsoft 365 E5 Overview](Overview/Microsoft-365-E5-Overview)
+- [Microsoft 365 Enterprise Plan Overview](/Overview/Microsoft-365-Enterprise-Plan-Overview)
 
 - [Microsoft 365 apps for Enterprise](Overview/Microsoft-365-apps-for-enterprise)
 

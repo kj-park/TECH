@@ -70,8 +70,6 @@ Microsoft 365 최신 제품 및 기능에 액세스하세요. 여기에는 Offic
 
 ## Recommended content
 
-- [Microsoft 365 E3 Overview](Microsoft-365-E3-Overview)
-
-- [Microsoft 365 E5 Overview](Microsoft-365-E5-Overview)
+- [Microsoft 365 Enterprise Plan Overview](/Overview/Microsoft-365-Enterprise-Plan-Overview)
 
 - [Microsoft 365 apps for Enterprise](Microsoft-365-apps-for-enterpise)

@@ -1,11 +1,11 @@
 ﻿---
 layout: default
-title: [Microsoft 365 E3 Overview]
-filename: Microsoft365/Overview/Microsoft-365-E3-Overview.md
+title: [Microsoft 365 Enterprise Plan Overview]
+filename: Microsoft365/Overview/Microsoft-365-Enterprise-Plan-Overview.md
 ms.date: 2023.04.20
 ---
 
-# Microsoft 365 E3 Overview
+# Microsoft 365 Enterprise Plan Overview
 
 Microsoft 365 E3는 핵심 보안 및 규정 준수 기능과 함께 동급 최고의 생산성 응용 프로그램을 가지고 있습니다.
 
@@ -43,7 +43,7 @@ Microsoft 365 앱을 사용하면 직원이 어디에 있든 모든 장치에서
 - **Access.** 나만의 맞춤형 데이터베이스 앱을 빠르게 생성하고 데이터의 힘을 활용하십시오.
 - **Sway.** 시각적으로 눈에 띄는 뉴스레터, 프레젠테이션 및 문서를 몇 분 만에 만드십시오.
 - **Publisher.** 강력하고 사용하기 쉬운 도구를 사용하여 전문가 수준의 출판물을 인쇄하고 공유하십시오.
-- **Office Online.** Web versions of Outlook, Word, Excel, PowerPoint, and OneNote
+- **Office Online.** Web 버전의 Outlook, Word, Excel, PowerPoint 및 OneNote
 - **Always up to date.** 버전 업그레이드 비용을 지불할 필요가 없습니다. 업데이트는 구독에 포함됩니다. 새로운 기능은 Office 365 고객에게 정기적으로 배포됩니다.
 - **Enterprise Management**
     - **Group policy management.** 그룹 정책을 사용하여 조직의 앱 및 업데이트 관리를 간소화합니다.
@@ -187,7 +187,5 @@ Microsoft 365 앱을 사용하면 직원이 어디에 있든 모든 장치에서
 ## Recommended content
 
 - [Microsoft 365  for Enterprise Overview](/Overview)
-
-- [Microsoft 365 E5 Overview](/Overview/Microsoft-365-E5-Overview)
 
 - [Microsoft 365 apps for Enterprise](/Overview/Microsoft-365-apps-for-enterpise)
