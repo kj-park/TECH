@@ -57,35 +57,38 @@ Microsoft 365 앱을 사용하면 직원이 어디에 있든 모든 장치에서
 
 **Included Apps:**
 
-- **Exchange.** Plan 2. Secure and reliable business-class email.
-    - **Mailbox storage:** 100GB
+- **Exchange.**Plan 2.** 비즈니스 수준의 전자 메일, 일정 및 연락처를 한곳에 모아 소식을 놓치지 말고 일정과 시간을 관리할 수 있습니다..
+    - **Mailbox storage:** **100GB**
     - **Max message send size:** 150MB
-    - **E-mail in-place archive.** Unlimited storage in the user's In-Place Archive
-    - **Anti-malware and anti-spam.** Every mailbox is protected with premier anti-malware and anti-spam protection via Exchange Online Protection
-    - **Unified messaging services.** Hosted voice messaging services allow a company to connect its on-premises phone system to voice mail services provided by Exchange Online. Voice mail messages are recorded and stored in the Exchange Online infrastructure, allowing users to access their voice messages from Outlook, Outlook on the web, or mobile phones. All telephony connections to Exchange Online require voice-over-IP (VoIP) protocols.
-    - **Data loss prevention (DLP).** Control sensitive business data with built-in data loss prevention (DLP) policies based on regulatory standards such as personally identifiable information (PII) and payment card industry (PCI), which help to identify, monitor, and protect sensitive data through deep content analysis.
-- **OneDrive.** Plan 2. Do more wherever you are with secure access, sharing, and file storage.
-    - **Storage.** Unlimited personal cloud storage for qualifying plans for subscriptions of five or more users, otherwise 1 TB/user. Microsoft will initially provide 1 TB/user of OneDrive for Business storage, which admins can increase to 5 TB/user. Request additional storage by contacting Microsoft support. Storage up to 25 TB/user is provisioned in OneDrive for Business. Beyond 25 TB, storage is provisioned as 25 TB SharePoint team sites to individual users.
-    - **File Sharing.** Share files securely inside or outside your organization and control who can see and edit each file.
-    - **Data-loss prevention.** Advanced data-loss prevention to identify, monitor, and protect sensitive information.
-    - **In-place holds.** In-Place Holds to preserve deleted and edited documents for eDiscovery.
-    - **Offline files.** Sync local copies of files or folders for offline viewing and editing on Mac or PC.
-- **SharePoint.** Plan 2. Share and manage content, knowledge, and applications to empower teamwork, quickly find information, and seamlessly collaborate across the organization.
-    - **Automate work.** Automate business processes with alerts and workflows.
-    - **Catalog.** Only available for Private Site Collections. A catalog is a library or list that is shared across other sites and site collections.
-    - **Category page and catalog item page.** Only available for Private Site Collections. Category pages and catalog item pages are page layouts that you can use for catalog content that you want to display consistently across your site.
-    - **Communication sites.** Broadly share and communicate your group's message across the organization with beautiful, dynamic communication sites.
-    - **Content management.** Organize and manage content in libraries and lists with metadata, records management, and retention policies.
-    - **Cross-Site Publishing.** Only available for Private Site Collections. Cross-site publishing is a publishing method. It lets you create and maintain content in one or more authoring site collections and publish that content across one or more publishing site collections using Search Web Parts. 
+    - **E-mail in-place archive.** 사용자의 In-Place Archive 무제한 저장 공간.
+    - **Anti-malware and anti-spam.** 모든 사서함은 Exchange Online Protection을 통해 최고의 anti-malware 및 anti-spam 보호 기능으로 보호됩니다.
+    - **Unified messaging services.** 호스팅된 음성 메시징 서비스를 통해 회사는 온프레미스 전화 시스템을 Exchange Online에서 제공하는 음성 메일 서비스에 연결할 수 있습니다. 음성 메일 메시지는 Exchange Online 인프라에 녹음 및 저장되어 사용자가 Outlook, 웹용 Outlook 또는 휴대폰에서 음성 메시지에 액세스할 수 있습니다. Exchange Online에 대한 모든 전화 통신 연결에는 VoIP(Voice-over-IP) 프로토콜이 필요합니다.
+    - **Data loss prevention (DLP).** 심층 콘텐츠 분석을 통해 민감한 데이터를 식별, 모니터링 및 보호하는 데 도움이 되는 PII(개인 식별 정보) 및 PCI(지불 카드 산업)와 같은 규제 표준을 기반으로 내장된 DLP(데이터 손실 방지) 정책으로 민감한 비즈니스 데이터를 제어합니다.
+- **OneDrive.** **Plan 2.** 안전한 액세스, 공유 및 파일 저장을 통해 어디에서나 더 많은 작업을 수행하세요.
+    - **Storage.** 5명 이상의 사용자 구독에 대한 적격 계획을 위한 무제한 개인 클라우드 스토리지를 제공합니다. Microsoft는 처음에 비즈니스용 OneDrive 저장소 사용자당 1TB를 제공하며, 사용자가 5TB까지 확장할 수 있습니다. Microsoft 지원팀에 문의하여 추가 저장소를 요청할 수 있습니다. 사용자당 최대 25TB의 스토리지를 제공하며 25TB를 초가하는 스토리지는 개별 사용자에게 25TB SharePoint 팀 사이트로 프로비저닝됩니다.
+    - **File Sharing.** 조직 내부 또는 외부에서 파일을 안전하게 공유하고 각 파일을 보고 편집할 수 있는 사람을 제어하세요.
+    - **Data-loss prevention.** 중요한 정보를 식별, 모니터링 및 보호하는 고급 데이터 손실 방지 기능을 제공합니다..
+    - **In-place holds.** eDiscovery를 위해 삭제 및 편집된 문서를 보존하기 위한 원본 위치 유지하는 In-place holds 기능을 제공합니다.
+    - **Offline files.** Mac 또는 PC에서 오프라인 보기 및 편집을 위해 파일 또는 폴더의 로컬 복사본 동기화할 수 있습니다.
+- **SharePoint.** **Plan 2.** 콘텐츠, 지식 및 애플리케이션을 공유 및 관리하여 팀워크를 강화하고 정보를 빠르게 찾고 조직 전체에서 원활하게 협업할 수 있습니다.
+    - **Automate work.** Alerts and workflows로 비즈니스 프로세스 자동화.
+    - **Catalog.** Private Site Collections에만 사용할 수 있습니다. Catalog는 다른 사이트 및 사이트 모음에서 공유되는 라이브러리 또는 목록입니다..
+    - **Category page and catalog item page.** Private Site Collections에만 사용할 수 있습니다. 범주 페이지 및 카탈로그 항목 페이지는 사이트 전체에서 일관되게 표시하려는 카탈로그 콘텐츠에 사용할 수 있는 페이지 레이아웃입니다.
+    - **Communication sites.** 아름답고 역동적인 커뮤니케이션 사이트를 통해 조직 전체에서 그룹의 메시지를 광범위하게 공유하고 전달합니다.
+    - **Content management.** Metadata, 레코드 관리 및 보존 정책을 사용하여 라이브러리 및 목록의 콘텐츠를 구성하고 관리합니다.
+    - **Cross-Site Publishing.** Private Site Collections에만 사용할 수 있습니다. Cross-site publishing은 게시 방법입니다. 이를 통해 하나 이상의 제작 사이트 모음에서 콘텐츠를 만들고 유지 관리할 수 있으며 검색 웹 파트를 사용하여 하나 이상의 게시 사이트 모음에 해당 콘텐츠를 게시할 수 있습니다.
+    - **DLP capabilities.** 고급 DLP 기능을 사용하여 민감한 정보를 식별, 모니터링 및 보호하십시오.
+    - **eDiscovery.** 소송(litigation) 또는 감사(audit) 시나리오를 위한 전자 형식의 콘텐츠를 찾습니다.
+    - **In-place hold.** In-Place Holds를 사용하여 콘텐츠가 삭제 또는 편집되지 않도록 프로그래밍 방식으로 보존합니다.
+    - **Intranets.** 인트라넷과 사이트를 통해 조직에 정보를 제공하고 참여하여 스토리를 전달하고, 뉴스를 발표하고, 리소스를 공유하고, 프로세스를 간소화하고, 사람들을 참여시키십시오.
+    - **Search.** 향상된 기능으로 엔터프라이즈 검색 및 결과를 사용자 지정하여 Office 365에서 리소스를 표시하세요.
+    - **Team sites.** 팀이 콘텐츠, 데이터 및 뉴스를 구성하고 공동 작업할 수 있는 장소를 제공하여 같은 페이지에 머물게 합니다.
+    - **Mobile access to intranets, team sites and content.** Android™, iOS® 및 Windows용 SharePoint 모바일 앱과 Android, iOS 및 Windows용 OneDrive 모바일 앱을 사용하여 인트라넷, 팀 사이트 및 콘텐츠에 액세스하세요.
 
-
-
-
-
-- **Teams.** Communicate through threaded and persistent chat and keep everyone in the know. Initiate a private or group chat, share files or co-author content.
-- **Yammer.** Yammer collaboration software and business applications allow your employees to connect with the right people, share information across teams, and organize around projects so they can go further, faster.
-- ~~Audio conferencing.~~ (included in E5) Join meetings from a phone or use Microsoft Teams to dial anybody directly. Meetings include a dial-in number spanning 400+ cities across the globe, making it easier for people on the go or without Internet.
-- ~~Phone system.~~ (included in E5) For organizations that need call management capabilities (make, receive and transfer calls) in the cloud and use the Office 365 admin center to manage users.
+- **Teams.** 스레드 및 영구 채팅을 통해 통신하고 모든 사람에게 알립니다. 개인 또는 그룹 채팅을 시작하고 파일을 공유하거나 콘텐츠를 공동 작성합니다. 세련된 통화 기능과 모임, 채팅, 콘텐츠 및 통화용 중앙 허브를 통해 차원 높은 모임 환경을 제공합니다.
+- **Yammer.** Yammer 공동 작업 소프트웨어 및 비즈니스 응용 프로그램을 사용하면 직원이 적합한 사람과 연결하고, 팀 간에 정보를 공유하고, 프로젝트를 구성하여 더 멀리, 더 빠르게 진행할 수 있습니다.
+- ~~**Audio conferencing.**~~ (**included in E5**) 전화로 회의에 참여하거나 Microsoft Teams를 사용하여 누구에게나 직접 전화를 겁니다. 회의에는 전 세계 400개 이상의 도시에 전화 접속 번호가 포함되어 있어 이동 중이거나 인터넷이 없는 사람들이 더 쉽게 회의를 할 수 있습니다.
+- ~~**Phone system.**~~ (**included in E5**) 클라우드에서 통화 관리 기능(전화 걸기, 받기 및 전송)을 제공합니다.
 
 
 ## 전자 메일 및 일정
