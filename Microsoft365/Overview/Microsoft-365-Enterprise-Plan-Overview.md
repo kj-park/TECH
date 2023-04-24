@@ -58,14 +58,30 @@ Microsoft 365 앱을 사용하면 직원이 어디에 있든 모든 장치에서
 **Included Apps:**
 
 - **Exchange.** Plan 2. Secure and reliable business-class email.
-    - Mailbox storage: 100GB
-    - Max message send size: 150MB
-    - E-mail in-place archive.
-    - Anti-malware and anti-spam.
-    - Unified messaging services.
-    - Data loss prevention (DLP).
+    - **Mailbox storage:** 100GB
+    - **Max message send size:** 150MB
+    - **E-mail in-place archive.** Unlimited storage in the user's In-Place Archive
+    - **Anti-malware and anti-spam.** Every mailbox is protected with premier anti-malware and anti-spam protection via Exchange Online Protection
+    - **Unified messaging services.** Hosted voice messaging services allow a company to connect its on-premises phone system to voice mail services provided by Exchange Online. Voice mail messages are recorded and stored in the Exchange Online infrastructure, allowing users to access their voice messages from Outlook, Outlook on the web, or mobile phones. All telephony connections to Exchange Online require voice-over-IP (VoIP) protocols.
+    - **Data loss prevention (DLP).** Control sensitive business data with built-in data loss prevention (DLP) policies based on regulatory standards such as personally identifiable information (PII) and payment card industry (PCI), which help to identify, monitor, and protect sensitive data through deep content analysis.
 - **OneDrive.** Plan 2. Do more wherever you are with secure access, sharing, and file storage.
+    - **Storage.** Unlimited personal cloud storage for qualifying plans for subscriptions of five or more users, otherwise 1 TB/user. Microsoft will initially provide 1 TB/user of OneDrive for Business storage, which admins can increase to 5 TB/user. Request additional storage by contacting Microsoft support. Storage up to 25 TB/user is provisioned in OneDrive for Business. Beyond 25 TB, storage is provisioned as 25 TB SharePoint team sites to individual users.
+    - **File Sharing.** Share files securely inside or outside your organization and control who can see and edit each file.
+    - **Data-loss prevention.** Advanced data-loss prevention to identify, monitor, and protect sensitive information.
+    - **In-place holds.** In-Place Holds to preserve deleted and edited documents for eDiscovery.
+    - **Offline files.** Sync local copies of files or folders for offline viewing and editing on Mac or PC.
 - **SharePoint.** Plan 2. Share and manage content, knowledge, and applications to empower teamwork, quickly find information, and seamlessly collaborate across the organization.
+    - **Automate work.** Automate business processes with alerts and workflows.
+    - **Catalog.** Only available for Private Site Collections. A catalog is a library or list that is shared across other sites and site collections.
+    - **Category page and catalog item page.** Only available for Private Site Collections. Category pages and catalog item pages are page layouts that you can use for catalog content that you want to display consistently across your site.
+    - **Communication sites.** Broadly share and communicate your group's message across the organization with beautiful, dynamic communication sites.
+    - **Content management.** Organize and manage content in libraries and lists with metadata, records management, and retention policies.
+    - **Cross-Site Publishing.** Only available for Private Site Collections. Cross-site publishing is a publishing method. It lets you create and maintain content in one or more authoring site collections and publish that content across one or more publishing site collections using Search Web Parts. 
+
+
+
+
+
 - **Teams.** Communicate through threaded and persistent chat and keep everyone in the know. Initiate a private or group chat, share files or co-author content.
 - **Yammer.** Yammer collaboration software and business applications allow your employees to connect with the right people, share information across teams, and organize around projects so they can go further, faster.
 - ~~Audio conferencing.~~ (included in E5) Join meetings from a phone or use Microsoft Teams to dial anybody directly. Meetings include a dial-in number spanning 400+ cities across the globe, making it easier for people on the go or without Internet.
