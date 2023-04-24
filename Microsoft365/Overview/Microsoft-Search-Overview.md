@@ -10,7 +10,7 @@ Microsoft Search는 사용자들이 업무를 완료하기 위해 필요한 정�
 
 web search와 같은 동일한 search box를 office app 등에서 사용할 수 있습니다.
 
-![microsoft-search-box]({{ site.url }}/Microsoft365/images/Search/microsoft-search-box.png?raw=true)
+![microsoft-search-box](images/microsoft-search-box.png)
 
 Microsoft Search는 조직의 Microsoft 365에 저장된 contents 및 connector를 통해 index되어진  contents를 검색할 수 있습니다. 예를 들어 조직에 hybrid SharePoint 환경이 경우 online 및 on-premises의 SharePoint의 content를 포함하여 검색을 할 수 있습니다.
 
@@ -34,7 +34,7 @@ Microsoft Search는 조직의 Microsoft 365에 저장된 contents 및 connector�
 
 기본으로 Microsoft Search는 enable되어 있어 Set up이 필요하지 않습니다. 하지만, 기본적인 관리 tasks를 통해 Microsoft Search Experience를 향상시킬 수 있습니다.
 
-![microsoft-search-admin-ui]({{ site.url }}/Microsoft365/images/Search/microsoft-search-admin-ui.png?raw=true)
+![microsoft-search-admin-ui](images/microsoft-search-admin-ui.png)
 
 Microsoft Search Experience를 효과적으로 조직의 사용자에게 친숙하게 하기 위해 관리자는 몇 가지에 대하여 고려하여야 합니다.
 
@@ -83,7 +83,7 @@ Bookmarks help people quickly find important sites and tools with just a search.
 
 #### Locations
 
-![microsoft-search-answers-locations]({{ site.url }}/Microsoft365/images/Search/microsoft-search-answers-locations.png?raw=true)
+![microsoft-search-answers-locations](images/microsoft-search-answers-locations.png)
 
 ### Data Sources
 
