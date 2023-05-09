@@ -70,7 +70,7 @@ Microsoft 365 앱을 사용하면 직원이 어디에 있든 모든 장치에서
     - **Data-loss prevention.** 중요한 정보를 식별, 모니터링 및 보호하는 고급 데이터 손실 방지 기능을 제공합니다..
     - **In-place holds.** eDiscovery를 위해 삭제 및 편집된 문서를 보존하기 위한 원본 위치 유지하는 In-place holds 기능을 제공합니다.
     - **Offline files.** Mac 또는 PC에서 오프라인 보기 및 편집을 위해 파일 또는 폴더의 로컬 복사본 동기화할 수 있습니다.
-- **SharePoint.** **Plan 2.** 콘텐츠, 지식 및 애플리케이션을 공유 및 관리하여 팀워크를 강화하고 정보를 빠르게 찾고 조직 전체에서 원활하게 협업할 수 있습니다.
+- **SharePoint.** **Plan 2.** 콘텐츠, 지식 및 애플리케이션을 공유 및 관리하여 팀워크를 강화하고 정보를 빠르게 찾고 조직 전체에서 원활하게 협업할 수 있습니다. 
     - **Automate work.** Alerts and workflows로 비즈니스 프로세스 자동화.
     - **Catalog.** Private Site Collections에만 사용할 수 있습니다. Catalog는 다른 사이트 및 사이트 모음에서 공유되는 라이브러리 또는 목록입니다..
     - **Category page and catalog item page.** Private Site Collections에만 사용할 수 있습니다. 범주 페이지 및 카탈로그 항목 페이지는 사이트 전체에서 일관되게 표시하려는 카탈로그 콘텐츠에 사용할 수 있는 페이지 레이아웃입니다.
