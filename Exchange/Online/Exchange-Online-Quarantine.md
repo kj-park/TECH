@@ -13,9 +13,9 @@ Applies to
 - Microsoft 365 Defender
 
 
-![compare-defender-for-o365-plan1-and-plan2](https://github.com/kj-park/tech/blob/main/Exchange/media/compare-defender-for-o365-plan1-and-plan2.png?raw=true)
+![compare-defender-for-o365-plan1-and-plan2](./../images/compare-defender-for-o365-plan1-and-plan2.png?raw=true)
 
-![compare-defender-for-o365-included-canbeadded-subscriptions](https://github.com/kj-park/tech/blob/main/Exchange/media/compare-defender-for-o365-included-canbeadded-subscriptions.png?raw=true)
+![compare-defender-for-o365-included-canbeadded-subscriptions](./../images/compare-defender-for-o365-included-canbeadded-subscriptions.png?raw=true)
 
 ## Defender for Office 365의 Plan 1 과 Plan 2 비교
 
@@ -54,7 +54,7 @@ Exchange Online에서 Quarantine의 Microsoft 365 Defender의 기능 중 일부�
 
 관리자는 사용자 지정 스팸 방지 정책을 만들어 스팸 및 높은 confidence 스팸과 bulk email 메시지를 격리할 수 있습니다.
 
-![how-eop-works](https://github.com/kj-park/tech/blob/main/Exchange/media/how-eop-works.png?raw=true)
+![how-eop-works](./../images/how-eop-works.png?raw=true)
 
 
 Quarantine and release message
