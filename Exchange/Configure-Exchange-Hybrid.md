@@ -1,7 +1,7 @@
 ---
 title: Configure Exchange Hybrid
 filename: Exchange\Configure-Exchange-Hybrid.md
-ms.date: 2012.04.29
+ms.date: 2012.05.10
 ---
 
 # Configure Exchange Hybrid
@@ -11,6 +11,7 @@ ms.date: 2012.04.29
 - [Exchange Hybrid Deployment Considerations](#exchange-hybrid-deployment-considerations)
 - [Install Exchange Hybrid Configuration Wizard without Edge](#install-exchange-hybrid-configuration-wizard-without-edge)
 - [Install Exchange Hybrid Configuration Wizard with Edge](#install-exchange-hybrid-configuration-wizard-with-edge)
+- [Related PowerShell Commands](#related-powershell-commands)
 
 ---
 
@@ -216,6 +217,52 @@ Centralize mail flow option이 선택된 경우 Send Connector는 아래와 같�
 ![Exchange-Hybrid-Configuration-with-edge-012](images/Exchange-Hybrid-Configuration-with-edge-012.png)
 
 ![Exchange-Hybrid-Configuration-with-edge-013](images/Exchange-Hybrid-Configuration-with-edge-013.png)
+
+[Top](#)
+
+---
+
+## Related PowerShell Commands
+
+- **[Get-InboundConnector](https://learn.microsoft.com/en-us/powershell/module/exchange/get-inboundconnector?view=exchange-ps)**
+
+    Module: ExchangePowerShell  
+    Applies to: Exchange Online, Exchange Online Protection
+
+- **[Get-OutboundConnector](https://learn.microsoft.com/en-us/powershell/module/exchange/get-outboundconnector?view=exchange-ps)**
+
+    Module: ExchangePowerShell  
+    Applies to: Exchange Online, Exchange Online Protection
+
+- **[Get-IntraOrganizationConnector](https://learn.microsoft.com/en-us/powershell/module/exchange/get-intraorganizationconnector?view=exchange-ps)**
+
+    Module: ExchangePowerShell  
+    Applies to: Exchange Server 2013, Exchange Server 2016, Exchange Server 2019, Exchange Online
+
+- **[Get-OnPremisesOrganization](https://learn.microsoft.com/en-us/powershell/module/exchange/get-onpremisesorganization?view=exchange-ps)**
+
+    Module: ExchangePowerShell  
+    Applies to: Exchange Online, Exchange Online Protection
+
+- **[Get-IntraOrganizationConfiguration](https://learn.microsoft.com/en-us/powershell/module/exchange/get-intraorganizationconfiguration?view=exchange-ps)**
+
+    Module: ExchangePowerShell  
+    Applies to: Exchange Server 2013, Exchange Server 2016, Exchange Server 2019, Exchange Online
+
+- **[Get-HybridConfiguration](https://learn.microsoft.com/en-us/powershell/module/exchange/get-hybridconfiguration?view=exchange-ps)**
+
+    Module: ExchangePowerShell
+    Applies to: Exchange Server 2010, Exchange Server 2013, Exchange Server 2016, Exchange Server 2019
+
+- **[Get-SendConnector](https://learn.microsoft.com/en-us/powershell/module/exchange/get-sendconnector?view=exchange-ps)**
+
+    Module: ExchangePowerShell  
+    Applies to: Exchange Server 2010, Exchange Server 2013, Exchange Server 2016, Exchange Server 2019
+
+- **[Get-ReceiveConnector](https://learn.microsoft.com/en-us/powershell/module/exchange/get-receiveconnector?view=exchange-ps)**
+
+    Module: ExchangePowerShell  
+    Applies to: Exchange Server 2010, Exchange Server 2013, Exchange Server 2016, Exchange Server 2019
 
 [Top](#)
 
