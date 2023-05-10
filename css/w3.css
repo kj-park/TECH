@@ -243,12 +243,11 @@ h6,
 
 h1 {
   font-size: 36px;
-  margin-top: 40px;
 }
 
 h2 {
   font-size: 30px;
-  margin-top: 40px;
+  padding-top: 40px;
 }
 
 h3 {

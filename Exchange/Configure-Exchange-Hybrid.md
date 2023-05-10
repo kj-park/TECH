@@ -6,14 +6,13 @@ ms.date: 2012.04.29
 
 # Configure Exchange Hybrid
 
-## In This Article
+**In This Article...**
 
 - [Exchange Hybrid Deployment Considerations](#exchange-hybrid-deployment-considerations)
 - [Install Exchange Hybrid Configuration Wizard without Edge](#install-exchange-hybrid-configuration-wizard-without-edge)
 - [Install Exchange Hybrid Configuration Wizard with Edge](#install-exchange-hybrid-configuration-wizard-with-edge)
 
 ---
-
 
 Hybrid Deployment는 아래의 기능들을 가능하게 합니다:
 
