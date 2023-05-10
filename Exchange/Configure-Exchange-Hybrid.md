@@ -8,9 +8,9 @@ ms.date: 2012.04.29
 
 ## In This Article
 
-- [Exchange Hybrid Deployment Considerations](#Exchange-Hybrid-Deployment-Considerations)
-- [Install Exchange Hybrid Configuration Wizard without Edge](#Install-Exchange-Hybrid-Configuration-Wizard-without-Edge)
-- [Install Exchange Hybrid Configuration Wizard with Edge](#Install-Exchange-Hybrid-Configuration-Wizard-with-Edge)
+- [Exchange Hybrid Deployment Considerations](#exchange-hybrid-deployment-considerations)
+- [Install Exchange Hybrid Configuration Wizard without Edge](#install-exchange-hybrid-configuration-wizard-without-edge)
+- [Install Exchange Hybrid Configuration Wizard with Edge](#install-exchange-hybrid-configuration-wizard-with-edge)
 
 ---
 
