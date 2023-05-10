@@ -8,31 +8,33 @@ ms.date: 2023.04.20
 # Exchange
 
 On-Premier 기반의 Exchange Server를 통해 Messaging 시스템을 구축 및 설정, 관리에 대한 기술들을 명시합니다.
-엔지니어 관점에서 steps들을 설명하며 연관 기술에 대하여도 함께 설명합니다. 또한 각 내용들과 Powershell 기반 구성이 가능한 부분이 있다면 script도 같이 공유하였습니다.
+엔지니어 관점에서 steps들을 설명하며 연관 기술에 대하여도 함께 설명합니다. 또한 각 내용들과 Powershell 기반 구성이 가능한 부분이 있다면 script도 같이 공유합니다.
 
 > [!NOTE] 계속적으로 업데이트 예정입니다.
 
-## Deploy Exchange Server
+## OnPremises Exchange Server
 
-On-Premier 기반의 Exchange Server 구축에 대하여 기술합니다.
+### Deploy Exchange Server
+
+OnPremises 기반의 Exchange Server 구축에 대하여 기술합니다.
 
 Exchange 2013/2016/2019 서버를 구축하는 과정들에 대하여 기술합니다.
 
-### Exchange 2013 Server
+#### Exchange 2013 Server
 
-- [Deploy Exchange 2013](2013/Deploy-Exchange-2013)
+- [Deploy Exchange 2013](OnPremises/Deploy-Exchange-2013)
 
-### Exchange 2016 Server
+#### Exchange 2016 Server
 
 - Deploy Exchange 2016
 
-### Exchange 2019 Server
+#### Exchange 2019 Server
 
 - Deploy Exchange 2019
 
-## Configure Exchange Server
+### Configure Exchange Server
 
-Exchange 각 버전 별 설치 후 mail flow 및 client access, High Availability 구성에 대하여 설명합니다. 버전과 크게 다르지 않고 유사하기에 통합하여 명시하였습니다.
+Exchange 각 버전 별 설치 후 mail flow 및 client access, High Availability 구성에 대하여 설명합니다. 버전과 크게 다르지 않고 유사하기에 통합하여 기술합니다.
 
 - [Configure mail flow and client access for Exchange Server](Configure-mail-flow-and-client-access-for-Exchange-Server)
 
@@ -42,13 +44,11 @@ Exchange 각 버전 별 설치 후 mail flow 및 client access, High Availabilit
 
     - **SCRIPT**: [Configure-Exchange-DAG.ps1](https://github.com/kj-park/tech/blob/main/Exchange/source/Configure-Exchange-DAG.ps1)
 
-- Configure High availability
-
-- Exchange Hybrid Configuration
+- [Configure Exchange Hybrid](Configure-Exchange-Hybrid)
 
 - Integration with SharePoint and Skype
 
-## Manage Exchange Server
+### Manage Exchange Server
 
 Exchange 인프라를 관리에 필요한 주제들에 대하여 기술합니다.
 
@@ -93,4 +93,4 @@ Exchange 인프라를 관리에 필요한 주제들에 대하여 기술합니다
 
 - [Exchange Mail Flow and Recipient Types](Conceptual/Exchange-Mail-Flow-and-Recipient-Types)
 
-
+---
