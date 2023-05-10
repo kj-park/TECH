@@ -124,6 +124,74 @@ Hybrid Deployment는 아래의 기능들을 가능하게 합니다:
 
 ## Install Exchange Hybrid Configuration Wizard with Edge
 
+### Connectors on Exchange Hybrid with Edge
+
+Exchange Online 관리센터의 Mail flow의 Connector에 아래의 Connectors가 생성되었음을 확인할 수 있습니다:
+
+| Name | From | To |
+|--|--|--|
+| Inbound from ... | Organization | O365 |
+| Outbound to ...  | O365 | Organization |
+
+#### Connectors on Exchange Online
+
+##### Inbound Connector on Exchange Online
+
+- ConnectorType: OnPremises
+- ConnectorSource: HybridWizard
+- SenderDomain: `{smtp:*;1}`
+- RequireTls: True
+- CloudServicesMailEnabled: True
+- TlsSenderCertificateName: Hybrid Wizard에서 선택한 Certificated의 Name
+
+##### Outbound Connector on Exchange Online
+
+- ConnectorType: OnPremises
+- ConnectorSource: HybridWizard
+- RecipientDomains: `{*}`
+- SmartHosts: Hybrid Wizard에서 선택한 조직의 Edge Servers
+- TlsDomain: Hybrid Wizard에서 선택한 FQDN
+- TlsSettings: Domain Validation
+- RouteAllMessagesViaOnPremises: True (Centralize mail flow option) or False
+- CloudServicesMailEnabled: True
+- ValidationRecipients
+
+##### IntraOrganizationConnector on Exchange Online
+
+- TargetAddressDomains: accepted domains
+- DiscoveryEndpoint: https://`<autodiscover endpoint fqdn of org>`/autodiscover/autodiscover.svc
+- TargetSharingEpr: https://`<guid>`.resource.mailboxmigration.his.msappproxy.net/EWS/Exchange.asmx
+- Name: HybridIOC - `<guid>`
+
+#### Connectors on Organization Exchange Server
+
+Organization의 Exchange 관리센터에서 아래의 Connectors가 생성되었음을 확인할 수 있습니다:
+
+| Type | Name | From | To |
+|--|--|--|--|
+| Receive Connector | Inbound from Office 365... | O365 | Organization |
+
+Centralize mail flow option이 선택된 경우 Send Connector는 아래와 같습니다:
+
+>[!TODO]
+
+| Type | Name | From | To |
+|--|--|--|--|
+| Send Connector | Outbound to ...  | Organization | O365 |
+
+#### Receive Connectors on Organization Exchange Server
+
+- TlsCertificateName: `<i><Issuer of Certificate><s><Subject Name of Certificate>`
+- Permission: Anonymous Logon - ExtendedRights:MS-Exch-SMTP-Accept-Any-Recipient
+
+>[!TODO]
+
+#### Send Connectors on Organization Exchange Server
+
+>[!TODO]
+
+### Step by Step
+
 ![Exchange-Hybrid-Configuration-with-edge-001](images/Exchange-Hybrid-Configuration-with-edge-001.png)
 
 ![Exchange-Hybrid-Configuration-with-edge-002](images/Exchange-Hybrid-Configuration-with-edge-002.png)
