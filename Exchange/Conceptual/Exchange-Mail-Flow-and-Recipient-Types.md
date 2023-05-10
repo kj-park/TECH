@@ -22,7 +22,7 @@ Contents:
 > [!INFO]  
 > SMTP Service Extension for Secure SMTP over Transport Layer Security (RFC3207) ~ STARTTLS command for secure SMTP
 
-```dos
+```shell
 EHLO movetocloud.online
 MAIL FROM: mimi@movetocloud.online
 RCPT TO: kjpark@tdgl.co.kr
