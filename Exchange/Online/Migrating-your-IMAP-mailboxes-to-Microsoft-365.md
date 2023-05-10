@@ -26,7 +26,7 @@ ms.date: 2022.04.14
 
 
 
-![mig-from-imap-to-exo](./../images/mig-from-imap-to-exo.png?raw=true)
+![mig-from-imap-to-exo](./../images/mig-from-imap-to-exo.png)
 
 
 > [!INFO]  

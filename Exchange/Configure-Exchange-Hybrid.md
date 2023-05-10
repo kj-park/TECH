@@ -58,7 +58,7 @@ Hybrid Deployment는 아래의 기능들을 가능하게 합니다:
 
     [Certificate requirements for hybrid deployments](https://docs.microsoft.com/en-us/exchange/certificate-requirements)
 
-    ![Exchange-Hybrid-Configuration-with-Edge](images/Exchange-Hybrid-Configuration-with-Edge.png?raw=true)
+    ![Exchange-Hybrid-Configuration-with-Edge](images/Exchange-Hybrid-Configuration-with-Edge.png)
 
 - Client Requirements
 
@@ -76,45 +76,45 @@ Hybrid Deployment는 아래의 기능들을 가능하게 합니다:
 
 ## Install Exchange Hybrid Configuration Wizard without Edge
 
-![Exchange-Hybrid-Configuration-without-Edge-001](images/Exchange-Hybrid-Configuration-without-Edge-001.png?raw=true)
+![Exchange-Hybrid-Configuration-without-Edge-001](images/Exchange-Hybrid-Configuration-without-Edge-001.png)
 
-![Exchange-Hybrid-Configuration-without-Edge-002](images/Exchange-Hybrid-Configuration-without-Edge-002.png?raw=true)
+![Exchange-Hybrid-Configuration-without-Edge-002](images/Exchange-Hybrid-Configuration-without-Edge-002.png)
 
-![Exchange-Hybrid-Configuration-without-Edge-003](images/Exchange-Hybrid-Configuration-without-Edge-003.png?raw=true)
+![Exchange-Hybrid-Configuration-without-Edge-003](images/Exchange-Hybrid-Configuration-without-Edge-003.png)
 
-![Exchange-Hybrid-Configuration-without-Edge-004](images/Exchange-Hybrid-Configuration-without-Edge-004.png?raw=true)
+![Exchange-Hybrid-Configuration-without-Edge-004](images/Exchange-Hybrid-Configuration-without-Edge-004.png)
 
-![Exchange-Hybrid-Configuration-without-Edge-005](images/Exchange-Hybrid-Configuration-without-Edge-005.png?raw=true)
+![Exchange-Hybrid-Configuration-without-Edge-005](images/Exchange-Hybrid-Configuration-without-Edge-005.png)
 
-![Exchange-Hybrid-Configuration-without-Edge-006](images/Exchange-Hybrid-Configuration-without-Edge-006.png?raw=true)
+![Exchange-Hybrid-Configuration-without-Edge-006](images/Exchange-Hybrid-Configuration-without-Edge-006.png)
 
-![Exchange-Hybrid-Configuration-without-Edge-007](images/Exchange-Hybrid-Configuration-without-Edge-007.png?raw=true)
+![Exchange-Hybrid-Configuration-without-Edge-007](images/Exchange-Hybrid-Configuration-without-Edge-007.png)
 
-![Exchange-Hybrid-Configuration-without-Edge-008](images/Exchange-Hybrid-Configuration-without-Edge-008.png?raw=true)
+![Exchange-Hybrid-Configuration-without-Edge-008](images/Exchange-Hybrid-Configuration-without-Edge-008.png)
 
-![Exchange-Hybrid-Configuration-without-Edge-009](images/Exchange-Hybrid-Configuration-without-Edge-009.png?raw=true)
+![Exchange-Hybrid-Configuration-without-Edge-009](images/Exchange-Hybrid-Configuration-without-Edge-009.png)
 
-![Exchange-Hybrid-Configuration-without-Edge-010](images/Exchange-Hybrid-Configuration-without-Edge-010.png?raw=true)
+![Exchange-Hybrid-Configuration-without-Edge-010](images/Exchange-Hybrid-Configuration-without-Edge-010.png)
 
-![Exchange-Hybrid-Configuration-without-Edge-011](images/Exchange-Hybrid-Configuration-without-Edge-011.png?raw=true)
+![Exchange-Hybrid-Configuration-without-Edge-011](images/Exchange-Hybrid-Configuration-without-Edge-011.png)
 
-![Exchange-Hybrid-Configuration-without-Edge-012](images/Exchange-Hybrid-Configuration-without-Edge-012.png?raw=true)
+![Exchange-Hybrid-Configuration-without-Edge-012](images/Exchange-Hybrid-Configuration-without-Edge-012.png)
 
-![Exchange-Hybrid-Configuration-without-Edge-013](images/Exchange-Hybrid-Configuration-without-Edge-013.png?raw=true)
+![Exchange-Hybrid-Configuration-without-Edge-013](images/Exchange-Hybrid-Configuration-without-Edge-013.png)
 
-![Exchange-Hybrid-Configuration-without-Edge-014](images/Exchange-Hybrid-Configuration-without-Edge-014.png?raw=true)
+![Exchange-Hybrid-Configuration-without-Edge-014](images/Exchange-Hybrid-Configuration-without-Edge-014.png)
 
-![Exchange-Hybrid-Configuration-without-Edge-015](images/Exchange-Hybrid-Configuration-without-Edge-015.png?raw=true)
+![Exchange-Hybrid-Configuration-without-Edge-015](images/Exchange-Hybrid-Configuration-without-Edge-015.png)
 
-![Exchange-Hybrid-Configuration-without-Edge-016](images/Exchange-Hybrid-Configuration-without-Edge-016.png?raw=true)
+![Exchange-Hybrid-Configuration-without-Edge-016](images/Exchange-Hybrid-Configuration-without-Edge-016.png)
 
-![Exchange-Hybrid-Configuration-without-Edge-017](images/Exchange-Hybrid-Configuration-without-Edge-017.png?raw=true)
+![Exchange-Hybrid-Configuration-without-Edge-017](images/Exchange-Hybrid-Configuration-without-Edge-017.png)
 
-![Exchange-Hybrid-Configuration-without-Edge-018](images/Exchange-Hybrid-Configuration-without-Edge-018.png?raw=true)
+![Exchange-Hybrid-Configuration-without-Edge-018](images/Exchange-Hybrid-Configuration-without-Edge-018.png)
 
-![Exchange-Hybrid-Configuration-without-Edge-019](images/Exchange-Hybrid-Configuration-without-Edge-019.png?raw=true)
+![Exchange-Hybrid-Configuration-without-Edge-019](images/Exchange-Hybrid-Configuration-without-Edge-019.png)
 
-![Exchange-Hybrid-Configuration-without-Edge-020](images/Exchange-Hybrid-Configuration-without-Edge-020.png?raw=true)
+![Exchange-Hybrid-Configuration-without-Edge-020](images/Exchange-Hybrid-Configuration-without-Edge-020.png)
 
 ---
 
