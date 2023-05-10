@@ -124,31 +124,31 @@ Hybrid Deployment는 아래의 기능들을 가능하게 합니다:
 
 ## Install Exchange Hybrid Configuration Wizard with Edge
 
-![Exchange-Hybrid-Configuration-with-Edge-001](images/Exchange-Hybrid-Configuration-with-Edge-001.png)
+![Exchange-Hybrid-Configuration-with-edge-001](images/Exchange-Hybrid-Configuration-with-edge-001.png)
 
-![Exchange-Hybrid-Configuration-with-Edge-002](images/Exchange-Hybrid-Configuration-with-Edge-002.png)
+![Exchange-Hybrid-Configuration-with-edge-002](images/Exchange-Hybrid-Configuration-with-edge-002.png)
 
-![Exchange-Hybrid-Configuration-with-Edge-003](images/Exchange-Hybrid-Configuration-with-Edge-003.png)
+![Exchange-Hybrid-Configuration-with-edge-003](images/Exchange-Hybrid-Configuration-with-edge-003.png)
 
-![Exchange-Hybrid-Configuration-with-Edge-004](images/Exchange-Hybrid-Configuration-with-Edge-004.png)
+![Exchange-Hybrid-Configuration-with-edge-004](images/Exchange-Hybrid-Configuration-with-edge-004.png)
 
-![Exchange-Hybrid-Configuration-with-Edge-005](images/Exchange-Hybrid-Configuration-with-Edge-005.png)
+![Exchange-Hybrid-Configuration-with-edge-005](images/Exchange-Hybrid-Configuration-with-edge-005.png)
 
-![Exchange-Hybrid-Configuration-with-Edge-006](images/Exchange-Hybrid-Configuration-with-Edge-006.png)
+![Exchange-Hybrid-Configuration-with-edge-006](images/Exchange-Hybrid-Configuration-with-edge-006.png)
 
-![Exchange-Hybrid-Configuration-with-Edge-007](images/Exchange-Hybrid-Configuration-with-Edge-007.png)
+![Exchange-Hybrid-Configuration-with-edge-007](images/Exchange-Hybrid-Configuration-with-edge-007.png)
 
-![Exchange-Hybrid-Configuration-with-Edge-008](images/Exchange-Hybrid-Configuration-with-Edge-008.png)
+![Exchange-Hybrid-Configuration-with-edge-008](images/Exchange-Hybrid-Configuration-with-edge-008.png)
 
-![Exchange-Hybrid-Configuration-with-Edge-009](images/Exchange-Hybrid-Configuration-with-Edge-009.png)
+![Exchange-Hybrid-Configuration-with-edge-009](images/Exchange-Hybrid-Configuration-with-edge-009.png)
 
-![Exchange-Hybrid-Configuration-with-Edge-010](images/Exchange-Hybrid-Configuration-with-Edge-010.png)
+![Exchange-Hybrid-Configuration-with-edge-010](images/Exchange-Hybrid-Configuration-with-edge-010.png)
 
-![Exchange-Hybrid-Configuration-with-Edge-011](images/Exchange-Hybrid-Configuration-with-Edge-011.png)
+![Exchange-Hybrid-Configuration-with-edge-011](images/Exchange-Hybrid-Configuration-with-edge-011.png)
 
-![Exchange-Hybrid-Configuration-with-Edge-012](images/Exchange-Hybrid-Configuration-with-Edge-012.png)
+![Exchange-Hybrid-Configuration-with-edge-012](images/Exchange-Hybrid-Configuration-with-edge-012.png)
 
-![Exchange-Hybrid-Configuration-with-Edge-013](images/Exchange-Hybrid-Configuration-with-Edge-013.png)
+![Exchange-Hybrid-Configuration-with-edge-013](images/Exchange-Hybrid-Configuration-with-edge-013.png)
 
 [Top](#)
 
