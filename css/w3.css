@@ -239,15 +239,16 @@ h6,
 .w3-slim,
 .w3-wide {
   font-family: "Segoe UI", Arial, sans-serif;
-  margin-top: 40px;
 }
 
 h1 {
   font-size: 36px;
+  margin-top: 40px;
 }
 
 h2 {
   font-size: 30px;
+  margin-top: 40px;
 }
 
 h3 {
