@@ -68,6 +68,8 @@ Exchange 인프라를 관리에 필요한 주제들에 대하여 기술합니다
 
 ## Exchange Online
 
+- [Configure Exchange Hybrid](Configure-Exchange-Hybrid)
+
 - Migrating Mailbox to Microsoft 365
     - [Exchange Hybrid Off-Boarding Migration](Online/Exchange-Hybrid-Off-Boarding-Migration)
     - [Importing PST file to Microsoft 365](Online/Importing-PST-file-to-Microsoft-365)
