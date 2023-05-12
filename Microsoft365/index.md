@@ -52,7 +52,7 @@ ms.date: 2023.04.20
 
 ---
 
-## Microsoft Purview
+## [Microsoft Purview](Purview)
 
 
 ---
