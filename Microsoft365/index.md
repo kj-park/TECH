@@ -28,7 +28,7 @@ ms.date: 2023.04.20
 
 - [Configure Exchange Hybrid](/Tech/Exchange/Configure-Exchange-Hybrid)
 
-- [Configure Microsoft 365 Groups with on-premises Exchange Hybrid](/Tech/Exchange/Online/Configure-Microsoft-365-Groups-with-on-premises-Exchange-Hybrid.md)
+- [Configure Microsoft 365 Groups with on-premises Exchange Hybrid](/Tech/Exchange/Online/Configure-Microsoft-365-Groups-with-on-premises-Exchange-Hybrid)
 
 ---
 

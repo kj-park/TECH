@@ -32,11 +32,11 @@ Exchange 각 버전 별 설치 후 mail flow 및 client access, High Availabilit
 
 - [Configure mail flow and client access for Exchange Server](OnPremises/Configure-mail-flow-and-client-access-for-Exchange-Server)
 
-    - **SCRIPT**: [Configure-ExchangeMailFlowClientAccess.ps1](https://github.com/kj-park/tech/blob/main/Exchange/source/Configure-ExchangeMailFlowClientAccess.ps1)
+    - **SCRIPT**: [Configure-ExchangeMailFlowClientAccess.ps1](https://github.com/kj-park/tech/blob/main/Exchange/src/Configure-ExchangeMailFlowClientAccess.ps1)
 
 - [Configure High availability](OnPremises/Configure-High-availability)
 
-    - **SCRIPT**: [Configure-Exchange-DAG.ps1](https://github.com/kj-park/tech/blob/main/Exchange/source/Configure-Exchange-DAG.ps1)
+    - **SCRIPT**: [Configure-Exchange-DAG.ps1](https://github.com/kj-park/tech/blob/main/Exchange/src/Configure-Exchange-DAG.ps1)
 
 - [Configure Exchange Hybrid](Configure-Exchange-Hybrid)
 
@@ -48,7 +48,7 @@ Exchange 각 버전 별 설치 후 mail flow 및 client access, High Availabilit
 
 Exchange 인프라를 관리에 필요한 주제들에 대하여 기술합니다.
 
-- [Maintenance or Update Exchange DAG members](Maintenance-or-Update-DAG-Members)
+- [Maintenance or Update Exchange DAG members](OnPremises/Maintenance-or-Update-DAG-Members)
 
 - [Manage MailboxDatabases and Mailbox]
 
