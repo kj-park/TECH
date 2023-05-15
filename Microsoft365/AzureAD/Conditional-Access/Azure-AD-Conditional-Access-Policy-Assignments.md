@@ -50,7 +50,7 @@ ms.date: 2012.05.06
 
 Cloud apps 또는 actions은 조건부 액세스 정책의 주요 신호에 속합니다
 
-- 관리자는 기본 제공되는 Microsoft 애플리케이션과 모든 [Azure AD integrated applications](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/what-is-application-management) (갤러리, 비갤러리 및 Application Proxy를 통해 게시된 Application 등)을 포함한 Application 목록에서 선택할 수 있습니다.
+- 관리자는 기본 제공되는 Microsoft 애플리케이션과 모든 [Azure AD integrated applications](https://learn.microsoft.com/en-us/azure/active-directory/manage-apps/what-is-application-management) (갤러리, 비갤러리 및 Application Proxy를 통해 게시된 Application 등)을 포함한 Application 목록에서 선택할 수 있습니다.
 관리자는 사용자 작업을 기반으로 하여 정책을 정의하도록 선택할 수 있습니다. 유일하게 지원되는 작업은 보안 정보 등록(미리 보기)입니다. 여기서는 조건부 액세스를 사용하여 결합된 보안 정보 등록 환경을 제어할 수 있습니다.
 
 ![conditional-access-policy-assignments-cloud-apps-or-actions]({{ site.url }}/Microsoft365/images/AzureAD/conditional-access-policy-assignments-cloud-apps-or-actions.svg?raw=true)
@@ -59,17 +59,17 @@ Cloud apps 또는 actions은 조건부 액세스 정책의 주요 신호에 속�
 
 계속 해 서 더 많은 앱을 추가 하므로 다음 목록은 완전 하지 않으며 변경 될 수 있습니다.
 
-https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps
+https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps
 
 ### User actions
 
 - Register security information
-    - [Microsoft Authenticator](https://docs.microsoft.com/en-us/azure/active-directory/user-help/security-info-setup-auth-app)
+    - [Microsoft Authenticator](https://learn.microsoft.com/en-us/azure/active-directory/user-help/security-info-setup-auth-app)
     - Phone
-        - [Text Messaging](https://docs.microsoft.com/en-us/azure/active-directory/user-help/security-info-setup-text-msg)
-        - [Phone Call](https://docs.microsoft.com/en-us/azure/active-directory/user-help/security-info-setup-phone-number)
-    - [Email](https://docs.microsoft.com/en-us/azure/active-directory/user-help/security-info-setup-email)
-    - [Pre-Defined Security Questions](https://docs.microsoft.com/en-us/azure/active-directory/user-help/security-info-setup-questions)
+        - [Text Messaging](https://learn.microsoft.com/en-us/azure/active-directory/user-help/security-info-setup-text-msg)
+        - [Phone Call](https://learn.microsoft.com/en-us/azure/active-directory/user-help/security-info-setup-phone-number)
+    - [Email](https://learn.microsoft.com/en-us/azure/active-directory/user-help/security-info-setup-email)
+    - [Pre-Defined Security Questions](https://learn.microsoft.com/en-us/azure/active-directory/user-help/security-info-setup-questions)
 
 - Register or join devices (preview)
 
@@ -84,7 +84,7 @@ https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/conce
 > [!WARNING]
 > Register or join devices (preview) 옵션을 선택한 경우 Conditions의 Client apps 및 Device state (Preview) 설정을 할 수 없음.
 
-#### Register security information ([Combined security information registration](https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-registration-mfa-sspr-combined))
+#### Register security information ([Combined security information registration](https://learn.microsoft.com/en-us/azure/active-directory/authentication/concept-registration-mfa-sspr-combined))
 
 ##### Combined Registration supports:
 
@@ -139,21 +139,21 @@ https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/conce
 
 ### User Risk
 
-[Identity Protection](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/overview-identity-protection)에 대 한 액세스 권한이 있는 고객의 경우 조건부 액세스 정책의 일부로 사용자 위험을 평가할 수 있음.  사용자 위험은 지정된 ID 또는 계정이 손상될 확률을 나타냄.
+[Identity Protection](https://learn.microsoft.com/en-us/azure/active-directory/identity-protection/overview-identity-protection)에 대 한 액세스 권한이 있는 고객의 경우 조건부 액세스 정책의 일부로 사용자 위험을 평가할 수 있음.  사용자 위험은 지정된 ID 또는 계정이 손상될 확률을 나타냄.
 
 ![identity-protection-user-risk-policy]({{ site.url }}/Microsoft365/images/AzureAD/identity-protection-user-risk-policy.svg?raw=true)
 
 > [!NOTE]
-> **참고:** [What is risk](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/concept-identity-protection-risks#user-risk) 및 [How To: Configure and enable risk policies](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/howto-identity-protection-configure-risk-policies).
+> **참고:** [What is risk](https://learn.microsoft.com/en-us/azure/active-directory/identity-protection/concept-identity-protection-risks#user-risk) 및 [How To: Configure and enable risk policies](https://learn.microsoft.com/en-us/azure/active-directory/identity-protection/howto-identity-protection-configure-risk-policies).
 
 ### Sign-in Risk
 
-[Identity Protection](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/overview-identity-protection)에 대 한 액세스 권한이 있는 고객의 경우 조건부 액세스 정책의 일부로 로그인 위험을 평가할 수 있음.
+[Identity Protection](https://learn.microsoft.com/en-us/azure/active-directory/identity-protection/overview-identity-protection)에 대 한 액세스 권한이 있는 고객의 경우 조건부 액세스 정책의 일부로 로그인 위험을 평가할 수 있음.
 
 ![identity-protection-sign-in-risk-policy]({{ site.url }}/Microsoft365/images/AzureAD/identity-protection-sign-in-risk-policy.svg?raw=true)
 
 > [!NOTE]
-> **참고:** [What is risk](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/concept-identity-protection-risks#user-risk) 및 [How To: Configure and enable risk policies](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/howto-identity-protection-configure-risk-policies).
+> **참고:** [What is risk](https://learn.microsoft.com/en-us/azure/active-directory/identity-protection/concept-identity-protection-risks#user-risk) 및 [How To: Configure and enable risk policies](https://learn.microsoft.com/en-us/azure/active-directory/identity-protection/howto-identity-protection-configure-risk-policies).
 
 ### Device Platforms
 

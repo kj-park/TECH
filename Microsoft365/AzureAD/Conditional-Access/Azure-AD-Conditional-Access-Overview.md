@@ -60,9 +60,9 @@ Modern 보안 경계는 조직의 네트워크를 넘어 사용자 와 장치의
 
 Azure AD Premium P1 license.
 
-[Microsoft 365 Business Premium licenses](https://docs.microsoft.com/en-us/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description) 가 있는 고객은 조건부 액세스 기능에도 액세스할 수 있음.
+[Microsoft 365 Business Premium licenses](https://learn.microsoft.com/en-us/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description) 가 있는 고객은 조건부 액세스 기능에도 액세스할 수 있음.
 
-[Sign-in Risk](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-conditions#sign-in-risk) requires access to [Identity Protection](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/overview-identity-protection)
+[Sign-in Risk](https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-conditions#sign-in-risk) requires access to [Identity Protection](https://learn.microsoft.com/en-us/azure/active-directory/identity-protection/overview-identity-protection)
 
 > [!NOTE]
 > [Comparing generally available features of the Free, Basic, and Premium editions](https://azure.microsoft.com/pricing/details/active-directory/)
@@ -75,21 +75,21 @@ Azure AD Premium P1 license.
 
 ### Common Conditional Access Policies
 
-#### [Security Defaults](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)
+#### [Security Defaults](https://learn.microsoft.com/en-us/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)
 
-#### [Emergency access accounts](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-policy-common#emergency-access-accounts)
+#### [Emergency access accounts](https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-policy-common#emergency-access-accounts)
 
 - Manage emergency access accounts in Azure AD
 - Create a resilient access control management strategy with Azure Active Directory
 
-#### [Typical policies deployed by organizations](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-policy-common#typical-policies-deployed-by-organizations)
+#### [Typical policies deployed by organizations](https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-policy-common#typical-policies-deployed-by-organizations)
 
 - [Block legacy authentication](Common-Policies/Block-Legacy-Authentication.md)
 - [Require MFA for administrators](Common-Policies/Require-MFA-for-Administrators.md)
 - [Require MFA for Azure management](Common-Policies/Require-MFA-for-Azure-Management.md)
 - [Require MFA for all users](Common-Policies/Require-MFA-for-All-Users.md)
 
-#### [Additional policies](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-policy-common#additional-policies)
+#### [Additional policies](https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-policy-common#additional-policies)
 
 - [Sign-in risk-based Conditional Access (Requires Azure AD Premium P2)](Common-Policies/Sign-in-risk-based-Conditional-Access)
 - [User risk-based Conditional Access (Requires Azure AD Premium P2)](Common-Policies/User-risk-based-Conditional-Access)

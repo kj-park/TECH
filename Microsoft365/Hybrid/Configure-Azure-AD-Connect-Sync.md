@@ -28,7 +28,7 @@ Install Type은 아래와 같습니다:
 - Password Writeback 기능: Windows Server 2012 이상 Domain Controller
 - Writable Domain Controller, Not RODC
 - Forest and Domain Namespace: "dotted" name, NetBIOS name 지원하지 않음
-- [Active Directory Recycle Bin enable](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sync-recycle-bin) 권장
+- [Active Directory Recycle Bin enable](https://learn.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sync-recycle-bin) 권장
 
 ### PowerShell .NET Framework
 
@@ -46,10 +46,10 @@ Azure AD Connect Server 서버는 critical identity data를 가지고 있어서 
 - PowerShell Transcription Group Policy must not enabled
 - If AD FS is being Deployed:
     - AD FS or Web Application Proxy 는 Windows Server 2012 R2 이상
-    - TLS/SSL Certificates 구성 ([Managing SSL/TLS protocols and cipher suites for AD FS](https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/operations/manage-ssl-protocols-in-ad-fs) and [Managing SSL certificates in AD FS](https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/operations/manage-ssl-certificates-ad-fs-wap))
+    - TLS/SSL Certificates 구성 ([Managing SSL/TLS protocols and cipher suites for AD FS](https://learn.microsoft.com/en-us/windows-server/identity/ad-fs/operations/manage-ssl-protocols-in-ad-fs) and [Managing SSL certificates in AD FS](https://learn.microsoft.com/en-us/windows-server/identity/ad-fs/operations/manage-ssl-certificates-ad-fs-wap))
     - Name Resolution for AD FS or Web Application Proxy
 - Global Administrators에 MFA가 enable되어 있으면, IE trusted sites에 https://secure.aadcdn.microsoftonline-p.com 추가
-- Azure AD Connect Health deploy를 계획 중이라면, [prerequisites](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-health-agent-install) 확인
+- Azure AD Connect Health deploy를 계획 중이라면, [prerequisites](https://learn.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-health-agent-install) 확인
 
 ### SQL Server used by Azure AD Connect
 
@@ -67,12 +67,12 @@ Azure AD Connect Server 서버는 critical identity data를 가지고 있어서 
 ### Connectivity
 
 - Azure AD Connect Server 서버는 Intranet (On-Premises Active Directory) 과 Internet (Azure AD endpoints) 에 대하여 DNS name resolution이 가능해야 함
-- Intranet 통신에 Firewall이 있는 경우 domain controller 와 통신을 위한 port open 필요 ([Azure AD Connect ports](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/reference-connect-ports))
+- Intranet 통신에 Firewall이 있는 경우 domain controller 와 통신을 위한 port open 필요 ([Azure AD Connect ports](https://learn.microsoft.com/en-us/azure/active-directory/hybrid/reference-connect-ports))
 - Proxy 및 Firewall이 URL 접근 제어에 제한이 있다면, 아래의 두 문서를 참조하여 open되어야 함
     - [ Office 365 URLs and IP address ranges](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)
-    - [ Safelist the Azure portal URLs on your firewall or proxy server](https://docs.microsoft.com/en-us/azure/azure-portal/azure-portal-safelist-urls?tabs=public-cloud)
+    - [ Safelist the Azure portal URLs on your firewall or proxy server](https://learn.microsoft.com/en-us/azure/azure-portal/azure-portal-safelist-urls?tabs=public-cloud)
 - Azure AD Connect는 기본적을 TLS 1.2 보안 프로토콜을 사용함
-    - .NET 4.5.1 hotfix ([Microsoft Security Advisory 2960358](https://docs.microsoft.com/en-us/security-updates/SecurityAdvisories/2015/2960358))
+    - .NET 4.5.1 hotfix ([Microsoft Security Advisory 2960358](https://learn.microsoft.com/en-us/security-updates/SecurityAdvisories/2015/2960358))
     - `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319` > `"SchUseStrongCrypto"=dword:00000001`
 - Outbound Proxy를 통해 Internet 통신이 되는 경우 .NET Framework의 machine.config에 proxy address 등 추가 설정 필요
     - proxy address
@@ -165,17 +165,17 @@ Set-ADSyncExchangeMailPublicFolderPermissions -ADConnectorAccountName aadsync -A
 
 | Topic                              | Link                                                                                                                                                                       |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Supported topologies**           | [Topologies for Azure AD Connect](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/plan-connect-topologies)                                                  |
-| **Design concepts**                | [Azure AD Connect design concepts](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/plan-connect-design-concepts)                                            |
-| **Accounts used for installation** | [More about Azure AD Connect credentials and permissions](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/reference-connect-accounts-permissions)           |
-| **Operational planning**           | [Azure AD Connect sync: Operational tasks and considerations](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sync-staging-server)           |
-| **User sign-in options**           | [Azure AD Connect User sign-in options](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/plan-connect-user-signin)                                           |
-| **Configure filtering**            | [Azure AD Connect sync: Configure filtering](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sync-configure-filtering)                       |
-| **Password hash synchronization**  | [Password hash synchronization](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-password-hash-synchronization)                               |
-| **Pass-through Authentication**    | [Pass-through authentication](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-pta)                                                           |
-| **Password writeback**             | [Getting started with password management](https://docs.microsoft.com/en-us/azure/active-directory/authentication/tutorial-enable-sspr)                                    |
-| **Device writeback**               | [Enabling device writeback in Azure AD Connect](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-device-writeback)                            |
-| **Prevent accidental deletes**     | [Azure AD Connect sync: Prevent accidental deletes](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sync-feature-prevent-accidental-deletes) |
-| **Automatic upgrade**              | [Azure AD Connect: Automatic upgrade](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-install-automatic-upgrade)                             |
+| **Supported topologies**           | [Topologies for Azure AD Connect](https://learn.microsoft.com/en-us/azure/active-directory/hybrid/plan-connect-topologies)                                                  |
+| **Design concepts**                | [Azure AD Connect design concepts](https://learn.microsoft.com/en-us/azure/active-directory/hybrid/plan-connect-design-concepts)                                            |
+| **Accounts used for installation** | [More about Azure AD Connect credentials and permissions](https://learn.microsoft.com/en-us/azure/active-directory/hybrid/reference-connect-accounts-permissions)           |
+| **Operational planning**           | [Azure AD Connect sync: Operational tasks and considerations](https://learn.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sync-staging-server)           |
+| **User sign-in options**           | [Azure AD Connect User sign-in options](https://learn.microsoft.com/en-us/azure/active-directory/hybrid/plan-connect-user-signin)                                           |
+| **Configure filtering**            | [Azure AD Connect sync: Configure filtering](https://learn.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sync-configure-filtering)                       |
+| **Password hash synchronization**  | [Password hash synchronization](https://learn.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-password-hash-synchronization)                               |
+| **Pass-through Authentication**    | [Pass-through authentication](https://learn.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-pta)                                                           |
+| **Password writeback**             | [Getting started with password management](https://learn.microsoft.com/en-us/azure/active-directory/authentication/tutorial-enable-sspr)                                    |
+| **Device writeback**               | [Enabling device writeback in Azure AD Connect](https://learn.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-device-writeback)                            |
+| **Prevent accidental deletes**     | [Azure AD Connect sync: Prevent accidental deletes](https://learn.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sync-feature-prevent-accidental-deletes) |
+| **Automatic upgrade**              | [Azure AD Connect: Automatic upgrade](https://learn.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-install-automatic-upgrade)                             |
 
 ---

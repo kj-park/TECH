@@ -21,8 +21,8 @@ ms.date: 2012.06.21
 
 ### This module is part of these learning paths
 
-- [Linux on Azure](https://docs.microsoft.com/learn/paths/azure-linux/)
-- [Azure Fundamentals part 1: Describe core Azure concepts](https://docs.microsoft.com/learn/paths/az-900-describe-cloud-concepts/)
+- [Linux on Azure](https://learn.microsoft.com/learn/paths/azure-linux/)
+- [Azure Fundamentals part 1: Describe core Azure concepts](https://learn.microsoft.com/learn/paths/az-900-describe-cloud-concepts/)
 
 ## What are public, private, and hybrid clouds?
 

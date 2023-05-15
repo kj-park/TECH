@@ -269,7 +269,7 @@ Client Access에서 사용되어지는 namespaces는 Exchange의 이런 서비�
 
 Exchange Server 메일 흐름은 Transport Pipeline을 통해 발생합니다. Transport pipeline은 조직의 Exchange Mailbox Server의 Transport 서비스의 모든 message를 분류하고 라우팅하는 services 및 connections, components, queues 모음을 의미합니다.
 
-조직에서 메일 흐름을 구성하는 방법에 대한 자세한 내용은 [Configure mail flow and client access](https://docs.microsoft.com/en-us/Exchange/plan-and-deploy/post-installation-tasks/configure-mail-flow-and-client-access?view=exchserver-2019)를 참조하세요.
+조직에서 메일 흐름을 구성하는 방법에 대한 자세한 내용은 [Configure mail flow and client access](https://learn.microsoft.com/en-us/Exchange/plan-and-deploy/post-installation-tasks/configure-mail-flow-and-client-access?view=exchserver-2019)를 참조하세요.
 
 > [!NOTE]
 > [Understanding the Transport Pipeline](Conceptual/Understanding-the-Transport-pipeline)

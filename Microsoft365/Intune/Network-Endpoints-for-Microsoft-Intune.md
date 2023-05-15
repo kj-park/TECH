@@ -11,7 +11,7 @@ Intune 배포에서 필요한 IP Address 및 Port 설정과 Proxy 설정 관련 
 방화벽이나 Proxy 서버에 의하여 보호되는 devices들을 관리하기 위해서는 Intune을 위한 communication이 가능해야 합니다.
 
 > [!INFO]  
-> [Network endpoints for Microsoft Intune](https://docs.microsoft.com/en-us/mem/intune/fundamentals/intune-endpoints)
+> [Network endpoints for Microsoft Intune](https://learn.microsoft.com/en-us/mem/intune/fundamentals/intune-endpoints)
 
 ## Proxy Server Requirements
 

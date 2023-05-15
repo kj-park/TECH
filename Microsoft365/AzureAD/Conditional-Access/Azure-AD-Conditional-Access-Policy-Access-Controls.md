@@ -19,10 +19,10 @@ ms.date: 2012.05.10
 
 #### Require multi-factor authentication
 
-Azure AD Multi-Factor Authentication 인증을 필요로 함. ([Windows Hello for Business](https://docs.microsoft.com/en-us/windows/security/identity-protection/hello-for-business/hello-overview)가 Conditional Access 정책에서 MFA 조건을 만족함)
+Azure AD Multi-Factor Authentication 인증을 필요로 함. ([Windows Hello for Business](https://learn.microsoft.com/en-us/windows/security/identity-protection/hello-for-business/hello-overview)가 Conditional Access 정책에서 MFA 조건을 만족함)
 
 > [!NOTE]
-> [Planning a cloud-based Azure AD Multi-Factor Authentication deployment](https://docs.microsoft.com/en-us/azure/active-directory/authentication/howto-mfa-getstarted)
+> [Planning a cloud-based Azure AD Multi-Factor Authentication deployment](https://learn.microsoft.com/en-us/azure/active-directory/authentication/howto-mfa-getstarted)
 
 #### Require device to be marked as compliant
 
@@ -48,7 +48,7 @@ Microsoft Intune의 Compliance requirements 를 만족해야 함. Device는 Azur
 >    - Windows 7, 8.1, or 10
 >    - Windows Server 2008 or newer
 >
-> **참고:** [What is a device identity?](https://docs.microsoft.com/en-us/azure/active-directory/devices/overview)
+> **참고:** [What is a device identity?](https://learn.microsoft.com/en-us/azure/active-directory/devices/overview)
 
 #### Require hybrid Azure AD joined device
 
@@ -101,7 +101,7 @@ Intune app protection policies에서 지원하는 approved client app
 
 #### Require app protection policy
 
-[Intune app Protection Policy](https://docs.microsoft.com/en-us/intune/app-protection-policy)
+[Intune app Protection Policy](https://learn.microsoft.com/en-us/intune/app-protection-policy)
 
 Intune SDK의 Policy Assurance를 만족하게 개발된 apps 아래 client apps이 지원됨:
 
@@ -148,14 +148,14 @@ Azure AD에서 선택한 클라우드 앱에 장치 정보를 전달 하도록 �
 
  SharePoint Online 및 Exchange Online만 지원합니다.(Microsoft 365 포함)
 
-- [Enabling limited access with SharePoint Online](https://docs.microsoft.com/en-us/sharepoint/control-access-from-unmanaged-devices)
+- [Enabling limited access with SharePoint Online](https://learn.microsoft.com/en-us/sharepoint/control-access-from-unmanaged-devices)
 - [Enabling limited access with Exchange Online](https://aka.ms/owalimitedaccess)
 
 ### use Conditional Access App Control
 
 Conditional Access App Control은 Reverse Proxy architecture를 사용하며 Azure AD Conditional Access와 통합되어 있음.
 
-특정 조건(who and what, where) 기반의 조직의 apps에 대하여 정책이 적용되면 사용자들은 [Microsoft Cloud App Security](https://docs.microsoft.com/en-us/cloud-app-security/what-is-cloud-app-security)로 라우팅되어 session 기반의 데이터 보호를 함.
+특정 조건(who and what, where) 기반의 조직의 apps에 대하여 정책이 적용되면 사용자들은 [Microsoft Cloud App Security](https://learn.microsoft.com/en-us/cloud-app-security/what-is-cloud-app-security)로 라우팅되어 session 기반의 데이터 보호를 함.
 
 - **Prevent data exfiltration(유출).** 중요한 문서의 다운로드, 잘라내기, 복사, 인쇄를 차단
 - **Protect on download.** 중요한 문서의 다운로드를 차단하는 대신 문서에 레이블을 지정하고 Azure Information Protection으로 문서를 보호하도록 요구

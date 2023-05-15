@@ -102,13 +102,13 @@ Schema Admins 및 Enterprise Admins 의 구성원으로 작업을 수행합니�
     ```
 
 > [!NOTE]
-> [Exchange 2013 Active Directory versions](https://docs.microsoft.com/en-us/exchange/prepare-active-directory-and-domains-exchange-2013-help#exchange-2013-active-directory-versions)
+> [Exchange 2013 Active Directory versions](https://learn.microsoft.com/en-us/exchange/prepare-active-directory-and-domains-exchange-2013-help#exchange-2013-active-directory-versions)
 
 
 ## Deploy New Installation of Exchange 2013
 
 > [!NOTE]
-> [Checklist for a new installation of Exchange 2013](https://docs.microsoft.com/en-us/exchange/checklist-perform-a-new-installation-of-exchange-2013-exchange-2013-help)
+> [Checklist for a new installation of Exchange 2013](https://learn.microsoft.com/en-us/exchange/checklist-perform-a-new-installation-of-exchange-2013-exchange-2013-help)
 
 1. [Exchange 2013 CU23](https://www.microsoft.com/en-us/download/details.aspx?id=58392) 설치 파일을 다운로하고 실행하여 압축을 해제합니다.
 
@@ -167,7 +167,7 @@ Exchange Standard Edition은 아래와 같은 limitation이 있습니다:
 
 - 기본 Database size limit는 1024 GB
 
-    [Exchange Server 2013, 2016 and 2019 Standard Edition can't mount databases that are larger than 1024 GB](https://docs.microsoft.com/en-us/exchange/troubleshoot/administration/exchange-cannot-mount-database-larger-than-1024-gb)
+    [Exchange Server 2013, 2016 and 2019 Standard Edition can't mount databases that are larger than 1024 GB](https://learn.microsoft.com/en-us/exchange/troubleshoot/administration/exchange-cannot-mount-database-larger-than-1024-gb)
 
 - 1 ~ 5 Mailbox Database 지원 (Enterprise Edition은 1 ~ 100 Mailbox Database 지원)
 

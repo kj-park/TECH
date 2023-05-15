@@ -20,7 +20,7 @@ Sharing the Technology to everyone who want to know.
 
 ---
 
-## [Customize the Microsoft 365 theme for your organization](https://docs.microsoft.com/en-us/microsoft-365/admin/setup/customize-your-organization-theme?view=o365-worldwide)
+## [Customize the Microsoft 365 theme for your organization](https://learn.microsoft.com/en-us/microsoft-365/admin/setup/customize-your-organization-theme?view=o365-worldwide)
 
 모든 조직 테마는 다음 탭을 사용하여 사용자 정의할 수 있습니다. 테마는 최대 5개 그룹에 할당할 수 있습니다.
 

@@ -7,9 +7,9 @@ Contents:
 
 - [Windows PowerShell](#windows-powershell)
 - [Installing PowerShell on Windows](#installing-powershell-on-windows)
-- [~~Installing PowerShell on Linux~~](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-linux)
-- [~~Installing PowerShell on macOS~~](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-macos)
-- [~~Using PowerShell in Docker~~](https://docs.microsoft.com/en-us/powershell/scripting/install/powershell-in-docker)
+- [~~Installing PowerShell on Linux~~](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-linux)
+- [~~Installing PowerShell on macOS~~](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-macos)
+- [~~Using PowerShell in Docker~~](https://learn.microsoft.com/en-us/powershell/scripting/install/powershell-in-docker)
 - [Useful Tools for Scripting and Shell](#useful-tools-for-scripting-and-shell)
 
 ---
@@ -46,7 +46,7 @@ Windows PowerShell ISE의 Key Features는 아래와 같습니다:
 - **Context-sensitive help**: Type `Invoke-Item`, and then press <kbd>F1</kbd>. The Help file opens to the article for the `Invoke-Item` cmdlet.
 - **Script Debugging**
 
-### [Windows Management Framework (WMF)](https://docs.microsoft.com/en-us/powershell/scripting/windows-powershell/wmf/overview)
+### [Windows Management Framework (WMF)](https://learn.microsoft.com/en-us/powershell/scripting/windows-powershell/wmf/overview)
 
 WMF installation adds and/or updates the following features:
 
@@ -61,18 +61,18 @@ WMF installation adds and/or updates the following features:
 
 ---
 
-## [Installing PowerShell on Windows](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows)
+## [Installing PowerShell on Windows](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows)
 
 ### Installing the MSI package
 
 최신 버전은 아래 링크에서 다운받을 수 있습니다:
 
-[Installing the MSI Package](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.2#installing-the-msi-package)
+[Installing the MSI Package](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.2#installing-the-msi-package)
 
 
 ## Useful Tools for Scripting and Shell
 
-- [Windows Terminal](https://docs.microsoft.com/en-us/windows/terminal/)
+- [Windows Terminal](https://learn.microsoft.com/en-us/windows/terminal/)
 
 - [Visual Studio Code](https://code.visualstudio.com/)
 

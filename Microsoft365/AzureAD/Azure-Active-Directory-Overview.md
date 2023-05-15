@@ -39,9 +39,9 @@ Azure AD 구현을 향상하기 위해 Azure Active Directory Premium P1 또는 
 
 - **Azure Active Directory Premium P1.** P1은 Free 기능 외에도 하이브리드 사용자에게 온-프레미스 및 클라우드 리소스에 대한 액세스를 제공합니다. 또한 온-프레미스 사용자에 대한 셀프 서비스 암호 재설정을 허용하는 동적 그룹, 셀프 서비스 그룹 관리, Microsoft Identity Manager(온-프레미스 ID 및 액세스 관리 도구 모음), 클라우드 쓰기 저장 기능 등의 고급 관리를 지원합니다.
 
-- **Azure Active Directory Premium P2.** P2는 Free 및 P1 기능 외에도 앱 및 중요한 회사 데이터에 대한 위험 기반 조건부 액세스를 제공하는 [Azure Active Directory Identity Protection](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/overview-identity-protection)과 관리자의 리소스 액세스를 검색, 제한, 모니터링하고 필요할 때 적시에 액세스를 제공할 수 있도록 도와주는 [Privileged Identity Management](https://docs.microsoft.com/en-us/azure/active-directory/privileged-identity-management/pim-getting-started)를 제공합니다.
+- **Azure Active Directory Premium P2.** P2는 Free 및 P1 기능 외에도 앱 및 중요한 회사 데이터에 대한 위험 기반 조건부 액세스를 제공하는 [Azure Active Directory Identity Protection](https://learn.microsoft.com/en-us/azure/active-directory/identity-protection/overview-identity-protection)과 관리자의 리소스 액세스를 검색, 제한, 모니터링하고 필요할 때 적시에 액세스를 제공할 수 있도록 도와주는 [Privileged Identity Management](https://learn.microsoft.com/en-us/azure/active-directory/privileged-identity-management/pim-getting-started)를 제공합니다.
 
-- **"종량제(Pay as you go)" 기능 라이선스.** Azure Active Directory B2C(Business-to-Customer) 같은 추가 기능 라이선스도 얻을 수 있습니다. B2C는 고객용 앱의 ID 및 액세스 관리 솔루션을 제공하는 데 도움이 될 수 있습니다. 자세한 내용은 [Azure Active Directory B2C documentation](https://docs.microsoft.com/en-us/azure/active-directory-b2c/)를 참조하세요.
+- **"종량제(Pay as you go)" 기능 라이선스.** Azure Active Directory B2C(Business-to-Customer) 같은 추가 기능 라이선스도 얻을 수 있습니다. B2C는 고객용 앱의 ID 및 액세스 관리 솔루션을 제공하는 데 도움이 될 수 있습니다. 자세한 내용은 [Azure Active Directory B2C documentation](https://learn.microsoft.com/en-us/azure/active-directory-b2c/)를 참조하세요.
 
 
 ### Which features work in Azure AD?
@@ -55,16 +55,16 @@ Azure AD 라이선스를 선택하면 조직에서 사용 가능한 다음 기�
 | Azure Active Directory for developers | 모든 Microsoft ID를 로그인하고 Microsoft Graph, 기타 Microsoft API 또는 사용자 지정 API를 호출하는 토큰을 가져오는 앱을 빌드합니다. |
 | Business-to-Business (B2B) | 회사 데이터에 대한 제어를 유지하면서도 게스트 사용자 및 외부 파트너를 관리합니다.  |
 | Business-to-Customer (B2C) | 사용자가 앱을 사용할 때 프로필을 등록, 로그인 및 관리하는 방법을 사용자 지정하고 제어합니다. |
-| Conditional Access | 클라우드 앱에 대한 액세스 관리 자세한 내용은 [Azure AD Conditional Access documentation](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/)를 참조하세요. |
-| Device Management | 클라우드 또는 온-프레미스 디바이스가 회사 데이터에 액세스하는 방법을 관리합니다. 자세한 내용은 [Azure AD Device Management documentation](https://docs.microsoft.com/en-us/azure/active-directory/devices/)를 참조하세요. |
-| Domain services | 도메인 컨트롤러를 사용하지 않고 도메인에 Azure 가상 머신을 조인합니다. 자세한 내용은 [Azure AD Domain Services documentation](https://docs.microsoft.com/en-us/azure/active-directory-domain-services/)를 참조하세요. |
+| Conditional Access | 클라우드 앱에 대한 액세스 관리 자세한 내용은 [Azure AD Conditional Access documentation](https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/)를 참조하세요. |
+| Device Management | 클라우드 또는 온-프레미스 디바이스가 회사 데이터에 액세스하는 방법을 관리합니다. 자세한 내용은 [Azure AD Device Management documentation](https://learn.microsoft.com/en-us/azure/active-directory/devices/)를 참조하세요. |
+| Domain services | 도메인 컨트롤러를 사용하지 않고 도메인에 Azure 가상 머신을 조인합니다. 자세한 내용은 [Azure AD Domain Services documentation](https://learn.microsoft.com/en-us/azure/active-directory-domain-services/)를 참조하세요. |
 | Enterprise users | 그룹 및 관리자 역할을 사용하여 라이선스를 할당하고, 앱에 액세스하고, 대리자를 설정합니다. |
 | Hybrid identity | Azure Active Directory Connect 및 Connect Health를 사용하여 위치(클라우드 또는 온-프레미스)에 관계 없이 모든 리소스를 인증하고 권한을 부여할 수 있는 단일 사용자 ID를 제공합니다. |
 | Identity governance | 직원, 비즈니스 파트너, 공급업체, 서비스 및 앱 액세스 컨트롤을 통해 조직의 ID를 관리합니다. 액세스 검토를 수행할 수도 있습니다. |
 | Identity protection | 조직의 ID에 영향을 미치는 잠재적 취약점을 검색하고, 의심스러운 작업에 대응하는 정책을 구성하고, 문제를 해결하기 위한 적절한 조치를 취합니다. |
 | Managed identities for Azure resources | Key Vault를 포함하여 Azure AD에서 지원되는 모든 인증 서비스를 인증할 수 있는 자동으로 관리되는 ID를 Azure 서비스에 제공합니다. |
 | Privileged identity management (PIM) | 조직 내 액세스를 관리, 제어 및 모니터링합니다. 이 기능에는 Azure AD, Azure 및 기타 Microsoft Online Services(예: Microsoft 365 또는 Intune)의 리소스에 대한 액세스 권한이 포함되어 있습니다. |
-| Reports and monitoring | 환경의 보안과 사용 패턴에 대한 인사이트를 얻을 수 있습니다. 자세한 내용은 [Azure Active Directory reports and monitoring documentation](https://docs.microsoft.com/en-us/azure/active-directory/reports-monitoring/)를 참조하세요. |
+| Reports and monitoring | 환경의 보안과 사용 패턴에 대한 인사이트를 얻을 수 있습니다. 자세한 내용은 [Azure Active Directory reports and monitoring documentation](https://learn.microsoft.com/en-us/azure/active-directory/reports-monitoring/)를 참조하세요. |
 
 ### Terminology
 
@@ -78,7 +78,7 @@ Azure AD 및 설명서를 보다 정확하게 이해하려면 다음 용어를 �
 | Account Administrator | 이 클래식 구독 관리자 역할은 개념적으로 구독의 청구 소유자입니다. 이 역할은 Azure 계정 센터에 액세스할 수 있으며 계정의 모든 구독을 관리할 수 있습니다.  |
 | Service Administrator | 이 클래식 구독 관리자 역할은 액세스를 포함하여 모든 Azure 리소스를 관리할 수 있습니다. 이 역할은 구독 범위에서 소유자 역할이 할당된 사용자와 동일한 액세스 권한을 갖습니다. |
 | Owner | 이 역할은 액세스를 포함하여 모든 Azure 리소스를 관리할 수 있습니다. 이 역할은 Azure 리소스에 대한 세분화된 액세스 관리를 제공하는 Azure RBAC(Azure 역할 기반 액세스 제어)라고 하는 최신 권한 부여 시스템을 기반으로 합니다. |
-| Azure AD Global administrator | 이 관리자 역할은 Azure AD 테넌트를 만든 모든 사람에게 자동으로 할당됩니다. 글로벌 관리자는 Exchange Online, SharePoint Online, 비즈니스용 Skype Online 등의 서비스에 페더레이션되는 서비스 및 Azure AD에 대한 모든 관리 기능을 수행할 수 있습니다. 글로벌 관리자를 여러 명 둘 수 있지만, 글로벌 관리자만이 사용자에게 관리자 역할을 할당(다른 글로벌 관리자 할당 포함)할 수 있습니다. 다양한 관리자 역할에 대한 자세한 내용은 [Azure AD built-in roles](https://docs.microsoft.com/en-us/azure/active-directory/roles/permissions-reference)을 참조하세요. |
+| Azure AD Global administrator | 이 관리자 역할은 Azure AD 테넌트를 만든 모든 사람에게 자동으로 할당됩니다. 글로벌 관리자는 Exchange Online, SharePoint Online, 비즈니스용 Skype Online 등의 서비스에 페더레이션되는 서비스 및 Azure AD에 대한 모든 관리 기능을 수행할 수 있습니다. 글로벌 관리자를 여러 명 둘 수 있지만, 글로벌 관리자만이 사용자에게 관리자 역할을 할당(다른 글로벌 관리자 할당 포함)할 수 있습니다. 다양한 관리자 역할에 대한 자세한 내용은 [Azure AD built-in roles](https://learn.microsoft.com/en-us/azure/active-directory/roles/permissions-reference)을 참조하세요. |
 | Azure subscription | Azure 클라우드 서비스 요금을 지불하는 데 사용됩니다. 여러 구독을 한 신용 카드에 연결할 수 있습니다. |
 | Azure tenant | 조직이 Microsoft Azure, Microsoft Intune 또는 Microsoft 365 같은 Microsoft 클라우드 서비스 구독에 등록할 때 자동으로 생성되는 Azure AD의 신뢰할 수 있는 전용 인스턴스입니다. 한 Azure 테넌트는 단일 조직을 나타냅니다. |
 | Single tenant | 전용 환경의 다른 서비스에 액세스하는 Azure 테넌트는 단일 테넌트로 간주됩니다. |
@@ -129,13 +129,13 @@ Azure AD는 클라우드 및 온-프레미스에서 모든 앱에 대 한 IDaaS 
 
 ## What's new in Azure Active Directory?
 
-이 URL `https://docs.microsoft.com/api/search/rss?search=%22Release+notes+-+Azure+Active+Directory%22&locale=en-us`를 RSS 피드 판독기 아이콘 피드 판독기에 복사하고 붙어넣어 업데이트를 위해 이 페이지를 다시 방문해야 할 때 알림을 받습니다.
+이 URL `https://learn.microsoft.com/api/search/rss?search=%22Release+notes+-+Azure+Active+Directory%22&locale=en-us`를 RSS 피드 판독기 아이콘 피드 판독기에 복사하고 붙어넣어 업데이트를 위해 이 페이지를 다시 방문해야 할 때 알림을 받습니다.
 
-자세한 내용은 [What's new in Azure Active Directory?](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/whats-new)을 참조하세요.
+자세한 내용은 [What's new in Azure Active Directory?](https://learn.microsoft.com/en-us/azure/active-directory/fundamentals/whats-new)을 참조하세요.
 
 ### 참고
 
-[What's new for Azure Active Directory in Microsoft 365 Government](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/whats-new-microsoft-365-government)
+[What's new for Azure Active Directory in Microsoft 365 Government](https://learn.microsoft.com/en-us/azure/active-directory/fundamentals/whats-new-microsoft-365-government)
 
-[Archive for What's new in Azure Active Directory?](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/whats-new-archive)
+[Archive for What's new in Azure Active Directory?](https://learn.microsoft.com/en-us/azure/active-directory/fundamentals/whats-new-archive)
 

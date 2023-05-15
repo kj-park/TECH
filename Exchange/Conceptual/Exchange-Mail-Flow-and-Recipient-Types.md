@@ -36,7 +36,7 @@ This is a test message...
 ![SMTP Command](images/Exchange-Mail-Flow-and-Recipient-Types-002.png)
 
 > [!INFO]  
-> [Use Telnet to test SMTP communication on Exchange servers](https://docs.microsoft.com/en-us/exchange/mail-flow/test-smtp-with-telnet)
+> [Use Telnet to test SMTP communication on Exchange servers](https://learn.microsoft.com/en-us/exchange/mail-flow/test-smtp-with-telnet)
 
 #### Domain Names
 
@@ -71,11 +71,11 @@ Sender domain 공인된 DNS의 다음 record들 Query하여 Sender ID를 확인:
 
 - DomainKeys Identified Mail (DKIM)
 
-    [How to use DKIM for email in your custom domain - Office 365 &#124; Microsoft Docs](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/use-dkim-to-validate-outbound-email)
+    [How to use DKIM for email in your custom domain - Office 365 &#124; Microsoft Docs](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/use-dkim-to-validate-outbound-email)
 
 - Domain-based Message Authentication, Reporting & Conformance (DMARC)
 
-    [Use DMARC to validate email, setup steps - Office 365 &#124; Microsoft Docs](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/use-dmarc-to-validate-email)
+    [Use DMARC to validate email, setup steps - Office 365 &#124; Microsoft Docs](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/use-dmarc-to-validate-email)
 
 ##### AUTODISCOVER.TDGL.CO.KR (A &#124; CNAME &#124; SRV Record)
 
@@ -104,7 +104,7 @@ Sender domain 공인된 DNS의 다음 record들 Query하여 Sender ID를 확인:
 
 ![Outbound Mail Flow with Edge](images/outbound-mail-flow-with-edge.png)
 
-##### [Non-delivery Reports](https://docs.microsoft.com/en-us/exchange/mail-flow/non-delivery-reports-and-bounce-messages/non-delivery-reports-and-bounce-messages)
+##### [Non-delivery Reports](https://learn.microsoft.com/en-us/exchange/mail-flow/non-delivery-reports-and-bounce-messages/non-delivery-reports-and-bounce-messages)
 
 #### Connectors & Accepted Domains
 
@@ -112,7 +112,7 @@ Sender domain 공인된 DNS의 다음 record들 Query하여 Sender ID를 확인:
 
 - **Receive Connectors.** 수신 커넥터는 들어오는 SMTP 메일 흐름을 제어합니다. 커넥터의 구성과 일치하는 들어오는 연결을 수신합니다.
 
-    [Receive connectors &#124; Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow/connectors/receive-connectors)
+    [Receive connectors &#124; Microsoft Docs](https://learn.microsoft.com/en-us/exchange/mail-flow/connectors/receive-connectors)
 
     Customer Receive Connectors:
 
@@ -120,12 +120,12 @@ Sender domain 공인된 DNS의 다음 record들 Query하여 Sender ID를 확인:
 
 - **Send Connectors.** 송신 커넥터는 보내는 SMTP 메일 흐름을 제어합니다. 메시지 받는 사람 및 커넥터의 구성에 따라 송신 커넥터가 선택됩니다.
 
-    [Send connectors in Exchange Server &#124; Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow/connectors/send-connectors)
+    [Send connectors in Exchange Server &#124; Microsoft Docs](https://learn.microsoft.com/en-us/exchange/mail-flow/connectors/send-connectors)
 
     - Internet Mail Send Connectors
     - Outbound Smart Host Routing
 
-- **[Protocol Logging &#124; Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow/connectors/protocol-logging)**
+- **[Protocol Logging &#124; Microsoft Docs](https://learn.microsoft.com/en-us/exchange/mail-flow/connectors/protocol-logging)**
 
 ##### Accepted Domain
 
@@ -147,9 +147,9 @@ Transport Agent는 Microsoft 또는 3rd-Party vendor에 제공하는 소프트�
 - DeliveryAgent
 
 > [!INFO]  
-> [Built-in Transport Agent &#124; Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow/transport-agents/transport-agents?#built-in-transport-agents)
+> [Built-in Transport Agent &#124; Microsoft Docs](https://learn.microsoft.com/en-us/exchange/mail-flow/transport-agents/transport-agents?#built-in-transport-agents)
 
-##### [Mail Flow & Transport Pipeline &#124; Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow/mail-flow)
+##### [Mail Flow & Transport Pipeline &#124; Microsoft Docs](https://learn.microsoft.com/en-us/exchange/mail-flow/mail-flow)
 
 ![Transport Pipeline Overview](images/transport-pipeline-overview.png)
 
@@ -161,18 +161,18 @@ Exchange 서버는 message가 성공적으로 배달되기 전/후로 redundant 
 
 Exchange 서버의 Transport High Availability을 제공하는 핵심 기능은 아래와 같습니다:
 
-- [Shadow Redundancy](https://docs.microsoft.com/en-us/exchange/mail-flow/transport-high-availability/shadow-redundancy)
+- [Shadow Redundancy](https://learn.microsoft.com/en-us/exchange/mail-flow/transport-high-availability/shadow-redundancy)
     ![Exchange Shadow Redundancy](images/Exchange-Shadow-Redundancy.png)
 
-- [Safety Net](https://docs.microsoft.com/en-us/exchange/mail-flow/transport-high-availability/safety-net)
+- [Safety Net](https://learn.microsoft.com/en-us/exchange/mail-flow/transport-high-availability/safety-net)
 
 **Transport High Availablity with Shadow Redundancy and Safety Net**
 
 ![Exchange Transport High Availability](images/Exchange-Transport-High-Availability.png)
 
-##### [Queues and messages in queues in Exchange Server &#124; Microsoft Docs](https://docs.microsoft.com/en-us/exchange/mail-flow/queues/queues)
+##### [Queues and messages in queues in Exchange Server &#124; Microsoft Docs](https://learn.microsoft.com/en-us/exchange/mail-flow/queues/queues)
 
-#### [Message Size and Recipient Limits](https://docs.microsoft.com/en-us/exchange/mail-flow/message-size-limits)
+#### [Message Size and Recipient Limits](https://learn.microsoft.com/en-us/exchange/mail-flow/message-size-limits)
 
 **Scope of Limits**
 
@@ -253,7 +253,7 @@ Exchange에서 사용하는 대표적인 group objects들은 아래와 같습니
     - Recipient container
 
     > [!INFO]  
-    > [Manage dynamic distribution groups &#124; Microsoft Docs](https://docs.microsoft.com/en-us/exchange/recipients/dynamic-distribution-groups/dynamic-distribution-groups)
+    > [Manage dynamic distribution groups &#124; Microsoft Docs](https://learn.microsoft.com/en-us/exchange/recipients/dynamic-distribution-groups/dynamic-distribution-groups)
 #### Mail Users & Mail Contacts
 
 Exchange Organization의 외부에 존재하는 사용들에 대한 정보를 포함.
@@ -277,7 +277,7 @@ Exchange Organization의 외부에 존재하는 사용들에 대한 정보를 �
 
 #### Messaging policy and compliance
 
-https://docs.microsoft.com/en-us/exchange/policy-and-compliance/policy-and-compliance
+https://learn.microsoft.com/en-us/exchange/policy-and-compliance/policy-and-compliance
 
 | Feature | Description |
 |---|---|

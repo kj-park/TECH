@@ -88,4 +88,4 @@ Memory 및 Disk 요구 사항은 상당히 정적이며 아래 표를 참조 하
 Hardware requirement	Minimum requirement	Recommended requirement
 
 ---
-https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/overview/ad-fs-requirements
+https://learn.microsoft.com/en-us/windows-server/identity/ad-fs/overview/ad-fs-requirements

@@ -185,9 +185,9 @@ Azure AD 가입 디바이스의 목표는 단순화하는 것입니다.
 
 다음 방법 중 하나를 사용하여 Azure AD Join을 배포할 수 있습니다.
 
-- [Windows Autopilot](https://docs.microsoft.com/en-us/windows/deployment/windows-autopilot/windows-10-autopilot)
-- [Bulk deployment](https://docs.microsoft.com/en-us/intune/windows-bulk-enroll)
-- [Self-service experience](https://docs.microsoft.com/en-us/azure/active-directory/devices/azuread-joined-devices-frx)
+- [Windows Autopilot](https://learn.microsoft.com/en-us/windows/deployment/windows-autopilot/windows-10-autopilot)
+- [Bulk deployment](https://learn.microsoft.com/en-us/intune/windows-bulk-enroll)
+- [Self-service experience](https://learn.microsoft.com/en-us/azure/active-directory/devices/azuread-joined-devices-frx)
 
 ### Scenario for Hybrid AAD Joined
 

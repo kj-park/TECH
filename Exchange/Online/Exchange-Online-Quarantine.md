@@ -22,24 +22,24 @@ Applies to
 ### Defender for Office 365 Plan 1
 
 - Configuration, protection, and detection capabilities:
-    - [Safe Attachments](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/safe-attachments?view=o365-worldwide)
-    - [Safe Links](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/safe-links?view=o365-worldwide)
-    - [Safe Attachments for SharePoint, OneDrive, and Microsoft Teams](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/mdo-for-spo-odb-and-teams?view=o365-worldwide)
+    - [Safe Attachments](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/safe-attachments?view=o365-worldwide)
+    - [Safe Links](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/safe-links?view=o365-worldwide)
+    - [Safe Attachments for SharePoint, OneDrive, and Microsoft Teams](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/mdo-for-spo-odb-and-teams?view=o365-worldwide)
     - [Anti-phishing protection in Defender for Office 365](Anti-phishing protection in Defender for Office 365)
-    - [Real-time detections](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/threat-explorer?view=o365-worldwide)
+    - [Real-time detections](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/threat-explorer?view=o365-worldwide)
 
 ### Defender for Office 365 Plan 2
 
 - Defender for Office 365 Plan 1의 기능을 포함
 
 - Automation, investigation, remediation, and education capabilities:
-    - [Threat Trackers](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/threat-trackers?view=o365-worldwide)
-    - [Threat Explorer](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/threat-explorer?view=o365-worldwide)
-    - [Automated investigation and response](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/office-365-air?view=o365-worldwide)
-    - [Attack simulation training](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/attack-simulation-training?view=o365-worldwide)
-    - [Proactively hunt for threats with advanced hunting in Microsoft 365 Defender](https://docs.microsoft.com/en-us/microsoft-365/security/defender/advanced-hunting-overview?view=o365-worldwide)
-    - [Investigate incidents in Microsoft 365 Defender](https://docs.microsoft.com/en-us/microsoft-365/security/defender/investigate-incidents?view=o365-worldwide)
-    - [Investigate alerts in Microsoft 365 Defender](https://docs.microsoft.com/en-us/microsoft-365/security/defender/investigate-alerts?view=o365-worldwide)
+    - [Threat Trackers](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/threat-trackers?view=o365-worldwide)
+    - [Threat Explorer](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/threat-explorer?view=o365-worldwide)
+    - [Automated investigation and response](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/office-365-air?view=o365-worldwide)
+    - [Attack simulation training](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/attack-simulation-training?view=o365-worldwide)
+    - [Proactively hunt for threats with advanced hunting in Microsoft 365 Defender](https://learn.microsoft.com/en-us/microsoft-365/security/defender/advanced-hunting-overview?view=o365-worldwide)
+    - [Investigate incidents in Microsoft 365 Defender](https://learn.microsoft.com/en-us/microsoft-365/security/defender/investigate-incidents?view=o365-worldwide)
+    - [Investigate alerts in Microsoft 365 Defender](https://learn.microsoft.com/en-us/microsoft-365/security/defender/investigate-alerts?view=o365-worldwide)
 
 
 ## Overview

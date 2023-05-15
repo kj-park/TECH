@@ -38,7 +38,7 @@ Hybrid Deployment는 아래의 기능들을 가능하게 합니다:
 
 - Common Considerations
 
-    - [Hybrid Deployment Requirements](https://docs.microsoft.com/en-us/exchange/hybrid-deployment-prerequisites)
+    - [Hybrid Deployment Requirements](https://learn.microsoft.com/en-us/exchange/hybrid-deployment-prerequisites)
     - Exchange ActiveSync Clients: 대부분 ActiveSync Clients들은 자동으로 Exchange Online으로 설정 변경되어짐
     - Mailbox Permissions Migration: 명시적으로 지정된 Send As 및 Full Access, Send on Behalf, Folder permissions 과 같은 명시적으로 지정된 Mailbox Permissions은 Exchange Online으로 Migration되지만, 상속되어진 명시적으로 지정되지 않은 Mailbox Permission은 Migration되지 않음
     - Off-boarding
@@ -56,21 +56,21 @@ Hybrid Deployment는 아래의 기능들을 가능하게 합니다:
 
 - Certificates
 
-    [Certificate requirements for hybrid deployments](https://docs.microsoft.com/en-us/exchange/certificate-requirements)
+    [Certificate requirements for hybrid deployments](https://learn.microsoft.com/en-us/exchange/certificate-requirements)
 
     ![Exchange-Hybrid-Configuration-with-Edge](images/Exchange-Hybrid-Configuration-with-Edge.png)
 
 - Client Requirements
 
-    - [Office versions and connectivity to Microsoft 365 services](https://docs.microsoft.com/en-us/deployoffice/endofsupport/microsoft-365-services-connectivity)
+    - [Office versions and connectivity to Microsoft 365 services](https://learn.microsoft.com/en-us/deployoffice/endofsupport/microsoft-365-services-connectivity)
     - [New minimum Outlook for Windows version requirements for Microsoft 365](https://techcommunity.microsoft.com/t5/microsoft-365-blog/new-minimum-outlook-for-windows-version-requirements-for/ba-p/2684142)
 
 
 - Information Rights Management
 
-    [IRM in Exchange hybrid deployments](https://docs.microsoft.com/en-us/exchange/irm)
+    [IRM in Exchange hybrid deployments](https://learn.microsoft.com/en-us/exchange/irm)
 
-- [Exchange Online Limits](https://docs.microsoft.com/en-us/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits)
+- [Exchange Online Limits](https://learn.microsoft.com/en-us/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits)
 
 [Top](#)
 

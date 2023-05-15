@@ -48,32 +48,32 @@ Microsoft Defender for Office 365 Plan 2 is included in Office 365 E5, Office 36
 
 Microsoft Defender for Office 365 Plan 1 is included in Microsoft 365 Business Premium.
 
-### [Exchange Online Protection](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/exchange-online-protection-overview?view=o365-worldwide)
+### [Exchange Online Protection](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/exchange-online-protection-overview?view=o365-worldwide)
 
 #### Prevent & Detect (EOP)
 
-- [spam](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/anti-spam-protection?view=o365-worldwide)
-- [phish](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/configure-anti-phishing-policies-eop?view=o365-worldwide)
-- [malware](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/anti-malware-protection?view=o365-worldwide)
-- [bulk mail](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/what-s-the-difference-between-junk-email-and-bulk-email?view=o365-worldwide#how-to-manage-bulk-email)
-- [spoof intelligence](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/anti-spoofing-protection?view=o365-worldwide)
-- [impersonation detection](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/set-up-anti-phishing-policies?view=o365-worldwide#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)
-- [Admin Quarantine](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/quarantine-email-messages?view=o365-worldwide)
-- [Admin and user submissions of False Positives and False Negatives](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/report-junk-email-messages-to-microsoft?view=o365-worldwide)
-- [Allow/Block for URLs and Files](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/tenant-allow-block-list?view=o365-worldwide)
-- [Reports](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/view-email-security-reports?view=o365-worldwide)
+- [spam](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/anti-spam-protection?view=o365-worldwide)
+- [phish](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/configure-anti-phishing-policies-eop?view=o365-worldwide)
+- [malware](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/anti-malware-protection?view=o365-worldwide)
+- [bulk mail](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/what-s-the-difference-between-junk-email-and-bulk-email?view=o365-worldwide#how-to-manage-bulk-email)
+- [spoof intelligence](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/anti-spoofing-protection?view=o365-worldwide)
+- [impersonation detection](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/set-up-anti-phishing-policies?view=o365-worldwide#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)
+- [Admin Quarantine](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/quarantine-email-messages?view=o365-worldwide)
+- [Admin and user submissions of False Positives and False Negatives](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/report-junk-email-messages-to-microsoft?view=o365-worldwide)
+- [Allow/Block for URLs and Files](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/tenant-allow-block-list?view=o365-worldwide)
+- [Reports](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/view-email-security-reports?view=o365-worldwide)
 
 #### Investigate (EOP)
 
-- [Audit log](https://docs.microsoft.com/en-us/exchange/security-and-compliance/exchange-auditing-reports/exchange-auditing-reports)
-- [Message Trace](https://docs.microsoft.com/en-us/exchange/monitoring/trace-an-email-message/message-trace-modern-eac)
+- [Audit log](https://learn.microsoft.com/en-us/exchange/security-and-compliance/exchange-auditing-reports/exchange-auditing-reports)
+- [Message Trace](https://learn.microsoft.com/en-us/exchange/monitoring/trace-an-email-message/message-trace-modern-eac)
 
 #### Respond (EOP)
 
-- [Zero-hour auto purge (ZAP)](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/zero-hour-auto-purge?view=o365-worldwide)
+- [Zero-hour auto purge (ZAP)](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/zero-hour-auto-purge?view=o365-worldwide)
 - Refinement and testing of Allow and Block lists
-    - [Block lists for message senders](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/create-block-sender-lists-in-office-365?view=o365-worldwide)
-    - [Allow lists for message senders](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/create-block-sender-lists-in-office-365?view=o365-worldwide)
+    - [Block lists for message senders](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/create-block-sender-lists-in-office-365?view=o365-worldwide)
+    - [Allow lists for message senders](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/create-block-sender-lists-in-office-365?view=o365-worldwide)
 
 ### Defender for Office 365 Plan 1
 
@@ -83,19 +83,19 @@ Configuration, protection, and detection capabilities
 
 #### Prevent & Detect (MOD P1)
 
-- [Safe attachments](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/safe-attachments?view=o365-worldwide)
-- [Safe links](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/safe-links?view=o365-worldwide)
-- [Microsoft Defender for Office 365 protection for workloads (ex. SharePoint Online, Teams, OneDrive for Business)](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/mdo-for-spo-odb-and-teams?view=o365-worldwide)
-- [Time-of-click protection in email, Office clients, and Teams](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/safe-links?view=o365-worldwide)
-- [anti-phishing in Defender for Office 365](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/set-up-anti-phishing-policies?view=o365-worldwide#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)
-- [User and domain impersonation protection](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/impersonation-insight?view=o365-worldwide)
-- [Alerts](https://docs.microsoft.com/en-us/microsoft-365/security/defender/investigate-alerts?view=o365-worldwide), and [SIEM integration API for alerts](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/siem-integration-with-office-365-ti?view=o365-worldwide)
+- [Safe attachments](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/safe-attachments?view=o365-worldwide)
+- [Safe links](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/safe-links?view=o365-worldwide)
+- [Microsoft Defender for Office 365 protection for workloads (ex. SharePoint Online, Teams, OneDrive for Business)](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/mdo-for-spo-odb-and-teams?view=o365-worldwide)
+- [Time-of-click protection in email, Office clients, and Teams](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/safe-links?view=o365-worldwide)
+- [anti-phishing in Defender for Office 365](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/set-up-anti-phishing-policies?view=o365-worldwide#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)
+- [User and domain impersonation protection](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/impersonation-insight?view=o365-worldwide)
+- [Alerts](https://learn.microsoft.com/en-us/microsoft-365/security/defender/investigate-alerts?view=o365-worldwide), and [SIEM integration API for alerts](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/siem-integration-with-office-365-ti?view=o365-worldwide)
 
 #### Investigate (MOD P1)
 
-- [SIEM integration API for detections](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/siem-integration-with-office-365-ti?view=o365-worldwide)
-- [Real-time detections tool](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/threat-explorer?view=o365-worldwide)
-- [URL trace](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/view-reports-for-mdo?view=o365-worldwide#url-protection-report)
+- [SIEM integration API for detections](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/siem-integration-with-office-365-ti?view=o365-worldwide)
+- [Real-time detections tool](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/threat-explorer?view=o365-worldwide)
+- [URL trace](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/view-reports-for-mdo?view=o365-worldwide#url-protection-report)
 
 #### Respond (MOD P1)
 
@@ -114,21 +114,21 @@ Automation, investigation, remediation, and education capabilities
 
 #### Investigate (MOD P2)
 
-- [Threat Explorer](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/threat-explorer?view=o365-worldwide)
-- [Threat Trackers](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/threat-trackers?view=o365-worldwide)
-- [Campaign views](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/campaigns?view=o365-worldwide)
+- [Threat Explorer](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/threat-explorer?view=o365-worldwide)
+- [Threat Trackers](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/threat-trackers?view=o365-worldwide)
+- [Campaign views](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/campaigns?view=o365-worldwide)
 
 #### Respond (MOD P2)
 
-- [Automated Investigation and Response (AIR)](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/office-365-air?view=o365-worldwide)
-- [AIR from Threat Explorer](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/air-view-investigation-results?view=o365-worldwide)
-- [AIR for compromised users](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/address-compromised-users-quickly?view=o365-worldwide)
-- [SIEM Integration API for Automated Investigations](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/siem-integration-with-office-365-ti?view=o365-worldwide)
+- [Automated Investigation and Response (AIR)](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/office-365-air?view=o365-worldwide)
+- [AIR from Threat Explorer](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/air-view-investigation-results?view=o365-worldwide)
+- [AIR for compromised users](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/address-compromised-users-quickly?view=o365-worldwide)
+- [SIEM Integration API for Automated Investigations](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/siem-integration-with-office-365-ti?view=o365-worldwide)
 
 
-#### [Attack simulation training](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/attack-simulation-training?view=o365-worldwide)
+#### [Attack simulation training](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/attack-simulation-training?view=o365-worldwide)
 
-#### [Proactively hunt for threats with advanced hunting in Microsoft 365 Defender](https://docs.microsoft.com/en-us/microsoft-365/security/defender/advanced-hunting-overview?view=o365-worldwide)
+#### [Proactively hunt for threats with advanced hunting in Microsoft 365 Defender](https://learn.microsoft.com/en-us/microsoft-365/security/defender/advanced-hunting-overview?view=o365-worldwide)
 
 ---
 

@@ -30,5 +30,5 @@ ms.date: 2022.04.14
 
 
 > [!INFO]  
-> [What you need to know about migrating your IMAP mailboxes to Microsoft 365 or Office 365](https://docs.microsoft.com/en-us/exchange/mailbox-migration/migrating-imap-mailboxes/migrating-imap-mailboxes)
+> [What you need to know about migrating your IMAP mailboxes to Microsoft 365 or Office 365](https://learn.microsoft.com/en-us/exchange/mailbox-migration/migrating-imap-mailboxes/migrating-imap-mailboxes)
 

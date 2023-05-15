@@ -16,8 +16,8 @@ Microsoft 365 Groups 서비스는 팀 간 communicate 및 schedule meetings, 문
 - Azure Active Directory Premium 라이선스 구매. Azure Active Directory Connect의 Group writeback 기능을 활성화하기 위해 필요합니다.
 
 - Microsoft 365/Office 365와 Exchange On-Premises 사이에 Hybrid 설정이 정상적으로 설정되고 기능해야 합니다.
-    - [Exchange Server Hybrid Deployments](https://docs.microsoft.com/en-us/exchange/exchange-hybrid)
-    - [Hybrid deployment prerequisites](https://docs.microsoft.com/en-us/exchange/hybrid-deployment-prerequisites)
+    - [Exchange Server Hybrid Deployments](https://learn.microsoft.com/en-us/exchange/exchange-hybrid)
+    - [Hybrid deployment prerequisites](https://learn.microsoft.com/en-us/exchange/hybrid-deployment-prerequisites)
 
 - Microsoft 365 Groups과 On-premise Exchange 통합을 지원하는 버전이 설치되어 있어야 합니다.
     - Exchange 2016 CU1 이상 (최신 CU 설치 권장)
@@ -35,7 +35,7 @@ Azure AD Connect 구성의 Optional features에서 **Group writeback** 기능을
 
 Microsoft 365 group의 primary SMTP domain을 group domain이라 합니다. 일반적으로 기본 accepted domain이 group domain으로 사용되어지며, 명시적 group domain을 추가하려면 아래의 steps을 수행합니다.
 
-1. Microsoft 365/Office 365에 새로운 도메인을 추가합니다. 도움이 필요하면 [Add a domain to Microsoft 365](https://docs.microsoft.com/en-us/microsoft-365/admin/setup/add-domain).을 참조하세요.
+1. Microsoft 365/Office 365에 새로운 도메인을 추가합니다. 도움이 필요하면 [Add a domain to Microsoft 365](https://learn.microsoft.com/en-us/microsoft-365/admin/setup/add-domain).을 참조하세요.
 
 1. On-premises Exchange 조직에서 아래 명령을 통해 accepted doamin을 group domain으로 추가합니다.
 
@@ -78,4 +78,4 @@ foreach ( $M365Group in $M365Groups ) {
 ## Known issues
 
 > [!NOTE]
-> [Configure Microsoft 365 Groups with on-premises Exchange hybrid](https://docs.microsoft.com/en-us/exchange/hybrid-deployment/set-up-microsoft-365-groups#known-issues)
+> [Configure Microsoft 365 Groups with on-premises Exchange hybrid](https://learn.microsoft.com/en-us/exchange/hybrid-deployment/set-up-microsoft-365-groups#known-issues)

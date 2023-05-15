@@ -69,8 +69,8 @@ PowerShell에는 수백에의 미리 설치되어 있는 commands들이 있으�
 
 
     > [!INFO]  
-    > [Get-Command](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/get-command)  
-    > [Approved Verbs for PowerShell Commands](https://docs.microsoft.com/en-us/powershell/scripting/developer/cmdlet/approved-verbs-for-windows-powershell-commands)
+    > [Get-Command](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/get-command)  
+    > [Approved Verbs for PowerShell Commands](https://learn.microsoft.com/en-us/powershell/scripting/developer/cmdlet/approved-verbs-for-windows-powershell-commands)
 
 
 - CmdLets은 commands 및 concepts에 대한 정보를 포함할 수 있습니다.
@@ -104,7 +104,7 @@ PowerShell에는 수백에의 미리 설치되어 있는 commands들이 있으�
     ```
     
     > [!INFO]  
-    > [Get-Help](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/get-help)
+    > [Get-Help](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/get-help)
 
 - PowerShell은 command의 output을 다른 command로 연결하게 쉽게 pipeline을 지원합니다.
 
@@ -121,20 +121,20 @@ PowerShell에는 수백에의 미리 설치되어 있는 commands들이 있으�
     ```
 
     > [!INFO]  
-    > [Get-Member](https://docs.microsoft.com/ko-kr/powershell/module/microsoft.powershell.utility/get-member)  
-    > [Where-Object](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/where-object)  
-    > [about_Automatic_Variables](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_automatic_variables)  
+    > [Get-Member](https://learn.microsoft.com/ko-kr/powershell/module/microsoft.powershell.utility/get-member)  
+    > [Where-Object](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/where-object)  
+    > [about_Automatic_Variables](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_automatic_variables)  
     >
 
-### [about_Automatic_Variables](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_automatic_variables)
+### [about_Automatic_Variables](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_automatic_variables)
 
-### [about_Preference_Variables](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_preference_variables)
+### [about_Preference_Variables](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_preference_variables)
 
 ---
 
 ## Want to know about arrays
 
-[Arrays](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_arrays)는 대부분 programming 언어에서 기본 기능입니다.
+[Arrays](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_arrays)는 대부분 programming 언어에서 기본 기능입니다.
 
 Values 또는 Objects의 collection입니다.
 
@@ -396,7 +396,7 @@ $servers | Select-String SQL
 ### Adding to arrays
 
 
-ref: [array-addition](https://docs.microsoft.com/en-us/powershell/scripting/learn/deep-dives/everything-about-arrays?view=powershell-7.2#array-addition)
+ref: [array-addition](https://learn.microsoft.com/en-us/powershell/scripting/learn/deep-dives/everything-about-arrays?view=powershell-7.2#array-addition)
 
 ### Array Types
 

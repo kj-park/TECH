@@ -105,9 +105,9 @@ Azure AD Connect 동기화는 Forefront Identity Manager 2010에 처음 도입�
 선언적 프로비전의 핵심적인 부분은 특성 흐름에 사용되는 표현 언어입니다. 사용 되는 언어는 VBA(Microsoft® Visual Basic® for Applications)의 하위 집합입니다. 이 언어는 Microsoft Office에서 사용되며, VBScript 경험이 있는 사용자 또한 이 언어를 인식합니다. 선언적 프로비전 표현 언어는 함수만 사용하며 구조적 언어는 아닙니다. 메서드 또는 문이 없습니다. 대신, 빠른 프로그램 흐름에 함수가 중첩됩니다.
 
 > [!INFO]  
-> - [Welcome to the Visual Basic for Applications language reference for Office 2013](https://docs.microsoft.com/en-us/office/vba/api/overview/language-reference)  
-> - [Understanding Declarative Provisioning Expressions](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/concept-azure-ad-connect-sync-declarative-provisioning-expressions)
-> - [Functions Reference](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/reference-connect-sync-functions-reference)
+> - [Welcome to the Visual Basic for Applications language reference for Office 2013](https://learn.microsoft.com/en-us/office/vba/api/overview/language-reference)  
+> - [Understanding Declarative Provisioning Expressions](https://learn.microsoft.com/en-us/azure/active-directory/hybrid/concept-azure-ad-connect-sync-declarative-provisioning-expressions)
+> - [Functions Reference](https://learn.microsoft.com/en-us/azure/active-directory/hybrid/reference-connect-sync-functions-reference)
 
 ### Custom Inbound Synchronization Rule (msExchUsageLocation)
 
@@ -185,13 +185,13 @@ Azure AD Connect 동기화는 Forefront Identity Manager 2010에 처음 도입�
 
 ## Declarative Provisioning Reference
 
-- [Directory extensions](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sync-feature-directory-extensions)
+- [Directory extensions](https://learn.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sync-feature-directory-extensions)
 
-- [Configure preferred data location for Microsoft 365 resources](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sync-feature-preferreddatalocation)
+- [Configure preferred data location for Microsoft 365 resources](https://learn.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sync-feature-preferreddatalocation)
 
-- [Configure filtering](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sync-configure-filtering)
+- [Configure filtering](https://learn.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sync-configure-filtering)
 
-- [Attributes synchronized to Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)
+- [Attributes synchronized to Azure Active Directory](https://learn.microsoft.com/en-us/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)
 
 ---
 

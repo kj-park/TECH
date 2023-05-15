@@ -9,7 +9,7 @@ ms.date: 2023.04.20
 
 ## What is Microsoft Purview
 
-Microsoft Purview는 이전 [Azure Purview](https://docs.microsoft.com/en-us/azure/purview) 와 [Microsoft 365 Compliance](https://docs.microsoft.com/en-us/microsoft-365/compliance/) 솔루션 및 서비스를 단일 브랜드로 결합합니다. 이러한 솔루션을 함께 사용하면 조직에서 다음을 수행할 수 있습니다.
+Microsoft Purview는 이전 [Azure Purview](https://learn.microsoft.com/en-us/azure/purview) 와 [Microsoft 365 Compliance](https://learn.microsoft.com/en-us/microsoft-365/compliance/) 솔루션 및 서비스를 단일 브랜드로 결합합니다. 이러한 솔루션을 함께 사용하면 조직에서 다음을 수행할 수 있습니다.
 
 - 조직 전체의 데이터 자산에 대한 가시성 확보
 - 데이터, 보안 및 위험 솔루션에 대한 액세스 활성화
@@ -21,7 +21,7 @@ Microsoft Purview는 이전 [Azure Purview](https://docs.microsoft.com/en-us/azu
 
 ### Microsoft Purview risk and compliance solutions
 
-Microsoft Purview에는 Microsoft 365에 포함된 서비스를 지원하는 [risk and compliance](https://docs.microsoft.com/en-us/microsoft-365/compliance/purview-compliance) 솔루션 이 포함되어 있습니다. 이러한 서비스에는 Microsoft Teams , SharePoint , OneDrive , Exchange 등이 있습니다. 이러한 규정 준수 및 위험 솔루션은 조직에서 다음을 수행하는 데 도움이 됩니다.
+Microsoft Purview에는 Microsoft 365에 포함된 서비스를 지원하는 [risk and compliance](https://learn.microsoft.com/en-us/microsoft-365/compliance/purview-compliance) 솔루션 이 포함되어 있습니다. 이러한 서비스에는 Microsoft Teams , SharePoint , OneDrive , Exchange 등이 있습니다. 이러한 규정 준수 및 위험 솔루션은 조직에서 다음을 수행하는 데 도움이 됩니다.
 
 - 클라우드, 앱 및 장치 전반에 걸쳐 민감한 데이터 보호
 - 데이터 위험 식별 및 규정 준수 요구 사항 관리
@@ -29,7 +29,7 @@ Microsoft Purview에는 Microsoft 365에 포함된 서비스를 지원하는 [ri
 
 ### Microsoft Purview unified data governance solutions
 
-Microsoft Purview에는 온프레미스, 다중 클라우드 및 SaaS(Software-as-a-Service) 자산 전반에서 데이터 서비스를 관리하는 데 도움이 되는 [unified data governance](https://docs.microsoft.com/en-us/azure/purview/overview) 솔루션 이 포함되어 있습니다. 여기에는 Azure 스토리지 서비스 , Power BI , SQL 또는 Hive 와 같은 데이터베이스 , Amazon S3 와 같은 파일 서비스 등 이 포함 됩니다 .
+Microsoft Purview에는 온프레미스, 다중 클라우드 및 SaaS(Software-as-a-Service) 자산 전반에서 데이터 서비스를 관리하는 데 도움이 되는 [unified data governance](https://learn.microsoft.com/en-us/azure/purview/overview) 솔루션 이 포함되어 있습니다. 여기에는 Azure 스토리지 서비스 , Power BI , SQL 또는 Hive 와 같은 데이터베이스 , Amazon S3 와 같은 파일 서비스 등 이 포함 됩니다 .
 
 이러한 거버넌스 솔루션은 조직에서 다음을 수행할 수 있는 도구를 제공하는 Microsoft Purview 거버넌스 포털을 통해 액세스할 수 있습니다.
 
@@ -50,22 +50,22 @@ Microsoft Purview에는 온프레미스, 다중 클라우드 및 SaaS(Software-a
 
 Microsoft Purview는 조직에서 데이터 위험 및 규정 준수 요구 사항을 관리하는 데 도움이 되는 다음과 같은 규정 준수 솔루션을 제공합니다.
 
-- [Insider risk management](https://docs.microsoft.com/en-us/microsoft-365/compliance/purview-compliance?toc=%2Fpurview%2Ftoc.json&bc=%2Fpurview%2Fbreadcrumb%2Ftoc.json&view=o365-worldwide#detect-and-act-on-risk-activities-with-insider-risk-management)
-- [Communication compliance](https://docs.microsoft.com/en-us/microsoft-365/compliance/purview-compliance?toc=%2Fpurview%2Ftoc.json&bc=%2Fpurview%2Fbreadcrumb%2Ftoc.json&view=o365-worldwide#detect-and-act-on-inappropriate-and-sensitive-messages-with-communication-compliance)
-- [Information barriers](https://docs.microsoft.com/en-us/microsoft-365/compliance/purview-compliance?toc=%2Fpurview%2Ftoc.json&bc=%2Fpurview%2Fbreadcrumb%2Ftoc.json&view=o365-worldwide#restrict-communication-and-collaboration-between-users-with-information-barriers)
-- [Records management](https://docs.microsoft.com/en-us/microsoft-365/compliance/purview-compliance?toc=%2Fpurview%2Ftoc.json&bc=%2Fpurview%2Fbreadcrumb%2Ftoc.json&view=o365-worldwide#manage-business-legal-or-regulatory-record-keeping-requirements-with-records-management)
-- [Audit (Premium) and Audit (Standard)](https://docs.microsoft.com/en-us/microsoft-365/compliance/purview-compliance?toc=%2Fpurview%2Ftoc.json&bc=%2Fpurview%2Fbreadcrumb%2Ftoc.json&view=o365-worldwide#log-and-search-for-audited-activities-in-sharepoint-and-onedrive-with-audit-premium-or-audit-standard)
-- [eDiscovery (Premium) and eDiscovery (Standard)](https://docs.microsoft.com/en-us/microsoft-365/compliance/purview-compliance?toc=%2Fpurview%2Ftoc.json&bc=%2Fpurview%2Fbreadcrumb%2Ftoc.json&view=o365-worldwide#identify-and-manage-data-for-legal-cases-with-ediscovery-premium-or-ediscovery-standard)
+- [Insider risk management](https://learn.microsoft.com/en-us/microsoft-365/compliance/purview-compliance?toc=%2Fpurview%2Ftoc.json&bc=%2Fpurview%2Fbreadcrumb%2Ftoc.json&view=o365-worldwide#detect-and-act-on-risk-activities-with-insider-risk-management)
+- [Communication compliance](https://learn.microsoft.com/en-us/microsoft-365/compliance/purview-compliance?toc=%2Fpurview%2Ftoc.json&bc=%2Fpurview%2Fbreadcrumb%2Ftoc.json&view=o365-worldwide#detect-and-act-on-inappropriate-and-sensitive-messages-with-communication-compliance)
+- [Information barriers](https://learn.microsoft.com/en-us/microsoft-365/compliance/purview-compliance?toc=%2Fpurview%2Ftoc.json&bc=%2Fpurview%2Fbreadcrumb%2Ftoc.json&view=o365-worldwide#restrict-communication-and-collaboration-between-users-with-information-barriers)
+- [Records management](https://learn.microsoft.com/en-us/microsoft-365/compliance/purview-compliance?toc=%2Fpurview%2Ftoc.json&bc=%2Fpurview%2Fbreadcrumb%2Ftoc.json&view=o365-worldwide#manage-business-legal-or-regulatory-record-keeping-requirements-with-records-management)
+- [Audit (Premium) and Audit (Standard)](https://learn.microsoft.com/en-us/microsoft-365/compliance/purview-compliance?toc=%2Fpurview%2Ftoc.json&bc=%2Fpurview%2Fbreadcrumb%2Ftoc.json&view=o365-worldwide#log-and-search-for-audited-activities-in-sharepoint-and-onedrive-with-audit-premium-or-audit-standard)
+- [eDiscovery (Premium) and eDiscovery (Standard)](https://learn.microsoft.com/en-us/microsoft-365/compliance/purview-compliance?toc=%2Fpurview%2Ftoc.json&bc=%2Fpurview%2Fbreadcrumb%2Ftoc.json&view=o365-worldwide#identify-and-manage-data-for-legal-cases-with-ediscovery-premium-or-ediscovery-standard)
 
 ### Deploy Purview compliance solutions
 
 영역별 솔루션은 안전하고 규정을 준수하는 데이터 협업을 위해 통합 규정 준수 솔루션을 이해, 계획 및 구현하는 데 필요한 기술 지침을 제공합니다.
 
-- [Secure data with Zero Trust](https://docs.microsoft.com/en-us/security/zero-trust/deploy/data)
-- [Deploy an information protection solution](https://docs.microsoft.com/en-us/microsoft-365/compliance/information-protection-solution)
-- [Deploy a data governance solution](https://docs.microsoft.com/en-us/microsoft-365/compliance/data-governance-solution)
-- [Deploy information protection for data privacy regulations](https://docs.microsoft.com/en-us/microsoft-365/solutions/information-protection-deploy)
-- [Explore information protection & compliance illustrations](https://docs.microsoft.com/en-us/microsoft-365/solutions/productivity-illustrations)
+- [Secure data with Zero Trust](https://learn.microsoft.com/en-us/security/zero-trust/deploy/data)
+- [Deploy an information protection solution](https://learn.microsoft.com/en-us/microsoft-365/compliance/information-protection-solution)
+- [Deploy a data governance solution](https://learn.microsoft.com/en-us/microsoft-365/compliance/data-governance-solution)
+- [Deploy information protection for data privacy regulations](https://learn.microsoft.com/en-us/microsoft-365/solutions/information-protection-deploy)
+- [Explore information protection & compliance illustrations](https://learn.microsoft.com/en-us/microsoft-365/solutions/productivity-illustrations)
 
 ---
 

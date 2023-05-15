@@ -14,7 +14,7 @@ web search와 같은 동일한 search box를 office app 등에서 사용할 수 
 
 Microsoft Search는 조직의 Microsoft 365에 저장된 contents 및 connector를 통해 index되어진  contents를 검색할 수 있습니다. 예를 들어 조직에 hybrid SharePoint 환경이 경우 online 및 on-premises의 SharePoint의 content를 포함하여 검색을 할 수 있습니다.
 
-[Learn more about hybrid search environments](https://docs.microsoft.com/en-us/sharepoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint)
+[Learn more about hybrid search environments](https://learn.microsoft.com/en-us/sharepoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint)
 
 ## Benefits of Microsoft Search
 
@@ -77,7 +77,7 @@ Search usage reports enable you to gain more understanding of how search is func
 
 Bookmarks help people quickly find important sites and tools with just a search. Each bookmark includes a title, URL, a set of user-friendly keywords to trigger the bookmark, and a category.
 
-[Manage bookmarks](https://docs.microsoft.com/en-us/microsoftsearch/manage-bookmarks)
+[Manage bookmarks](https://learn.microsoft.com/en-us/microsoftsearch/manage-bookmarks)
 
 #### Floor plans
 

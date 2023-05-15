@@ -31,7 +31,7 @@ Microsoft 365로 PST 파일을 Import 하는 두 가지 방식이 있습니다:
 
     조직 관리 역할 그룹을 만들고 Mailbox Import Export 역할을 할당한 후 구성원을 추가할 수 있습니다.
 
-    자세한 내용은 [Manage role groups](https://docs.microsoft.com/en-us/Exchange/permissions-exo/role-groups) 의 "Add a role to a role group" 또는 "Create a role group" 세션을 확인하세요.
+    자세한 내용은 [Manage role groups](https://learn.microsoft.com/en-us/Exchange/permissions-exo/role-groups) 의 "Add a role to a role group" 또는 "Create a role group" 세션을 확인하세요.
 
 - Microsoft로 PST 파일을 업로드할 수 있는 유일한 방법은 AzCopy 도구를 사용하는 것입니다.
 
@@ -61,7 +61,7 @@ Microsoft 365로 PST 파일을 Import 하는 두 가지 방식이 있습니다:
 - Microsoft 365 사서함에서 받을 수 있는 최대 메시지 크기는 기본값으로 35MB이며 최대 150MB까지 설정할 수 있습니다. 가져오는 PST 파일에 35MB를 넘는 항목이 있는 경우 자동으로 `maxReceiveSize`가 150MB로 설정됩니다.
 
 > [!INFO]  
-> [Learn about importing your organization's PST files](https://docs.microsoft.com/en-us/microsoft-365/compliance/importing-pst-files-to-office-365)
+> [Learn about importing your organization's PST files](https://learn.microsoft.com/en-us/microsoft-365/compliance/importing-pst-files-to-office-365)
 
 ---
 
