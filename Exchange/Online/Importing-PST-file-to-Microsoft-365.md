@@ -21,7 +21,7 @@ Microsoft 365로 PST 파일을 Import 하는 두 가지 방식이 있습니다:
 
 아래 그림은 **Network Upload**와 **Drive Shipping** 방법 전체에 대하여 어떻게 PST 파일 Importing이 동작하는지를 보여줍니다.
 
-![import-pst-to-exo](./../images/import-pst-to-exo.png)
+![import-pst-to-exo](images/import-pst-to-exo.png)
 
 ---
 
@@ -67,7 +67,7 @@ Microsoft 365로 PST 파일을 Import 하는 두 가지 방식이 있습니다:
 
 ## Importing PST files
 
-![Importing-PST-files-to-M365-001](./../images/Importing-PST-files-to-M365-001.png)
+![Importing-PST-files-to-M365-001](images/Importing-PST-files-to-M365-001.png)
 
 1. PST Import 도구와 Azure Storage 액세스를 위한 Key 다운로드
 
