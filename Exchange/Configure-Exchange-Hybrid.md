@@ -72,7 +72,7 @@ Hybrid Deployment는 아래의 기능들을 가능하게 합니다:
 
 - [Exchange Online Limits](https://learn.microsoft.com/en-us/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits)
 
-[Top](#)
+[<i class="fa fa-chevron-up" aria-hidden="true"></i> Top](#)
 
 ---
 
@@ -118,7 +118,7 @@ Hybrid Deployment는 아래의 기능들을 가능하게 합니다:
 
 ![Exchange-Hybrid-Configuration-without-Edge-020](images/Exchange-Hybrid-Configuration-without-Edge-020.png)
 
-[Top](#)
+[<i class="fa fa-chevron-up" aria-hidden="true"></i> Top](#)
 
 ---
 
@@ -218,7 +218,7 @@ Centralize mail flow option이 선택된 경우 Send Connector는 아래와 같�
 
 ![Exchange-Hybrid-Configuration-with-edge-013](images/Exchange-Hybrid-Configuration-with-edge-013.png)
 
-[Top](#)
+[<i class="fa fa-chevron-up" aria-hidden="true"></i> Top](#)
 
 ---
 
@@ -264,6 +264,6 @@ Centralize mail flow option이 선택된 경우 Send Connector는 아래와 같�
     Module: ExchangePowerShell  
     Applies to: Exchange Server 2010, Exchange Server 2013, Exchange Server 2016, Exchange Server 2019
 
-[Top](#)
+[<i class="fa fa-chevron-up" aria-hidden="true"></i> Top](#)
 
 ---

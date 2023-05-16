@@ -49,6 +49,8 @@ Edge Transport Server의 mail flow rules은 인터넷에서 주고받는 메시�
 
 Address rewriting은 외부 수신자에게 일관된 이메일 주소 모양을 제공합니다. 인바운드 및 아웃바운드 메시지에서 SMTP 주소를 수정하려면 Edge 전송 서버에서 주소 다시 쓰기를 구성합니다. Address rewriting은 일관된 전자 메일 주소 모양을 표시하려는 새로 병합된 조직에 특히 유용합니다.
 
+[<i class="fa fa-chevron-up" aria-hidden="true"></i> Top](#)
+
 ---
 
 ## Install Exchange Edge
@@ -78,5 +80,7 @@ Address rewriting은 외부 수신자에게 일관된 이메일 주소 모양을
 
 
 ### [Exchange post-installation tasks](https://learn.microsoft.com/en-us/exchange/plan-and-deploy/post-installation-tasks/post-installation-tasks?view=exchserver-2019)
+
+[<i class="fa fa-chevron-up" aria-hidden="true"></i> Top](#)
 
 ---
