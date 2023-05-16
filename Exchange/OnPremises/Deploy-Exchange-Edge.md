@@ -7,7 +7,7 @@ ms.date: 2023.05.16
 
 # Deploy Exchange Edge
 
-**<i class="fa-solid fa-list"></i> In this article**
+<i class="fa fa-list-ul" aria-hidden="true"></i> **In this article**
 
 - [What is the Edge Transport Server](#what-is-the-edge-transport-server)
 - [Install Exchange Edge](#install-exchange-edge)
