@@ -26,6 +26,8 @@ Exchange 2013/2016/2019 서버를 구축하는 과정들에 대하여 기술합�
 
 - [Deploy Exchange 2019]
 
+- [Deploy Exchange Edge](OnPremises/Deploy-Exchange-Edge)
+
 ### Configure Exchange Server
 
 Exchange 각 버전 별 설치 후 mail flow 및 client access, High Availability 구성에 대하여 설명합니다. 버전과 크게 다르지 않고 유사하기에 통합하여 기술합니다.
