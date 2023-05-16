@@ -6,7 +6,7 @@ ms.date: 2012.05.10
 
 # Configure Exchange Hybrid
 
-**In This Article...**
+**<i class="fa-solid fa-list"></i> In this article**
 
 - [Exchange Hybrid Deployment Considerations](#exchange-hybrid-deployment-considerations)
 - [Install Exchange Hybrid Configuration Wizard without Edge](#install-exchange-hybrid-configuration-wizard-without-edge)

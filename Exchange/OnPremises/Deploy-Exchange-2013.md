@@ -54,6 +54,7 @@ Install-WindowsFeature AS-HTTP-Activation, Desktop-Experience, NET-Framework-45-
 
 1. Install [Visual C++ Redistributable Package for Visual Studio 2013](https://www.microsoft.com/download/details.aspx?id=40784)
 
+---
 
 ## Prepare Active Directory and Domains
 
@@ -104,6 +105,7 @@ Schema Admins 및 Enterprise Admins 의 구성원으로 작업을 수행합니�
 > [!NOTE]
 > [Exchange 2013 Active Directory versions](https://learn.microsoft.com/en-us/exchange/prepare-active-directory-and-domains-exchange-2013-help#exchange-2013-active-directory-versions)
 
+---
 
 ## Deploy New Installation of Exchange 2013
 
@@ -125,6 +127,7 @@ Schema Admins 및 Enterprise Admins 의 구성원으로 작업을 수행합니�
     1. Readiness Check page
     1. Completion page
 
+---
 
 ## Exchange 2013 Post-Installation tasks
 
@@ -153,6 +156,7 @@ Schema Admins 및 Enterprise Admins 의 구성원으로 작업을 수행합니�
     1. Application Event Log
     1. Setup Log (C:\ExchangeSetupLogs)
 
+---
 
 ## Exchange License Type
 
