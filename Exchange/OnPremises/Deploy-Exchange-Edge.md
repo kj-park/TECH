@@ -85,7 +85,62 @@ Address rewriting은 외부 수신자에게 일관된 이메일 주소 모양을
 
 ---
 
-## Edge Subscription and Transport Certificate
+## Edge Subscription
+
+Edge Subscription은 Edge Transport server의 AD LDS(Active Directory Lightweight Directory Services) 인스턴스를 Active Directory 데이터로 채우는 데 사용됩니다.
+
+Edge 구독을 만드는 것은 선택 사항이지만 Edge 전송 서버를 Exchange 조직에 구독하면 관리 환경이 더 단순해지고 스팸 방지 기능이 향상됩니다.
+
+받는 사람 조회 또는 수신 허용 목록 집계를 사용하려는 경우 또는 MTLS(상호 전송 계층 보안)를 사용하여 파트너 도메인과의 안전한 SMTP 통신을 지원하려는 경우 Edge 구독을 만들어야 합니다.
+
+> [!NOTE]
+>
+> **Edge 전송이 하이브리드 메일 흐름을 처리해야 하는 경우 Edge 구독은 필수입니다.**
+>
+> 직접 신뢰 인증(상호 TLS라고도 함)을 통해서만 Edge 전송 서버와 사서함 서버 간에 승격되며 이 인증 방법을 달성하려면 Edge 구독이 필요합니다.
+
+### Edge Subscription process
+
+Edge Transport server는 Active Directory에 직접 액세스할 수 없습니다. Edge Transport server에서 메시지를 처리하는 데 사용하는 구성 및 받는 사람 정보는 AD LDS에 로컬로 저장됩니다.
+
+Edge Subscription을 만들면 Active Directory에서 AD LDS로 정보의 안전한 자동 복제가 설정됩니다.
+
+Edge Subscription 프로세스는 내부 Exchange Mailbox 서버와 구독된 Edge 전송 서버 간에 보안 LDAP 연결을 설정하는 데 사용되는 자격 증명을 제공합니다.
+
+Mailbox 서버에서 실행되는 Microsoft Exchange EdgeSync 서비스(EdgeSync)는 주기적인 단방향 동기화를 수행하여 최신 데이터를 AD LDS로 전송합니다. 이렇게 하면 사서함 서버를 구성한 다음 해당 정보를 Edge 전송 서버와 동기화할 수 있으므로 주변 네트워크에서 수행하는 관리 작업이 줄어듭니다.
+
+Edge Transport server에서 메시지 전송을 담당하는 Mailbox 서버가 포함된 Active Directory Site에 Edge Transport server를 구독합니다.
+
+Edge Subscription 프로세스는 Edge Transport server에 대한 Active Directory Site 구성원 자격을 만듭니다.
+
+Site 연결을 통해 Exchange 조직의 Mailbox 서버는 명시적인 send connector를 구성하지 않고도 인터넷 배달을 위해 Edge 전송 서버로 메시지를 릴레이할 수 있습니다.
+
+하나 이상의 Edge Transport server가 단일 Active Directory Site에 가입될 수 있습니다. 그러나 Edge Transport server는 둘 이상의 Active Directory Site를 구독할 수 없습니다.
+
+각 Edge Transport server에는 개별 Edge 구독이 필요합니다.
+
+Edge Transport server를 배포하고 Active Directory Site에 가입하려면 다음 단계를 따르십시오.
+
+1. Edge Transport server 역할을 설치합니다.
+
+1. Edge 구독 준비:
+
+    - Edge Transport server에 라이선스를 부여합니다.
+    - 메일 흐름 및 EdgeSync 동기화를 위해 방화벽에서 포트를 엽니다.
+    - Mailbox server와 Edge Transport server가 DNS 이름 확인을 사용하여 서로를 찾을 수 있는지 확인합니다.
+    - Mailbox server에서 Edge Transport server에 복제할 transport settings을 구성합니다.
+
+1. Edge Transport server에서 `New-EdgeSubscription` cmdlet을 실행하여 Edge Subscription 파일을 만들고 내보냅니다.
+
+1. Edge Subscription 파일을 Mailbox server 또는 Mailbox server가 포함된 Active Directory Site에서 액세스할 수 있는 파일 공유에 복사합니다.
+
+1. Mailbox server에서 `New-EdgeSubscription` cmdlet 을 실행하여 Edge Subscription 파일을 Active Directory Site로 가져옵니다 .
+
+[<i class="fa fa-chevron-up" aria-hidden="true"></i> Top](#)
+
+---
+
+## Edge Transport Certificate
 
 [<i class="fa fa-chevron-up" aria-hidden="true"></i> Top](#)
 
