@@ -84,3 +84,9 @@ Address rewriting은 외부 수신자에게 일관된 이메일 주소 모양을
 [<i class="fa fa-chevron-up" aria-hidden="true"></i> Top](#)
 
 ---
+
+## Edge Subscription and Transport Certificate
+
+[<i class="fa fa-chevron-up" aria-hidden="true"></i> Top](#)
+
+---
