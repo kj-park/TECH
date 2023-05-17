@@ -11,6 +11,8 @@ ms.date: 2023.05.16
 
 - [What is the Edge Transport Server](#what-is-the-edge-transport-server)
 - [Install Exchange Edge](#install-exchange-edge)
+- [Edge Subscription](#edge-subscription)
+- [Edge Transport Certificate](#edge-transport-certificate)
 
 ---
 
