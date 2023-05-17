@@ -251,6 +251,13 @@ Edge Transport server를 배포하고 Active Directory Site에 가입하려면 �
         정기적인 일정으로 one-way 복제(Mailbox > Edge)로 동기화를 하며, 'Start-EdgeSynchronization` 명령으로 동기화를 시작할 수 있습니다.
 
 
+EdgeSync 결과를 확인하려며:
+
+```powershell
+Test-EdgeSynchronization -VerifyRecipient <emailaddress>
+```
+
+
 ### [Send connectors created automatically by the Edge Subscription](https://learn.microsoft.com/en-us/exchange/architecture/edge-transport-servers/edge-subscriptions?view=exchserver-2019#send-connectors-created-automatically-by-the-edge-subscription)
 
 
