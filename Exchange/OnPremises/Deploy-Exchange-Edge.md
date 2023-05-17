@@ -57,14 +57,29 @@ Address rewriting은 외부 수신자에게 일관된 이메일 주소 모양을
 
 ### Prerequisites
 
-- Edge Transport servers는 Preimeter network(DMSZ)에 조직의 내부 Active Directory forest의 외부에 설치하기를 권장합니다. (Domain-joined 컴퓨터에 설치 가능.)
+- Edge Transport servers는 Perimeter network(DMZ)에 조직의 내부 Active Directory forest의 외부에 설치하기를 권장합니다. (Domain-joined 컴퓨터에 설치 가능.)
 
     Edge Transport servers는 Active Directory에 직접적인 연결이 없고, Active Directory Lightweight Directory Services (AD LDS)에 recipients 정보를 저장하고 구성하고 있습니다. Mailbox 서버에서 Edge 서버로의 AD LDS 연결을 통해 recipients 정보가 동기화합니다.
 
 - Exchange Edge Requirements on Windows Server 2019 & Windows Server 2022
+
+    - Hardware Requirements for Edge Transport Role
+        - Processor:
+            - 64-bit processors, except IA64.
+            - Recommended: Up to 2 sockets on physical machines
+        - Memory: 64 GB minimum recommended
+
+    - Operating Systems: Windows Server 2022(CU12 이상) 또는 Windows Server 2019
+
+        > [!NOTE]
+        >
+        > - Windows Server Core에 설치를 지원하며 권장합니다. 더 이상 Desktop Experience를 필요하지 않습니다.
+        > - Nano Server에 설치는 지원하지 않습니다.
+
+
     - Software
-        1. .NET Framework 4.8
-        1. Visual C++ Redistributable Package for Visual Studio 2012
+        1. [.NET Framework 4.8](https://download.visualstudio.microsoft.com/download/pr/014120d7-d689-4305-befd-3cb711108212/0fd66638cde16859462a6243a4629a50/ndp48-x86-x64-allos-enu.exe) (from CU4)
+        1. [Visual C++ Redistributable Package for Visual Studio 2012](https://www.microsoft.com/download/details.aspx?id=30679)
         1. Windows Feature: Active Directory Lightweight Directory Services
         
             ```powershell
@@ -76,10 +91,56 @@ Address rewriting은 외부 수신자에게 일관된 이메일 주소 모양을
 
 ### [Install the Exchange Edge Transport server role](https://learn.microsoft.com/en-us/exchange/plan-and-deploy/deploy-new-installations/install-edge-transport-role?view=exchserver-2019#install-the-exchange-edge-transport-server-role)
 
+1. **Check for Updates?**
+
+    - [ ] Connect to the Internet and check for update
+    - [X] Don't check for updates right now
+
+1. **Copying Files**: 일반적인 위치는 `WinDir%\Temp\ExchangeSetup` 이며 Exchange Setup log는 `C:\ExchangeSetupLogs\ExchangeSetup.log` 입니다.
+
+1. **Introduction**
+
+1. **License Agreement**
+
+    - [X] I accept the terms in the license agreement.
+    - [ ] I do not accept the terms in the license agreement.
+
+1. **Recommended Settings**
+
+    - [X] Use recommended settings.
+    - [ ] Don't use recommended settings.
+
+1. **Server Role Selection**: Edge Transport role 선택. Management Tools은 자동으로 선택
+
+    - [X] Automatically install Windows Server roles and features that are required to install Exchange
+
+1. **Installation Space and Location**: 기본 위치는 `C:\Program Files\Microsoft\Exchange Server\V15`
+
+1. **Readiness Checks**: organization 및 서버 역할 필수 구성 요소 검사가 성공적으로 완료되었는지 확인합니다.
+
+1. **Setup Progress**: Readiness Checks를 완료하고 install을 선택하면 설치과정이 진행됩니다.
+
+1. **Setup Completed**
+
 ### [Verify an Exchange installation](https://learn.microsoft.com/en-us/exchange/plan-and-deploy/post-installation-tasks/verify-installation?view=exchserver-2019)
 
+- `Get-ExchangeServer` 실행
+
+    ```powershell
+    Get-ExchangeServer
+    ```
+
+- Windows Application log 및 Exchange Setup Log 확인
+
+    일반적인 Exchange Setup log는 `C:\ExchangeSetupLogs\ExchangeSetup.log` 입니다.
 
 ### [Exchange post-installation tasks](https://learn.microsoft.com/en-us/exchange/plan-and-deploy/post-installation-tasks/post-installation-tasks?view=exchserver-2019)
+
+- [Enter your Exchange product key](https://learn.microsoft.com/en-us/exchange/plan-and-deploy/post-installation-tasks/enter-product-key?view=exchserver-2019)
+
+- Configure Certificate for mail flow
+
+- Edge Subscriptions
 
 [<i class="fa fa-chevron-up" aria-hidden="true"></i> Top](#)
 
@@ -126,15 +187,72 @@ Edge Transport server를 배포하고 Active Directory Site에 가입하려면 �
 1. Edge 구독 준비:
 
     - Edge Transport server에 라이선스를 부여합니다.
-    - 메일 흐름 및 EdgeSync 동기화를 위해 방화벽에서 포트를 엽니다.
+
+    - mail flow 및 EdgeSync 동기화를 위해 방화벽에서 포트를 엽니다.
+
+        - **SMTP**: Port **`25/TCP`** must be open for inbound and outbound mail flow between the Internet and the Edge Transport server, and between the Edge Transport server and the internal Exchange organization.
+        
+        - **Secure LDAP**: Port **`50636/TCP`** is used for directory synchronization from Mailbox servers to AD LDS on the Edge Transport server. This port is required for successful EdgeSync synchronization.
+
+
+
     - Mailbox server와 Edge Transport server가 DNS 이름 확인을 사용하여 서로를 찾을 수 있는지 확인합니다.
+
     - Mailbox server에서 Edge Transport server에 복제할 transport settings을 구성합니다.
+
+        - **Internal SMTP servers**: Use the `InternalSMTPServers` parameter on the `Set-TransportConfig` cmdlet to specify a list of internal SMTP server IP addresses or IP address ranges to be ignored by the Sender ID and Connection Filtering agents on the Edge Transport server.
+        
+        - **Accepted domains**: Configure all authoritative domains, internal relay domains, and external relay domains.
+        
+        - **Remote domains**: Configure the settings for the default remote domain object (used for recipients in all remote domains), and configure remote domain objects as required for recipients in specific remote domains.
+
 
 1. Edge Transport server에서 `New-EdgeSubscription` cmdlet을 실행하여 Edge Subscription 파일을 만들고 내보냅니다.
 
+    ```powershell
+    New-EdgeSubscription -FileName "C:\Data\EdgeSubscriptionInfo.xml"
+    ```
+
+    - EdgeSync bootstrap replication account (ESBRA)라는 AD LDS account 생성.
+        - 24 시간 후 expire되기에 그 전에 Edge Subscription을 완료하여야 합니다.
+        - 이 계정은 처음 EdgeSync connection에 인증을 위해 사용되어집니다.
+
+    - ESBRA credentials이 Edge Subscription file에 저장.
+
+    - Edge에 구성되어 있던 Configuration 개체들은 AD LDS에서 삭제됩니다:
+        - Send Connector
+        - Accepted Domain
+        - Remote Domain
+
+
 1. Edge Subscription 파일을 Mailbox server 또는 Mailbox server가 포함된 Active Directory Site에서 액세스할 수 있는 파일 공유에 복사합니다.
 
-1. Mailbox server에서 `New-EdgeSubscription` cmdlet 을 실행하여 Edge Subscription 파일을 Active Directory Site로 가져옵니다 .
+1. Mailbox server에서 `New-EdgeSubscription` cmdlet 을 실행하여 Edge Subscription 파일을 Active Directory Site로 가져옵니다.
+
+    ```powershell
+    New-EdgeSubscription -FileData ([System.IO.File]::ReadAllBytes('C:\Data\EdgeSubscriptionInfo.xml')) -Site "Default-First-Site-Name"
+    ```
+
+    - Edge Subscription이 생성되고 Exchange Organization에 Edge Transport 서버가 join됩니다.
+    
+    - EdgeSync가 Edge Transport 서버에 configuration data가 전파되고, Active Directory에 Edge Configuration 개체가 생성됩니다.
+
+    - Active Directory Site에 있는 각 Mailbox 서버에 new Edge Transport Server가 등록되고, ESBRA credential을 Edge configuration 개체에 저장합니다.
+
+    - Send connector가 자동으로 생성: Internet으로 relay하는 outbound 및 Exchange Organization으로 inbound를 위한 Send Connector
+
+    - Mailbox server에서 Microsoft Exchange EdgeSync 서비스가 ESBRA credential로 실행되고, secure LDAP connection을 생성하고 초기 replication을 실행
+
+        - Topology data
+        - Configuration data
+        - Recipient data
+        - ESRA credentials
+
+        정기적인 일정으로 one-way 복제(Mailbox > Edge)로 동기화를 하며, 'Start-EdgeSynchronization` 명령으로 동기화를 시작할 수 있습니다.
+
+
+### [Send connectors created automatically by the Edge Subscription](https://learn.microsoft.com/en-us/exchange/architecture/edge-transport-servers/edge-subscriptions?view=exchserver-2019#send-connectors-created-automatically-by-the-edge-subscription)
+
 
 [<i class="fa fa-chevron-up" aria-hidden="true"></i> Top](#)
 
