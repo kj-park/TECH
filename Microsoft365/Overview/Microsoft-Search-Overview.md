@@ -65,7 +65,7 @@ Search usage reports enable you to gain more understanding of how search is func
 
 - Admin-Curated Acronyms
 
-    ![microsoft-search-admin-curated-acronyms]({{ site.url }}/Microsoft365/images/Search/microsoft-search-admin-curated-acronyms.png?raw=true)
+    ![microsoft-search-admin-curated-acronyms](images/microsoft-search-admin-curated-acronyms.png)
 
 - System-curated acronyms
 
