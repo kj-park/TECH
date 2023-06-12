@@ -20,7 +20,7 @@ ms.date: 2012.04.29
 
 ## Changing the AD DS account password
 
-![AAD-connector-adds-account-password]({{ site.url }}/Microsoft365/images/Hybrid/AAD-connector-adds-account-password.png?raw=true)
+![AAD-connector-adds-account-password](images/AAD-connector-adds-account-password.png)
 
 ## Changing the ADSync service account password
 
