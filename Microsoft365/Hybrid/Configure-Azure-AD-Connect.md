@@ -1,10 +1,10 @@
 ---
 title: Configure Azure AD Connect Sync
-filename: Microsoft365\Hybrid\Configure-Azure-AD-Connect-Sync.md
+filename: Microsoft365\Hybrid\Configure-Azure-AD-Connect.md
 ms.date: 2012.04.29
 ---
 
-# Configure Azure AD Connect Sync
+# Configure Azure AD Connect
 
 Install Type은 아래와 같습니다:
 

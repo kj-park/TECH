@@ -6,11 +6,9 @@
  */
 html {
   font-family: sans-serif;
-  /* 1 */
-  -ms-text-size-adjust: 100%;
-  /* 2 */
   -webkit-text-size-adjust: 100%;
-  /* 2 */
+  text-size-adjust: 100%;
+
 }
 
 /**
@@ -268,9 +266,8 @@ html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
-  /* 2 */
+  appearance: button;
   cursor: pointer;
-  /* 3 */
 }
 
 /**
@@ -928,7 +925,9 @@ nav.w3-indigo a {
   font-size: 0.9rem;
   line-height: 1.45;
   border-radius: 0.3rem;
-  -webkit-overflow-scrolling: touch;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch; /* for older versions of iOS */
+  scroll-behavior: smooth; /* for modern browsers */
 }
 
 .main-content pre code,
@@ -978,7 +977,9 @@ nav.w3-indigo a {
   overflow: auto;
   word-break: normal;
   word-break: keep-all;
-  -webkit-overflow-scrolling: touch;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch; /* for older versions of iOS */
+  scroll-behavior: smooth; /* for modern browsers */
 }
 
 .main-content table th {

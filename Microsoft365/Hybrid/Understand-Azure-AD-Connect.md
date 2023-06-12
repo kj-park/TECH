@@ -1,11 +1,11 @@
 ﻿---
 title: Understand Azure AD Connect Sync
-filename: Microsoft365\Hybrid\Understand-Azure-AD-Connect-Sync.md
+filename: Microsoft365\Hybrid\Understand-Azure-AD-Connect.md
 ms.date: 2022.04.12
 ---
 
 
-# Understand Azure AD Connect Sync
+# Understand Azure AD Connect
 
 
 ## Understanding the architecture

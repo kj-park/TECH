@@ -22,9 +22,9 @@ ms.date: 2023.04.20
 
 ## Hybrid Configuration
 
-- [Configure Azure AD Connect Sync](Hybrid/Configure-Azure-AD-Connect-Sync)
+- [Configure Azure AD Connect](Hybrid/Configure-Azure-AD-Connect)
 
-- [Understand Azure AD Connect Sync](Hybrid/Understand-Azure-AD-Connect-Sync)
+- [Understand Azure AD Connect](Hybrid/Understand-Azure-AD-Connect)
 
 - [Configure Exchange Hybrid](/Tech/Exchange/Configure-Exchange-Hybrid)
 
