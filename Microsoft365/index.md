@@ -22,14 +22,23 @@ ms.date: 2023.04.20
 
 ## Hybrid Configuration
 
-- [Configure Azure AD Connect](Hybrid/Configure-Azure-AD-Connect)
+- Azure AD Connect
 
-- [Understand Azure AD Connect](Hybrid/Understand-Azure-AD-Connect)
+    - [Understand Azure AD Connect](Hybrid/Understand-Azure-AD-Connect)
 
-- [Configure Exchange Hybrid](/Tech/Exchange/Configure-Exchange-Hybrid)
+    - [Configure Azure AD Connect](Hybrid/Configure-Azure-AD-Connect)
 
-- [Configure Microsoft 365 Groups with on-premises Exchange Hybrid](/Tech/Exchange/Online/Configure-Microsoft-365-Groups-with-on-premises-Exchange-Hybrid)
+- Azure AD Connect Cloud Sync
 
+    - [Understand Azure AD Connect Cloud Sync](Hybrid/Understand-Azure-AD-Connect-cloud-sync)
+
+    - [Configure Azure AD Connect Cloud Sync](Hybrid/Configure-Azure-AD-Connect-cloud-sync)
+
+- Exchange Hybrid
+
+    - [Configure Exchange Hybrid](/Tech/Exchange/Configure-Exchange-Hybrid)
+
+    - [Configure Microsoft 365 Groups with on-premises Exchange Hybrid](/Tech/Exchange/Online/Configure-Microsoft-365-Groups-with-on-premises-Exchange-Hybrid)
 
 ---
 
