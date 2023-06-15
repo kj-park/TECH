@@ -18,3 +18,6 @@ In the Azure portal, you can:
 - Configure Conditional Access policies
 
 In the Microsoft 365 admin center, you can configure per-user and service MFA settings.
+
+
+---
