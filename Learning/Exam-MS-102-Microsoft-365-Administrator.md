@@ -23,12 +23,12 @@ ms.date: 2023.06.30
 
 ## Learning Path
 
-- [MS-102 Configure your Microsoft 365 tenant]()
+1. [MS-102 Configure your Microsoft 365 tenant]()
 
-- [MS-102 Manage your Microsoft 365 tenant]()
+1. [MS-102 Manage your Microsoft 365 tenant]()
 
-- [MS-102 Implement identity synchronization]()
+1. [MS-102 Implement identity synchronization]()
 
-- [MS-102 Explore security metrics in Microsoft 365 Defender]()
+1. [MS-102 Explore security metrics in Microsoft 365 Defender]()
 
 ---
