@@ -58,8 +58,14 @@ Microsoft 365 계획을 구독할 때 계획에 대해 구매하는 라이선스
 > 라이선스 할당 및 관리에 대한 구체적인 세부 정보는 선택한 Microsoft 365 요금제 및 선택한 기타 서비스 또는 추가 기능에 따라 다를 수 있습니다. Microsoft는 라이선스를 효과적으로 관리하는 데 도움이 되는 도구와 리소스를 제공하여 라이선스 조건을 준수하면서 조직의 사용자에게 적절한 수의 라이선스를 보유하도록 합니다.
 
 
-[!VIDEO https://www.youtube.com/embed/6zfbBRdjlw8]
 
+::: video
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6zfbBRdjlw8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+:::
+
+
+<video src="https://sec.ch9.ms/ch9/7247/7c8ddc1a-348b-4ba9-ab61-51fded6e7247/vstswiki_high.mp4" width=400 controls>
+</video>
 
 ---
 
