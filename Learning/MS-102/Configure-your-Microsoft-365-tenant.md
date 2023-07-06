@@ -1,11 +1,11 @@
 ---
 layout: default
-title: [MS-102 Configure your Microsoft 365 tenant]
-filename: Learning/MS-102-Configure-your-Microsoft-365-tenant.md
+title: [Configure your Microsoft 365 tenant]
+filename: Learning/Configure-your-Microsoft-365-tenant.md
 ms.date: 2023.06.30
 ---
 
-# MS-102 Configure your Microsoft 365 tenant
+# Configure your Microsoft 365 tenant
 
 Microsoft 365의 경우 구성 프로세스에는 다음이 포함됩니다.
 
@@ -98,7 +98,7 @@ Microsoft 365 구독을 사용하면 단일 테넌트에 최대 900개의 도메
 
 다음 다이어그램은 Microsoft 365 구독을 지원하기 위해 이러한 모든 요소가 있는 Azure AD 테넌트의 예를 보여줍니다.
 
-![](images/ms-102-config-tenant-001.png)
+![config tenant](images/ms-102-config-tenant-001.png)
 
 이 그림에서 Azure AD 테넌트에는 다음이 포함됩니다.
 
@@ -107,7 +107,13 @@ Microsoft 365 구독을 사용하면 단일 테넌트에 최대 900개의 도메
 - 등록된 디바이스와 디바이스 및 애플리케이션 정책으로 Intune합니다.
 - 동기화된 사용자 계정, 도메인 및 조건부 액세스 정책이 있는 Azure AD 테넌트. 다이어그램에는 그룹 및 기타 디렉터리 개체가 표시되지 않습니다.
 
-https://learn.microsoft.com/en-us/training/modules/configure-microsoft-365-experience/2-explore-your-microsoft-365-cloud-environment
+> [!REF]  
+> https://learn.microsoft.com/en-us/training/modules/configure-microsoft-365-experience/2-explore-your-microsoft-365-cloud-environment
 
 ---
 
+## Configure your Microsoft 365 organizational profile
+
+회사의 조직 프로필을 완성하는 것은 회사의 Azure AD 테넌트를 설정할 때 시작점입니다. Microsoft 365 관리자가 유지 관리해야 하는 일부 속성으로 인해 불완전한 경우 프로비저닝 프로세스가 중단됩니다. 예를 들어 그러한 속성 중 하나는 주소 라인입니다. 조직에 완전한 주소가 없으면 프로비저닝 프로세스가 중지됩니다.
+
+---

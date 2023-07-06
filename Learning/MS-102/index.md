@@ -1,7 +1,7 @@
 ---
 layout: default
 title: [Exam MS-102: Microsoft 365 Administrator]
-filename: Learning/Exam-MS-102-Microsoft-365-Administrator.md
+filename: Learning/index.md
 ms.date: 2023.06.30
 ---
 
@@ -23,12 +23,12 @@ ms.date: 2023.06.30
 
 ## Learning Path
 
-1. [MS-102 Configure your Microsoft 365 tenant]()
+1. [Configure your Microsoft 365 tenant](Configure-your-Microsoft-365-tenant)
 
-1. [MS-102 Manage your Microsoft 365 tenant]()
+1. [Manage your Microsoft 365 tenant]()
 
-1. [MS-102 Implement identity synchronization]()
+1. [Implement identity synchronization]()
 
-1. [MS-102 Explore security metrics in Microsoft 365 Defender]()
+1. [Explore security metrics in Microsoft 365 Defender]()
 
 ---
