@@ -11,7 +11,7 @@ On-Premise 환경의 Active Directory 및 Exchange 환경의 고객이 Microsoft
 
 특히, Exchange Web Services에 대한 Proxy로 Entra Application Proxy로 구성합니다.
 
-또한, Exchange Hybrid 구성에 HMA (Hybrd Modern Authentication)를 구성하여 모든 Clients 종류의 액세스에 Modern Authentication으로 구성합니다.
+또한, Exchange Hybrid 구성에 HMA (Hybrid Modern Authentication)를 구성하여 모든 Clients 종류의 액세스에 Modern Authentication으로 구성합니다.
 
 ## Hybrid Infra 시나리오
 
