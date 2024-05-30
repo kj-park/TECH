@@ -56,6 +56,24 @@ On-Premise 환경의 Active Directory 및 Exchange 환경의 고객이 Microsoft
 
 ---
 
+## Active Directory
+
+On-Premise Exchange의 마지막 버전인 Exchange 2019이기에 이를 기준으로 Active Directory Requirements를 명시합니다.
+
+
+- Domain Controller: Windows Server 2012 R2 이상
+- AD Forest Level: Windows Server 2016 이상
+
+> [!NOTE]
+>
+> Exchange Server 2019의 지원 Lifecycle은 아래와 같습니다:
+> - Mainstream End Date: Jan 9, 2024
+> - Extended End Date: Oct 14, 2025
+>
+> 참고: Extended Support가 완료되면 Non-Security updates 와 DCR 요청을 할 수 없습니다.
+>
+> 참고: Security updates의 경우 Extended Security Update Program에 의하여 가능할 수 있습니다.
+
 
 <i class="fa fa-check-square" aria-hidden="true"></i>
 
