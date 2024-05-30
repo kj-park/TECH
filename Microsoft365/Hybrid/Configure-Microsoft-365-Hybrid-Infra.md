@@ -59,4 +59,6 @@ On-Premise 환경의 Active Directory 및 Exchange 환경의 고객이 Microsoft
 
 <i class="fa fa-check-square" aria-hidden="true"></i>
 
+<i class="fa-solid fa-clipboard-check"></i>
+
 ---
