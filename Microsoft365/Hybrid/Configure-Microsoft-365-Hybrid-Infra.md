@@ -26,7 +26,11 @@ On-Premise 환경의 Active Directory 및 Exchange 환경의 고객이 Microsoft
     - NEW: Entra Connect Server
     - NEW: Entra Private Network Connector
 
-## Hybrid Infra 구성요소
+[<i class="fa fa-chevron-up" aria-hidden="true"></i> Top](#)
+
+---
+
+## Hybrid Identity 및 Exchange Hybrid Infra 구성요소
 
 - Active Directory
 - Exchange Mailbox Server
@@ -35,18 +39,24 @@ On-Premise 환경의 Active Directory 및 Exchange 환경의 고객이 Microsoft
 - Microsoft 365
     - Custom Domain
     - Network Connectivity for Hybrid Infra 
-- Entra Connect Server
+- Entra Connect Sync Server
 - Entra Application Proxy
     - Entra Private Network Connector
     - Entra Enterprise Application with Application Proxy
-- Exchange Hybrid
-    - Connectors
     - MRS Proxy Endpoint
+- Exchange Hybrid
     - On-Premise Exchange Configuration
     - Exchange Online Configuration
 - Clients
     - Outlook Desktop App
     - Outlook On the Web (OWA) and ECP
     - Mobile Outlook
+
+[<i class="fa fa-chevron-up" aria-hidden="true"></i> Top](#)
+
+---
+
+
+<i class="fa fa-check-square" aria-hidden="true"></i>
 
 ---

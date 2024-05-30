@@ -25,5 +25,7 @@ ms.date: 2023.04.20
 
     - [Configure Microsoft 365 Groups with on-premises Exchange Hybrid](/Tech/Exchange/Online/Configure-Microsoft-365-Groups-with-on-premises-Exchange-Hybrid)
 
+    - [Exchange Hybrid Modern Authentication with Entra Application Proxy](Configure-Microsoft-365-Hybrid-Infra)
+
 ---
 
