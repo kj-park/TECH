@@ -104,7 +104,7 @@ Exchange Server 설치 시 AD의 built-in administrator 계정이 아닌 필요�
 >
 > 이 Organization Management 관리 역할 그룹의 구성원은 Exchange 조직의 Exchange 개체와 그 속성을 관리할 권한이 있습니다.
 >
-> HMA를 활성화 한 경우  Entra ID로 부터 인증을 받기에 Entra ID에 동기화 되지 않은 계정으로는 sign-in을 할 수 없습니다.
+> OWA 와 ECP에 대하여 HMA를 활성화 한 경우  Entra ID로 부터 인증을 받기에 Entra ID에 동기화 되지 않은 계정으로는 sign-in을 할 수 없습니다.
 
 또한, Exchange 2019 최신 CU 설치를 권장합니다.
 
@@ -308,6 +308,30 @@ AdfsAuthentication            : False
 
 #### Hybrid Modern Authentication
 
+Exchange 서버에 Hybrid Modern Authentication 구성을 하여 On-Premise Mailbox 사용자의 Outlook Desktop 앱 및 OWA, Mobile Outlook 앱에서 액세스를 Entra ID의 조건부 액세스로 제어할 수 있습니다.
+
+- **Outlook Desktop App:**
+
+    ![hma-clients-outlookdesktop-oauth](./images/hma-clients-outlookdesktop-oauth.png)
+
+    **참고:** Outlook Connection Status에서 Authn 항목의 Bearer* 인 경우 OAuth 인증으로 연결된 경우입니다.
+
+- **Outlook Web App (OWA):**
+
+    ![hma-clients-owa-oauth](./images/hma-clients-owa-oauth.png)
+
+    **참고:** 브라우저에서 Outlook Web App URL로 액세스 시 자동으로 Entra ID Sign-in으로 자동 전환됩니다.
+
+- **Mobile Outlook App (in Android or iOS):**
+
+    ![hma-clients-mobileoutlook-oauth](./images/hma-clients-mobileoutlook-oauth.png)
+
+    **참고:** Mobile Outlook App의 설정의 계정에서 Exchange hybrid 로 표시되는 경우 OAuth로 연결된 경우입니다.
+
+##### Hybrid Modern Authentication Configuration
+
+Hybrid Modern Authentication 구성은 아래의 절차를 참조하여 구성할 수 있습니다:
+
 1. [Add on-premises web service URLs as SPNs in Microsoft Entra ID](https://learn.microsoft.com/en-us/microsoft-365/enterprise/configure-exchange-server-for-hybrid-modern-authentication?view=o365-worldwide#add-on-premises-web-service-urls-as-spns-in-microsoft-entra-id)
 
     ```powershell
@@ -394,28 +418,39 @@ AdfsAuthentication            : False
 
 1. [Enable HMA](https://learn.microsoft.com/en-us/microsoft-365/enterprise/configure-exchange-server-for-hybrid-modern-authentication?view=o365-worldwide#enable-hma)
 
+    ```powershell
+    Set-AuthServer -Identity "EvoSTS - {GUID}" -DomainName "M365x68919772.onmicrosoft.com" -IsDefaultAuthorizationEndpoint $true
+    
+    Set-OrganizationConfig -OAuth2ClientProfileEnabled $true
+    ```
+
+1. To enable Hybrid Modern Authentication for OWA and ECP
+
+    ```powershell
+    Get-OwaVirtualDirectory -Server <computername> | Set-OwaVirtualDirectory -AdfsAuthentication $false –BasicAuthentication $false –FormsAuthentication $false –DigestAuthentication $false
+    Get-EcpVirtualDirectory -Server <computername> | Set-EcpVirtualDirectory -AdfsAuthentication $false –BasicAuthentication $false –FormsAuthentication $false –DigestAuthentication $false
+    
+    Get-EcpVirtualDirectory -Server <computername> | Set-EcpVirtualDirectory -OAuthAuthentication $true
+    Get-OwaVirtualDirectory -Server <computername> | Set-OwaVirtualDirectory -OAuthAuthentication $true
+    ```
+
+    > [!IMPORTANT]
+    >
+    > Exchange의 관리자 계정이 built-in AD administrator인 경우, Entra Connect Sync에서 Entra ID로 동기화되지 않습니다. 기본 Join inbound 동기화 규칙에 `isCriticalSystemObject notequal TRUE` 필터가 있고 built-in AD administrator 계정의 `isCriticalSystemObject`은 `TRUE`로 설정되어 있습니다.
+    따라서, Hybrid Modern Authentication (HMA)를 활성화하는 경우는 Exchange Organization의 설치 및 Organization Management 관리 역할 그룹의 구성원을 별도로 생성 추가하는 것이 좋습니다.
+    >
+    > 이 Organization Management 관리 역할 그룹의 구성원은 Exchange 조직의 Exchange 개체와 그 속성을 관리할 권한이 있습니다.
+    >
+    > OWA 와 ECP에 대하여 HMA를 활성화 한 경우  Entra ID로 부터 인증을 받기에 Entra ID에 동기화 되지 않은 계정으로는 sign-in을 할 수 없습니다.
+
+1. To enable Hybrid modern Authentication for Mapi and ActiveSync
 
 ```powershell
-Set-AuthServer -Identity "EvoSTS - {GUID}" -DomainName "M365x68919772.onmicrosoft.com" -IsDefaultAuthorizationEndpoint $true
 
-Set-OrganizationConfig -OAuth2ClientProfileEnabled $true
+
+
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-```powershell
-
-```
 
 
 
