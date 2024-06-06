@@ -40,7 +40,7 @@ On-Premise 환경의 Active Directory 및 Exchange 환경의 고객이 Microsoft
     - [Exchange Edge Transport Server](#exchange-edge-transport-server)
 - Microsoft 365
     - Custom Domain
-    - Network Connectivity for Hybrid Infra 
+    - Network Connectivity for Hybrid Environment
 - Entra Connect Sync Server
 - Entra Application Proxy
     - Entra Private Network Connector
@@ -65,9 +65,6 @@ On-Premise Exchange의 마지막 버전인 Exchange 2019이기에 이를 기준�
 - Domain Controller: Windows Server 2012 R2 이상 권장
 - AD Forest Level: Windows Server 2016 이상 권장
 
-
-
-
 [<i class="fa fa-chevron-up" aria-hidden="true"></i> Top](#)
 
 ---
@@ -87,7 +84,7 @@ Exchange의 마지막 버전인 Exchange 2019로 구성합니다.
 
 > [!NOTE]
 >
-> Exchange Server 2019의 지원 Lifecycle은 아래와 같습니다:
+> Exchange Server 2019의 지원 [Lifecycle](https://learn.microsoft.com/en-us/lifecycle/products/exchange-server-2019)은 아래와 같습니다:
 > - Mainstream End Date: Jan 9, 2024
 > - Extended End Date: Oct 14, 2025
 >
@@ -97,6 +94,217 @@ Exchange의 마지막 버전인 Exchange 2019로 구성합니다.
 
 ### Exchange Mailbox Server
 
+Exchange Server 설치 시 AD의 built-in administrator 계정이 아닌 필요한 권한을 부여한 새로운 Exchange Organization management 관리 역할 계정으로 설치하기를 권장합니다.
+
+
+> [!IMPORTANT]
+>
+> Exchange의 관리자 계정이 built-in AD administrator인 경우, Entra Connect Sync에서 Entra ID로 동기화되지 않습니다. 기본 Join inbound 동기화 규칙에 `isCriticalSystemObject notequal TRUE` 필터가 있고 built-in AD administrator 계정의 `isCriticalSystemObject`은 `TRUE`로 설정되어 있습니다.
+따라서, Hybrid Modern Authentication (HMA)를 활성화하는 경우는 Exchange Organization의 설치 및 Organization Management 관리 역할 그룹의 구성원을 별도로 생성 추가하는 것이 좋습니다.
+>
+> 이 Organization Management 관리 역할 그룹의 구성원은 Exchange 조직의 Exchange 개체와 그 속성을 관리할 권한이 있습니다.
+>
+> HMA를 활성화 한 경우  Entra ID로 부터 인증을 받기에 Entra ID에 동기화 되지 않은 계정으로는 sign-in을 할 수 없습니다.
+
+또한, Exchange 2019 최신 CU 설치를 권장합니다.
+
+> [!NOTE] 
+>
+> [Exchange Server build numbers and release dates](https://learn.microsoft.com/en-us/exchange/new-features/build-numbers-and-release-dates?view=exchserver-2019#exchange-server-2019)
+
+Entra Application Proxy를 Exchange Web Services들에 대하여 구현하는 경우, OWA 및 ECP, MAPI 에 대한 Windows Authentication의 Provider에서 NTLM을 제거하기를 권장합니다.
+
+Connector 서버가 AD에 join되어 있지 않다면, Negotiate로 설정하는 것이 좋습니다..
+
+![mailbox-iis-windowsauth-provider-negotiate](./images/mailbox-iis-windowsauth-provider-negotiate.png)
+
+![iis-windowsauth-providers](./images/iis-windowsauth-providers.png)
+
+Exchange Mailbox Server를 설치 후 조직의 환경이나 요건에 맞게끔 아래의 설정들을 적절히 변경합니다.
+Url 및 Authentication 관련 설정들에 대하여 충분히 검토합니다.
+
+##### OutlookAnywhere
+
+```powershell
+Get-OutlookAnywhere | fl *hostname,*clientauthenticationmethod,*requireSsl
+
+<# OUTPUT:
+
+ExternalHostname                   : exchange.tdg-ai.com
+InternalHostname                   : exchange.tdg-ai.com
+ExternalClientAuthenticationMethod : Negotiate
+InternalClientAuthenticationMethod : Ntlm
+ExternalClientsRequireSsl          : True
+InternalClientsRequireSsl          : True
+
+#>
+```
+
+##### ClientAccessService
+
+```powershell
+Get-ClientAccessService | fl AutoDiscoverServiceInternalUri
+
+<# OUTPUT:
+
+AutoDiscoverServiceInternalUri : https://exchange.tdg-ai.com/Autodiscover/Autodiscover.xml
+
+#>
+```
+
+##### EcpVirtualDirectory
+
+```powershell
+Get-EcpVirtualDirectory | fl *url, *auth*
+
+<# OUTPUT:
+
+InternalUrl                   : https://exchange.tdg-ai.com/ecp
+ExternalUrl                   : https://exchange.tdg-ai.com/ecp
+InternalAuthenticationMethods : {OAuth}
+BasicAuthentication           : False
+WindowsAuthentication         : False
+DigestAuthentication          : False
+FormsAuthentication           : False
+LiveIdAuthentication          : False
+AdfsAuthentication            : False
+OAuthAuthentication           : True
+ExternalAuthenticationMethods : {Fba}
+
+#>
+```
+
+##### WebServicesVirtualDirectory
+
+```powershell
+Get-WebServicesVirtualDirectory | fl *url, *auth*
+
+<# OUTPUT:
+
+InternalNLBBypassUrl          :
+InternalUrl                   : https://exchange.tdg-ai.com/EWS/Exchange.asmx
+ExternalUrl                   : https://exchange.tdg-ai.com/EWS/Exchange.asmx
+CertificateAuthentication     :
+InternalAuthenticationMethods : {Ntlm, WindowsIntegrated, WSSecurity, OAuth}
+ExternalAuthenticationMethods : {Ntlm, WindowsIntegrated, WSSecurity, OAuth}
+LiveIdNegotiateAuthentication :
+WSSecurityAuthentication      : True
+LiveIdBasicAuthentication     : False
+BasicAuthentication           : False
+DigestAuthentication          : False
+WindowsAuthentication         : True
+OAuthAuthentication           : True
+AdfsAuthentication            : False
+
+#>
+```
+
+##### MapiVirtualDirectory
+
+```powershell
+Get-MapiVirtualDirectory | fl *url, *auth*
+
+<# OUTPUT:
+
+InternalUrl                   : https://exchange.tdg-ai.com/mapi
+ExternalUrl                   : https://exchange.tdg-ai.com/mapi
+IISAuthenticationMethods      : {Ntlm, OAuth, Negotiate}
+InternalAuthenticationMethods : {Ntlm, OAuth, Negotiate}
+ExternalAuthenticationMethods : {Ntlm, OAuth, Negotiate}
+
+#>
+```
+
+##### ActiveSyncVirtualDirectory
+
+```powershell
+Get-ActiveSyncVirtualDirectory | fl *url, *auth*
+
+<# OUTPUT:
+
+MobileClientCertificateAuthorityURL :
+InternalUrl                         : https://exchange.tdg-ai.com/Microsoft-Server-ActiveSync
+ExternalUrl                         : https://exchange.tdg-ai.com/Microsoft-Server-ActiveSync
+MobileClientCertificateAuthorityURL :
+BasicAuthEnabled                    : True
+WindowsAuthEnabled                  : False
+ClientCertAuth                      : Ignore
+InternalAuthenticationMethods       : {}
+ExternalAuthenticationMethods       : {}
+
+#>
+```
+
+##### OabVirtualDirectory
+
+```powershell
+Get-OabVirtualDirectory | fl *url, *auth*
+
+<# OUTPUT:
+
+InternalUrl                   : https://exchange.tdg-ai.com/OAB
+ExternalUrl                   : https://exchange.tdg-ai.com/OAB
+BasicAuthentication           : False
+WindowsAuthentication         : True
+OAuthAuthentication           : True
+InternalAuthenticationMethods : {WindowsIntegrated, OAuth}
+ExternalAuthenticationMethods : {WindowsIntegrated, OAuth}
+
+#>
+```
+
+##### OwaVirtualDirectory
+
+```powershell
+Get-OwaVirtualDirectory | fl *url, *auth*
+
+<# OUTPUT:
+
+Url                           : {}
+InternalSPMySiteHostURL       :
+ExternalSPMySiteHostURL       :
+SetPhotoURL                   :
+Exchange2003Url               :
+FailbackUrl                   :
+InternalUrl                   : https://exchange.tdg-ai.com/owa
+ExternalUrl                   : https://exchange.tdg-ai.com/owa
+ClientAuthCleanupLevel        : High
+InternalAuthenticationMethods : {OAuth}
+BasicAuthentication           : False
+WindowsAuthentication         : False
+DigestAuthentication          : False
+FormsAuthentication           : False
+LiveIdAuthentication          : False
+AdfsAuthentication            : False
+OAuthAuthentication           : True
+ExternalAuthenticationMethods : {Fba}
+
+#>
+```
+
+##### PowerShellVirtualDirectory
+
+```powershell
+Get-PowerShellVirtualDirectory | fl *url, *auth*
+
+<# OUTPUT:
+
+InternalUrl                   : http://exchange.tdg-ai.com/powershell
+ExternalUrl                   : http://exchange.tdg-ai.com/powershell
+CertificateAuthentication     : True
+InternalAuthenticationMethods : {}
+ExternalAuthenticationMethods : {}
+LiveIdNegotiateAuthentication : False
+WSSecurityAuthentication      : False
+LiveIdBasicAuthentication     : False
+BasicAuthentication           : False
+DigestAuthentication          : False
+WindowsAuthentication         : False
+OAuthAuthentication           : False
+AdfsAuthentication            : False
+
+#>
+```
 
 #### Hybrid Modern Authentication
 
