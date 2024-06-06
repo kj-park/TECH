@@ -443,23 +443,54 @@ Hybrid Modern Authentication 구성은 아래의 절차를 참조하여 구성�
     >
     > OWA 와 ECP에 대하여 HMA를 활성화 한 경우  Entra ID로 부터 인증을 받기에 Entra ID에 동기화 되지 않은 계정으로는 sign-in을 할 수 없습니다.
 
-1. To enable Hybrid modern Authentication for Mapi and ActiveSync
+1. To enable Hybrid modern Authentication for Mapi (Outlook) and ActiveSync
 
 ```powershell
 
+Get-MapiVirtualDirectory  | Set-MapiVirtualDirectory -IISAuthenticationMethods OAuth
+Get-MapiVirtualDirectory  | fl *Auth*
 
+<# OUTPUT
 
+IISAuthenticationMethods      : {OAuth}
+InternalAuthenticationMethods : {OAuth}
+ExternalAuthenticationMethods : {OAuth}
+
+#>
+
+Get-ActiveSyncVirtualDirectory | Set-ActiveSyncVirtualDirectory -InternalAuthenticationMethods OAuth -ExternalAuthenticationMethods OAuth
+Get-ActiveSyncDeviceAccessRule -Identity 'Outlook for iOS and Android (DeviceModel)' | Set-ActiveSyncDeviceAccessRule -AccessLevel Allow
+Get-ActiveSyncDeviceAccessRule | ft Name,AccessLevel
+
+<# OUTPUT:
+Name                                      AccessLevel
+----                                      -----------
+OutlookService (DeviceType)                     Allow
+Outlook for iOS and Android (DeviceModel)       Allow
+Outlook (DeviceType)                            Allow
+#>
+
+$servicePrincipal = Get-MgServicePrincipal -Filter "AppId eq '00000002-0000-0ff1-ce00-000000000000'"
+$servicePrincipal.ReplyUrls += "https://exchange.tdg-ai.com/mapi"
+$servicePrincipal.ReplyUrls += "https://exchange.tdg-ai.com/Microsoft-Server-ActiveSync"
+Update-MgServicePrincipal -ServicePrincipalId $servicePrincipal.Id -AppId "00000002-0000-0ff1-ce00-000000000000" -ReplyUrls $servicePrincipal.ReplyUrls
+
+$servicePrincipal = Get-MgServicePrincipal -Filter "AppId eq '00000002-0000-0ff1-ce00-000000000000'"
+$servicePrincipal.ReplyUrls
+
+<# OUTPUT:
+
+https://exchange.tdg-ai.com/Microsoft-Server-ActiveSync
+https://exchange.tdg-ai.com/mapi
+https://exchange.tdg-ai.com/ecp
+https://exchange.tdg-ai.com/owa
+https://sdfpilot.outlook.com/owa
+https://outlook.office365.com/owa
+https://outlook.cloud.microsoft
+https://outlook-sdf.cloud.microsoft
+
+#>
 ```
-
-
-
-
-
-
-
-
-
-
 
 ### Exchange Edge Transport Server
 
