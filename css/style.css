@@ -15,7 +15,12 @@ html {
    * Remove default margin.
    */
 body {
+  padding: 0;
   margin: 40px, 0, 0, 0;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #606c71;
   background-color: #fff;
 }
 
@@ -674,15 +679,6 @@ th {
 
 * {
   box-sizing: border-box;
-}
-
-body {
-  padding: 0;
-  margin: 0;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #606c71;
 }
 
 a {
