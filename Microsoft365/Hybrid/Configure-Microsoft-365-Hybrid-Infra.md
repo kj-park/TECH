@@ -308,6 +308,122 @@ AdfsAuthentication            : False
 
 #### Hybrid Modern Authentication
 
+1. [Add on-premises web service URLs as SPNs in Microsoft Entra ID](https://learn.microsoft.com/en-us/microsoft-365/enterprise/configure-exchange-server-for-hybrid-modern-authentication?view=o365-worldwide#add-on-premises-web-service-urls-as-spns-in-microsoft-entra-id)
+
+    ```powershell
+    Install-Module Microsoft.Graph -Scope AllUsers
+
+    Connect-MgGraph -Scopes Application.Read.All, Application.ReadWrite.All
+    
+    Get-MgServicePrincipal -Filter "AppId eq '00000002-0000-0ff1-ce00-000000000000'" | select -ExpandProperty ServicePrincipalNames
+
+    <# OUTPUT:
+    
+    https://autodiscover.tdg-ai.com/
+    https://exchange.tdg-ai.com/
+    00000002-0000-0ff1-ce00-000000000000/outlook.office365.com
+    00000002-0000-0ff1-ce00-000000000000/mail.office365.com
+    00000002-0000-0ff1-ce00-000000000000/outlook.com
+    00000002-0000-0ff1-ce00-000000000000/*.outlook.com
+    00000002-0000-0ff1-ce00-000000000000
+    https://ps.compliance.protection.outlook.com
+    https://outlook-sdf.office.com/
+    https://outlook-sdf.office365.com/
+    https://outlook.office365.com:443/
+    https://outlook.office.com/
+    https://outlook.office365.com/
+    https://outlook.com/
+    https://ps.protection.outlook.com/
+    https://outlook-tdf.office.com/
+    https://outlook-tdf-2.office.com/
+    https://ps.outlook.com
+    https://outlook.office.com
+    
+    #>
+    
+    $x = Get-MgServicePrincipal -Filter "AppId eq '00000002-0000-0ff1-ce00-000000000000'"
+    $ServicePrincipalUpdate = @(
+    "https://exchange.tdg-ai.com/","https://exchange.tdg-ai.com/"
+    )
+    Update-MgServicePrincipal -ServicePrincipalId $x.Id -ServicePrincipalNames $ServicePrincipalUpdate
+    ```
+2. [Verify Virtual Directories are Properly Configured](https://learn.microsoft.com/en-us/microsoft-365/enterprise/configure-exchange-server-for-hybrid-modern-authentication?view=o365-worldwide#verify-virtual-directories-are-properly-configured)
+
+    ```powershell
+    Get-MapiVirtualDirectory | FL server,*url*,*auth*
+    
+    Server                        : CASMAILBOX
+    InternalUrl                   : https://exchange.tdg-ai.com/mapi
+    ExternalUrl                   : https://exchange.tdg-ai.com/mapi
+    IISAuthenticationMethods      : {Ntlm, OAuth, Negotiate}
+    InternalAuthenticationMethods : {Ntlm, OAuth, Negotiate}
+    ExternalAuthenticationMethods : {Ntlm, OAuth, Negotiate}
+    
+    Get-WebServicesVirtualDirectory | FL server,*url*,*oauth*
+    
+    Server               : CASMAILBOX
+    InternalNLBBypassUrl :
+    InternalUrl          : https://exchange.tdg-ai.com/EWS/Exchange.asmx
+    ExternalUrl          : https://exchange.tdg-ai.com/EWS/Exchange.asmx
+    OAuthAuthentication  : True
+    
+    Get-OABVirtualDirectory | FL server,*url*,*oauth*
+    
+    Server              : CASMAILBOX
+    InternalUrl         : https://exchange.tdg-ai.com/OAB
+    ExternalUrl         : https://exchange.tdg-ai.com/OAB
+    OAuthAuthentication : True
+    
+    Get-AutoDiscoverVirtualDirectory | FL server,*oauth*
+    
+    Server              : CASMAILBOX
+    OAuthAuthentication : True
+    ```
+
+1. [Confirm the EvoSTS Auth Server Object is Present](https://learn.microsoft.com/en-us/microsoft-365/enterprise/configure-exchange-server-for-hybrid-modern-authentication?view=o365-worldwide#confirm-the-evosts-auth-server-object-is-present)
+
+    ```powershell
+    Get-AuthServer | where {$_.Name -like "EvoSts*"} | ft name,enabled
+    
+    Name   Enabled
+    ----   -------
+    evoSTS    True
+    
+    <# 또는 evoSTS - {ad12601a-7684-499a-8214-91f1a1d5ffbb<tenant_id>} 이름으로 존재함 #>
+    ```
+
+1. [Enable HMA](https://learn.microsoft.com/en-us/microsoft-365/enterprise/configure-exchange-server-for-hybrid-modern-authentication?view=o365-worldwide#enable-hma)
+
+
+```powershell
+Set-AuthServer -Identity "EvoSTS - {GUID}" -DomainName "M365x68919772.onmicrosoft.com" -IsDefaultAuthorizationEndpoint $true
+
+Set-OrganizationConfig -OAuth2ClientProfileEnabled $true
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+```powershell
+
+```
+
+
+
+
+
+
+
+
 
 
 ### Exchange Edge Transport Server
