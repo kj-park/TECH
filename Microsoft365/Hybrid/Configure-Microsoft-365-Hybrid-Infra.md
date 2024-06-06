@@ -23,8 +23,9 @@ On-Premise 환경의 Active Directory 및 Exchange 환경의 고객이 Microsoft
 - To-Be Hybrid 인프라 구성
     ![entra-application-proxy-hma](images\entra-application-proxy-hma.png)
 
-    - NEW: Entra Connect Server
-    - NEW: Entra Private Network Connector
+    - **NEW: Entra Connect Server.** On-Premise의 Active Directory의 Identities 정보를 Entra ID로 동기화
+    - **NEW: Entra Application Proxy Service.** Entra Enterprise Application을 생성하고, Application Proxy 설정으로 통해 On-Premise의 Exchange Web Service를 hosting.
+    - **NEW: Entra Private Network Connector.** Entra Application Proxy 구성 시 Application Proxy Service와 여결되는 connector. Exchange의 web services에 액세스가 가능해야 함.
 
 [<i class="fa fa-chevron-up" aria-hidden="true"></i> Top](#)
 
@@ -33,9 +34,10 @@ On-Premise 환경의 Active Directory 및 Exchange 환경의 고객이 Microsoft
 ## Hybrid Identity 및 Exchange Hybrid Infra 구성요소
 
 - [Active Directory](#active-directory)
-- Exchange Mailbox Server
-    - Hybrid Modern Authentication (Outlook)
-- Exchange Edge Transport Server
+- [On-Premise Exchange Organization](#on-premise-exchange-organization)
+    - [Exchange Mailbox Server](#exchange-mailbox-server)
+        - [Hybrid Modern Authentication](#hybrid-modern-authentication)
+    - [Exchange Edge Transport Server](#exchange-edge-transport-server)
 - Microsoft 365
     - Custom Domain
     - Network Connectivity for Hybrid Infra 
@@ -63,6 +65,26 @@ On-Premise Exchange의 마지막 버전인 Exchange 2019이기에 이를 기준�
 - Domain Controller: Windows Server 2012 R2 이상 권장
 - AD Forest Level: Windows Server 2016 이상 권장
 
+
+
+
+[<i class="fa fa-chevron-up" aria-hidden="true"></i> Top](#)
+
+---
+
+## On-Premise Exchange Organization
+
+Exchange의 마지막 버전인 Exchange 2019로 구성합니다.
+이전 버전의 Exchange인 경우는 Exchange Hybrid 구성 시 On-Premise에서 Exchange Online으로 메일 전송에 throttling  및 blocking 이 발생할 수 있습니다.
+
+> [!NOTE]
+>
+> [Throttling and Blocking Email from Persistently Vulnerable Exchange Servers to Exchange Online](https://techcommunity.microsoft.com/t5/exchange-team-blog/throttling-and-blocking-email-from-persistently-vulnerable/ba-p/3815328)
+>
+> [Update on Transport Enforcement System in Exchange Online](https://techcommunity.microsoft.com/t5/exchange-team-blog/update-on-transport-enforcement-system-in-exchange-online/ba-p/3827774)
+
+참고로, Microsoft에서는 Exchange 2019 이후 버전에 대한 언급이 없어 마지막 Exchange Server 버전일 수 있습니다.
+
 > [!NOTE]
 >
 > Exchange Server 2019의 지원 Lifecycle은 아래와 같습니다:
@@ -72,6 +94,15 @@ On-Premise Exchange의 마지막 버전인 Exchange 2019이기에 이를 기준�
 > 참고: Extended Support가 완료되면 Non-Security updates 와 DCR 요청을 할 수 없습니다.
 >
 > 참고: Security updates의 경우 Extended Security Update Program에 의하여 가능할 수 있습니다.
+
+### Exchange Mailbox Server
+
+
+#### Hybrid Modern Authentication
+
+
+
+### Exchange Edge Transport Server
 
 
 [<i class="fa fa-chevron-up" aria-hidden="true"></i> Top](#)
