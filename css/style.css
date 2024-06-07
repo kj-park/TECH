@@ -24,6 +24,10 @@ body {
   background-color: #fff;
 }
 
+.page-header {
+  margin: -40px 0 0 0;
+}
+
 /* HTML5 display definitions
      ========================================================================== */
 /**
