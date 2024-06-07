@@ -755,19 +755,19 @@ nav.w3-indigo a {
 
 @media screen and (min-width: 64em) {
   .page-header {
-    padding: 2rem 0rem 0rem 0rem;
+    padding: 40px 0 0 0;
   }
 }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .page-header {
-    padding: 2rem 0rem 0rem 0rem;
+    padding: 40px 0 0 0;
   }
 }
 
 @media screen and (max-width: 42em) {
   .page-header {
-    padding: 2rem 0rem 0rem 0rem;
+    padding: 40px 0 0 0;
   }
 }
 
@@ -859,7 +859,7 @@ nav.w3-indigo a {
 .main-content h4,
 .main-content h5,
 .main-content h6 {
-  margin-top: 40px;
+  margin-top: 1rem;
   margin-bottom: 1rem;
   font-weight: normal;
   color: #3f51b5;
