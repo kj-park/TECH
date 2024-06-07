@@ -15,17 +15,13 @@ html {
    * Remove default margin.
    */
 body {
-  padding: 40px 0 0 0;
-  margin: 40px 0 0 0;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: #606c71;
   background-color: #fff;
-}
-
-.page-header {
-  margin: -40px 0 0 0;
 }
 
 /* HTML5 display definitions
@@ -863,7 +859,7 @@ nav.w3-indigo a {
 .main-content h4,
 .main-content h5,
 .main-content h6 {
-  margin-top: 2rem;
+  margin-top: 40px;
   margin-bottom: 1rem;
   font-weight: normal;
   color: #3f51b5;
