@@ -6,9 +6,6 @@
  */
 html {
   font-family: sans-serif;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
-
 }
 
 /**
@@ -18,7 +15,7 @@ body {
   padding: 0 0 0 0;
   margin: 0 0 0 0;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.5;
   color: #606c71;
   background-color: #fff;
@@ -331,7 +328,6 @@ input[type="number"]::-webkit-outer-spin-button {
    *    (include `-moz` to future-proof).
    */
 input[type="search"] {
-  -webkit-appearance: textfield;
   /* 1 */
   /* 2 */
   box-sizing: content-box;
@@ -690,61 +686,6 @@ a:hover {
   text-decoration: underline;
 }
 
-nav.w3-indigo a {
-  color: #e8eaf6;
-  text-decoration: none;
-}
-
-.btn {
-  display: inline-block;
-  margin-bottom: 1rem;
-  color: rgba(255, 255, 255, 0.7);
-  background-color: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 255, 255, 0.2);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 0.3rem;
-  transition: color 0.2s, background-color 0.2s, border-color 0.2s;
-}
-
-.btn:hover {
-  color: rgba(255, 255, 255, 0.8);
-  text-decoration: none;
-  background-color: rgba(255, 255, 255, 0.2);
-  border-color: rgba(255, 255, 255, 0.3);
-}
-
-.btn + .btn {
-  margin-left: 1rem;
-}
-
-@media screen and (min-width: 64em) {
-  .btn {
-    padding: 0.75rem 1rem;
-  }
-}
-
-@media screen and (min-width: 42em) and (max-width: 64em) {
-  .btn {
-    padding: 0.6rem 0.9rem;
-    font-size: 0.9rem;
-  }
-}
-
-@media screen and (max-width: 42em) {
-  .btn {
-    display: block;
-    width: 100%;
-    padding: 0.75rem;
-    font-size: 0.9rem;
-  }
-
-  .btn + .btn {
-    margin-top: 1rem;
-    margin-left: 0;
-  }
-}
-
 .page-header,
 .w3-navbar {
   color: #fff;
@@ -923,7 +864,6 @@ nav.w3-indigo a {
   line-height: 1.45;
   border-radius: 0.3rem;
   overflow-y: scroll;
-  -webkit-overflow-scrolling: touch; /* for older versions of iOS */
   scroll-behavior: smooth; /* for modern browsers */
 }
 
@@ -975,7 +915,6 @@ nav.w3-indigo a {
   word-break: normal;
   word-break: keep-all;
   overflow-y: scroll;
-  -webkit-overflow-scrolling: touch; /* for older versions of iOS */
   scroll-behavior: smooth; /* for modern browsers */
 }
 
@@ -1062,4 +1001,3 @@ dd {
 .profile {
   color: #000000;
 }
-
