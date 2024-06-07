@@ -41,18 +41,11 @@ On-Premise 환경의 Active Directory 및 Exchange 환경의 고객이 Microsoft
 - [Microsoft 365](#microsoft-365)
     - [Custom Domain](#custom-domain)
     - [Network Connectivity for Hybrid Environment](#network-connectivity-for-hybrid-environment)
-- Entra Connect Sync Server
-- Entra Application Proxy
-    - Entra Private Network Connector
-    - Entra Enterprise Application with Application Proxy
-    - MRS Proxy Endpoint
+- [Entra Connect Sync Server](#entra-connect-sync-server)
+- [Entra Application Proxy](#entra-application-proxy)
+    - [Entra Enterprise Application](#entra-enterprise-application)
+    - [Private Network Connector](#private-network-connector)
 - Exchange Hybrid
-    - On-Premise Exchange Configuration
-    - Exchange Online Configuration
-- Clients
-    - Outlook Desktop App
-    - Outlook On the Web (OWA) and ECP
-    - Mobile Outlook
 
 [<i class="fa fa-chevron-up" aria-hidden="true"></i> Top](#)
 
@@ -543,22 +536,35 @@ Identity Hybrid 및 Exchange Hybrid 환경을 구성하기 위하여 중요한 �
 
 ### Custom Domain
 
+Microsoft 365 Hybrid 환경에서 Custom Domain의 고려 사항들은 아래와 같습니다:
 
-
+- 사용자의 로그인 이름 또는 UPN의 domain 접미사로 사용되어집니다.
+- Exchange 및 Teams의 email address 및 sip address의 domain 접미사로 사용되어집니다.
+- public domain name으로 조직이 소유하고 있어야 합니다.
+- Exchange Hybrid 환경에서 공유할 수 있는 accepted domain 입니다.
 
 ### Network Connectivity for Hybrid Environment
 
-
-
+- [Microsoft 365 URLs and IP address ranges](https://learn.microsoft.com/en-us/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide)
+- [Other endpoints not included in the Microsoft 365 IP Address and URL Web service](https://learn.microsoft.com/en-us/microsoft-365/enterprise/additional-office365-ip-addresses-and-urls?view=o365-worldwide)
+- [Hybrid Identity Required Ports and Protocols](https://learn.microsoft.com/en-us/azure/active-directory/hybrid/reference-connect-ports), [Troubleshoot Microsoft Entra connectivity](https://learn.microsoft.com/en-us/azure/active-directory/hybrid/tshoot-connect-connectivity)
+- [Outbound connectivity to Azure service endpoints for Microsoft Entra Connect Health Agent](https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/how-to-connect-health-agent-install#outbound-connectivity-to-azure-service-endpoints)
+- [Azure Information Protection requirements](https://learn.microsoft.com/en-us/azure/information-protection/requirements)
+- [Network endpoints for Microsoft Intune](https://learn.microsoft.com/en-us/mem/intune/fundamentals/intune-endpoints?tabs=asia-pacific)
 
 [<i class="fa fa-chevron-up" aria-hidden="true"></i> Top](#)
 
 ---
 
-
----
-
 ## Entra Connect Sync Server
+
+- [Comparison between Microsoft Entra Connect and cloud sync](https://learn.microsoft.com/en-us/entra/identity/hybrid/cloud-sync/what-is-cloud-sync#comparison-between-microsoft-entra-connect-and-cloud-sync)
+- [Prerequisites for Microsoft Entra Connect](https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/how-to-connect-install-prerequisites)
+
+- [What is password hash synchronization with Microsoft Entra ID](https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/whatis-phs)
+- [User sign-in with Microsoft Entra pass-through authentication](https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/how-to-connect-pta)
+- [Enable self-service password reset](https://learn.microsoft.com/en-us/entra/external-id/customers/how-to-enable-password-reset-customers)
+
 
 [<i class="fa fa-chevron-up" aria-hidden="true"></i> Top](#)
 
@@ -608,18 +614,13 @@ Service Limits and Restrictions
 | 8 | 32 | 270 | 1190 |
 | 16 | 64 | 245 | 1200 |
 
-
-### Entra Enterprise Application with Application Proxy
-
-### MRS Proxy Endpoint
-
 [<i class="fa fa-chevron-up" aria-hidden="true"></i> Top](#)
 
 ---
 
 ## Exchange Hybrid
 
-### On-Premise Exch
+
 
 
 [<i class="fa fa-chevron-up" aria-hidden="true"></i> Top](#)
