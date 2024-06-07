@@ -321,6 +321,10 @@ Exchange 서버에 Hybrid Modern Authentication 구성을 하여 On-Premise Mail
 
     **참고:** Mobile Outlook App의 설정의 계정에서 Exchange hybrid 로 표시되는 경우 OAuth로 연결된 경우입니다.
 
+    > [!NOTE]
+    >
+    > **참고:** [Using hybrid Modern Authentication with Outlook for iOS and Android](https://learn.microsoft.com/en-us/exchange/clients/outlook-for-ios-and-android/use-hybrid-modern-auth?view=exchserver-2019#technical-and-licensing-requirements)
+
 ##### Hybrid Modern Authentication Configuration
 
 Hybrid Modern Authentication 구성은 아래의 절차를 참조하여 구성할 수 있습니다:
