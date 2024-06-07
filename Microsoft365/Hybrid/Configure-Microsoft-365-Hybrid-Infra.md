@@ -25,7 +25,7 @@ On-Premise 환경의 Active Directory 및 Exchange 환경의 고객이 Microsoft
 
     - **NEW: Entra Connect Server.** On-Premise의 Active Directory의 Identities 정보를 Entra ID로 동기화
     - **NEW: Entra Application Proxy Service.** Entra Enterprise Application을 생성하고, Application Proxy 설정으로 통해 On-Premise의 Exchange Web Service를 hosting.
-    - **NEW: Entra Private Network Connector.** Entra Application Proxy 구성 시 Application Proxy Service와 여결되는 connector. Exchange의 web services에 액세스가 가능해야 함.
+    - **NEW: Entra Private Network Connector.** Entra Application Proxy 구성 시 Application Proxy Service와 연결되는 connector. Exchange의 web services에 액세스가 가능해야 함.
 
 [<i class="fa fa-chevron-up" aria-hidden="true"></i> Top](#)
 
@@ -38,9 +38,9 @@ On-Premise 환경의 Active Directory 및 Exchange 환경의 고객이 Microsoft
     - [Exchange Mailbox Server](#exchange-mailbox-server)
         - [Hybrid Modern Authentication](#hybrid-modern-authentication)
     - [Exchange Edge Transport Server](#exchange-edge-transport-server)
-- Microsoft 365
-    - Custom Domain
-    - Network Connectivity for Hybrid Environment
+- [Microsoft 365](#microsoft-365)
+    - [Custom Domain](#custom-domain)
+    - [Network Connectivity for Hybrid Environment](#network-connectivity-for-hybrid-environment)
 - Entra Connect Sync Server
 - Entra Application Proxy
     - Entra Private Network Connector
@@ -490,10 +490,75 @@ https://outlook.cloud.microsoft
 https://outlook-sdf.cloud.microsoft
 
 #>
+
+Get-ActiveSyncDeviceAccessRule -Identity "Outlook for iOS and Android (DeviceModel)" | fl
+
+<# OUTPUT:
+
+RunspaceId        : 4e2cf919-6279-46ac-964b-87a66f6dd010
+QueryString       : Outlook for iOS and Android
+Characteristic    : DeviceModel
+AccessLevel       : Allow
+Name              : Outlook for iOS and Android (DeviceModel)
+AdminDisplayName  :
+ExchangeVersion   : 0.10 (14.0.100.0)
+DistinguishedName : CN=Outlook for iOS and Android (DeviceModel),CN=Mobile Mailbox Settings,CN=TDGAI,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=tdg-ai,DC=com
+Identity          : Outlook for iOS and Android (DeviceModel)
+Guid              : 1ee87480-2680-45b6-825a-19f18df507d1
+ObjectCategory    : tdg-ai.com/Configuration/Schema/ms-Exch-Device-Access-Rule
+ObjectClass       : {top, msExchDeviceAccessRule}
+WhenChanged       : 2024-06-06 오후 9:07:48
+WhenCreated       : 2024-05-31 오후 4:43:29
+WhenChangedUTC    : 2024-06-06 오후 12:07:48
+WhenCreatedUTC    : 2024-05-31 오전 7:43:29
+OrganizationId    :
+Id                : Outlook for iOS and Android (DeviceModel)
+OriginatingServer : ADDS.tdg-ai.com
+IsValid           : True
+ObjectState       : Unchanged
+
+#>
 ```
 
 ### Exchange Edge Transport Server
 
+- [Install Exchange Edge Transport servers using the Setup wizard](https://learn.microsoft.com/en-us/exchange/plan-and-deploy/deploy-new-installations/install-edge-transport-role?view=exchserver-2019)
+
+- [Edge Subscriptions in Exchange Server](https://learn.microsoft.com/en-us/exchange/architecture/edge-transport-servers/edge-subscriptions?view=exchserver-2019)
+
+- [Exchange Server: Address rewriting on Edge Transport servers](https://learn.microsoft.com/en-us/exchange/architecture/edge-transport-servers/address-rewriting?view=exchserver-2019)
+
+**주의:** 인증서 업데이트 시 Exchange Mailbox 와 Exchange Edge의 SMTP 서비스에 할당된 Certificate의 thumbprint는 같을 수 없습니다.
+
+[<i class="fa fa-chevron-up" aria-hidden="true"></i> Top](#)
+
+---
+
+## Microsoft 365
+
+Identity Hybrid 및 Exchange Hybrid 환경을 구성하기 위하여 중요한 요소로 아래의 두 가지를 이야기 할 수 있습니다:
+
+- Custom Domain
+- Network Connectivity for Hybrid Environment
+
+### Custom Domain
+
+
+
+
+### Network Connectivity for Hybrid Environment
+
+
+
+
+[<i class="fa fa-chevron-up" aria-hidden="true"></i> Top](#)
+
+---
+
+
+---
+
+## Entra Connect Sync Server
 
 [<i class="fa fa-chevron-up" aria-hidden="true"></i> Top](#)
 
@@ -514,13 +579,11 @@ On-Premise Exchange의 Web Services들에 대하여 Entra Application Proxy로 R
     - 할당이 필요합니까? - 아니요
     - 사용자가 볼 수 있습니까? - 예
 - Application Proxy Settings
-    - Internal URL: 
-    - External URL: 
+    - Internal URL: https://exchange.tdg-ai.com
+    - External URL: https://exchange.tdg-ai.com
     - 사전 인증: 통과
-    - 컨텍터 그룹: EWS Connector 0 아시아
+    - 컨텍터 그룹: EWS Connector - 아시아
     - SSL 인증서: CN:exchange.tdg-ai.com
-
-
 
 
 ### Private Network Connector
@@ -546,6 +609,19 @@ Service Limits and Restrictions
 | 16 | 64 | 245 | 1200 |
 
 
+### Entra Enterprise Application with Application Proxy
 
+### MRS Proxy Endpoint
+
+[<i class="fa fa-chevron-up" aria-hidden="true"></i> Top](#)
+
+---
+
+## Exchange Hybrid
+
+### On-Premise Exch
+
+
+[<i class="fa fa-chevron-up" aria-hidden="true"></i> Top](#)
 
 ---
