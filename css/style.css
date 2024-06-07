@@ -820,7 +820,7 @@ nav.w3-indigo a {
 
 .main-content {
   word-wrap: break-word;
-  margin: 40px auto;
+  margin: 40px auto auto auto;
 }
 
 .main-content :first-child {
