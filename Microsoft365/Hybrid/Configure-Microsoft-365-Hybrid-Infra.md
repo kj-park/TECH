@@ -404,11 +404,15 @@ Hybrid Modern Authentication 구성은 아래의 절차를 참조하여 구성�
 1. [Confirm the EvoSTS Auth Server Object is Present](https://learn.microsoft.com/en-us/microsoft-365/enterprise/configure-exchange-server-for-hybrid-modern-authentication?view=o365-worldwide#confirm-the-evosts-auth-server-object-is-present)
 
     ```powershell
-    Get-AuthServer | where {$_.Name -like "EvoSts*"} | ft name,enabled
+    Get-AuthServer | where {$_.Name -like "EvoSts*"} | fl name,enabled,IsDefaultAuthorizationEndpoint,AuthMetadataUrl,Realm,DomainName,Type
     
-    Name   Enabled
-    ----   -------
-    evoSTS    True
+    Name                           : evoSTS
+    Enabled                        : True
+    IsDefaultAuthorizationEndpoint : True
+    AuthMetadataUrl                : https://login.windows.net/tdg-ai.com/federationmetadata/2007-06/federationmetadata.xml
+    Realm                          : ad12601a-7684-499a-8214-91f1a1d5ffbb
+    DomainName                     : {M365x68919772.onmicrosoft.com}
+    Type                           : AzureAD
     
     <# 또는 evoSTS - {ad12601a-7684-499a-8214-91f1a1d5ffbb<tenant_id>} 이름으로 존재함 #>
     ```
@@ -420,6 +424,10 @@ Hybrid Modern Authentication 구성은 아래의 절차를 참조하여 구성�
     
     Set-OrganizationConfig -OAuth2ClientProfileEnabled $true
     ```
+
+1. [OAuth Troubleshooting](https://learn.microsoft.com/ko-kr/archive/blogs/exovoice/oauth-troubleshooting)
+
+    ![images/hma-ioc-onprem-vs-online](./images/hma-ioc-onprem-vs-online.png)
 
 1. To enable Hybrid Modern Authentication for OWA and ECP
 
@@ -442,80 +450,87 @@ Hybrid Modern Authentication 구성은 아래의 절차를 참조하여 구성�
 
 1. To enable Hybrid modern Authentication for Mapi (Outlook) and ActiveSync
 
-```powershell
+    ```powershell
+    
+    Get-MapiVirtualDirectory  | Set-MapiVirtualDirectory -IISAuthenticationMethods OAuth
+    Get-MapiVirtualDirectory  | fl *Auth*
+    
+    <# OUTPUT
+    
+    IISAuthenticationMethods      : {OAuth}
+    InternalAuthenticationMethods : {OAuth}
+    ExternalAuthenticationMethods : {OAuth}
+    
+    #>
+    
+    Get-ActiveSyncVirtualDirectory | Set-ActiveSyncVirtualDirectory -InternalAuthenticationMethods OAuth -ExternalAuthenticationMethods OAuth
+    Get-ActiveSyncDeviceAccessRule -Identity 'Outlook for iOS and Android (DeviceModel)' | Set-ActiveSyncDeviceAccessRule -AccessLevel Allow
+    Get-ActiveSyncDeviceAccessRule | ft Name,AccessLevel
+    
+    <# OUTPUT:
+    Name                                      AccessLevel
+    ----                                      -----------
+    OutlookService (DeviceType)                     Allow
+    Outlook for iOS and Android (DeviceModel)       Allow
+    Outlook (DeviceType)                            Allow
+    #>
+    
+    $servicePrincipal = Get-MgServicePrincipal -Filter "AppId eq '00000002-0000-0ff1-ce00-000000000000'"
+    $servicePrincipal.ReplyUrls += "https://exchange.tdg-ai.com/mapi"
+    $servicePrincipal.ReplyUrls += "https://exchange.tdg-ai.com/Microsoft-Server-ActiveSync"
+    Update-MgServicePrincipal -ServicePrincipalId $servicePrincipal.Id -AppId "00000002-0000-0ff1-ce00-000000000000" -ReplyUrls $servicePrincipal.ReplyUrls
+    
+    $servicePrincipal = Get-MgServicePrincipal -Filter "AppId eq '00000002-0000-0ff1-ce00-000000000000'"
+    $servicePrincipal.ReplyUrls
+    
+    <# OUTPUT:
+    
+    https://exchange.tdg-ai.com/Microsoft-Server-ActiveSync
+    https://exchange.tdg-ai.com/mapi
+    https://exchange.tdg-ai.com/ecp
+    https://exchange.tdg-ai.com/owa
+    https://sdfpilot.outlook.com/owa
+    https://outlook.office365.com/owa
+    https://outlook.cloud.microsoft
+    https://outlook-sdf.cloud.microsoft
+    
+    #>
+    
+    Get-ActiveSyncDeviceAccessRule -Identity "Outlook for iOS and Android (DeviceModel)" | fl
+    
+    <# OUTPUT:
+    
+    RunspaceId        : 4e2cf919-6279-46ac-964b-87a66f6dd010
+    QueryString       : Outlook for iOS and Android
+    Characteristic    : DeviceModel
+    AccessLevel       : Allow
+    Name              : Outlook for iOS and Android (DeviceModel)
+    AdminDisplayName  :
+    ExchangeVersion   : 0.10 (14.0.100.0)
+    DistinguishedName : CN=Outlook for iOS and Android (DeviceModel),CN=Mobile Mailbox Settings,CN=TDGAI,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=tdg-ai,DC=com
+    Identity          : Outlook for iOS and Android (DeviceModel)
+    Guid              : 1ee87480-2680-45b6-825a-19f18df507d1
+    ObjectCategory    : tdg-ai.com/Configuration/Schema/ms-Exch-Device-Access-Rule
+    ObjectClass       : {top, msExchDeviceAccessRule}
+    WhenChanged       : 2024-06-06 오후 9:07:48
+    WhenCreated       : 2024-05-31 오후 4:43:29
+    WhenChangedUTC    : 2024-06-06 오후 12:07:48
+    WhenCreatedUTC    : 2024-05-31 오전 7:43:29
+    OrganizationId    :
+    Id                : Outlook for iOS and Android (DeviceModel)
+    OriginatingServer : ADDS.tdg-ai.com
+    IsValid           : True
+    ObjectState       : Unchanged
+    
+    #>
+    ```
 
-Get-MapiVirtualDirectory  | Set-MapiVirtualDirectory -IISAuthenticationMethods OAuth
-Get-MapiVirtualDirectory  | fl *Auth*
+Exchange 2013에서의 HMA 구성은 아래 Note를 참조하세요:
+> [!NOTE]
+>
+> - [Configure OAuth authentication between Exchange and Exchange Online organizations](https://learn.microsoft.com/en-us/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)
+> - [OAuth Troubleshooting](https://learn.microsoft.com/ko-kr/archive/blogs/exovoice/oauth-troubleshooting)
 
-<# OUTPUT
-
-IISAuthenticationMethods      : {OAuth}
-InternalAuthenticationMethods : {OAuth}
-ExternalAuthenticationMethods : {OAuth}
-
-#>
-
-Get-ActiveSyncVirtualDirectory | Set-ActiveSyncVirtualDirectory -InternalAuthenticationMethods OAuth -ExternalAuthenticationMethods OAuth
-Get-ActiveSyncDeviceAccessRule -Identity 'Outlook for iOS and Android (DeviceModel)' | Set-ActiveSyncDeviceAccessRule -AccessLevel Allow
-Get-ActiveSyncDeviceAccessRule | ft Name,AccessLevel
-
-<# OUTPUT:
-Name                                      AccessLevel
-----                                      -----------
-OutlookService (DeviceType)                     Allow
-Outlook for iOS and Android (DeviceModel)       Allow
-Outlook (DeviceType)                            Allow
-#>
-
-$servicePrincipal = Get-MgServicePrincipal -Filter "AppId eq '00000002-0000-0ff1-ce00-000000000000'"
-$servicePrincipal.ReplyUrls += "https://exchange.tdg-ai.com/mapi"
-$servicePrincipal.ReplyUrls += "https://exchange.tdg-ai.com/Microsoft-Server-ActiveSync"
-Update-MgServicePrincipal -ServicePrincipalId $servicePrincipal.Id -AppId "00000002-0000-0ff1-ce00-000000000000" -ReplyUrls $servicePrincipal.ReplyUrls
-
-$servicePrincipal = Get-MgServicePrincipal -Filter "AppId eq '00000002-0000-0ff1-ce00-000000000000'"
-$servicePrincipal.ReplyUrls
-
-<# OUTPUT:
-
-https://exchange.tdg-ai.com/Microsoft-Server-ActiveSync
-https://exchange.tdg-ai.com/mapi
-https://exchange.tdg-ai.com/ecp
-https://exchange.tdg-ai.com/owa
-https://sdfpilot.outlook.com/owa
-https://outlook.office365.com/owa
-https://outlook.cloud.microsoft
-https://outlook-sdf.cloud.microsoft
-
-#>
-
-Get-ActiveSyncDeviceAccessRule -Identity "Outlook for iOS and Android (DeviceModel)" | fl
-
-<# OUTPUT:
-
-RunspaceId        : 4e2cf919-6279-46ac-964b-87a66f6dd010
-QueryString       : Outlook for iOS and Android
-Characteristic    : DeviceModel
-AccessLevel       : Allow
-Name              : Outlook for iOS and Android (DeviceModel)
-AdminDisplayName  :
-ExchangeVersion   : 0.10 (14.0.100.0)
-DistinguishedName : CN=Outlook for iOS and Android (DeviceModel),CN=Mobile Mailbox Settings,CN=TDGAI,CN=Microsoft Exchange,CN=Services,CN=Configuration,DC=tdg-ai,DC=com
-Identity          : Outlook for iOS and Android (DeviceModel)
-Guid              : 1ee87480-2680-45b6-825a-19f18df507d1
-ObjectCategory    : tdg-ai.com/Configuration/Schema/ms-Exch-Device-Access-Rule
-ObjectClass       : {top, msExchDeviceAccessRule}
-WhenChanged       : 2024-06-06 오후 9:07:48
-WhenCreated       : 2024-05-31 오후 4:43:29
-WhenChangedUTC    : 2024-06-06 오후 12:07:48
-WhenCreatedUTC    : 2024-05-31 오전 7:43:29
-OrganizationId    :
-Id                : Outlook for iOS and Android (DeviceModel)
-OriginatingServer : ADDS.tdg-ai.com
-IsValid           : True
-ObjectState       : Unchanged
-
-#>
-```
 
 ### Exchange Edge Transport Server
 
